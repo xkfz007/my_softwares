@@ -1,0 +1,170 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head>
+   <title>导出结果</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="Command Separated (CSV),CSV format,Custom format,Export formats,Export Results,HTML export,Sample transforms,Save Results,Tab separated exporting,XML format,XSL Transforms,XSLT" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+<script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if (location.search.lastIndexOf("toc=0")<=0) {
+  if (parent.frames.length==0) { parent.location.href="index.html?save_results.htm"; }
+  else { parent.quicksync('a3.12'); }
+}
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script></head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#649CCC">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">导出结果</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="introduction.htm">Top</a>&nbsp;
+     <a href="msg_file_searching.htm">Previous</a>&nbsp;
+     <a href="wizards.htm">Next</a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p>FileLocator Pro为导出结果提供了<a href="reports.htm">报告</a>功能以及<span style="font-weight: bold;">文件 -&gt; 导出结果</span>的菜单选项。“导出结果”对话框可将结果保存至剪贴板上，或一个指定文件中。</p>
+<p>&nbsp;</p>
+<p><img src="../img/exportresults.png" width="583" height="370" border="0" alt="ExportResults"></p>
+<p>&nbsp;</p>
+<p>结果可以用各种格式来保存：</p>
+<p>&nbsp;</p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table cellspacing="2" cellpadding="2" border="0" style="border: none; border-spacing:2px;">
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="204" style="width:204px;"><p>以逗号分隔（CSV)</p>
+</td>
+<td valign="top" width="1332" style="width:1332px;"><p>以逗号分隔的查找结果表格（为后续在EXCEL中打开的最佳结果保存格式）。</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="204" style="width:204px;"><p>HTML</p>
+</td>
+<td valign="top" width="1332" style="width:1332px;"><p>以HTML格式化的结果，设计为与“匹配”页签视图相似。</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="204" style="width:204px;"><p>以制表符分隔</p>
+</td>
+<td valign="top" width="1332" style="width:1332px;"><p>用于内容搜索，信息以文件分组，和“匹配”页签相似。用制表符（ASCII09）对值进行分隔。</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="204" style="width:204px;"><p>制表符分隔文本（电子表格）</p>
+</td>
+<td valign="top" width="1332" style="width:1332px;"><p>.以制表符分隔的查找结果表格，和“以制表符分隔”相似，但是用制表符（ASCII 09）对列进行分隔（为先保存于剪贴板，再粘帖到EXCEL中的最佳格式）。</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="204" style="width:204px;"><p>文本</p>
+</td>
+<td valign="top" width="1332" style="width:1332px;"><p>文本的格式，设计为与“匹配”页签视图相似。</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="204" style="width:204px;"><p>XML</p>
+</td>
+<td valign="top" width="1332" style="width:1332px;"><p>以XML格式化的结果。</p>
+</td>
+</tr>
+</table>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="font-weight: bold;">自定义格式化</span></p>
+<p>&nbsp;</p>
+<p>要进行高级格式化处理，可用XSL转换语言来自定义输出格式。XSL转换是一种基于文本用于定义数据转换的语言，能用于将 FileLocator Pro的XML数据转换成为想要的某种格式。在Sample Transform子文件夹里包含了样例转换文件，其中有：</p>
+<p>&nbsp;</p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table cellspacing="2" cellpadding="2" border="0" style="border: none; border-spacing:2px;">
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="203" style="width:203px;"><p>Contents_NoLineNumbers.xsl</p>
+</td>
+<td valign="top" width="1333" style="width:1333px;"><p>仅导出查找到的内容，不含其它如文件数据或行号这样的数据。</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="203" style="width:203px;"><p>FileName_Only.xsl</p>
+</td>
+<td valign="top" width="1333" style="width:1333px;"><p>仅导出文件名称，不含任何路径信息，每个文件占一行。</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="203" style="width:203px;"><p>FullName_FileSizeBytes.xsl</p>
+</td>
+<td valign="top" width="1333" style="width:1333px;"><p>导出文件全称（即包含了路径）以及文件字节大小。</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="203" style="width:203px;"><p>Hash_Separated.xsl</p>
+</td>
+<td valign="top" width="1333" style="width:1333px;"><p>导出以'#'号分隔的文件名称信息。</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="203" style="width:203px;"><p>Hits_Only.xsl</p>
+</td>
+<td valign="top" width="1333" style="width:1333px;"><p>仅导出收索中找到的匹配项，即不含任何文件信息或额外的文本信息。对用正则表达式型搜索，输出匹配了给定表达式的文本十分有用，例如：提取电话号码或电子邮件地址。此转换文件与Unique_Hits_Only.xsl不同之处在于它输出的是所有的匹配项，即将输出重复的匹配项。</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="203" style="width:203px;"><p>HTMLTransform.xsl</p>
+</td>
+<td valign="top" width="1333" style="width:1333px;"><p>用一种与标准HTML输出十分相似的格式导出数据。</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="203" style="width:203px;"><p>Unique_Hits_Only.xsl</p>
+</td>
+<td valign="top" width="1333" style="width:1333px;"><p>仅导出搜索中找到的匹配项，即不含任何文件信息或额外的文本信息。对用正则表达式型搜索，输出匹配了一个给定表达式的文本十分有用，例如：提取电话号码或电子邮件地址。此转换文件与 Hits_Only.xsl不同，仅会输出唯一性的匹配，即：不论多少查找到了某个匹配项，它仅会输出一次值。</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="203" style="width:203px;"><p>xcopy.xsl</p>
+</td>
+<td valign="top" width="1333" style="width:1333px;"><p>产生出XCOPY语句，用于从一个磁盘拷贝至另一个磁盘，并且保留目录结构。</p>
+<p> &nbsp;  </p>
+<p>对每个文件会产生出一条XCOPY命令，仅替换了其中源路径上的盘符号，如：</p>
+<p><span style="width:48px">&nbsp;</span>C:\folder1\folder2\filename1.txt</p>
+<p>&nbsp;</p>
+<p>产生出：:</p>
+<p><span style="width:48px">&nbsp;</span>xcopy "C:\folder1\folder2\filename1.txt" "E:\folder1\folder2\*"</p>
+<p><span style="width:48px">&nbsp;</span></p>
+<p>注：需要对XSL文件进行编辑，将目标值从E:改为希望的目标盘符。对UNC路径路径无效，如：\\server1\folder1\folder2</p>
+</td>
+</tr>
+</table>
+</div>
+<p>&nbsp;</p>
+
+</td></tr></table>
+<hr>
+<font face="Arial" size="-2">
+Copyright &copy; 2013 Mythicsoft Ltd. All rights reserved.
+<br />
+Help file version: 7.0<br />
+<br />
+PDF and CHM versions of this help file are available here:<br />
+<a href="http://mythicsoft.com/filelocatorpro/help" target="_blank">http://mythicsoft.com/filelocatorpro/help</a><br /> 
+    <br />
+</font>
+
+</body>
+</html>

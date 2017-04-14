@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head>
+   <title>DOS Expression Settings</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="DOS Expression settings,Strict DOS" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+<script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if (location.search.lastIndexOf("toc=0")<=0) {
+  if (parent.frames.length==0) { parent.location.href="index.html?dos_expressions.htm"; }
+  else { parent.quicksync('a2.2.2'); }
+}
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script></head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#649CCC">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">DOS Expression Settings</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="introduction.htm">Top</a>&nbsp;
+     <a href="boolean_expressions_settings.htm">Previous</a>&nbsp;
+     <a href="regular_expression_settings.htm">Next</a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p>&nbsp;</p>
+<p>DOS expression settings specify whether the DOS expression matching rules will follow strict DOS matching rules.</p>
+<p>&nbsp;</p>
+<p><img src="../img/dosexpconfig.png" width="618" height="409" border="0" alt="DOSExpConfig"></p>
+<p>&nbsp;</p>
+<p>When set to 'Strictly conforming syntax' the DOS matching rules will force a boundary check at the beginning and end of the expression if a wildcard character is found. e.g.</p>
+<p>&nbsp;</p>
+<p>the expression <span class="f_ExpressionText">locator*</span> would NOT match the filename filelocatorpro.exe since it doesn't begin with the term 'locator', instead the search term would need to be set to <span class="f_ExpressionText">*locator*</span>.</p>
+<p>&nbsp;</p>
+<p>When the option has been switched off it is still possible to specify the boundary check using the '&lt;' and '&gt;' characters, e.g.</p>
+<p>&nbsp;</p>
+<p>the expression <span class="f_ExpressionText">&lt;locator*&gt;</span> is equivalent to Strict DOS expression <span class="f_ExpressionText">locator*</span></p>
+<p>&nbsp;</p>
+<p>Please see <a href="expressiontypes.htm">Expression Types</a> for more information about DOS Expressions.</p>
+
+</td></tr></table>
+<hr>
+<font face="Arial" size="-2">
+Copyright &copy; 2013 Mythicsoft Ltd. All rights reserved.
+<br />
+Help file version: 7.0<br />
+<br />
+PDF and CHM versions of this help file are available here:<br />
+<a href="http://mythicsoft.com/filelocatorpro/help" target="_blank">http://mythicsoft.com/filelocatorpro/help</a><br /> 
+    <br />
+</font>
+
+</body>
+</html>

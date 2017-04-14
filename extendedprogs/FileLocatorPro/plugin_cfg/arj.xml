@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<InterpreterConfig xmlns="http://www.mythicsoft.com/FileLocator">
+	<displayname>ARJ</displayname>
+	<uniquename>http://www.mythicsoft.com/arjinterpreter</uniquename>
+	<progid>SvnExtLib.SZARJInterpreter</progid>
+	<filetypes>arj</filetypes>
+	<interpretertype>compositefile</interpretertype>
+	<active>no</active>
+	<safemode>no</safemode>
+	<useisfilter>no</useisfilter>
+	<nonreglibrary>SvnExtLib.dll</nonreglibrary>
+	<searchbinary>no</searchbinary>
+</InterpreterConfig>

@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head>
+   <title>线程/优先级设置</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="Dual core settings,Multi core settings,Multi-processor settings,Process priority settings,Quad core settings,Thread priority settings,Thread settings" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+<script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if (location.search.lastIndexOf("toc=0")<=0) {
+  if (parent.frames.length==0) { parent.location.href="index.html?threadspriority_settings.htm"; }
+  else { parent.quicksync('a2.4.5'); }
+}
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script></head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#649CCC">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">线程/优先级设置</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="introduction.htm">Top</a>&nbsp;
+     <a href="memory_manager_settings.htm">Previous</a>&nbsp;
+     <a href="xslt_processor_settings.htm">Next</a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p>&nbsp;</p>
+<p>线程/优先级设置影响到 FileLocator Pro如何利用CPU。</p>
+<p>&nbsp;</p>
+<p><img src="../img/threadconfig.png" width="618" height="409" border="0" alt="ThreadConfig"></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: bold;">并发线程数</span></p>
+<p>&nbsp;</p>
+<p>默认情况下FileLocator Pro对每个CPU核心使用单个线程来搜索文件，这样的配置通常是最为有效的。然而，可以取消“自动管理”选项指定进程数来指定不同的搜索线程数。</p>
+<p>&nbsp;</p>
+<p>警告：如果计算机拥有的是速度缓慢的单个硬盘，增加搜索线程数目可能会降低FileLocator Pro的速度，因为并发搜索可能引起硬盘连续地在不同文件扇区位置来回查找。多数时候，文件搜索受到的束缚是来自I/O而非处理器。</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="font-weight: bold;">进程优先级</span></p>
+<p>&nbsp;</p>
+<p>可以让FileLocator Pro根据应用程序的当前状态改变其进程的优先级。 </p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>前台 - 应用程序获得当前用户输入焦点。</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>后台 - 应用程序不拥有当前用户输入焦点，但未被最小化。</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>最小化 - 应用程序已被最小化。</td></tr></table></div><p>&nbsp;</p>
+<p>默认情况下所有状态下的优先级都为“普通”，这是Windows应用程序的标准设置。其它优先级如下；</p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>高 - 应用程序进程被赋予一个高于“普通”进程但仍然低于实时优先级的优先级别。</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>低 - 应用程序进程被赋予一个低于”普通“进程的优先级别，但仍然会从CPU得到一个可靠的时间片。 </td></tr></table></div><p>&nbsp;</p>
+<p>&nbsp;</p>
+
+</td></tr></table>
+<hr>
+<font face="Arial" size="-2">
+Copyright &copy; 2013 Mythicsoft Ltd. All rights reserved.
+<br />
+Help file version: 7.0<br />
+<br />
+PDF and CHM versions of this help file are available here:<br />
+<a href="http://mythicsoft.com/filelocatorpro/help" target="_blank">http://mythicsoft.com/filelocatorpro/help</a><br /> 
+    <br />
+</font>
+
+</body>
+</html>

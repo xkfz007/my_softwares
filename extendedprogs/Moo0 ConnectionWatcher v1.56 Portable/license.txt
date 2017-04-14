@@ -1,0 +1,10 @@
+1. The software is being licensed to you free of charge for your private personal use only. You may use the software for non-commercial purposes only.
+
+2. You may not use the software in support of any commercial entity or activity without our written agreement. By way of example, and not as a limitation, charging others to use the software either directly or indirectly, using the software to sell any goods or services.
+
+3. The software is distributed "AS IS". No warranty of any kind is expressed or implied. You use at your own risk. We will not be liable for data loss, damages, loss of profits or any other kind of loss while using or misusing this software.
+
+
+Moo0 Development Team
+http://www.moo0.com/
+Contact: dev@moo0.com

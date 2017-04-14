@@ -1,0 +1,2 @@
+1 d3d11.dll和dxgi.dll以及D3DCompiler_43.dll放到C:\Windows\System32目录下面(如果存在不需要覆盖).
+2 运行压缩包【DirectX11Reidst】中的DXSETUP.exe。

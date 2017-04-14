@@ -1,0 +1,116 @@
+
+Thanks to all FileLocator Pro users for providing such great feedback and helping to keep FileLocator Pro a top quality product. 
+
+Special thanks to David Horton and Brendan Wholihan for their continuous testing, feedback, and support.
+
+/////////////////////////////////////////////
+
+The ZIP extensions functionality was implemented using ZipArchive by Tadeusz Dracz. An extract from his license agreement appears below:
+
+ZipArchive library - creation, modification and decompression of "zip" format archives
+Copyright 2000 - 2002 Tadeusz Dracz.
+E-Mail: tdracz@artpol-software.com
+Web: http://www.artpol-software.com
+
+Many thanks to Tadeusz Dracz for providing explicit permission to using ZipArchive in FileLocatorPro.
+
+//////////////////////////////////////////////
+
+PDF Functionality is implemented through using the XPDF program. This program is available free of charge and distributed through the GNU license. All appropriate documentation, e.g. license, man pages etc., for XPDF is included in the xpdf sub-folder of FileLocator Pro. An extract from the README appears below:
+
+The Xpdf software and documentation are
+copyright 1996-2002 Glyph & Cog, LLC.
+
+Email: derekn@foolabs.com
+WWW: http://www.foolabs.com/xpdf/
+
+Many thanks to Derek B. Noonburg (derekn@glyphandcog.com) for providing explicit information on how to include XPDF with FileLocator Pro without violating the GNU license agreement.
+
+/////////////////////////////////////////////
+
+Support for the majority of the compressed/composite formats is courtesy of the 7-zip open source libraries. 7-zip is licensed under the GNU LGPL and as such the 7-zip libraries have been compiled and included in the FileLocator Pro distribution without any modifications to the 7-zip source code. Source code for the 7-zip libraries can be found here:
+www.7-zip.org
+
+An extract from the 7-Zip FAQ (1 Aug 2006) appears below:
+
+---
+Q. Can I use the EXE or DLL files from 7-Zip in a Commercial Application?
+
+A. Yes, but you need to specify in your documentation (1) that you used parts of the 7-Zip program, (2) that 7-Zip is licensed under the GNU LGPL license and (3) link to www.7-zip.org where the source code can be found.
+---
+
+Many thanks to Igor Pavlov for confirming that ALL libraries (except the unRAR library) included in 7-zip and not just the LZMA SDK are licensed under the GNU LGPL.
+
+/////////////////////////////////////////////
+
+Registration code management is implemented using a stripped down version of CryptLib Version 2.00
+Copyright Peter Gutmann, Eric Young, and Colin Plumb  1992 - 1996
+
+An extract from the docs.txt file regarding usage appears below:
+
+------
+[CryptLib] is distributed as copyrighted freeware, with copyrights on
+individual encryption modules being held by the contributing authors.  You are
+free to use the code in any way you want, with the following restrictions:
+
+- If you make any changes to the code, you should send a copy of the changes to
+  the author or authors to allow them to integrate the changes into the code.
+  This is to allow a central consistent version to be maintained.
+
+- If you use the library as part of a product, you should offer a copy to the
+  authors of the library.  This is to let the authors know that their work is
+  being usefully applied.  You should also give the authors credit in your
+  software and/or documentation.  This is to let others know that the authors
+  work is being usefully applied :-).
+
+- Any commercial software you create with this code may not be merely a set or
+  subset of the encryption library, with or without minor added functionality.
+  In particular you can't sell the library (or any modified form of it) as
+  "your" encryption product.  You can sell your own product which utilizes the
+  encryption library, but you can't charge for the library itself or claim it
+  as yours.  This is to stop people adding their own wrappers and selling it as
+  "their" encryption product.
+------
+
+
+/////////////////////////////////////////////
+
+Internal XML support is provided through TinyXML. An extract from the license agreement appears below:
+
+Permission is granted to anyone to use [TinyXML] software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:
+
+1. The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation would be appreciated but is not required.
+
+2. Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.
+
+3. This notice may not be removed or altered from any source distribution.
+
+/////////////////////////////////////////////
+
+The internal viewer uses the Scintilla editing component for displaying files. The license agreement is shown below:
+
+http://www.scintilla.org/
+License for Scintilla and SciTE
+
+Copyright 1998-2003 by Neil Hodgson <neilh@scintilla.org>
+
+All Rights Reserved 
+
+Permission to use, copy, modify, and distribute this software and its 
+documentation for any purpose and without fee is hereby granted, 
+provided that the above copyright notice appear in all copies and that 
+both that copyright notice and this permission notice appear in 
+supporting documentation. 
+
+NEIL HODGSON DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS 
+SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY 
+AND FITNESS, IN NO EVENT SHALL NEIL HODGSON BE LIABLE FOR ANY 
+SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES 
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, 
+WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER 
+TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE 
+OR PERFORMANCE OF THIS SOFTWARE. 
+
+
+
+/////////////////////////////////////////////

@@ -1,0 +1,165 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head>
+   <title>提示</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="Command line,Configuration,Exclude expression,Mac files,Multiple file types,Multiple folders,One Phase Searching,Shell Integration,SRF,Testing regular expression,Unix files,Windows Shell,Word wrapping" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+<script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if (location.search.lastIndexOf("toc=0")<=0) {
+  if (parent.frames.length==0) { parent.location.href="index.html?hintstips.htm"; }
+  else { parent.quicksync('a1.10'); }
+}
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script></head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#649CCC">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">提示</span></p>
+<p class="p_Heading1"><span class="f_Heading1">&nbsp;</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="introduction.htm">Top</a>&nbsp;
+     <a href="sessions_and_workspaces.htm">Previous</a>&nbsp;
+     <a href="questionscomments.htm">Next</a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p>&nbsp;</p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table cellspacing="2" cellpadding="2" border="0" style="border: none; border-spacing:2px;">
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="207" style="width:207px;"><p><span style="font-weight: bold;">搜索多个文件类型</span></p>
+</td>
+<td valign="top" width="594" style="width:594px;"><p>您能用正则表达式或DOS表达式搜索多种类型的文件，如：</p>
+<p>搜索.ccp，.cpp，.h，.c，.INL，那么正则表达式就为：</p>
+<p>\.(cpp|h|c|INL)$</p>
+<p>&nbsp;</p>
+<p>或者，可以用DOS表达式，那么就是：</p>
+<p>*.cpp;*.h;*.c;*.INL</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="207" style="width:207px;"><p><span style="font-weight: bold;">排除文件类型</span></p>
+</td>
+<td valign="top" width="594" style="width:594px;"><p>在DOS表达式前加上<span class="f_ExpressionText">NOT:</span>来从搜索中排除特定文件的类型。例如，您可以搜索除了COM和EXE文件类型以外的所有文件，方法是将搜索文件名设定为DOS表达式：</p>
+<p>NOT:*.exe;*.com</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="207" style="width:207px;"><p><span style="font-weight: bold;">搜索多个位置</span></p>
+</td>
+<td valign="top" width="594" style="width:594px;"><p>FileLocator Pro能搜索多个文件夹路径。在"查找位置"输入框用分号将每个文件夹之间隔开，如：</p>
+<p>c:\winnt;c:\tmp</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="207" style="width:207px;"><p><span style="font-weight: bold;">在”查找位置“输入框使用表达式</span></p>
+</td>
+<td valign="top" width="594" style="width:594px;"><p>表达式可用于文件夹路径，要用此功能请用“查找位置”旁表达式下拉菜单。表达式不会对整个路径进行处理而是对路径部分处理，如：</p>
+<p>c:\usr\dev\.*\release</p>
+<p>将匹配所有从“c:\usr\dev”文件夹开始往下两层所有名称为“release"的文件夹。</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="207" style="width:207px;"><p><span style="font-weight: bold;">从Windows 资源管理器中启动FileLocator Pro</span></p>
+</td>
+<td valign="top" width="594" style="width:594px;"><p>可以通过 <a href="shell_integration_settings.htm">外壳程序集成</a> 设置使FileLocator Pro与Windows 外壳集成起来。例如，当在Windows资源管理器中浏览文件和文件夹时，您可以通过右键点击文件夹从上下文菜单中选择“'FileLocator Pro...”，或者使用快捷键组合Ctrl+F来启动FileLocator Pro。</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="207" style="width:207px;"><p><span style="font-weight: bold;">常用搜索</span></p>
+</td>
+<td valign="top" width="594" style="width:594px;"><p>将您最常用的搜索条件保存为一个SRF文件，在”开始“菜单上放上一个此文件的快捷方式。然后当您打开快捷方式时，FileLocator Pro将以您最常用的搜索选项启动。</p>
+<p>注：要在 <a href="shell_integration_settings.htm">外壳程序集成</a> 设置中使FileLocator Pro与SRF类型文件关联。</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="207" style="width:207px;"><p><span style="font-weight: bold;">通过命令行指定程序默认值</span></p>
+</td>
+<td valign="top" width="594" style="width:594px;"><p>您可以通过命令行参数来指定FileLocator Pro的初始值。甚至有一个开关用以关闭GUI（图形用户界面）并将结果直接保存在一个文件中。这在要将FileLocator Pro和其它应用程序整合时很有用。要查看有效命令行参数清单，请打开“帮助-&gt;命令行参数"对话框（或运行 FileLocatorPro.exe -h )。</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="207" style="width:207px;"><p><span style="font-weight: bold;">自动换行的性能影响</span></p>
+</td>
+<td valign="top" width="594" style="width:594px;"><p>"自动换行"的代价是高昂的，尤其当要显示大量内容的时候。如果”内容视图“显示速度缓慢，可以考虑将”自动换行“关闭。</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="207" style="width:207px;"><p><span style="font-weight: bold;">内容视图的性能影响</span></p>
+</td>
+<td valign="top" width="594" style="width:594px;"><p>如果您在对大量的文件进行搜索，且不需要查看这些文件的搜索结果内容，通过”窗口-&gt;内容视图-&gt;隐藏“将”内容视图“关闭，那么搜索将会快很多。</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="207" style="width:207px;"><p><span style="font-weight: bold;">两个阶段搜索的性能影响</span></p>
+</td>
+<td valign="top" width="594" style="width:594px;"><p>FileLocator Pro按照由两个阶段组成的过程运行。在第一个阶段收集一系列符合了”文件名称“条件的文件。第二个阶段搜索在第一阶段中找到的文件的内容。如果在第一阶段找到了很多文件，那么FileLocator Pro可能要用到非常多的内存资源来保留这些文件的清单。</p>
+<p>因此在 <a href="options_advanced.htm">选项页签</a> 中有一个“单阶段”搜索选项，用于指示FileLocator Pro当有文件名称匹配后马上搜索此文件的内容，从而避免维护一份内部文件清单。“单阶段”搜索的唯一不足是 FileLocator Pro无法显示进度条。用这个功能在对大批文件（即&gt;1百万）的内容搜索中获得更高内存使用效率，而一般情况下不需要用此选项。</p>
+<p>&nbsp;</p>
+<p>注：如果FileLocator Pro探测到一次巨大规模的搜索，那么它将自动地切换至单阶段搜索。</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="207" style="width:207px;"><p><span style="font-weight: bold;">搜索Unix和Mac文件</span></p>
+</td>
+<td valign="top" width="594" style="width:594px;"><p>Unix和Mac文本文件格式用到不同的序列来标识一行的结束。Windows和DOS使用字符序列CR-LF（回车-换行符）而Unix只用LF，Mac只用CR。要让 FileLocator Pro寻找其它EOL（行结束）序列，请前往“配置”设置（通过菜单选项"工具-&gt;配置"），然后选择 <a href="character_processing_settings.htm">字符处理</a> 。</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="207" style="width:207px;"><p><span style="font-weight: bold;">测试正则表达式</span></p>
+</td>
+<td valign="top" width="594" style="width:594px;"><p>从菜单选项”工具-&gt;正则表达式测试器"中测试一下您的正则表达式。</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+</table>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>更多信息可以从Mythicsoft的知识库在线获取：<a href="http://www.mythicsoft.com/kb" target="_blank" class="weblink">http://www.mythicsoft.com/kb</a>.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+</td></tr></table>
+<hr>
+<font face="Arial" size="-2">
+Copyright &copy; 2013 Mythicsoft Ltd. All rights reserved.
+<br />
+Help file version: 7.0<br />
+<br />
+PDF and CHM versions of this help file are available here:<br />
+<a href="http://mythicsoft.com/filelocatorpro/help" target="_blank">http://mythicsoft.com/filelocatorpro/help</a><br /> 
+    <br />
+</font>
+
+</body>
+</html>

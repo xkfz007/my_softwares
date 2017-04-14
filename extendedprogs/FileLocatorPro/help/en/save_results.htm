@@ -1,0 +1,171 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head>
+   <title>Export Results</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="Command Separated (CSV),CSV format,Custom format,Export formats,Export Results,HTML export,Sample transforms,Save Results,Tab separated exporting,XML format,XSL Transforms,XSLT" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+<script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if (location.search.lastIndexOf("toc=0")<=0) {
+  if (parent.frames.length==0) { parent.location.href="index.html?save_results.htm"; }
+  else { parent.quicksync('a3.12'); }
+}
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script></head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#649CCC">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">Export Results</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="introduction.htm">Top</a>&nbsp;
+     <a href="msg_file_searching.htm">Previous</a>&nbsp;
+     <a href="wizards.htm">Next</a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p>&nbsp;</p>
+<p>For exporting results FileLocator Pro provides both the <a href="reports.htm">Reports</a> functionality and the <span style="font-weight: bold;">File -&gt; Export Results</span> menu option. The Export Results dialog allows the results to be saved either to the clipboard or to a specified file. </p>
+<p>&nbsp;</p>
+<p><img src="../img/exportresults.png" width="583" height="370" border="0" alt="ExportResults"></p>
+<p>&nbsp;</p>
+<p>The results can be saved in a variety of formats:</p>
+<p>&nbsp;</p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table cellspacing="2" cellpadding="2" border="0" style="border: none; border-spacing:2px;">
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="204" style="width:204px;"><p>Comma separated (CSV)</p>
+</td>
+<td valign="top" width="1332" style="width:1332px;"><p>Comma separated table of results (best format for saving results for subsequent opening in Excel).</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="204" style="width:204px;"><p>HTML</p>
+</td>
+<td valign="top" width="1332" style="width:1332px;"><p>HTML formatted results, designed to look similar to the Hits tab view.</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="204" style="width:204px;"><p>Tab separated</p>
+</td>
+<td valign="top" width="1332" style="width:1332px;"><p>For content searches the information is grouped by file, similar to Hits tab. The Tab character (ASCII 09) is used to separate values.</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="204" style="width:204px;"><p>Tab separated (spreadsheet)</p>
+</td>
+<td valign="top" width="1332" style="width:1332px;"><p>Tab separated table of results, similar to CSV but using the Tab character (ASCII 09) to separate the columns (best format when saving to clipboard and then pasting into Excel).</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="204" style="width:204px;"><p>Text</p>
+</td>
+<td valign="top" width="1332" style="width:1332px;"><p>Text based format designed to look similar to Hits tab view.</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="204" style="width:204px;"><p>XML</p>
+</td>
+<td valign="top" width="1332" style="width:1332px;"><p>XML formatted results. </p>
+</td>
+</tr>
+</table>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="font-weight: bold;">Custom formatting</span></p>
+<p>&nbsp;</p>
+<p>For advanced formatting XSL transforms can be used to customize the output format. XSL transforms are a text based language for defining data transformations and can be used to convert FileLocator Pro's XML data into a desired format. Sample transforms are included in the Sample Transform subfolder and include:</p>
+<p>&nbsp;</p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table cellspacing="2" cellpadding="2" border="0" style="border: none; border-spacing:2px;">
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="203" style="width:203px;"><p>Contents_NoLineNumbers.xsl</p>
+</td>
+<td valign="top" width="1333" style="width:1333px;"><p>Exports just the found contents with no other information included, such as file data or line numbers.</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="203" style="width:203px;"><p>FileName_Only.xsl</p>
+</td>
+<td valign="top" width="1333" style="width:1333px;"><p>Exports just the file name without any path information, each file is exported on a separate line.</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="203" style="width:203px;"><p>FullName_FileSizeBytes.xsl</p>
+</td>
+<td valign="top" width="1333" style="width:1333px;"><p>Exports the full file name (ie with path) along with the size in bytes of the file.</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="203" style="width:203px;"><p>Hash_Separated.xsl</p>
+</td>
+<td valign="top" width="1333" style="width:1333px;"><p>Exports the file name information separated by the '#' character. </p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="203" style="width:203px;"><p>Hits_Only.xsl</p>
+</td>
+<td valign="top" width="1333" style="width:1333px;"><p>Exports just the hits found in a search, i.e. without any file information or extra found text information. Useful for regular expression searches to output text that matches a given expression, e.g. extracting telephone numbers, or email addresses. This transform differs from Unique_Hits_Only.xsl in that it will output all hits of the found text, ie it will output duplicate hits.</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="203" style="width:203px;"><p>HTMLTransform.xsl</p>
+</td>
+<td valign="top" width="1333" style="width:1333px;"><p>Exports the data in a format very similar to the standard HTML export.</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="203" style="width:203px;"><p>Unique_Hits_Only.xsl</p>
+</td>
+<td valign="top" width="1333" style="width:1333px;"><p>Exports just the hits found in a search, i.e. without any file information or extra found text information. Useful for regular expression searches to output text that matches a given expression, e.g. extracting telephone numbers, or email addresses. This transform differs from Hits_Only.xsl by only outputing the unique hits, i.e. it only outputs the value of the hit once regardless of how many times it may actually be found.</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="203" style="width:203px;"><p>xcopy.xsl</p>
+</td>
+<td valign="top" width="1333" style="width:1333px;"><p>Generates XCOPY statements to copy from one drive to another preserving folder structure.</p>
+<p> &nbsp;  </p>
+<p>For each file an XCOPY command is generated with only the drive letter replaced in the source path. e.g.</p>
+<p><span style="width:48px">&nbsp;</span>C:\folder1\folder2\filename1.txt</p>
+<p><span style="width:48px">&nbsp;</span></p>
+<p>generates:</p>
+<p><span style="width:48px">&nbsp;</span>xcopy "C:\folder1\folder2\filename1.txt" "E:\folder1\folder2\*"</p>
+<p><span style="width:48px">&nbsp;</span></p>
+<p>NOTE: The XSL file needs to be edited to change target from E: to desired target drive. Does not work with UNC paths. e.g. \\server1\folder1\folder2</p>
+</td>
+</tr>
+</table>
+</div>
+<p>&nbsp;</p>
+
+</td></tr></table>
+<hr>
+<font face="Arial" size="-2">
+Copyright &copy; 2013 Mythicsoft Ltd. All rights reserved.
+<br />
+Help file version: 7.0<br />
+<br />
+PDF and CHM versions of this help file are available here:<br />
+<a href="http://mythicsoft.com/filelocatorpro/help" target="_blank">http://mythicsoft.com/filelocatorpro/help</a><br /> 
+    <br />
+</font>
+
+</body>
+</html>

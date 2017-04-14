@@ -1,0 +1,54 @@
+END-USER LICENCE AGREEMENT FOR MYTHICSOFT FILELOCATOR PRO ("FILELOCATOR PRO")
+IMPORTANT -  READ CAREFULLY BEFORE INSTALLING OR USING THIS SOFTWARE. 
+This end-user licence agreement ("AGREEMENT") is a legally binding agreement between you (an individual, corporate entity, partnership or other natural or artificial person as applicable) (hereinafter referred to as "LICENSEE" or "YOU") and Mythicsoft Limited ("MYTHICSOFT") a limited company registered in the United Kingdom, concerning the licensing and use of the software identified above, which includes computer programming code and may include associated media, printed materials, and online or electronic documentation (collectively, "SOFTWARE"). By clicking on the "I ACCEPT THE AGREEMENT" option below, or by installing, copying, or otherwise using the software, YOU agree to be bound by the provisions of this AGREEMENT. If YOU do not agree to the provisions of this AGREEMENT, YOU are not permitted to use the SOFTWARE.
+
+The SOFTWARE is protected by domestic, national, supranational and international copyright laws as well as other intellectual property laws and treaties. The SOFTWARE is licensed to YOU, not sold.
+This AGREEMENT covers the use and distribution of all existing, current and previous versions of "FILELOCATOR PRO".
+
+1. LICENCE
+MYTHICSOFT, the author and owner of "FILELOCATOR PRO" (the SOFTWARE, as defined above), grants YOU the non-exclusive, non-transferable right to use one copy (or multiple copies, as applicable) of the SOFTWARE on one Operating Server Environment ("OSE") at any one time for each licence purchased. An OSE is defined as a single instance of an operating system virtual or otherwise. "USE" means storing, loading, installing, executing and/or displaying the SOFTWARE. You may not modify the SOFTWARE or disable any licensing or control features of the SOFTWARE except as an intended part of the SOFTWARE’s programming features or functionality. 
+
+Single User Licence.  A single user licence will license one copy of the SOFTWARE for USE on one OSE by a single user.  It does not permit the USE of the SOFTWARE by anyone other than the named individual LICENSEE.
+
+Multi-User Licence. A multi-user licence will license the specified acquired number of copies of the SOFTWARE for USE on one OSE per named user. A multi-user licence is not a concurrent licence: each user of the SOFTWARE must be individually licensed to USE the SOFTWARE. For situations where multiple users need to USE the SOFTWARE on multiple OSEs YOU need to acquire a license for each OSE or each user, whichever is greater.
+
+Multi-User licensing example: Ten users using the SOFTWARE on twenty OSEs requires twenty licenses. Ten users using the SOFTWARE on five OSEs requires ten licenses. One user using the SOFTWARE on fifty OSEs requires fifty licenses.
+
+Technician License: A technician license will license an unlimited number of copies of the SOFTWARE for use by the named individual LICENSEE on an unlimited number of OSEs. It does not permit the USE of the SOFTWARE by anyone other than the named individual LICENSEE.
+
+Server License: A server license will license an unlimited number of copies of the SOFTWARE for use on a single OSE by an unlimited number of users. It does not permit the USE of the SOFTWARE on any other OSE than the one licensed.
+
+MYTHICSOFT grants a free trial licence to USE the SOFTWARE in accordance with this AGREEMENT  for a period of thirty (30) days from the date of installation of the SOFTWARE. Following the trial period a full licence for the SOFTWARE must be purchased to continue lawfully using the product.
+
+2. OWNERSHIP
+The SOFTWARE is owned and copyrighted and/or patented by MYTHICSOFT. YOUR licence confers no title or ownership in the SOFTWARE and should not be construed as a sale of any right in the SOFTWARE. MYTHICSOFT reserves all rights in the SOFTWARE save as expressly granted to YOU in this AGREEMENT.
+
+3. DESCRIPTION OF OTHER RIGHTS AND LIMITATIONS.  
+YOU may not do any of the following: (i) reverse engineer, decompile, translate, disassemble, or otherwise attempt to derive source code from the SOFTWARE, or authorize or procure any third party to do any of the foregoing, save to the extent permitted by applicable law (ii) modify, or create derivative works based upon the SOFTWARE, in whole or in part; (iii) distribute copies of the SOFTWARE; (iv) remove any proprietary notices or labels on the SOFTWARE; or (v) resell, lease, rent, transfer, sublicense, or otherwise transfer rights to the SOFTWARE.   The SOFTWARE is licensed as a single product.  Its component parts may not be separated for use on more than the number of MACHINES specified in the licence description above. 
+
+4. WARRANTY  
+MYTHICSOFT warrants that it has title to and/or the authority to grant licences of the SOFTWARE.  MYTHICSOFT warrants for a period of ninety (90) days from delivery of the SOFTWARE that the SOFTWARE, unless modified by YOU, will perform in all material aspects the functions described in its accompanying user documentation when operated on the platform(s) and in the operating environment(s) certified by MYTHICSOFT.  MYTHICSOFT does not warrant that the SOFTWARE will meet YOUR requirements: YOU acknowledge that the trial licence initially granted to YOU has given you sufficient opportunity to determine the suitability of the SOFTWARE for YOUR needs.  MYTHICSOFT further does not warrant that the operation of the SOFTWARE will be uninterrupted or error-free, or that all SOFTWARE errors will be corrected.  The foregoing warranties are exclusive and in lieu of all other warranties, express and implied, including any implied conditions of satisfactory quality and fitness for purpose.
+
+5. LIMITATION OF LIABILITY.  
+MYTHICSOFT’s liability for death or personal injury resulting from its negligence is not excluded or limited.  MYTHICSOFT’s liability under or in connection with this agreement (whether for negligence, breach of contract or otherwise) shall be limited to the amount paid or payable by YOU under the provisions of this AGREEMENT for the SOFTWARE or services in relation to which the claim arises or might arise.  In no event shall MYTHICSOFT be liable under or in relation to this AGREEMENT or its subject matter (whether such liability arises due to negligence, breach of contract, misrepresentation or for any other reason) for any loss of profits, loss of sales, loss of turnover, loss of bargain, loss of opportunity, loss of computer equipment, loss of software or data, wasted management or other staff time, losses or liabilities under or in relation to any other contract or any indirect, consequential or special loss or damage.  For the purposes of this section the term ‘loss’ includes a partial loss or reduction in value as well as a complete or total loss.
+
+6. DISTRIBUTION
+MYTHICSOFT grants non-profit distribution rights to any company/individual wishing to distribute, without charge, the COMPLETE "FILELOCATOR PRO" TRIAL INSTALLATION FILES. Any distribution MUST include ALL original TRIAL INSTALLATION FILES without modifications or additions. Registration keys, or any other means of bypassing the Trial license, must NOT be included as part of the distribution.
+Unless explicit permission is requested and granted by the author ("MYTHICSOFT") "FILELOCATOR PRO" may not be distributed for profit in any form.
+
+7. TECHNICAL SUPPORT. 
+Technical Support ("SUPPORT") for the SOFTWARE is available from the date of purchase for the support period specified when YOU purchase the licence. SUPPORT is available via electronic mail only. All SUPPORT requests must be submitted in English. The provision of SUPPORT does not imply or guarantee that reported faults or errors in the SOFTWARE will be corrected.
+
+8. TERMINATION 
+Without prejudice to any other rights, MYTHICSOFT may terminate this AGREEMENT if YOU are in breach of any of its provisions. Upon notification of such termination, YOU must, and agree to, destroy all copies of the SOFTWARE and all of its component parts.
+
+9. ENTIRE AGREEMENT.
+This is the entire AGREEMENT between YOU and MYTHICSOFT.  It supersedes any prior agreement or understanding, whether written or oral, relating to the subject matter of this licence.
+Installing and using the SOFTWARE signifies YOUR acceptance of the terms and conditions of this AGREEMENT.  If YOU do not agree with such terms and conditions or if they conflict with YOUR local laws, YOU must remove SOFTWARE files from YOUR storage devices and cease to use the product.
+The provisions of this licence and the SOFTWARE interface design are subject to change in future versions of the SOFTWARE.
+	
+10.  GOVERNING LAW / JURISDICTION
+This AGREEMENT shall be governed and construed under the laws of England and Wales. In no event shall this AGREEMENT be governed by the United Nations Convention on Contracts for the International Sale of Goods.  Any dispute between the parties concerning this AGREEMENT  shall be determined by the English courts, and the parties hereby submit to the exclusive jurisdiction of the English courts for that purpose.
+
+*** END OF END-USER LICENCE AGREEMENT ***
+

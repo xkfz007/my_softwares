@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<InterpreterConfig xmlns="http://www.mythicsoft.com/FileLocator">
+	<displayname>DOCM</displayname>
+	<uniquename>http://www.mythicsoft.com/docm</uniquename>
+	<progid>Extensions.ExternalWordMgr</progid>
+	<filetypes>docm</filetypes>
+	<interpretertype>textconverter</interpretertype>
+	<active>no</active>
+	<safemode>no</safemode>
+	<useisfilter>no</useisfilter>
+	<nonreglibrary>extensions.dll</nonreglibrary>
+</InterpreterConfig>

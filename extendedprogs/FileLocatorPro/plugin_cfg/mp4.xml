@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<InterpreterConfig xmlns="http://www.mythicsoft.com/FileLocator">
+	<displayname>MP4</displayname>
+	<uniquename>http://www.mythicsoft.com/mp4</uniquename>
+	<progid>Extensions.TagLibInterpreter</progid>
+	<filetypes>mp4,m4a,m4r,m4b,m4p,3g2</filetypes>
+	<interpretertype>textinterpreter</interpretertype>
+	<active>no</active>
+	<safemode>no</safemode>
+	<useisfilter>no</useisfilter>
+	<nonreglibrary>extensions.dll</nonreglibrary>
+</InterpreterConfig>

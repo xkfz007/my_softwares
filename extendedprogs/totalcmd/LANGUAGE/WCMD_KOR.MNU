@@ -1,0 +1,138 @@
+POPUP "파일(&F)"
+  MENUITEM "속성 변경(&C)...", cm_SetAttrib
+  MENUITEM "파일 압축(&P)...\tALT+F5", cm_PackFiles
+  MENUITEM "압축 해제(&U)...\tALT+F9", cm_UnpackFiles
+  MENUITEM "압축 파일 검사(&I)\tALT+SHIFT+F9",518
+  MENUITEM "내용으로 파일 비교(&Y)...", 2022
+  MENUITEM "프로그램 연결(&A)...", cm_associate
+  MENUITEM "자체 프로그램 연결(&L) (토탈커맨더에서만)...", 519
+  MENUITEM "등록 정보&...\tALT+ENTER", cm_versioninfo
+  MENUITEM "점유 공간 계산(&O)...", cm_GetFileSpace
+  MENUITEM "파일명 일괄 변경(&R)...\tCtrl+M", 2400
+  MENUITEM "주석 편집(&N)...\tCtrl+Z", 2700
+  POPUP "인쇄(&T)"
+    MENUITEM "선택 파일 목록(&L)...", 2027
+    MENUITEM "하위 폴더를 포함한 선택 파일 목록(&S)...", 2028
+    MENUITEM "파일 내용(&T)\tCtrl+F9", cm_PrintFile
+  END_POPUP
+  MENUITEM SEPARATOR
+  MENUITEM "파일 분할(&S)...", 560
+  MENUITEM "파일 결합(&M)...", 561
+  MENUITEM "파일 암호화(&E), 인코드(MIME,UUE,XXE)...", 562
+  MENUITEM "파일 복호화(&D), 디코드(MIME,UUE,XXE,BinHex)...", 563
+  MENUITEM "CRC 체크섬 생성(&H) (CRC32, MD5, SHA1)...", 564
+  MENUITEM "CRC 체크섬 검사(&V) (체크섬 파일기준으로)", 565
+  MENUITEM SEPARATOR
+  MENUITEM "종료(&Q)\tALT+F4", 24340
+END_POPUP
+
+POPUP "선택(&M)"
+  MENUITEM "그룹 선택(&G)...\tNum +", cm_spreadselection
+  MENUITEM "그룹 해제(&U)...\tNum -", cm_shrinkselection
+  MENUITEM "전체 선택(&A)\tCTRL Num +", cm_selectall
+  MENUITEM "전체 해제(&N)\tCTRL Num -", cm_Clearall
+  MENUITEM "선택 파일 반전(&I)\tNum *", cm_ExchangeSelection
+  MENUITEM "동일 확장자 전체 선택(&X)\tAlt Num +",527
+  MENUITEM SEPARATOR
+  MENUITEM "선택 목록 저장(&S)", 530
+  MENUITEM "저장된 선택 목록 복원(&R)\tNum /", 529
+  MENUITEM "선택 목록 파일로 저장(&V)", 2031
+  MENUITEM "선택 목록 파일에서 불러오기(&L)", 2032
+  MENUITEM SEPARATOR
+  MENUITEM "선택 파일 파일명 클립보드로 복사(&Y)", 2017
+  MENUITEM "전체 경로를 포함한 파일명 클립보드로 복사(&P)", 2018
+  MENUITEM "선택 파일 세부사항 클립보드로 복사(&D)", 2036
+  MENUITEM "전체 경로를 포함한 세부사항 클립보드로 복사(&B)", 2037
+  MENUITEM SEPARATOR
+  MENUITEM "폴더 비교(&C)\tShift+F2", cm_CompareDirs
+  MENUITEM "새 항목만 선택(&M), 같은 파일 숨김", cm_DirMatch
+END_POPUP
+
+POPUP "명령(&C)"
+  MENUITEM "폴더 구조(&T)...\tALT+F10", cm_CDtree
+  MENUITEM "파일 찾기(&S)...\tALT+F7", cm_searchfor
+  MENUITEM "별도의 프로세스에서 찾기(&P)...\tAlt+Shift+F7", 545
+  MENUITEM "볼륨명(&V)...", cm_VolumeId
+  MENUITEM "시스템 정보(&I)...", cm_sysinfo
+  MENUITEM "폴더 일치 시키기(&Y)...", 2020  
+  MENUITEM "폴더 단축 목록(&H)\tCtrl+D", 526
+  MENUITEM "이전 폴더 가기(&B)\tAlt+Left Arrow", 570
+  MENUITEM SEPARATOR
+  MENUITEM "명령 프롬프트 창 열기(&D)", cm_ExecuteDOS
+  MENUITEM SEPARATOR
+  MENUITEM "일괄 보기(&A) (하위 폴더 포함)\tCtrl+B", 2026
+  MENUITEM "바탕 화면 열기(&O)", 2121
+  MENUITEM "백그라운드 전송 관리자(&M)...",559
+  MENUITEM SEPARATOR
+  MENUITEM "좌우측 바꾸기(&<->)\tCTRL+U", cm_exchange
+  MENUITEM "비활성창에 활성창 열기(&=)", cm_matchsrc
+END_POPUP
+
+POPUP "네트워크(&N)"
+  MENUITEM "네트워크 드라이브 연결(&N)...", cm_NetConnect
+  MENUITEM "네트워크 드라이브 연결 해제(&D)...", cm_NetDisconnect
+  MENUITEM "현재 폴더 공유(&C)...", cm_NetShareDir
+  MENUITEM "폴더 공유 해제(&U)...", cm_NetUnshareDir
+  MENUITEM "관리자 공유 보기(&A)", 2204
+  MENUITEM SEPARATOR
+  MENUITEM "FTP 연결(&F)...\tCtrl+F", 550
+  MENUITEM "새 FTP 연결(&P)...\tCtrl+N", 551
+  MENUITEM "FTP 연결 해제(&E)\tCtrl+Shift+F", 552
+  MENUITEM "FTP 숨은 파일 보기(&W)", 553
+  MENUITEM "FTP 목록에서 다운로드(&L)", 558
+  MENUITEM "다른 PC 와 PORT 연결(&O)...", 2300
+END_POPUP
+
+POPUP "보기(&W)"
+  MENUITEM "간단히(&B)\tCTRL+F1", cm_srcshort
+  MENUITEM "자세히(&F)\tCTRL+F2", cm_srclong
+  MENUITEM "주석(&M)\tCtrl+Shift+F2", 300
+  MENUITEM "사용자 열 지정 모드(&D)\tShift+F1", 270
+  MENUITEM "폴더 트리(&T)\tCTRL+F8", cm_srcTree
+  POPUP "트리 패널\tCtrl+Shift+F8"
+  MENUITEM "&0 (없음)", 3200
+  MENUITEM "&1 개", 3201
+  MENUITEM "&2 개", 3202
+  END_POPUP
+  MENUITEM "썸네일 보기(&L) \tCtrl+Shift+F1", 269
+  MENUITEM "미리 보기\tCTRL+Q",304
+  MENUITEM "수평 분할(&V)", 305
+  MENUITEM "새 폴더 탭(&W)\tCtrl+T", 3001
+  MENUITEM SEPARATOR
+  MENUITEM "모든 파일(&A)\tCTRL+F10", cm_srcallfiles
+  MENUITEM "프로그램(&P)\tCTRL+F11", cm_srcexecs
+  MENUITEM "*.*", cm_srcuserspec
+  MENUITEM "사용자 정의(&C)...\tCTRL+F12", cm_srcuserdef
+  MENUITEM "선택된 파일만(&O)", 2023
+  MENUITEM SEPARATOR
+  MENUITEM "이름순(&N)\tCTRL+F3", cm_srcbyname
+  MENUITEM "확장자순(&X)\tCTRL+F4", cm_srcbyext
+  MENUITEM "날짜순(&I)\tCTRL+F5", cm_srcbydatetime
+  MENUITEM "크기순(&S)\tCTRL+F6", cm_srcbysize
+  MENUITEM "정렬 안함(&U)\tCTRL+F7", cm_srcunsorted
+  MENUITEM SEPARATOR
+  MENUITEM "역순 정렬(&R)", cm_srcnegorder
+  MENUITEM SEPARATOR
+  MENUITEM "활성창 새로 고침(&E)\tCTRL+R", cm_rereadsource
+END_POPUP
+
+POPUP "환경설정(&O)"
+  MENUITEM "옵션(&O)...", cm_config
+  MENUITEM "도구 모음 변경(&U)...", cm_ButtonConfig
+  MENUITEM "설정 파일 수정(&C)...", 581
+  MENUITEM "위치 저장(&S)", cm_configSavepos
+  MENUITEM "설정 상태 저장(&V)", 580
+END_POPUP
+
+STARTMENU
+
+HELP_BREAK
+
+POPUP "도움말(&H)"
+  MENUITEM "도움말 항목(&I)\tF1", cm_HelpIndex 
+  MENUITEM "단축키 정보(&K)", cm_keyboard
+  MENUITEM "등록 안내(&R)", cm_register
+  MENUITEM "토탈 커맨더 홈페이지 방문(&V)", 640
+  MENUITEM SEPARATOR
+  MENUITEM "토탈 커맨더 정보(&A)...", cm_About
+END_POPUP

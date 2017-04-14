@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head>
+   <title>FileLocator Pro Extensions</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="Extension settings,Indexing Service Filter (if available),Safe Mode" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+<script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if (location.search.lastIndexOf("toc=0")<=0) {
+  if (parent.frames.length==0) { parent.location.href="index.html?other_extensions.htm"; }
+  else { parent.quicksync('a2.5.4'); }
+}
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script></head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#649CCC">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">FileLocator Pro Extensions</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="introduction.htm">Top</a>&nbsp;
+     <a href="compressed_document_raw_data_r.htm">Previous</a>&nbsp;
+     <a href="advanced_features.htm">Next</a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p>&nbsp;</p>
+<p>Extensions help FileLocator Pro in processing non-text based formats so that their underlying data is correctly retrieved and searched.</p>
+<p>&nbsp;</p>
+<p><img src="../img/zipconfig.png" width="618" height="409" border="0" alt="ZipConfig"></p>
+<p>&nbsp;</p>
+<p>The screenshot shows the configuration for the ZIP extension, which is used to read files in the ZIP format. The configuration shows that the ZIP extension should be used for all files with a .zip or .jar extension but could be changed to include any other zip based formats.</p>
+<p>&nbsp;</p>
+<p><span style="font-weight: bold;">Safe Mode</span></p>
+<p>&nbsp;</p>
+<p>An extension is normally run in the same process space as FileLocator Pro since it is the fastest way for FileLocator Pro to communicate with the extension. However, running the extension in the same process space does mean that if the extension has a catastrophic failure it can crash FileLocator Pro. To avoid crashing FileLocator Pro troublesome extensions can be run in 'Safe Mode', which causes them to run in their own process space, but it does mean that using the extension may cause FileLocator Pro to run slightly slower.</p>
+<p>&nbsp;</p>
+<p><span style="font-weight: bold;">Indexing Service Filter</span></p>
+<p>&nbsp;</p>
+<p>While FileLocator Pro provides extensions for some well known file types, e.g. DOC, XLS etc, it is sometimes faster to use Indexing Service Filters if they are available. The 'Use Indexing Service Filter' check box instructs FileLocator Pro to try and find an Indexing Service Filter and use that instead of the FileLocator Pro extension if one exists.</p>
+<p>&nbsp;</p>
+<p>Note: Using an indexing service filter does not require the indexing service to be switched on merely that the filter is installed on the machine.</p>
+<p>&nbsp;</p>
+<p><span style="font-weight: bold;">Exclude file type from content searches when not active</span></p>
+<p>&nbsp;</p>
+<p>Some file formats, such as ZIP, do not include useful searchable binary data within them so there is little point in searching through the file if the extension has not been activated. To avoid wasting time searching through such file formats set the 'Exclude' flag.</p>
+<p>&nbsp;</p>
+
+</td></tr></table>
+<hr>
+<font face="Arial" size="-2">
+Copyright &copy; 2013 Mythicsoft Ltd. All rights reserved.
+<br />
+Help file version: 7.0<br />
+<br />
+PDF and CHM versions of this help file are available here:<br />
+<a href="http://mythicsoft.com/filelocatorpro/help" target="_blank">http://mythicsoft.com/filelocatorpro/help</a><br /> 
+    <br />
+</font>
+
+</body>
+</html>

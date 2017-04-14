@@ -1,0 +1,92 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head>
+   <title>Outlook PST Archive Searching</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="Email search (Outlook files),Export PST items,Outlook PST Searching,PST Archive (Outlook)" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+<script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if (location.search.lastIndexOf("toc=0")<=0) {
+  if (parent.frames.length==0) { parent.location.href="index.html?outlook_pst_archive_searching.htm"; }
+  else { parent.quicksync('a3.10'); }
+}
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script></head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#649CCC">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">Outlook PST Archive Searching</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="introduction.htm">Top</a>&nbsp;
+     <a href="search_within_search.htm">Previous</a>&nbsp;
+     <a href="msg_file_searching.htm">Next</a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p>&nbsp;</p>
+<p>FileLocator Pro is able to search through all PST archives from the older Outlook 97 right up to the latest versions. Also, since FileLocator Pro 'understands' the actual underlying file format it doesn't require Outlook to be installed and can also bypass the password protection and encryption present on most PST files. However, since FileLocator Pro is not dedicated to searching only PST files it can appear a little confusing as to how PST searching works. The overwhelming temptation is to use the file name field to identify the PST archive, e.g. *.pst, instead of the item within the PST archive, such as an email, that you are looking for. </p>
+<p>&nbsp;</p>
+<p>FileLocator Pro basically treats each individual Outlook item, ie an email, contact, calendar item etc., within a PST file as a separate file. The 'file name' for each item is dependant on the item type, e.g. for email messages the email's subject is used as the file name. So to search a PST file follow these steps:</p>
+<p>&nbsp;</p>
+<p><span style="font-weight: bold;">1. Specify the location of the PST files (or a specific PST file) in the 'Look in' field</span></p>
+<p>&nbsp;</p>
+<p><img src="../img/outlookpst_main.png" width="730" height="148" border="0" alt="OutlookPST_Main"></p>
+<p>&nbsp;</p>
+<p>The location can include Outlook folders within the PST files.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="font-weight: bold;">2. Switch on PST Searching in the Options Tab</span></p>
+<p>&nbsp;</p>
+<p><img src="../img/outlookpst_interpreter.png" width="634" height="146" border="0" alt="OutlookPST_Interpreter"></p>
+<p>&nbsp;</p>
+<p>Without the PST format switched on the PST archive is treated as a normal file and simply searched using its binary content. If the 'Search attachments' option is checked then the attachments for each email are also searched, otherwise only the main email body is searched.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="font-weight: bold;">3. Use the 'File name' field to search by email subject and 'Containing text' to search by email content.</span></p>
+<p>&nbsp;</p>
+<p><img src="../img/outlooksearch.png" width="791" height="475" border="0" alt="OutlookSearch"></p>
+<p>&nbsp;</p>
+<p>Each result is shown as a text file, which can be copied or dragged to another location. The results can also be explored using the Internal Viewer just like normal results.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="font-weight: bold;">Searching multiple PST files</span></p>
+<p>&nbsp;</p>
+<p>The above example shows how to search through a single PST file but FileLocator Pro can search multiple PST files in a single search. Instead of specifying a single PST file in the Look In field simply specify the folder (or the root of the sub-tree) where the PST files are located. To ensure that only pst files are searched add the location filter +.pst, e.g. </p>
+<p>&nbsp;</p>
+<p>C:\Folder\Email;+.pst</p>
+<p>&nbsp;</p>
+<p>To export the email and/or attachments to separate files simply copy/paste or drag/drop the required files to a location in Explorer.</p>
+
+</td></tr></table>
+<hr>
+<font face="Arial" size="-2">
+Copyright &copy; 2013 Mythicsoft Ltd. All rights reserved.
+<br />
+Help file version: 7.0<br />
+<br />
+PDF and CHM versions of this help file are available here:<br />
+<a href="http://mythicsoft.com/filelocatorpro/help" target="_blank">http://mythicsoft.com/filelocatorpro/help</a><br /> 
+    <br />
+</font>
+
+</body>
+</html>

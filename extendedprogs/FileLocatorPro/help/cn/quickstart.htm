@@ -1,0 +1,98 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head>
+   <title>快速入门</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="Quick start" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+<script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if (location.search.lastIndexOf("toc=0")<=0) {
+  if (parent.frames.length==0) { parent.location.href="index.html?quickstart.htm"; }
+  else { parent.quicksync('a5.1'); }
+}
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script></head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#649CCC">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">快速入门</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="introduction.htm">Top</a>&nbsp;
+     <a href="regular_expressions.htm">Previous</a>&nbsp;
+     <a href="regularexpressionintroduction.htm">Next</a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p>&nbsp;</p>
+<p><span class="f_Format3">FileLocator Pro 将正则表达式引擎作为 <a href="expressiontypes.htm">表达式类型</a> 中的一种。正则表达式（有时简称为正则表达）提供了一种可以精确地描述要搜索什么的简明的语言。用非常基础的语言，您能将一个表达式分为两部分：</span></p>
+<p>&nbsp;</p>
+<p><span class="f_Format3">- 您正在要寻找什么。</span></p>
+<p><span class="f_Format3">- 您希望查找它出现的次数是多少。</span></p>
+<p>&nbsp;</p>
+<p><span class="f_Format3">现在我们来看一个例子：</span></p>
+<p><span class="f_Format3">1. 我想要寻找所有名字为abc、 abbc、 abbbc、 abbbbc等这样的文件。基本上说，我要找所有以‘a'开始，后跟1个或多个’b'，后跟1个'c'的文件。表达式就是：</span></p>
+<p><span class="f_Format3">ab+c</span></p>
+<p>&nbsp;</p>
+<p><span class="f_Format3">把它拆开，我们读到的是：</span></p>
+<p><span class="f_Format3">- 找到出现次数为1次的‘a'</span></p>
+<p><span class="f_Format3">- 找到出现次数至少为1次的’b'（’+‘ 表示’出现1次或多次’）</span></p>
+<p><span class="f_Format3">- 找到出现次数为1次的'c‘</span></p>
+<p>&nbsp;</p>
+<p><span class="f_Format3">指定出现次数的字符有：</span></p>
+<p><span class="f_Format3">+ 出现1或多次</span></p>
+<p><span class="f_Format3">* 出现0或多次</span></p>
+<p><span class="f_Format3">? 出现0或1次</span></p>
+<p>&nbsp;</p>
+<p><span class="f_Format3">所以ab?c将找到任何文件名为abc或ac的文件（即，可能存在0个或1个'b'）。</span></p>
+<p>&nbsp;</p>
+<p><span class="f_Format3">一个非常重要的正则表达式字符是句点 '.' （通配符），因为它会匹配上任何字符。所以a.c将匹配上aac、 abc、 acc、 adc、 aec、 afc、 a1c、 a6c等。如果我们将其与一个次数字符结合起来，我们就能开始写出一些有用的表达式：</span></p>
+<p><span class="f_Format3">dave.*vest</span></p>
+<p>&nbsp;</p>
+<p><span class="f_Format3">分解后为：</span></p>
+<p><span class="f_Format3">- 找到出现次数为1次的'd’</span></p>
+<p><span class="f_Format3">- 然后出现次数为1次的a'</span></p>
+<p><span class="f_Format3">- 然后出现次数为1次的'v'</span></p>
+<p><span class="f_Format3">- 然后出现次数为1次的‘e'</span></p>
+<p><span class="f_Format3">- 然后出现次数为0次或多次的任何单字符</span></p>
+<p><span class="f_Format3">- 然后出现次数为1次的’v'</span></p>
+<p><span class="f_Format3">- 然后出现次数为1次的‘e'</span></p>
+<p><span class="f_Format3">- 然后出现次数为1次的's'</span></p>
+<p><span class="f_Format3">- 然后出现次数为1次的't'</span></p>
+<p>&nbsp;</p>
+<p><span class="f_Format3">所以会匹配上'davevest'， 'dave vest'， 'dave is wearing a vest' 。</span></p>
+<p>&nbsp;</p>
+<p>接下来的页面中是其它正则表达式字符和技巧。 <span class="f_Format3"><a href="regularexpressionbasics.htm">关于正则表达式的详细内容</a></span></p>
+
+</td></tr></table>
+<hr>
+<font face="Arial" size="-2">
+Copyright &copy; 2013 Mythicsoft Ltd. All rights reserved.
+<br />
+Help file version: 7.0<br />
+<br />
+PDF and CHM versions of this help file are available here:<br />
+<a href="http://mythicsoft.com/filelocatorpro/help" target="_blank">http://mythicsoft.com/filelocatorpro/help</a><br /> 
+    <br />
+</font>
+
+</body>
+</html>

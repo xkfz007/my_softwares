@@ -1,0 +1,155 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head>
+   <title>Advanced Interface</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="Case sensitive settings (Advanced interface),Containing Text,DOS Expression,Ignore case (Advanced interface),Look in,Main Tab,Match case (Advanced interface),Multiple Folders" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+<script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if (location.search.lastIndexOf("toc=0")<=0) {
+  if (parent.frames.length==0) { parent.location.href="index.html?advanced_criteria.htm"; }
+  else { parent.quicksync('a1.2.1'); }
+}
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script></head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#649CCC">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">Advanced Interface</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="introduction.htm">Top</a>&nbsp;
+     <a href="criteriaview.htm">Previous</a>&nbsp;
+     <a href="options_advanced.htm">Next</a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p>&nbsp;</p>
+<p>With Expert User checked the criteria section should look like this:</p>
+<p>&nbsp;</p>
+<p><img src="../img/maintab.png" width="581" height="145" border="0" alt="MainTab"></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: bold;">File name</span></p>
+<p>&nbsp;</p>
+<p>File name filter, e.g. </p>
+<p><span class="f_ExpressionText">*.doc;*.txt;*.xls</span></p>
+<p>&nbsp;</p>
+<p>to search all doc, txt, and xls files using the default expression type <a href="dos_expressions2.htm">DOS Expression</a>.</p>
+<p>&nbsp;</p>
+<p>The equivalent regular expression would be </p>
+<p><span class="f_ExpressionText">\.(doc|txt|xls)$</span></p>
+<p>&nbsp;</p>
+<p>To exclude a group of files prefix the DOS Expression with <span class="f_ExpressionText">NOT:</span>, e.g. <span class="f_ExpressionText">NOT:*.doc;*.txt;*.xls</span>. To make the file name filter case sensitive click the 'Aa' buttons (a tick appears when switched ON).</p>
+<p>&nbsp;</p>
+<p>For convenience there are also some preset file type collections in the list: Folders Only, Files Only, Documents, Music, Pictures, and Videos.</p>
+<p>&nbsp;</p>
+<p><img src="../img/embim1.gif" width="237" height="237" vspace="1" hspace="1" border="0" alt=""></p>
+<p>&nbsp;</p>
+<p>When a preset collection is picked the File name field is processed as a <a href="boolean_expressions.htm">Boolean Expression</a>.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="font-weight: bold;">Containing text</span></p>
+<p>&nbsp;</p>
+<p>Specifies the contents to find in the files for a content search. The default <a href="expressiontypes.htm">expression type</a> is <a href="boolean_expressions.htm">Boolean</a>.</p>
+<p>&nbsp;</p>
+<p>To make the content search case sensitive click the 'Aa' buttons (a tick appears when switched ON).</p>
+<p>&nbsp;</p>
+<p>Note: If the expression type is set to 'File Hash' then the containing text box can include a comma separated list of hash values or a pointer to a file containing a list of hash values, e.g.</p>
+<p>5A9C9B42A16F5E1985B7B0A019114C7A,675C9B42A16F5E1985B7B0A019114C7A</p>
+<p>&nbsp;</p>
+<p>or,</p>
+<p>=c:\FileHashTable.txt</p>
+<p>&nbsp;</p>
+<p>The actual algorithms used to calculate the hash, e.g. SHA1, MD5, are specified in the <a href="options_advanced.htm">Options tab.</a></p>
+<p>&nbsp;</p>
+<p style="text-indent: -13px; margin: 0px 0px 0px 13px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-indent: -13px; margin: 0px 0px 0px 13px;"><span style="font-weight: bold;">Look In</span></p>
+<p style="text-indent: -13px; margin: 0px 0px 0px 13px;"><span style="color: #000000;">&nbsp;</span></p>
+<p>The Look In field can specify various criteria for the search location including exclusion locations, location filters etc. (for a full description of the advanced features see <a href="look_in.htm">Look In)</a>. Multiple Look In locations are separated by a semi-colon.</p>
+<p>&nbsp;</p>
+<p>Browse for Folders button and Browse for Multiple Folders button provide a convenient mechanism to select the folders to search. Press the 'Browse for multiple folders button' ...</p>
+<p style="text-indent: -13px; margin: 0px 0px 0px 13px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-indent: -13px; margin: 0px 0px 0px 13px;"><img src="../img/multifoldersbutton.png" width="95" height="145" border="0" alt="MultiFoldersButton"></p>
+<p style="text-indent: -13px; margin: 0px 0px 0px 13px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-indent: -13px; margin: 0px 0px 0px 13px;">... and the multiple folders dialog will appear. Enter each folder on a separate line.</p>
+<p style="text-indent: -13px; margin: 0px 0px 0px 13px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-indent: -13px; margin: 0px 0px 0px 13px;"><img src="../img/multiplefolders.png" width="576" height="539" border="0" alt="MultipleFolders"></p>
+<p style="text-indent: -13px; margin: 0px 0px 0px 13px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-indent: -13px; margin: 0px 0px 0px 13px;">For more information on FileLocator Pro's advanced location features please read the <a href="look_in.htm">Advanced Look In</a> and <a href="persistent_search_filters.htm">Persistent Search Filters</a> pages.</p>
+<p style="text-indent: -13px; margin: 0px 0px 0px 13px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-indent: -13px; margin: 0px 0px 0px 13px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-indent: -13px; margin: 0px 0px 0px 13px;"><span style="font-weight: bold;">Dates</span></p>
+<p style="text-indent: -13px; margin: 0px 0px 0px 13px;"><span style="color: #000000;">&nbsp;</span></p>
+<p>Modified Before and After fields are used to search by file modified date. To activate the date criteria either click on the button, i.e. After or Before, or the Calendar icon next to the value. See <a href="datetime_selection.htm">Date/Time Selection</a> for more information.</p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-indent: -13px; margin: 0px 0px 0px 13px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-indent: -13px; margin: 0px 0px 0px 13px;">The other tabs available with the Advanced Interface are:</p>
+<div style="text-align: left; text-indent: -13px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 13px;"><table cellspacing="2" cellpadding="2" border="0" style="border: none; border-spacing:2px;">
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="161" style="width:161px;"><p><a href="options_advanced.htm">Options tab</a></p>
+</td>
+<td valign="top" width="843" style="width:843px;"><p>Options relating to the search, document processing etc</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="161" style="width:161px;"><p><a href="date_tab.htm">Date tab</a></p>
+</td>
+<td valign="top" width="843" style="width:843px;"><p>Search by last accessed and created date.</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="161" style="width:161px;"><p><a href="attributes_tab.htm">Attributes tab</a></p>
+</td>
+<td valign="top" width="843" style="width:843px;"><p>Attributes to filter the search by, e.g. Read-only, Folders etc.</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="161" style="width:161px;"><p><a href="scripting.htm">Scripting</a></p>
+</td>
+<td valign="top" width="843" style="width:843px;"><p>User Scripts for customizing search logic.</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="161" style="width:161px;"><p><a href="extension_tab.htm">Compressed Files tab</a></p>
+</td>
+<td valign="top" width="843" style="width:843px;"><p>Compressed/Archive file searching</p>
+</td>
+</tr>
+</table>
+</div>
+<p style="text-indent: -13px; margin: 0px 0px 0px 13px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-indent: -13px; margin: 0px 0px 0px 13px;"><span style="color: #000000;">&nbsp;</span></p>
+
+</td></tr></table>
+<hr>
+<font face="Arial" size="-2">
+Copyright &copy; 2013 Mythicsoft Ltd. All rights reserved.
+<br />
+Help file version: 7.0<br />
+<br />
+PDF and CHM versions of this help file are available here:<br />
+<a href="http://mythicsoft.com/filelocatorpro/help" target="_blank">http://mythicsoft.com/filelocatorpro/help</a><br /> 
+    <br />
+</font>
+
+</body>
+</html>

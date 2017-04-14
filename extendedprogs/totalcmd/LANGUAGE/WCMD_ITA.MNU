@@ -1,0 +1,138 @@
+POPUP "&File"
+  MENUITEM "&Cambia attributi...", cm_SetAttrib
+  MENUITEM "Com&primi...\t<Alt>+F5", cm_PackFiles
+  MENUITEM "&Decomprimi...\t<Alt>+<F6>", cm_UnpackFiles
+  MENUITEM "Te&st archivio(i)...\t<Alt>+<Maiusc>+<F9>", 518
+  MENUITEM "C&onfronta per contenuto...", 2022
+  MENUITEM "&Associa...", cm_associate
+  MENUITEM "Associazione interna (so&lo per Total Commander)...", 519
+  MENUITEM "Informazioni sulla &versione...\t<Alt>+<Invio>", cm_versioninfo
+  MENUITEM "Calcola lo spazio &richiesto...", cm_GetFileSpace
+  MENUITEM "Strumento multi ri&nomina...\t<Ctrl>+M", 2400
+  MENUITEM "Modi&fica commenti...\t<Ctrl>+Z", 2700
+  POPUP "S&tampa"
+    MENUITEM "&Lista file...", 2027
+    MENUITEM "Lista file e &sotto cartelle...", 2028
+    MENUITEM "Con&tenuti file\t<Ctrl>+<F9>", cm_PrintFile
+  END_POPUP
+  MENUITEM SEPARATOR
+  MENUITEM "D&ividi...", 560
+  MENUITEM "&Unisci...", 561
+  MENUITEM "Codifica (&MIME,UUE,XXE)...", 562
+  MENUITEM "Decodifica (MIME,UUE,&XXE,BinHex)...", 563
+  MENUITEM "Crea file c&hecksum (CRC32, MD5, SHA1)...", 564
+  MENUITEM "Verifica chec&ksum (da file checksum)", 565
+  MENUITEM SEPARATOR
+  MENUITEM "&Esci\t<Alt>+<F4>", 24340
+END_POPUP
+
+POPUP "&Selezione"
+  MENUITEM "Seleziona &gruppo...\t<BlocNum> +", cm_spreadselection
+  MENUITEM "Des&eleziona gruppo...\t<BlocNum> -", cm_shrinkselection
+  MENUITEM "Seleziona tutto\t<Ctrl> <BlocNum> +", cm_selectall
+  MENUITEM "Deseleziona tutto\t<Ctrl> <BlocNum> -", cm_Clearall
+  MENUITEM "&Inverti selezione\t<BlocNum> *", cm_ExchangeSelection
+  MENUITEM "Seleziona tutto con stessa es&tensione\t<Alt> <Gray +>",527
+  MENUITEM SEPARATOR
+  MENUITEM "Sa&lva selezione", 530
+  MENUITEM "&Ripristina selezione\t<BlocNum> /", 529
+  MENUITEM "Sal&va selezione su file", 2031
+  MENUITEM "C&arica selezione da file", 2032
+  MENUITEM SEPARATOR
+  MENUITEM "Copia sele&zione negli Appunti", 2017
+  MENUITEM "Copia selezione con &percorso negli Appunti", 2018
+  MENUITEM "Copia negli Appunti con &dettagli", 2036
+  MENUITEM "Copia negli Appunti con perc&orso e dettagli", 2037
+  MENUITEM SEPARATOR
+  MENUITEM "&Confronta cartella\t<Maiusc>+<F2>", cm_CompareDirs
+  MENUITEM "&Seleziona nuovi, nascondi identici", cm_DirMatch
+END_POPUP
+
+POPUP "&Comandi"
+  MENUITEM "Struttur&a CD...\t<Alt>+<F10>", cm_CDtree
+  MENUITEM "T&rova...\t<Alt>+<F7>", cm_searchfor
+  MENUITEM "Tr&ova in un processo separato...\t<Alt>+<Maiusc>+<F7>", 545
+  MENUITEM "&Etichetta disco...", cm_VolumeId
+  MENUITEM "&Informazioni sul sistema...", cm_sysinfo
+  MENUITEM "Sincroni&zza cartella...", 2020
+  MENUITEM "Carte&lla file recenti\t<Ctrl>+D", 526
+  MENUITEM "Indie&tro\t<Alt>+<freccia sinistra>", 570
+  MENUITEM SEPARATOR
+  MENUITEM "Apri finestra prompt &DOS", cm_ExecuteDOS
+  MENUITEM SEPARATOR
+  MENUITEM "&Visualizza albero cartelle (con sotto cartelle)\t<Ctrl>+B", 2026
+  MENUITEM "A&pri cartella desktop", 2121
+  MENUITEM "Gestore trasferimenti in bac&kground...",559
+  MENUITEM SEPARATOR
+  MENUITEM "&Scambia finestre\t<Ctrl>+U", cm_exchange
+  MENUITEM "Allinea sor&gente e destinazione", cm_matchsrc
+END_POPUP
+
+POPUP "&Rete"
+  MENUITEM "Co&nnetti unità di rete...", cm_NetConnect
+  MENUITEM "&Disconnetti unità di rete...", cm_NetDisconnect
+  MENUITEM "&Condividi cartelle...", cm_NetShareDir
+  MENUITEM "Ann&ulla condivisione cartelle...", cm_NetUnshareDir
+  MENUITEM "Visualizza condivisioni amministratore", 2204
+  MENUITEM SEPARATOR
+  MENUITEM "Connetti sito &FTP ...\t<Ctrl>+F", 550
+  MENUITEM "Nuova connessione sito FT&P ...\t<Ctrl>+N", 551
+  MENUITEM "Disc&onnetti sito FTP\t<Ctrl>+<Maiusc>+F", 552
+  MENUITEM "&Mostra file nascosti sito FTP", 553
+  MENUITEM "Download sito FTP da &lista...", 558
+  MENUITEM "Connessione a PORTA altro PC...", 2300
+END_POPUP
+
+POPUP "&Visualizza"
+  MENUITEM "&Breve\t<Ctrl>+<F1>", cm_srcshort
+  MENUITEM "&Completa\t<Ctrl>+<F2>", cm_srclong
+  MENUITEM "Commen&ti\t<Ctrl>+<Maiusc>+<F2>", 300
+  MENUITEM "Colonne &personalizzate\t<Maiusc>+<F1>", 270
+  MENUITEM "St&ruttura\t<Ctrl>+<F8>", cm_srcTree
+  POPUP "Pannello struttura\t<Ctrl>+<Maiusc>+<F8>"
+    MENUITEM "&0 (nessuno)", 3200
+    MENUITEM "&1 (uno per entrambi i pannelli)", 3201
+    MENUITEM "&2 (due, uno per ogni pannello)", 3202
+  END_POPUP
+  MENUITEM "&Anteprime\t<Ctrl>+<Maiusc>+<F1>", 269
+  MENUITEM "&Vista rapida\t<Ctrl>+Q", 304
+  MENUITEM "Allineamento v&erticale", 305
+  MENUITEM "Nuova scheda\t<Ctrl>+T", 3001
+  MENUITEM SEPARATOR
+  MENUITEM "T&utto\t<Ctrl>+<F10>", cm_srcallfiles
+  MENUITEM "Pro&grammi\t<Ctrl>+<F11>", cm_srcexecs
+  MENUITEM "*.*", cm_srcuserspec
+  MENUITEM "Personali&zzata...\t<Ctrl>+<F12>", cm_srcuserdef
+  MENUITEM "Solo &file selezionati", 2023
+  MENUITEM SEPARATOR
+  MENUITEM "&Nome\t<Ctrl>+<F3>", cm_srcbyname
+  MENUITEM "E&stensione\t<Ctrl>+<F4>", cm_srcbyext
+  MENUITEM "&Data/Ora\t<Ctrl>+<F5>", cm_srcbydatetime
+  MENUITEM "Di&mensione\t<Ctrl>+<F6>", cm_srcbysize
+  MENUITEM "Non ord&inati\t<Ctrl>+<F7>", cm_srcunsorted
+  MENUITEM SEPARATOR
+  MENUITEM "&Ordine inverso", cm_srcnegorder
+  MENUITEM SEPARATOR
+  MENUITEM "Ri&leggi sorgente\t<Ctrl>+R", cm_rereadsource
+END_POPUP
+
+POPUP "C&onfigurazione"
+  MENUITEM "O&pzioni", cm_config
+  MENUITEM "Modifica &barra pulsanti", cm_ButtonConfig
+  MENUITEM "&Modifica diretta file impostazioni...", 581
+  MENUITEM "&Salva posizione", cm_configSavepos
+  MENUITEM "Sa&lva impostazioni", 580
+END_POPUP
+
+STARTMENU
+
+HELP_BREAK
+
+POPUP "&?"
+  MENUITEM "&Guida in linea\t<F1>", cm_HelpIndex
+  MENUITEM "&Tastiera", cm_keyboard
+  MENUITEM "Informazioni sulla &registrazione", cm_register
+  MENUITEM "&Visita il sito web di Total Commander", 640
+  MENUITEM SEPARATOR
+  MENUITEM "In&formazioni su Total Commander...", cm_About
+END_POPUP

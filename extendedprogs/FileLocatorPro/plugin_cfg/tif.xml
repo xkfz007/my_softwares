@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<InterpreterConfig xmlns="http://www.mythicsoft.com/FileLocator">
+	<displayname>TIF</displayname>
+	<uniquename>http://www.mythicsoft.com/tif</uniquename>
+	<progid>Extensions.GDIPInterpreter</progid>
+	<filetypes>tif,tiff</filetypes>
+	<interpretertype>textinterpreter</interpretertype>
+	<active>no</active>
+	<safemode>no</safemode>
+	<useisfilter>no</useisfilter>
+	<nonreglibrary>extensions.dll</nonreglibrary>
+</InterpreterConfig>

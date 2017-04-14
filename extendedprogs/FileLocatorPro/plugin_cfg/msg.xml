@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<InterpreterConfig xmlns="http://www.mythicsoft.com/FileLocator">
+	<displayname>MSG</displayname>
+	<uniquename>http://www.mythicsoft.com/msginterpreter</uniquename>
+	<progid>PSTReader.MSGInterpreter</progid>
+	<filetypes>msg</filetypes>
+	<interpretertype>emailrepository</interpretertype>
+	<active>no</active>
+	<safemode>no</safemode>
+	<useisfilter>no</useisfilter>
+	<nonreglibrary>pstreader.dll</nonreglibrary>
+	<searchbinary>yes</searchbinary>
+</InterpreterConfig>

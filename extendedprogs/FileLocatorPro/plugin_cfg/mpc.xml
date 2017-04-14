@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<InterpreterConfig xmlns="http://www.mythicsoft.com/FileLocator">
+	<displayname>MPC</displayname>
+	<uniquename>http://www.mythicsoft.com/mpc</uniquename>
+	<progid>Extensions.TagLibInterpreter</progid>
+	<filetypes>mpc</filetypes>
+	<interpretertype>textinterpreter</interpretertype>
+	<active>no</active>
+	<safemode>no</safemode>
+	<useisfilter>no</useisfilter>
+	<nonreglibrary>extensions.dll</nonreglibrary>
+</InterpreterConfig>

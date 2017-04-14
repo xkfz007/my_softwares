@@ -1,0 +1,88 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head>
+   <title>表达式向导</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="Begins with,Ends with,Expression Wizard,Followed by,Special characters" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+<script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if (location.search.lastIndexOf("toc=0")<=0) {
+  if (parent.frames.length==0) { parent.location.href="index.html?expressionwizard(exprwiz).htm"; }
+  else { parent.quicksync('a4.2'); }
+}
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script></head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#649CCC">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">表达式向导</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="introduction.htm">Top</a>&nbsp;
+     <a href="searchwizard.htm">Previous</a>&nbsp;
+     <a href="regular_expressions.htm">Next</a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p>&nbsp;</p>
+<p>表达式向导逐步向用户演示建立一个基本的 <a href="regularexpressionintroduction.htm">正则表达式</a> 。可以用表达式向导来创建文件名称或文件内容搜索的表达式。</p>
+<p>&nbsp;</p>
+<p>注：术语”字符串“是一个用作指文件名或文件内容的通用术语。基本上说字符串是任何单词或单词组，若您想一想，那不就是文件名么。</p>
+<p>&nbsp;</p>
+<p><span style="font-weight: bold;">首页（介绍表达式向导）</span></p>
+<p>&nbsp;</p>
+<p>向导首页只是对表达式向导的一个介绍，针对所要建立的表达式的特定类型分别提供了注解（即，为"文件名称“提供了一条注解，为"文件内容"提供了一条不同的注解）。</p>
+<p>&nbsp;</p>
+<p><span style="font-weight: bold;">第二页（创建表达式）</span></p>
+<p>&nbsp;</p>
+<p>第二页是所有工作进行的地方。应当如图所示：</p>
+<p>&nbsp;</p>
+<p><img src="../img/regwizard.png" width="595" height="475" border="0" alt="RegWizard"></p>
+<p>&nbsp;</p>
+<p>上方显示的是文件名称表达式的一个例子，将查找任何包含有字段”MyFile"，后跟任意字符，后跟任意数字，最后以".txt"结尾，即：文本文件，的文件名称。因此它将找到如同“Dave_MyFile54.txt”或“MyFile_Num2.txt”这样的文件，而不会找到“MyFile.txt”、“A_MyFile34a.txt”或“MyFile34.doc”这样的文件。</p>
+<p>&nbsp;</p>
+<p>如果您从正则表达式工作方式反向思考，那么正则表达式向导的布局应该变得清楚起来。正则表达式是由多个“条目”构成。一个开始条目，多个主体条目以及一个结束条目。每个条目都有一个特定的类型：</p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td> &nbsp; &nbsp; &nbsp; &nbsp; 不知道。 条目的值未知，例如：文件名称的开始部分可能是未知的。</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td> &nbsp; &nbsp; &nbsp; &nbsp; 任何字符。匹配任何某单个字符。</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td> &nbsp; &nbsp; &nbsp; &nbsp; 字符。匹配由用户在文本框中输入的某个字符。</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td> &nbsp; &nbsp; &nbsp; &nbsp; 其中的任何一个字符。匹配由用户在文本框中输入的任何某个字符。</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td> &nbsp; &nbsp; &nbsp; &nbsp; 除了这些的任何字符。匹配除由用户在文本框中输入的字符以外的任何字符。</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td> &nbsp; &nbsp; &nbsp; &nbsp; 词组。匹配用户在文本框中输入的指定词组。</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td> &nbsp; &nbsp; &nbsp; &nbsp; 空格。匹配空格。</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td> &nbsp; &nbsp; &nbsp; &nbsp; 任何数字字符。匹配任何数字字符，即0-9。</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td> &nbsp; &nbsp; &nbsp; &nbsp; 任何文本字符。匹配任何字母字符，即a-z。</td></tr></table></div><p>&nbsp;</p>
+<p>一旦用户指定了条目类别和如果条目类别所需的文本后，那么就需要指定此条目的出现次数。</p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td> &nbsp; &nbsp; &nbsp; &nbsp;零或一次。 此条目类别可能存在，也可能不存在，如果存在则出现一次。</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td> &nbsp; &nbsp; &nbsp; &nbsp;零或多次。 此条目类别可能存在，也可能不存在，如果存在则出现一次或多次。</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td> &nbsp; &nbsp; &nbsp; &nbsp;仅一次。 &nbsp;此条目类别必须存在，仅出现一次。</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td> &nbsp; &nbsp; &nbsp; &nbsp;一次或多次。此条目类别必须存在，可出现多次。</td></tr></table></div><p>&nbsp;</p>
+<p>表达式向导目前没有提供正则表达式的所有功能。不过如果用户知道如何构建自己的表达式，那么他们能够通过增加一条“词组”类型的条目，然后将表达式输入文本框，以此来输入某个表达式中的任何一部分。</p>
+<p>&nbsp;</p>
+<p>可以用拖放对条目进行重排。</p>
+<p>&nbsp;</p>
+<p><span style="font-weight: bold;">第三页（警告：输入了特殊字符）</span></p>
+<p>当用户完成表达式输入后，一般来说用户可以按“完成”按键将正则表达式回填到主搜索窗口。然而如果用户对任何条目在文本框中输入了特殊字符（即，在正则表达式中有特殊含义的字符），那么“完成”按键会变为“下一步”按键，并且用户被警告输入了特殊字符。这时候用户有两个选择，让FileLocator Pro 将特殊字符转换，不作为特殊字符处理（默认），或保持表达式原样不变，因为用户明确要输入特殊字符。</p>
+<p>&nbsp;</p>
+<p>在上方所示屏幕截图中，可以看到示例就正好出现这个情况。在'.txt'中的'.'是 <a href="_(anycharacter).htm">通配字符</a> ，因而出现的不是“完成”按键而是一个“下一步”按键。如果您看一下结果表达式，就会发现在'.'前已经加上了 <a href="(escapecharacter).htm">'\' 转义字符</a> 。由于是默认的行为所以是自动发生的 ，用于转换特殊字符，从而不为特殊字符对待。此页（即第三页）可让用户关闭此默认行为。</p>
+
+</td></tr></table>
+<hr>
+<font face="Arial" size="-2">
+Copyright &copy; 2013 Mythicsoft Ltd. All rights reserved.
+<br />
+Help file version: 7.0<br />
+<br />
+PDF and CHM versions of this help file are available here:<br />
+<a href="http://mythicsoft.com/filelocatorpro/help" target="_blank">http://mythicsoft.com/filelocatorpro/help</a><br /> 
+    <br />
+</font>
+
+</body>
+</html>

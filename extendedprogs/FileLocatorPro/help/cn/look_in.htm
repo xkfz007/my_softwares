@@ -1,0 +1,205 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head>
+   <title>Look In</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="Advanced location features,Environment variables in Look In,Exclusion locations,Location filters,Location lists,Location Macros,Look In,Look In Advanced features,Look In Environment variables,Look In Exclusion locations,Look In Filters,Look In Look up lists,Look In Macros,Look In Multiple locations,Look In Searching specific files,Look In Macros,Look up filters,Look up lists,Macros,Mercurial .hg folder (how to exclude),Multiple search folders,Persistent Search Filter button,Searching specific files,Subversion .svn folder (how to exclude)" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+<script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if (location.search.lastIndexOf("toc=0")<=0) {
+  if (parent.frames.length==0) { parent.location.href="index.html?look_in.htm"; }
+  else { parent.quicksync('a3.6'); }
+}
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script></head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#649CCC">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">查找位置</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="introduction.htm">Top</a>&nbsp;
+     <a href="scripting.htm">Previous</a>&nbsp;
+     <a href="persistent_search_filters.htm">Next</a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p>&nbsp;</p>
+<p>经常在"查找位置”输入框中只会指定单个的文件夹位置来进行搜索。然而，“查找位置”输入框内可接受的远不止单个文件夹位置。</p>
+<p>&nbsp;</p>
+<p><img src="../img/lookin.png" width="589" height="148" border="0" alt="LookIn"></p>
+<p>&nbsp;</p>
+<p>“查找位置“输入框接受的值类型有：</p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table cellspacing="2" cellpadding="2" border="0" style="border: none; border-spacing:2px;">
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="157" style="width:157px;"><p><span style="font-weight: bold;">单个文件夹</span></p>
+</td>
+<td valign="top" width="705" style="width:705px;"><p>如：c:\work\doc</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="157" style="width:157px;"><p><span style="font-weight: bold;">表达式</span></p>
+</td>
+<td valign="top" width="705" style="width:705px;"><p>可对文件夹路径中的部分来指定表达式，即，表达式不用于整个路径而是路径的某些部分，如：正则表达式</p>
+<p>c:\usr\dev\.*\release </p>
+<p>&nbsp;</p>
+<p>将匹配在文件夹"c:\usr\dev"下面两层名称为"release"的所有文件夹。</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="157" style="width:157px;"><p><span style="font-weight: bold;">单个文件</span></p>
+</td>
+<td valign="top" width="705" style="width:705px;"><p>如：c:\work\doc\file.txt</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="157" style="width:157px;"><p><span style="font-weight: bold;">多个文件/文件夹</span></p>
+</td>
+<td valign="top" width="705" style="width:705px;"><p>多个条目之间用分号隔开，如：</p>
+<p>c:\work\doc;c:\work\email;c:\work\logs\special.log</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="157" style="width:157px;"><p><span style="font-weight: bold;">要排除的文件/文件夹</span></p>
+</td>
+<td valign="top" width="705" style="width:705px;"><p>用感叹号标识一个要排除的位置，如：要排除audit子文件夹</p>
+<p>c:\work\doc;!c\work\doc\audit</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="157" style="width:157px;"><p><span style="font-weight: bold;">位置筛选器</span></p>
+</td>
+<td valign="top" width="705" style="width:705px;"><p>筛选器是指那些用于搜索项目所属文件夹上，以便易于定位搜索目标群的表达式。一个筛选器是以+号或者-号开始，如：排除所有Subversion 源代码控制子文件夹（称为'.svn'）</p>
+<p>c:\work\source;-.svn</p>
+<p>&nbsp;</p>
+<p>或者，包含仅accounting子文件夹，同时仍然排除Subversion子文件夹</p>
+<p>c:\work\source;+account;-.svn</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="157" style="width:157px;"><p><span style="font-weight: bold;">查询列表</span></p>
+</td>
+<td valign="top" width="705" style="width:705px;"><p>查找列表是一份包含了搜索位置的列表，每个位置占单独的一行，从外部文件获得。查找列表由 = 号标识，如：</p>
+<p>=c:\lookup\accountsource.txt</p>
+<p>&nbsp;</p>
+<p>在文件accountsource.txt中可能是这样的内容：</p>
+<p>c:\work\source</p>
+<p>c:\work\tools</p>
+<p>+account</p>
+<p>-.svn</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="157" style="width:157px;"><p><span style="font-weight: bold;">宏</span></p>
+</td>
+<td valign="top" width="705" style="width:705px;"><p>宏指定了一台Windows计算机上常用的位置。宏的值是在每次运行搜索针对主机系统得出，这对于创建可能运行在多台不同计算机上的搜索条件来说很有用。</p>
+<p>&nbsp;</p>
+<p>$(AdministrativeTools)</p>
+<p>$(AllLocalDrives)</p>
+<p>$(ApplicationData)</p>
+<p>$(ApplicationDataDrive)</p>
+<p>$(CommonAdminTools)</p>
+<p>$(CommonApplicationData)</p>
+<p>$(CommonDesktopFolder)</p>
+<p>$(CommonDocuments)</p>
+<p>$(CommonDocumentTemplates)</p>
+<p>$(CommonFavourites)</p>
+<p>$(CommonMyMusic)</p>
+<p>$(CommonMyPictures)</p>
+<p>$(CommonMyVideo)</p>
+<p>$(CommonProgramFiles)</p>
+<p>$(CommonProgramsGroup)</p>
+<p>$(CommonStartMenu)</p>
+<p>$(CommonStartup)</p>
+<p>$(DesktopFolder)</p>
+<p>$(DocumentTemplates)</p>
+<p>$(Favourites)</p>
+<p>$(Fonts)</p>
+<p>$(InternetCache)</p>
+<p>$(InternetCookies)</p>
+<p>$(InternetHistory)</p>
+<p>$(LocalApplicationData)</p>
+<p>$(MyDocuments)</p>
+<p>$(MyDocumentsDrive)</p>
+<p>$(MyMusic)</p>
+<p>$(MyNetwork)</p>
+<p>$(MyPictures)</p>
+<p>$(MyPrinters)</p>
+<p>$(MyVideo)</p>
+<p>$(Profile)</p>
+<p>$(ProgramFiles)</p>
+<p>$(ProgramsGroup)</p>
+<p>$(Recent)</p>
+<p>$(SendTo)</p>
+<p>$(StartMenu)</p>
+<p>$(Startup)</p>
+<p>$(SystemFolder)</p>
+<p>$(WindowsFolder)</p>
+<p>$(WindowsInstallDrive)</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="157" style="width:157px;"><p><span style="font-weight: bold;">环境变量</span></p>
+</td>
+<td valign="top" width="705" style="width:705px;"><p>任何为计算机/应用程序设定的环境变量都可以在“查找位置”输入框中使用，如：</p>
+<p>%TEMP%;%CLASSPATH%</p>
+<p>&nbsp;</p>
+<p>可用来搜索对计算机设置的环境变量TEMP和CLASSPATH所指明的所有文件夹。</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+</table>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p style="text-indent: -13px; margin: 0px 0px 0px 13px;"><span style="font-weight: bold;">持久性搜索筛选器</span></p>
+<p style="text-indent: -13px; margin: 0px 0px 0px 13px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-indent: -13px; margin: 0px 0px 0px 13px;">当某一个筛选器十分常用，每次都需要使用它，例如：排除源代码元数据文件，那么就可以将它设置为一个持久性搜索筛选器。</p>
+<p style="text-indent: -13px; margin: 0px 0px 0px 13px;"><img src="../img/searchfilter.png" width="293" height="144" border="0" alt="SearchFilter"></p>
+<p>&nbsp;</p>
+<p>持久筛选器可以是“查找位置“中的任何有效值，在启用后每次搜索都将被追加到”查找位置“值的后面。更多信息， 请参见<a href="persistent_search_filters.htm">持久搜索筛器</a> 。</p>
+
+</td></tr></table>
+<hr>
+<font face="Arial" size="-2">
+Copyright &copy; 2013 Mythicsoft Ltd. All rights reserved.
+<br />
+Help file version: 7.0<br />
+<br />
+PDF and CHM versions of this help file are available here:<br />
+<a href="http://mythicsoft.com/filelocatorpro/help" target="_blank">http://mythicsoft.com/filelocatorpro/help</a><br /> 
+    <br />
+</font>
+
+</body>
+</html>

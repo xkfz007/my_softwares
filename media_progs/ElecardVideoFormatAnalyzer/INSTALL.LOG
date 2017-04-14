@@ -1,0 +1,51 @@
+[InstallLanguage]
+LangID=Enu
+
+[Strings]
+AppID=Elecard Video Format Analyzer 1.2.120724
+AdminRights=1
+
+[InstalledFeature]
+Main=
+
+[CreateDirs]
+C:\Program Files (x86)\Elecard=
+C:\Program Files (x86)\Elecard\Elecard Video Format Analyzer=
+
+[Common.CopyFiles]
+C:\Program Files (x86)\Elecard\Elecard Video Format Analyzer\FAnalyzer.exe=
+C:\Program Files (x86)\Elecard\Elecard Video Format Analyzer\AVILib.dll=
+C:\Program Files (x86)\Elecard\Elecard Video Format Analyzer\AVIText.dll=
+C:\Program Files (x86)\Elecard\Elecard Video Format Analyzer\CommonFileTypes.dll=
+C:\Program Files (x86)\Elecard\Elecard Video Format Analyzer\HexViewer.dll=
+C:\Program Files (x86)\Elecard\Elecard Video Format Analyzer\MKVLib.dll=
+C:\Program Files (x86)\Elecard\Elecard Video Format Analyzer\MKVText.dll=
+C:\Program Files (x86)\Elecard\Elecard Video Format Analyzer\MP4Lib.dll=
+C:\Program Files (x86)\Elecard\Elecard Video Format Analyzer\MP4Text.dll=
+C:\Program Files (x86)\Elecard\Elecard Video Format Analyzer\TreeListViewLib.dll=
+C:\Program Files (x86)\Elecard\Elecard Video Format Analyzer\TrialLimitLib.dll=
+C:\Program Files (x86)\Elecard\Elecard Video Format Analyzer\Elecard Video Format Analyzer v.1.2 UG.pdf=
+C:\Program Files (x86)\Elecard\Elecard Video Format Analyzer\Elecard EULAC.rtf=
+
+[Common.CreateKeys]
+HKLM\Software\Elecard=
+HKLM\Software\Elecard\Packages=
+HKLM\Software\Elecard\Packages\Elecard Video Format Analyzer=
+
+[Common.AddReg]
+HKLM\Software\Elecard\Packages\Elecard Video Format Analyzer\'Version'=
+HKLM\Software\Elecard\Packages\Elecard Video Format Analyzer\'InstallLocation'=
+HKLM\Software\Elecard\Packages\Elecard Video Format Analyzer\'InstallProject'=
+HKLM\Software\Elecard\Packages\Elecard Video Format Analyzer\'ProductURL'=
+HKLM\Software\Elecard\Packages\Elecard Video Format Analyzer\'EvaluationPeriod'=
+HKLM\Software\Elecard\Packages\Elecard Video Format Analyzer\'EULAC'=
+HKLM\Software\Elecard\Packages\Elecard Video Format Analyzer\'Hide'=
+
+[Common.CreateDirs]
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Elecard=
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Elecard\Elecard Video Format Analyzer=
+
+[Common.Shortcuts]
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Elecard\Elecard Video Format Analyzer\Elecard Video Format Analyzer.lnk=
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Elecard\Elecard Video Format Analyzer\Uninstall Elecard Video Format Analyzer.lnk=
+

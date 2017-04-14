@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head>
+   <title>[...] (Character lists)</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="[...] lists,Lists,Example using [...]" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+<script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if (location.search.lastIndexOf("toc=0")<=0) {
+  if (parent.frames.length==0) { parent.location.href="index.html?and(characterlists).htm"; }
+  else { parent.quicksync('a5.8'); }
+}
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script></head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#649CCC">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">[...] (Character lists)</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="introduction.htm">Top</a>&nbsp;
+     <a href="()(expressiongroup).htm">Previous</a>&nbsp;
+     <a href="_(anycharacter).htm">Next</a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p>&nbsp;</p>
+<p>Specifies a list of characters that are valid in the string. Characters can be listed individually or a range of characters can be indicated by giving two characters and separating them by a '-'. For example, '[abc]' will match any of the characters 'a', 'b', or 'c'; this is the same as '[a-c]', which uses a range to express the same set of characters. </p>
+<p>&nbsp;</p>
+<p>You can match the characters not within a range by complementing the set. This is indicated by using a '^' as the first character in the list (note: this is the same character as the beginning of string character). For example, '[^5]' will match any character except '5'.</p>
+<p>&nbsp;</p>
+<p>Multiple ranges are allowed. E.g., the list '[A-Z0-9]' is a common way to express the idea of "all alphanumeric characters." To include one of the characters `\', `]', `-' or `^' in a character list use the <a href="(escapecharacter).htm">'\' escape character</a>.</p>
+<p>&nbsp;</p>
+<p>For example:</p>
+<p>&nbsp;</p>
+<p style="margin: 0px 0px 0px 48px;">The expression '[0-9]+' will find any number in a string (note the use of the <a href="(occurrencecharacters).htm">'+' occurrence character</a>).</p>
+<p style="margin: 0px 0px 0px 48px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="margin: 0px 0px 0px 48px;">The expression '[0-9]+/[0-9]+/[0-9]+' is a expression that could be used to search for dates within a string. Although it does not check the validity of the date it is unlikely that any other string would be match that pattern.</p>
+<p style="margin: 0px 0px 0px 48px;"><span style="color: #000000;">&nbsp;</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+</td></tr></table>
+<hr>
+<font face="Arial" size="-2">
+Copyright &copy; 2013 Mythicsoft Ltd. All rights reserved.
+<br />
+Help file version: 7.0<br />
+<br />
+PDF and CHM versions of this help file are available here:<br />
+<a href="http://mythicsoft.com/filelocatorpro/help" target="_blank">http://mythicsoft.com/filelocatorpro/help</a><br /> 
+    <br />
+</font>
+
+</body>
+</html>

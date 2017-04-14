@@ -1,0 +1,2 @@
+机器操作系统为Win7,请参阅Win7-release文件夹
+机器操作系统为XP，请参阅XP-release文件夹

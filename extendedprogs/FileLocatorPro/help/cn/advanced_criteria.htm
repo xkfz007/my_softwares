@@ -1,0 +1,152 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head>
+   <title>高级界面</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="Case sensitive settings (Advanced interface),Containing Text,DOS Expression,Ignore case (Advanced interface),Look in,Main Tab,Match case (Advanced interface),Multiple Folders" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+<script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if (location.search.lastIndexOf("toc=0")<=0) {
+  if (parent.frames.length==0) { parent.location.href="index.html?advanced_criteria.htm"; }
+  else { parent.quicksync('a1.2.1'); }
+}
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script></head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#649CCC">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">高级界面</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="introduction.htm">Top</a>&nbsp;
+     <a href="criteriaview.htm">Previous</a>&nbsp;
+     <a href="options_advanced.htm">Next</a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p>&nbsp;</p>
+<p>选中“专家用户”后条件部分当如图所示：</p>
+<p><img src="../img/maintab.png" width="581" height="145" border="0" alt="MainTab"></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: bold;">文件名称</span></p>
+<p>&nbsp;</p>
+<p>文件名筛选器，如：</p>
+<p><span class="f_ExpressionText">*.doc;*.txt;*.xls</span></p>
+<p>&nbsp;</p>
+<p>使用默认的<a href="dos_expressions2.htm">DOS表达式</a> 来搜索所有doc，txt和xls类型文件。</p>
+<p>&nbsp;</p>
+<p>等效的正则表达式为</p>
+<p><span class="f_ExpressionText">\.(doc|txt|xls)$</span></p>
+<p>&nbsp;</p>
+<p>要排除一群文件，在DOS表达式前加<span class="f_ExpressionText">NOT</span>，如：<span class="f_ExpressionText">NOT:*.doc;*.txt;*.xls</span> 。要使文件名筛选器匹配大小写，点击'Aa'按键(打开后会有一个勾出现)。</p>
+<p>&nbsp;</p>
+<p>为了方便，列表中还有预先设定好的一些文件类型集合：仅文件夹，仅文件，文档，音乐，图片和视频。</p>
+<p><img src="../img/embim1.gif" width="237" height="237" vspace="1" hspace="1" border="0" alt=""></p>
+<p>&nbsp;</p>
+<p>在选取某个预设文件类型集合后，”文件名称“字段将被作为一个<a href="boolean_expressions.htm">布尔表达式</a>处理。</p>
+<p>&nbsp;</p>
+<p><span style="font-weight: bold;">包含文本</span></p>
+<p>&nbsp;</p>
+<p>要进行内容搜索，请指定在文件中查找的内容。默认<a href="expressiontypes.htm">表达式类型</a>为<a href="boolean_expressions.htm">布尔</a>。</p>
+<p>&nbsp;</p>
+<p>要使内容搜索匹配大小写，点击'Aa'按键(打开后会有一个勾出现)。</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>注：如果将表达式类型设置为”文件哈希值“，那么包含文本输入框内可包含由逗号分隔开的一组哈希值或一个指向包含有哈希值列表的一个指针，如：</p>
+<p>5A9C9B42A16F5E1985B7B0A019114C7A,675C9B42A16F5E1985B7B0A019114C7A</p>
+<p>&nbsp;</p>
+<p>或，</p>
+<p>=c:\FileHashTable.txt</p>
+<p>&nbsp;</p>
+<p>用于计算哈希值的实际算法，如SHA1，MD5可在<a href="options_advanced.htm"> 选项页签</a> 中指定。</p>
+<p>&nbsp;</p>
+<p style="text-indent: -13px; margin: 0px 0px 0px 13px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-indent: -13px; margin: 0px 0px 0px 13px;"><span style="font-weight: bold;">查找位置</span></p>
+<p style="text-indent: -13px; margin: 0px 0px 0px 13px;"><span style="color: #000000;">&nbsp;</span></p>
+<p>查找位置输入框中可以指定搜索位置的各种条件，包括排除位置，位置筛选器等。（要了解高级功能，参见 <a href="look_in.htm">查找位置</a> ）。多个查找位置用分号隔开。</p>
+<p>&nbsp;</p>
+<p>”浏览单个文件夹“和“浏览多个文件夹”按键提供了选择要搜索目录的方便方法。点击“浏览多个文件夹”...</p>
+<p style="text-indent: -13px; margin: 0px 0px 0px 13px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-indent: -13px; margin: 0px 0px 0px 13px;"><img src="../img/multifoldersbutton.png" width="95" height="145" border="0" alt="MultiFoldersButton"></p>
+<p style="text-indent: -13px; margin: 0px 0px 0px 13px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-indent: -13px; margin: 0px 0px 0px 13px;">... 将出现多个文件夹对话窗。在每一行上输入一个文件夹名。</p>
+<p style="text-indent: -13px; margin: 0px 0px 0px 13px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-indent: -13px; margin: 0px 0px 0px 13px;"><img src="../img/multiplefolders.png" width="576" height="539" border="0" alt="MultipleFolders"></p>
+<p style="text-indent: -13px; margin: 0px 0px 0px 13px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-indent: -13px; margin: 0px 0px 0px 13px;">了解更多关于FileLocator Pro的高级查找位置功能，请阅读 <a href="look_in.htm">高级”查找位置“</a> 和 <a href="persistent_search_filters.htm">持久性搜索筛器</a> 页面。</p>
+<p style="text-indent: -13px; margin: 0px 0px 0px 13px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-indent: -13px; margin: 0px 0px 0px 13px;"><span style="font-weight: bold;">日期</span></p>
+<p style="text-indent: -13px; margin: 0px 0px 0px 13px;"><span style="color: #000000;">&nbsp;</span></p>
+<p>“修改日期早于”和“修改日期晚于”输入框是用于根据文件的修改日期进行搜索。启用日期条件可点击按键，即：”晚于“ 或 "早于"，或者点击值旁边的日历图标。更多信息，参见 <a href="datetime_selection.htm">日期/时间 选择</a> 。</p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-indent: -13px; margin: 0px 0px 0px 13px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-indent: -13px; margin: 0px 0px 0px 13px;">其它高级界面上可用的页签有：</p>
+<div style="text-align: left; text-indent: -13px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 13px;"><table cellspacing="2" cellpadding="2" border="0" style="border: none; border-spacing:2px;">
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="161" style="width:161px;"><p><a href="options_advanced.htm">选项页签</a></p>
+</td>
+<td valign="top" width="843" style="width:843px;"><p>有关搜索的选项，例如：正则表达式类型或文件哈希值算法。</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="161" style="width:161px;"><p><a href="date_tab.htm">日期页签</a></p>
+</td>
+<td valign="top" width="843" style="width:843px;"><p>以最后访问日期和创建日期进行搜索。</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="161" style="width:161px;"><p><a href="attributes_tab.htm">属性页签</a></p>
+</td>
+<td valign="top" width="843" style="width:843px;"><p>以如只读，文件夹等属性对搜索进行过滤。</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="161" style="width:161px;"><p><a href="scripting.htm">脚本</a></p>
+</td>
+<td valign="top" width="843" style="width:843px;"><p>自定义搜索逻辑的用户脚本。</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="161" style="width:161px;"><p><a href="extension_tab.htm">压缩文件页签</a></p>
+</td>
+<td valign="top" width="843" style="width:843px;"><p>压缩/归档文件的搜索</p>
+</td>
+</tr>
+</table>
+</div>
+<p style="text-indent: -13px; margin: 0px 0px 0px 13px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-indent: -13px; margin: 0px 0px 0px 13px;"><span style="color: #000000;">&nbsp;</span></p>
+
+</td></tr></table>
+<hr>
+<font face="Arial" size="-2">
+Copyright &copy; 2013 Mythicsoft Ltd. All rights reserved.
+<br />
+Help file version: 7.0<br />
+<br />
+PDF and CHM versions of this help file are available here:<br />
+<a href="http://mythicsoft.com/filelocatorpro/help" target="_blank">http://mythicsoft.com/filelocatorpro/help</a><br /> 
+    <br />
+</font>
+
+</body>
+</html>

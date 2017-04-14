@@ -1,0 +1,2568 @@
+vc-2\JCTVC-O\JCTVC-O0053_v3\~$TVC-N0176_v2.docx
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:32:55 Searching: F:\jctvc-2\JCTVC-O\JCTVC-O0053_v3\~$TVC-N0176_v2.docx
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:32:55 Searching: F:\jctvc-2\JCTVC-O\JCTVC-O0053_v3\~$TVC-N0176_v2.docx
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:32:56 Searching: F:\jctvc-2\JCTVC-O\JCTVC-O0053_v3\~$TVC-O0047_v1.docx
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:32:56 Searching: F:\jctvc-2\JCTVC-O\JCTVC-O0053_v3\~$TVC-O0047_v1.docx
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:32:56 Searching: F:\jctvc-2\JCTVC-O\JCTVC-O0053_v3\~$TVC-O0047_v1.docx
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:32:56 Searching: F:\jctvc-2\JCTVC-O\JCTVC-O0053_v3\~$TVC-O0047_v1.docx
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:32:56 Searching: F:\jctvc-2\JCTVC-O\JCTVC-O0053_v3\~$TVC-O0047_v1.docx
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:32:56 Searching: F:\jctvc-2\JCTVC-O\JCTVC-O0053_v3\~$TVC-O0047_v1.docx
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:32:56 Searching: F:\jctvc-2\JCTVC-O\JCTVC-O0061-3V-F0038_r2\~$TVC-O0061-3V-F0038.docx
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:32:56 Searching: F:\jctvc-2\JCTVC-O\JCTVC-O0061-3V-F0038_r2\~$TVC-O0061-3V-F0038.docx
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:32:56 Searching: F:\jctvc-2\JCTVC-O\JCTVC-O0061-3V-F0038_r2\~$TVC-O0061-3V-F0038.docx
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:32:56 Searching: F:\jctvc-2\JCTVC-O\JCTVC-O0061-3V-F0038_r2\~$TVC-O0061-3V-F0038.docx
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:32:56 Searching: F:\jctvc-2\JCTVC-O\JCTVC-O0061-3V-F0038_r2\~$TVC-O0061-3V-F0038.docx
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:32:56 Searching: F:\jctvc-2\JCTVC-O\JCTVC-O0061-3V-F0038_r2\~$TVC-O0061-3V-F0038.docx
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:01 Searching: F:\jctvc-2\JCTVC-O\JCTVC-O0168\~$TVC-O0168.docx
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:33:01 Searching: F:\jctvc-2\JCTVC-O\JCTVC-O0168\~$TVC-O0168.docx
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:33:01 Searching: F:\jctvc-2\JCTVC-O\JCTVC-O0168\~$TVC-O0168.docx
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:33:01 Searching: F:\jctvc-2\JCTVC-O\JCTVC-O0168\~$TVC-O0168.docx
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:33:01 Searching: F:\jctvc-2\JCTVC-O\JCTVC-O0168\~$TVC-O0168.docx
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:01 Searching: F:\jctvc-2\JCTVC-O\JCTVC-O0168\~$TVC-O0168.docx
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:04 Searching: F:\jctvc-2\JCTVC-O\JCTVC-O0306_v1\~$TVC-M0252_v1.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:33:04 Searching: F:\jctvc-2\JCTVC-O\JCTVC-O0306_v1\~$TVC-M0252_v1.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:33:04 Searching: F:\jctvc-2\JCTVC-O\JCTVC-O0306_v1\~$TVC-M0252_v1.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:33:04 Searching: F:\jctvc-2\JCTVC-O\JCTVC-O0306_v1\~$TVC-M0252_v1.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:33:04 Searching: F:\jctvc-2\JCTVC-O\JCTVC-O0306_v1\~$TVC-M0252_v1.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:04 Searching: F:\jctvc-2\JCTVC-O\JCTVC-O0306_v1\~$TVC-M0252_v1.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:05 Searching: F:\jctvc-2\JCTVC-O\JCTVC-O0308_v2\~$TVC-M0252_v1.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:33:05 Searching: F:\jctvc-2\JCTVC-O\JCTVC-O0308_v2\~$TVC-M0252_v1.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:33:05 Searching: F:\jctvc-2\JCTVC-O\JCTVC-O0308_v2\~$TVC-M0252_v1.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:33:05 Searching: F:\jctvc-2\JCTVC-O\JCTVC-O0308_v2\~$TVC-M0252_v1.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:33:05 Searching: F:\jctvc-2\JCTVC-O\JCTVC-O0308_v2\~$TVC-M0252_v1.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:05 Searching: F:\jctvc-2\JCTVC-O\JCTVC-O0308_v2\~$TVC-M0252_v1.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:05 Searching: F:\jctvc-2\JCTVC-O\JCTVC-O0344\~$TVC-O0344.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:33:05 Searching: F:\jctvc-2\JCTVC-O\JCTVC-O0344\~$TVC-O0344.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:33:05 Searching: F:\jctvc-2\JCTVC-O\JCTVC-O0344\~$TVC-O0344.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:33:05 Searching: F:\jctvc-2\JCTVC-O\JCTVC-O0344\~$TVC-O0344.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:33:05 Searching: F:\jctvc-2\JCTVC-O\JCTVC-O0344\~$TVC-O0344.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:05 Searching: F:\jctvc-2\JCTVC-O\JCTVC-O0344\~$TVC-O0344.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0014v1.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0014v1.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0014v1.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0014v1.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0014v1.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0014v1.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0019.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0019.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0019.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0019.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0019.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0019.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0020r1.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0020r1.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0020r1.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0020r1.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0020r1.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0020r1.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0115.docx
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0115.docx
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0115.docx
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0115.docx
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0115.docx
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0115.docx
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0116-JCT3V-F0061-CommentsHEVCExt.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0116-JCT3V-F0061-CommentsHEVCExt.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0116-JCT3V-F0061-CommentsHEVCExt.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0116-JCT3V-F0061-CommentsHEVCExt.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0116-JCT3V-F0061-CommentsHEVCExt.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0116-JCT3V-F0061-CommentsHEVCExt.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0117-JCT3V-F0062-CrossLayerPOC-r1.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0117-JCT3V-F0062-CrossLayerPOC-r1.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0117-JCT3V-F0062-CrossLayerPOC-r1.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0117-JCT3V-F0062-CrossLayerPOC-r1.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0117-JCT3V-F0062-CrossLayerPOC-r1.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0117-JCT3V-F0062-CrossLayerPOC-r1.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0118-JCT3V-F0063-VideoSignalingVPS-r1.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0118-JCT3V-F0063-VideoSignalingVPS-r1.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0118-JCT3V-F0063-VideoSignalingVPS-r1.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0118-JCT3V-F0063-VideoSignalingVPS-r1.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0118-JCT3V-F0063-VideoSignalingVPS-r1.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0118-JCT3V-F0063-VideoSignalingVPS-r1.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0119-JCT3V-F0064-HighestTemporalId-r1.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0119-JCT3V-F0064-HighestTemporalId-r1.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0119-JCT3V-F0064-HighestTemporalId-r1.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0119-JCT3V-F0064-HighestTemporalId-r1.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0119-JCT3V-F0064-HighestTemporalId-r1.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0119-JCT3V-F0064-HighestTemporalId-r1.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0120-JCT3V-F00065-ILRPS-r2.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0120-JCT3V-F00065-ILRPS-r2.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0120-JCT3V-F00065-ILRPS-r2.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0120-JCT3V-F00065-ILRPS-r2.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0120-JCT3V-F00065-ILRPS-r2.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0120-JCT3V-F00065-ILRPS-r2.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0203.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0203.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0203.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0203.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0203.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0203.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0204.docx
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0204.docx
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0204.docx
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0204.docx
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0204.docx
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0204.docx
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0222_r1.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0222_r1.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0230.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0230.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0222_r1.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0230.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0222_r1.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0222_r1.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0230.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0230.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0222_r1.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0230.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0267.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0267.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0267.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0267.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0267.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0267.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0323.docx
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0323.docx
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0323.docx
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0323.docx
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0323.docx
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0323.docx
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0348_JCT3V-F0246-SummaryHRDContributions.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0348_JCT3V-F0246-SummaryHRDContributions.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0348_JCT3V-F0246-SummaryHRDContributions.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0348_JCT3V-F0246-SummaryHRDContributions.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0348_JCT3V-F0246-SummaryHRDContributions.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0365_JCT3V-F0264.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0348_JCT3V-F0246-SummaryHRDContributions.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0365_JCT3V-F0264.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0365_JCT3V-F0264.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0365_JCT3V-F0264.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0365_JCT3V-F0264.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O0365_JCT3V-F0264.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O1011.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O1011.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O1011.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O1011.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O1011.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\._JCTVC-O1011.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\JCTVC-O0099-v2\._AVC_specification_extracts_[FYI].docx
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\JCTVC-O0099-v2\._AVC_specification_extracts_[FYI].docx
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\JCTVC-O0099-v2\._AVC_specification_extracts_[FYI].docx
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\JCTVC-O0099-v2\._AVC_specification_extracts_[FYI].docx
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\JCTVC-O0099-v2\._AVC_specification_extracts_[FYI].docx
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\JCTVC-O0099-v2\._AVC_specification_extracts_[FYI].docx
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\JCTVC-O0099-v2\._JCTVC-O0099r1.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\JCTVC-O0099-v2\._JCTVC-O0099r1.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\JCTVC-O0099-v2\._JCTVC-O0099r1.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\JCTVC-O0099-v2\._JCTVC-O0099r1.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\JCTVC-O0099-v2\._JCTVC-O0099r1.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\JCTVC-O0099-v2\._JCTVC-O0099r1.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\JCTVC-O0101-v4\._JCTVC-O0101_r3.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\JCTVC-O0101-v4\._JCTVC-O0101_r3.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\JCTVC-O0101-v4\._JCTVC-O0101_r3.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\JCTVC-O0101-v4\._JCTVC-O0101_r3.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\JCTVC-O0101-v4\._JCTVC-O0101_r3.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\JCTVC-O0101-v4\._JCTVC-O0101_r3.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\JCTVC-O0100-v2\._JCTVC-O0100_r1.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\JCTVC-O0100-v2\._JCTVC-O0100_r1.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\JCTVC-O0100-v2\._JCTVC-O0100_r1.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\JCTVC-O0100-v2\._JCTVC-O0100_r1.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\JCTVC-O0100-v2\._JCTVC-O0100_r1.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\JCTVC-O0100-v2\._JCTVC-O0100_r1.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\JCTVC-O0103-v2\._JCTVC-O0103_r1.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\JCTVC-O0103-v2\._JCTVC-O0103_r1.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\JCTVC-O0103-v2\._JCTVC-O0103_r1.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\JCTVC-O0103-v2\._JCTVC-O0103_r1.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\JCTVC-O0103-v2\._JCTVC-O0103_r1.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\JCTVC-O0103-v2\._JCTVC-O0103_r1.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\JCTVC-O0104-v2\._JCTVC-O0104_r1.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\JCTVC-O0104-v2\._JCTVC-O0104_r1.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\JCTVC-O0104-v2\._JCTVC-O0104_r1.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\JCTVC-O0104-v2\._JCTVC-O0104_r1.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\JCTVC-O0104-v2\._JCTVC-O0104_r1.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\JCTVC-O0104-v2\._JCTVC-O0104_r1.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\JCTVC-O0105-v2\._JCTVC-O0105_r1.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\JCTVC-O0105-v2\._JCTVC-O0105_r1.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\JCTVC-O0105-v2\._JCTVC-O0105_r1.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\JCTVC-O0105-v2\._JCTVC-O0105_r1.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\JCTVC-O0106-v2\._JCTVC-O0106_r1.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\JCTVC-O0106-v2\._JCTVC-O0106_r1.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\JCTVC-O0105-v2\._JCTVC-O0105_r1.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\JCTVC-O0106-v2\._JCTVC-O0106_r1.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\JCTVC-O0106-v2\._JCTVC-O0106_r1.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\JCTVC-O0105-v2\._JCTVC-O0105_r1.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\JCTVC-O0106-v2\._JCTVC-O0106_r1.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:33:06 Searching: F:\jctvc-2\JCTVC-O\__MACOSX\JCTVC-O0106-v2\._JCTVC-O0106_r1.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:34:47 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0014_v3.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:34:47 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0014_v3.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:34:47 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0014_v3.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:34:47 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0014_v3.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:34:47 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0014_v3.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:34:47 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0014_v3.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:34:47 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0019.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:34:47 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0019.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:34:47 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0019.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:34:47 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0019.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:34:47 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0019.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:34:47 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0019.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:34:47 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0020r1.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:34:47 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0020r1.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:34:47 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0020r1.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:34:47 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0020r1.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:34:47 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0020r1.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:34:47 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0020r1.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:34:47 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0054r1.docx
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:34:47 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0054r1.docx
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:34:47 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0054r1.docx
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:34:47 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0054r1.docx
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:34:47 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0054r1.docx
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:34:47 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0054r1.docx
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:34:47 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0155-JCT3V-G0144-SPS.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:34:47 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0155-JCT3V-G0144-SPS.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:34:47 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0155-JCT3V-G0144-SPS.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:34:47 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0155-JCT3V-G0144-SPS.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:34:47 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0155-JCT3V-G0144-SPS.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:34:47 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0155-JCT3V-G0144-SPS.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:34:47 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0156-JCT3V-G0145-VPSParams.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:34:47 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0156-JCT3V-G0145-VPSParams.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:34:47 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0156-JCT3V-G0145-VPSParams.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:34:47 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0156-JCT3V-G0145-VPSParams.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:34:47 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0156-JCT3V-G0145-VPSParams.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:34:47 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0156-JCT3V-G0145-VPSParams.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:34:47 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0157-JCT3V-G0146-ILP.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:34:47 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0157-JCT3V-G0146-ILP.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:34:47 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0157-JCT3V-G0146-ILP.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:34:47 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0157-JCT3V-G0146-ILP.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:34:47 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0157-JCT3V-G0146-ILP.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:34:47 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0157-JCT3V-G0146-ILP.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:34:47 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0164-v2.docx
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:34:47 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0164-v2.docx
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:34:47 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0164-v2.docx
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:34:47 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0164-v2.docx
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:34:47 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0164-v2.docx
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:34:47 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0164-v2.docx
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0261_r1.docx
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0261_r1.docx
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0261_r1.docx
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0261_r1.docx
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0261_r1.docx
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0261_r1.docx
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0292_v9.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0292_v9.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0292_v9.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0292_v9.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0292_v9.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0292_v9.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0316-HScalability-r1.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0316-HScalability-r1.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0316-HScalability-r1.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0316-HScalability-r1.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0316-HScalability-r1.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0316-HScalability-r1.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0316_CommentsOn_JCTVC-P0184v4_atttachment_based_on_P1008v4.docx
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0316_CommentsOn_JCTVC-P0184v4_atttachment_based_on_P1008v4.docx
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0316_CommentsOn_JCTVC-P0184v4_atttachment_based_on_P1008v4.docx
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0316_CommentsOn_JCTVC-P0184v4_atttachment_based_on_P1008v4.docx
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0316_CommentsOn_JCTVC-P0184v4_atttachment_based_on_P1008v4.docx
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P0316_CommentsOn_JCTVC-P0184v4_atttachment_based_on_P1008v4.docx
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P1011.docx
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P1011.docx
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P1011.docx
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P1011.docx
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P1011.docx
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\._JCTVC-P1011.docx
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0080-v1\._JCTVC-P0080.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0080-v1\._JCTVC-P0080.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0080-v1\._JCTVC-P0080.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0080-v1\._JCTVC-P0080.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0080-v1\._JCTVC-P0080.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0080-v1\._JCTVC-P0080.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0081-v1\._JCTVC-P0081.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0081-v1\._JCTVC-P0081.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0081-v1\._JCTVC-P0081.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0081-v1\._JCTVC-P0081.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0081-v1\._JCTVC-P0081.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0081-v1\._JCTVC-P0081.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0082-v1\._JCTVC-P0082.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0082-v1\._JCTVC-P0082.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0082-v1\._JCTVC-P0082.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0082-v1\._JCTVC-P0082.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0082-v1\._JCTVC-P0082.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0082-v1\._JCTVC-P0082.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0083-v2\._JCTVC-P0083_r1.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0083-v2\._JCTVC-P0083_r1.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0083-v2\._JCTVC-P0083_r1.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0083-v2\._JCTVC-P0083_r1.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0083-v2\._JCTVC-P0083_r1.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0083-v2\._JCTVC-P0083_r1.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0084-v2\._JCTVC-O1005_v3_AnnexE_with_SMPTE_2084_and_2085_r1.docx
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0084-v2\._JCTVC-O1005_v3_AnnexE_with_SMPTE_2084_and_2085_r1.docx
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0084-v2\._JCTVC-O1005_v3_AnnexE_with_SMPTE_2084_and_2085_r1.docx
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0084-v2\._JCTVC-O1005_v3_AnnexE_with_SMPTE_2084_and_2085_r1.docx
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0084-v2\._JCTVC-O1005_v3_AnnexE_with_SMPTE_2084_and_2085_r1.docx
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0084-v2\._JCTVC-O1005_v3_AnnexE_with_SMPTE_2084_and_2085_r1.docx
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0084-v2\._JCTVC-P0084_r1.docx
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0084-v2\._JCTVC-P0084_r1.docx
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0084-v2\._JCTVC-P0084_r1.docx
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0084-v2\._JCTVC-P0084_r1.docx
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0084-v2\._JCTVC-P0084_r1.docx
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0084-v2\._JCTVC-P0084_r1.docx
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0225\._JCTVC-P0225.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0225\._JCTVC-P0225.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0225\._JCTVC-P0225.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0225\._JCTVC-P0225.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0225\._JCTVC-P0225.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0225\._JCTVC-P0225.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0226\._JCTVC-P0226.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0226\._JCTVC-P0226.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0226\._JCTVC-P0226.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0226\._JCTVC-P0226.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0226\._JCTVC-P0226.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0226\._JCTVC-P0226.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0230\._JCTVC-P0230.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0230\._JCTVC-P0230.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0230\._JCTVC-P0230.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0230\._JCTVC-P0230.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0230\._JCTVC-P0230.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0230\._JCTVC-P0230.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0085-v1\._JCTVC-P0085.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0085-v1\._JCTVC-P0085.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0085-v1\._JCTVC-P0085.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0085-v1\._JCTVC-P0085.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0085-v1\._JCTVC-P0085.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:34:48 Searching: F:\jctvc-2\JCTVC-P\__MACOSX\JCTVC-P0085-v1\._JCTVC-P0085.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:26 Searching: F:\jctvc-2\JCTVC-Q\JCTVC-Q0162_JCT3V-H0050_r1\~$TVC-Q0162_JCT3V-H0050.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:35:26 Searching: F:\jctvc-2\JCTVC-Q\JCTVC-Q0162_JCT3V-H0050_r1\~$TVC-Q0162_JCT3V-H0050.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:35:26 Searching: F:\jctvc-2\JCTVC-Q\JCTVC-Q0162_JCT3V-H0050_r1\~$TVC-Q0162_JCT3V-H0050.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:35:26 Searching: F:\jctvc-2\JCTVC-Q\JCTVC-Q0162_JCT3V-H0050_r1\~$TVC-Q0162_JCT3V-H0050.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:35:26 Searching: F:\jctvc-2\JCTVC-Q\JCTVC-Q0162_JCT3V-H0050_r1\~$TVC-Q0162_JCT3V-H0050.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:26 Searching: F:\jctvc-2\JCTVC-Q\JCTVC-Q0162_JCT3V-H0050_r1\~$TVC-Q0162_JCT3V-H0050.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:27 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0019r1.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:35:27 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0019r1.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:35:27 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0019r1.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:35:27 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0019r1.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:35:27 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0019r1.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:27 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0019r1.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:27 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0041-HScalability.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:35:27 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0041-HScalability.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:35:27 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0041-HScalability.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:35:27 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0041-HScalability.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:35:27 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0041-HScalability.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:27 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0041-HScalability.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:27 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0041_CommentsOn_JCTVC-P0184v4_atttachment_based_on_P1008v4.docx
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:35:27 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0041_CommentsOn_JCTVC-P0184v4_atttachment_based_on_P1008v4.docx
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:35:27 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0041_CommentsOn_JCTVC-P0184v4_atttachment_based_on_P1008v4.docx
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:35:27 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0041_CommentsOn_JCTVC-P0184v4_atttachment_based_on_P1008v4.docx
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:35:27 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0041_CommentsOn_JCTVC-P0184v4_atttachment_based_on_P1008v4.docx
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:27 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0041_CommentsOn_JCTVC-P0184v4_atttachment_based_on_P1008v4.docx
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:27 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0046.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:35:27 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0046.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:35:27 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0046.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:35:27 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0046.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:35:27 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0046.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:27 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0046.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:27 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0050.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:35:27 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0050.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:35:27 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0050.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:35:27 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0050.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:35:27 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0050.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:27 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0050.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:27 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0100-JCT3V-H0031-ParamConstraints-r2.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:35:27 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0100-JCT3V-H0031-ParamConstraints-r2.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:35:27 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0100-JCT3V-H0031-ParamConstraints-r2.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0100-JCT3V-H0031-ParamConstraints-r2.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0100-JCT3V-H0031-ParamConstraints-r2.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0100-JCT3V-H0031-ParamConstraints-r2.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0101-JCT3V-H0032-BPB-r1.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0101-JCT3V-H0032-BPB-r1.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0101-JCT3V-H0032-BPB-r1.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0101-JCT3V-H0032-BPB-r1.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0101-JCT3V-H0032-BPB-r1.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0101-JCT3V-H0032-BPB-r1.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0102-JCT3V-H0033-Comments-r2.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0102-JCT3V-H0033-Comments-r2.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0102-JCT3V-H0033-Comments-r2.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0102-JCT3V-H0033-Comments-r2.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0102-JCT3V-H0033-Comments-r2.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0102-JCT3V-H0033-Comments-r2.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0102-Proposal3-SpecText.docx
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0102-Proposal3-SpecText.docx
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0102-Proposal3-SpecText.docx
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0102-Proposal3-SpecText.docx
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0102-Proposal3-SpecText.docx
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0102-Proposal3-SpecText.docx
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0103-JCT3V-H0034-ProfileLevel.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0103-JCT3V-H0034-ProfileLevel.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0103-JCT3V-H0034-ProfileLevel.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0103-JCT3V-H0034-ProfileLevel.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0103-JCT3V-H0034-ProfileLevel.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0103-JCT3V-H0034-ProfileLevel.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0117.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0117.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0117.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0117.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0117.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0117.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0118.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0118.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0118.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0118.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0118.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0118.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0133.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0133.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0133.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0133.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0133.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0133.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0158-JCT3V-H0047-HighestTemporalId.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0158-JCT3V-H0047-HighestTemporalId.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0158-JCT3V-H0047-HighestTemporalId.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0158-JCT3V-H0047-HighestTemporalId.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0158-JCT3V-H0047-HighestTemporalId.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0158-JCT3V-H0047-HighestTemporalId.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0192.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0192.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0192.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0192.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0192.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0192.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0204r4.docx
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0204r4.docx
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0204r4.docx
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0204r4.docx
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0204r4.docx
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0204r4.docx
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0256_r1.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0256_r1.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0256_r1.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0256_r1.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0256_r1.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\._JCTVC-Q0256_r1.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC-Q0084-v2\._JCTVC-P1005_v1_Annex_E_changes_for_Q0084_r1.docx
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC-Q0084-v2\._JCTVC-P1005_v1_Annex_E_changes_for_Q0084_r1.docx
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC-Q0084-v2\._JCTVC-P1005_v1_Annex_E_changes_for_Q0084_r1.docx
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC-Q0084-v2\._JCTVC-P1005_v1_Annex_E_changes_for_Q0084_r1.docx
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC-Q0084-v2\._JCTVC-P1005_v1_Annex_E_changes_for_Q0084_r1.docx
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC-Q0084-v2\._JCTVC-P1005_v1_Annex_E_changes_for_Q0084_r1.docx
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC-Q0084-v2\._JCTVC-Q0084_r1.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC-Q0084-v2\._JCTVC-Q0084_r1.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC-Q0084-v2\._JCTVC-Q0084_r1.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC-Q0084-v2\._JCTVC-Q0084_r1.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC-Q0084-v2\._JCTVC-Q0084_r1.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC-Q0084-v2\._JCTVC-Q0084_r1.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC-Q0085-v2\._JCTVC-Q0085r1.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC-Q0085-v2\._JCTVC-Q0085r1.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC-Q0085-v2\._JCTVC-Q0085r1.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC-Q0085-v2\._JCTVC-Q0085r1.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC-Q0085-v2\._JCTVC-Q0085r1.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC-Q0085-v2\._JCTVC-Q0085r1.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC-Q0086-v2\._JCTVC-Q0086r1.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC-Q0086-v2\._JCTVC-Q0086r1.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC-Q0086-v2\._JCTVC-Q0086r1.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC-Q0086-v2\._JCTVC-Q0086r1.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC-Q0086-v2\._JCTVC-Q0086r1.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC-Q0086-v2\._JCTVC-Q0086r1.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC-Q0087-v1\._JCTVC-Q0087.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC-Q0087-v1\._JCTVC-Q0087.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC-Q0087-v1\._JCTVC-Q0087.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC-Q0087-v1\._JCTVC-Q0087.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC-Q0087-v1\._JCTVC-Q0087.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC-Q0087-v1\._JCTVC-Q0087.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC-Q0088-v2\._JCTVC-Q0088-v2.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC-Q0088-v2\._JCTVC-Q0088-v2.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC-Q0088-v2\._JCTVC-Q0088-v2.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC-Q0088-v2\._JCTVC-Q0088-v2.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC-Q0088-v2\._JCTVC-Q0088-v2.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC-Q0088-v2\._JCTVC-Q0088-v2.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC-Q0089-v1\._JCTVC-Q0089.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC-Q0089-v1\._JCTVC-Q0089.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC-Q0089-v1\._JCTVC-Q0089.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC-Q0089-v1\._JCTVC-Q0089.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC-Q0089-v1\._JCTVC-Q0089.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC-Q0089-v1\._JCTVC-Q0089.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC-Q0232-v1\._JCTVC-Q0232.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC-Q0232-v1\._JCTVC-Q0232.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC-Q0232-v1\._JCTVC-Q0232.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC-Q0232-v1\._JCTVC-Q0232.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC-Q0232-v1\._JCTVC-Q0232.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC-Q0232-v1\._JCTVC-Q0232.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC_Q0228-v1\._JCTVC_Q0228.doc
+ERROR: Converting file failed. 
+
+0x80040505 (0x0) - :54 - ExternalWordMgr.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC_Q0228-v1\._JCTVC_Q0228.doc
+CLR Error
+
+Additional information:Unknown file format.
+WordFile.cpp:19:0
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC_Q0228-v1\._JCTVC_Q0228.doc
+ERROR: Converting file to text failed. 
+
+0x80040505 (0x0) - :38 - DataConverterInterpreter.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC_Q0228-v1\._JCTVC_Q0228.doc
+ERROR: Opening inner file with available file failed. 
+
+0x80040505 (0x0) - :36 - CopyLockedFileInterpreter.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC_Q0228-v1\._JCTVC_Q0228.doc
+ERROR: Opening file with data interpreter failed. 
+
+0x80040505 (0x0) - :517 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:28 Searching: F:\jctvc-2\JCTVC-Q\__MACOSX\JCTVC_Q0228-v1\._JCTVC_Q0228.doc
+ERROR: Search contents with data interpreter failed. 
+
+0x80040505 (0x2) - :460 - TextLibData.cpp
+-------------------
+2014/7/14 16:35:30 Search stopped
+-------------------
+2014/8/7 12:29:26 ERROR: Checking key retrieved failed. 
+
+0x80004005 (0x0) - :610 - crypto.h
+-------------------
+2014/8/7 12:29:52 Starting search
+-------------------
+2014/8/7 12:29:52 Search started
+-------------------
+2014/8/7 12:29:53 Search stopped

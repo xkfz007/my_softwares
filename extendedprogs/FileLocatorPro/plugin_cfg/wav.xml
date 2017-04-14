@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<InterpreterConfig xmlns="http://www.mythicsoft.com/FileLocator">
+	<displayname>WAV</displayname>
+	<uniquename>http://www.mythicsoft.com/wav</uniquename>
+	<progid>Extensions.TagLibInterpreter</progid>
+	<filetypes>wav</filetypes>
+	<interpretertype>textinterpreter</interpretertype>
+	<active>no</active>
+	<safemode>no</safemode>
+	<useisfilter>no</useisfilter>
+	<nonreglibrary>extensions.dll</nonreglibrary>
+</InterpreterConfig>

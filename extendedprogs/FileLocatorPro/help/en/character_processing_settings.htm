@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head>
+   <title>Character Processing Settings</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="7-bit conversion,Convert to 7-Bit chars,End Of Line (EOL) settings,End Of Line (EOL) settings Mac,End Of Line (EOL) settings Unix,Long line processing settings,Max End of Line settings,Unix End of Line settings" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+<script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if (location.search.lastIndexOf("toc=0")<=0) {
+  if (parent.frames.length==0) { parent.location.href="index.html?character_processing_settings.htm"; }
+  else { parent.quicksync('a2.1.4'); }
+}
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script></head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#649CCC">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">Character Processing Settings</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="introduction.htm">Top</a>&nbsp;
+     <a href="search_settings.htm">Previous</a>&nbsp;
+     <a href="shell_integration_settings.htm">Next</a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p>&nbsp;</p>
+<p>Character processing settings control how FileLocator Pro handles information found in files.</p>
+<p>&nbsp;</p>
+<p><img src="../img/charprocessing.png" width="618" height="409" border="0" alt="CharProcessing"></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: bold;">End of Line (EOL) Identifiers</span> </p>
+<p>&nbsp;</p>
+<p>Defines which other EOL identifiers FileLocator Pro should use. Normally a Windows text file will use a CRLF (carriage return 0x0d, line feed 0x0a) combination to indicate the end of a line. However, other operating systems use different standards, usually either a stand alone CR or a stand alone LF character.</p>
+<p>&nbsp;</p>
+<p>Maximum characters per line - sets the limit to the line length if an EOL character is not found. Lines that exceed the maximum line length are broken into separate lines, although the line number for the line stays the same.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="font-weight: bold;">Containing Text</span></p>
+<p>&nbsp;</p>
+<p>By default a content based search will not include the file name as if it were part of the content. For example, if a file named <span class="f_ExpressionText">LondonHistory.doc</span> was searched for <span class="f_ExpressionText">Tower AND London</span> the file would only be found if both words appeared in the document text, ie the documents file name would not be included as part of the text. The 'Include file name in content search' option is used to include the file name in the content search.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="font-weight: bold;">Special</span></p>
+<p>&nbsp;</p>
+<p>Convert to 7-bit chars - when checked FileLocator Pro only uses the first 7-bits of each data character. Some early word processors reserved the 8th bit of each character for formatting purposes, which if not removed causes problems when searching the data. This setting causes the 8-th bit of every character to be ignored.</p>
+<p>&nbsp;</p>
+
+</td></tr></table>
+<hr>
+<font face="Arial" size="-2">
+Copyright &copy; 2013 Mythicsoft Ltd. All rights reserved.
+<br />
+Help file version: 7.0<br />
+<br />
+PDF and CHM versions of this help file are available here:<br />
+<a href="http://mythicsoft.com/filelocatorpro/help" target="_blank">http://mythicsoft.com/filelocatorpro/help</a><br /> 
+    <br />
+</font>
+
+</body>
+</html>

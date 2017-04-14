@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<InterpreterConfig xmlns="http://www.mythicsoft.com/FileLocator">
+	<displayname>NSIS</displayname>
+	<uniquename>http://www.mythicsoft.com/nsisinterpreter</uniquename>
+	<progid>SvnExtLib.SZNSISInterpreter</progid>
+	<filetypes>nsis</filetypes>
+	<interpretertype>compositefile</interpretertype>
+	<active>no</active>
+	<safemode>no</safemode>
+	<useisfilter>no</useisfilter>
+	<nonreglibrary>SvnExtLib.dll</nonreglibrary>
+</InterpreterConfig>

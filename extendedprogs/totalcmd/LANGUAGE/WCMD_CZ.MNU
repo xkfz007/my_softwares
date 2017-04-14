@@ -1,0 +1,138 @@
+POPUP "&Soubor"
+  MENUITEM "&Zmìna atributù...", cm_SetAttrib
+  MENUITEM "&Komprimovat...\tAlt+F5", cm_PackFiles
+  MENUITEM "E&xtrahovat...\tAlt+F9", cm_UnpackFiles
+  MENUITEM "&Test archivu...\tAlt+Shift+F9", cm_TestArchive
+  MENUITEM "Porovn&at podle obsahu...", cm_CompareFilesByContent
+  MENUITEM "&Pøidruit...", cm_Associate
+  MENUITEM "Vnitøní pøidruení (jen program Tota&l Commander)...", cm_InternalAssociate
+  MENUITEM "&Vlastnosti...\tAlt+Enter", cm_VersionInfo
+  MENUITEM "&Obsazenı prostor...\tCtrl+L", cm_GetFileSpace
+  MENUITEM "Hromadné pø&ejmenování...\tCtrl+M", cm_MultiRenameFiles
+  MENUITEM "Zmì&nit komentáø...\tCtrl+Z", cm_EditComment
+  POPUP "T&isk"
+    MENUITEM "&Seznam souborù...", cm_PrintDir
+    MENUITEM "Seznam souborù a &podsloek...", cm_PrintDirSub
+    MENUITEM "&Obsah souboru\tCtrl+F9", cm_PrintFile
+  END_POPUP
+  MENUITEM SEPARATOR
+  MENUITEM "&Rozdìlit soubor...", cm_Split
+  MENUITEM "&Slouèit soubory...", cm_Combine
+  MENUITEM "Zakódovat so&ubor (MIME, UUE, XXE)...", cm_Encode
+  MENUITEM "Dekódovat sou&bor (MIME, UUE, XXE, BinHex)...", cm_Decode
+  MENUITEM "V&ytvoøit kontrolu dat (CRC32, MD5, SHA1)...", cm_CRCcreate
+  MENUITEM "Ovìøit kontrolu &dat (ze souborù kontrolních souètù)", cm_CRCcheck
+  MENUITEM SEPARATOR
+  MENUITEM "Kone&c\tAlt+F4", cm_Exit
+END_POPUP
+
+POPUP "&Vybrat"
+  MENUITEM "V&ybrat skupinu...\tNum+", cm_SpreadSelection
+  MENUITEM "Z&rušit vıbìr skupiny...\tNum-", cm_ShrinkSelection
+  MENUITEM "Vybrat &všechny\tCtrl+Num+", cm_SelectAll
+  MENUITEM "Zr&ušit vıbìr všech\tCtrl+Num-", cm_ClearAll
+  MENUITEM "Inver&tovat vıbìr\tNum*", cm_ExchangeSelection
+  MENUITEM "Vybrat všechny se stejnou &pøíponou\tAlt+Num+", cm_SelectCurrentExtension
+  MENUITEM SEPARATOR
+  MENUITEM "Zapa&matovat vıbìr", cm_SaveSelection
+  MENUITEM "Obnov&it vıbìr\tNum/", cm_RestoreSelection
+  MENUITEM "Uloit vıbìr do &souboru", cm_SaveSelectionToFile
+  MENUITEM "N&aèíst vıbìr ze souboru", cm_LoadSelectionFromFile
+  MENUITEM SEPARATOR
+  MENUITEM "Z&kopírovat vybrané názvy do schránky", cm_CopyNamesToClip
+  MENUITEM "Zkopírovat názvy vèetnì &cest do schránky", cm_CopyFullNamesToClip
+  MENUITEM "Zkopírovat do schránky se vš&emi podrobnostmi", cm_CopyFileDetailsToClip
+  MENUITEM "Zkopírovat do schránky cestu i po&drobnosti", cm_CopyFpFileDetailsToClip
+  MENUITEM SEPARATOR
+  MENUITEM "P&orovnat sloky\tShift+F2", cm_CompareDirs
+  MENUITEM "Vybrat &novìjší a skrıt stejné soubory", cm_DirMatch
+END_POPUP
+
+POPUP "&Pøíkazy"
+  MENUITEM "&Strom sloek...\tAlt+F10", cm_CDtree
+  MENUITEM "&Hledat...\tAlt+F7", cm_SearchFor
+  MENUITEM "H&ledat v oddìleném procesu...\tAlt+Shift+F7", 545
+  MENUITEM "&Název disku...", cm_VolumeId
+  MENUITEM "&Informace o systému...", cm_SysInfo
+  MENUITEM "S&ynchronizovat sloky...", cm_FileSync
+  MENUITEM "O&blíbené poloky\tCtrl+D", cm_DirectoryHotlist
+  MENUITEM "&Pøedchozí sloka\tAlt+Levá šipka", cm_GotoPreviousDir
+  MENUITEM SEPARATOR
+  MENUITEM "Otevøít okno systému &DOS", cm_ExecuteDOS
+  MENUITEM SEPARATOR
+  MENUITEM "&Zobrazit soubory z podsloek\tCtrl+B", cm_DirBranch
+  MENUITEM "&Otevøít sloku Plocha", cm_OpenDesktop
+  MENUITEM "Sprá&vce pøenosù na pozadí...", cm_OpenTransferManager
+  MENUITEM SEPARATOR
+  MENUITEM "Zamìnit panely soubo&rù\tCtrl+U", cm_Exchange
+  MENUITEM "&Cíl = zdroj", cm_MatchSrc
+END_POPUP
+
+POPUP "Sí"
+  MENUITEM "&Pøipojit síovou jednotku...", cm_NetConnect
+  MENUITEM "&Odpojit síovou jednotku...", cm_NetDisconnect
+  MENUITEM "&Sdílet sloku...", cm_NetShareDir
+  MENUITEM "Ukonèit sdíl&ení sloky...", cm_NetUnshareDir
+  MENUITEM "Zobrazit administrátorská sdílení", cm_AdministerServer
+  MENUITEM SEPARATOR
+  MENUITEM "Protokol &FTP - pøipojit k serveru...\tCtrl+F", cm_FtpConnect
+  MENUITEM "Protokol F&TP - nové pøipojení...\tCtrl+N", cm_FtpNew
+  MENUITEM "Protokol FTP - odpo&jit ze serveru\tCtrl+Shift+F", cm_FtpDisconnect
+  MENUITEM "Protokol FTP - zobrazit skryté sou&bory", cm_FtpHiddenFiles
+  MENUITEM "Protokol FTP - stáhnout dle se&znamu...", cm_FtpDownloadList
+  MENUITEM "Spojení s jinım poèítaèem pøes port &LPT/USB...", cm_DirectCableConnect
+END_POPUP
+
+POPUP "&Zobrazit"
+  MENUITEM "&Seznam\tCtrl+F1", cm_SrcShort
+  MENUITEM "Podrobnost&i\tCtrl+F2", cm_SrcLong
+  MENUITEM "K&omentáøe\tCtrl+Shift+F2", cm_SrcComments
+  MENUITEM "Vlastní sloup&ce\tShift+F1", cm_SrcCustomViewMenu
+  MENUITEM "St&rom sloek\tCtrl+F8", cm_SrcTree
+  POPUP "Samostatnı strom sloek\tCtrl+Shift+F8"
+    MENUITEM "&0 (ádnı)", cm_SeparateTreeOff
+    MENUITEM "&1 (Jeden pro oba panely)", cm_SeparateTree1
+    MENUITEM "&2 (Dva, jeden pro kadı panel)", cm_SeparateTree2
+  END_POPUP
+  MENUITEM "&Miniatury\tCtrl+Shift+F1", cm_SrcThumbs
+  MENUITEM "Ná&hled\tCtrl+Q", cm_SrcQuickview
+  MENUITEM "Panely pod s&ebou nebo vedle sebe", cm_VerticalPanels
+  MENUITEM "Otevøít novo&u záloku\tCtrl+T", cm_OpenNewTab
+  MENUITEM SEPARATOR
+  MENUITEM "&Všechny soubory\tCtrl+F10", cm_SrcAllFiles
+  MENUITEM "Pro&gramy\tCtrl+F11", cm_SrcExecs
+  MENUITEM "*.*", cm_SrcUserSpec
+  MENUITEM "V&lastní filtr...\tCtrl+F12", cm_SrcUserDef
+  MENUITEM "Jen v&ybrané soubory", cm_ShowOnlySelected
+  MENUITEM SEPARATOR
+  MENUITEM "&Název\tCtrl+F3", cm_SrcByName
+  MENUITEM "&Pøípona\tCtrl+F4", cm_SrcByExt
+  MENUITEM "Datum a è&as\tCtrl+F5", cm_SrcByDateTime
+  MENUITEM "Veli&kost\tCtrl+F6", cm_SrcBySize
+  MENUITEM "&Bez øazení\tCtrl+F7", cm_SrcUnsorted
+  MENUITEM SEPARATOR
+  MENUITEM "Obrácené poøa&dí", cm_SrcNegOrder
+  MENUITEM SEPARATOR
+  MENUITEM "&Znovu naèíst zdroj\tCtrl+R", cm_RereadSource
+END_POPUP
+
+POPUP "&Konfigurace"
+  MENUITEM "Mo&nosti...", cm_Config
+  MENUITEM "&Tlaèítková lišta...", cm_ButtonConfig
+  MENUITEM "&Pøímá úprava konfiguraèních souborù...", cm_ConfigChangeIniFiles
+  MENUITEM "Ul&oit pozici okna", cm_ConfigSavePos
+  MENUITEM "&Uloit nastavení", cm_ConfigSaveSettings
+END_POPUP
+
+STARTMENU
+
+HELP_BREAK
+
+POPUP "&Nápovìda"
+  MENUITEM "&Obsah\tF1", cm_HelpIndex
+  MENUITEM "&Klávesové zkratky", cm_Keyboard
+  MENUITEM "&Registrace", cm_Register
+  MENUITEM "&Webová stránka programu Total Commander", cm_VisitHomepage
+  MENUITEM SEPARATOR
+  MENUITEM "O &programu Total Commander...", cm_About
+END_POPUP

@@ -1,0 +1,10 @@
+[Main]
+Computer Name=HFZ2597-PC
+De-interlace Mode=0
+Error Skip=0
+Frame Skip=1
+Enable Deblock=0
+Enabled Output Type=32
+Enable Logo=0
+Enable Scramble=0
+Auto SW/HW Switch=1

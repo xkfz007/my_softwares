@@ -1,0 +1,203 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head>
+   <title>脚本</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="Active Scripting,Archive attribute,Excluding directories/folders,JScript,NOT,Read-only attribute,Scripting,Scripting example,SearchParms,VBScript" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+<script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if (location.search.lastIndexOf("toc=0")<=0) {
+  if (parent.frames.length==0) { parent.location.href="index.html?scripting.htm"; }
+  else { parent.quicksync('a3.5'); }
+}
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script></head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#649CCC">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">脚本</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="introduction.htm">Top</a>&nbsp;
+     <a href="dos_expressions2.htm">Previous</a>&nbsp;
+     <a href="look_in.htm">Next</a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p>FileLocator Pro 支持使用活动脚本来定制搜索引擎的文件名称和内容的匹配算法。</p>
+<p>&nbsp;</p>
+<p><img src="../img/scriptingtab.png" width="607" height="148" border="0" alt="ScriptingTab"></p>
+<p>&nbsp;</p>
+<p>当用户启动一次搜索，FileLocator Pro将：</p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>了解是否可有脚本启用。</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>根据“引擎”输入框内输入的程序号（Prog Id）对每个脚本创建活动脚本引擎。</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>将脚本载入脚本引擎。</td></tr></table></div><p>&nbsp;</p>
+<p>一旦载入了脚本，根据脚本的类型不同FileLocator Pro将调用脚本中具体函数：</p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>如果是一个“文件名称”脚本，那么调用的函数为 'isValidFileName'，并且传递文件路径和文件名称参数。</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>如果是一个“包含文本”脚本，那么调用的函数为 'isValidLine'，并且传递行号和文本参数。</td></tr></table></div><p>&nbsp;</p>
+<p>仅当满足了搜索条件，即文件名称或包含文本的表达式时才会调用脚本。函数会返回一个布尔值true或false来表明文件或行号是否有效。</p>
+<p>&nbsp;</p>
+<p><span style="font-weight: bold;">示例：</span></p>
+<p>&nbsp;</p>
+<p>注：请查看FileLocator Pro 主安装目录下的"Sample Scripts"子目录，了解一些提供的脚本样例。</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">只读 脚本</span></p>
+<p>&nbsp;</p>
+<p>以下示例显示一个样例文件名称脚本将返回的文件限定为指定了“只读”属性的文件。注：可使用其它属性，如使用‘32’而不是‘1’来查找指定了“归档”属性的文件。</p>
+<p>&nbsp;</p>
+<p><span style="font-family: 'Courier New'; color: #0000ff;">var</span><span style="font-family: 'Courier New';"> objFSO = </span><span style="font-family: 'Courier New'; color: #0000ff;">new</span><span style="font-family: 'Courier New';"> ActiveXObject( "Scripting.FileSystemObject" );</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: 'Courier New'; color: #0000ff;">function</span><span style="font-family: 'Courier New';"> isValidFileName( strPath, strFileName )</span></p>
+<p><span style="font-family: 'Courier New';">{</span></p>
+<p><span style="width:48px">&nbsp;</span><span style="font-family: 'Courier New'; color: #0000ff;">var</span><span style="font-family: 'Courier New';"> bIsValid = </span><span style="font-family: 'Courier New'; color: #0000ff;">false</span><span style="font-family: 'Courier New';">;</span></p>
+<p><span style="width:48px">&nbsp;</span><span style="font-family: 'Courier New'; color: #0000ff;">try</span></p>
+<p><span style="width:48px">&nbsp;</span><span style="font-family: 'Courier New';">{</span></p>
+<p><span style="width:48px">&nbsp;</span> &nbsp; &nbsp; &nbsp; &nbsp;<span style="font-family: 'Courier New'; color: #0000ff;">var</span><span style="font-family: 'Courier New';"> objFile = objFSO.GetFile( strPath + strFileName );</span></p>
+<p><span style="width:48px">&nbsp;</span> &nbsp; &nbsp; &nbsp; &nbsp;<span style="font-family: 'Courier New';">bIsValid = ( objFile.Attributes &amp; 1 );</span></p>
+<p><span style="width:48px">&nbsp;</span><span style="font-family: 'Courier New';">}</span></p>
+<p><span style="width:48px">&nbsp;</span><span style="font-family: 'Courier New'; color: #0000ff;">catch</span><span style="font-family: 'Courier New';">( e ) &nbsp; &nbsp; &nbsp; &nbsp;{}</span></p>
+<p><span style="width:48px">&nbsp;</span><span style="font-family: 'Courier New'; color: #0000ff;">return</span><span style="font-family: 'Courier New';"> bIsValid;</span></p>
+<p><span style="font-family: 'Courier New';">}</span></p>
+<p>&nbsp;</p>
+<p>注意<span style="font-family: 'Courier New'; font-weight: bold;">try...catch </span>用于预防异常信息被返回给搜索引擎。如果出现异常而且没有被脚本捕获，那么搜索引擎就会停止。</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">仅为文件夹 脚本</span></p>
+<p>&nbsp;</p>
+<p>另一个如何查找仅为文件夹的示例。</p>
+<p>&nbsp;</p>
+<p><span style="font-family: 'Courier New'; color: #0000ff;">var</span><span style="font-family: 'Courier New';"> objFSO = </span><span style="font-family: 'Courier New'; color: #0000ff;">new</span><span style="font-family: 'Courier New';"> ActiveXObject( "Scripting.FileSystemObject" );</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: 'Courier New'; color: #0000ff;">function</span><span style="font-family: 'Courier New';"> isValidFileName( strPath, strFileName )</span></p>
+<p><span style="font-family: 'Courier New';">{</span></p>
+<p><span style="width:48px">&nbsp;</span><span style="font-family: 'Courier New'; color: #0000ff;">var</span><span style="font-family: 'Courier New';"> bIsValid = </span><span style="font-family: 'Courier New'; color: #0000ff;">false</span><span style="font-family: 'Courier New';">;</span></p>
+<p><span style="width:48px">&nbsp;</span><span style="font-family: 'Courier New'; color: #0000ff;">try</span></p>
+<p><span style="width:48px">&nbsp;</span><span style="font-family: 'Courier New';">{</span></p>
+<p><span style="width:48px">&nbsp;</span> &nbsp; &nbsp; &nbsp; &nbsp;<span style="font-family: 'Courier New';">bIsValid = objFSO.FolderExists( strPath + strFileName );</span></p>
+<p><span style="width:48px">&nbsp;</span><span style="font-family: 'Courier New';">}</span></p>
+<p><span style="width:48px">&nbsp;</span><span style="font-family: 'Courier New'; color: #0000ff;">catch</span><span style="font-family: 'Courier New';">( e ) &nbsp; &nbsp; &nbsp; &nbsp;{}</span></p>
+<p><span style="width:48px">&nbsp;</span><span style="font-family: 'Courier New'; color: #0000ff;">return</span><span style="font-family: 'Courier New';"> bIsValid;</span></p>
+<p><span style="font-family: 'Courier New';">}</span></p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">NOT表达式 脚本</span></p>
+<p>&nbsp;</p>
+<p>下面的示例是如何使用JSscriptd自身的正则表达式引擎在内容匹配时运用NOT（要匹配的NOT表达式从”脚本“页签中“包含文本”的”参数“输入框中输入）</p>
+<p>&nbsp;</p>
+<p><span style="font-family: 'Courier New'; color: #008000;">// An example of a NOT expression, this time using JScript's built in Regular Expression object.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: 'Courier New'; color: #0000ff;">var</span><span style="font-family: 'Courier New';"> regExp = </span><span style="font-family: 'Courier New'; color: #0000ff;">new</span><span style="font-family: 'Courier New';"> RegExp( SearchParms.ContainingTextCustomParm );</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: 'Courier New'; color: #0000ff;">function</span><span style="font-family: 'Courier New';"> isValidLine( nLineNum, strText )</span></p>
+<p><span style="font-family: 'Courier New';">{</span></p>
+<p><span style="width:48px">&nbsp;</span><span style="font-family: 'Courier New'; color: #0000ff;">var</span><span style="font-family: 'Courier New';"> bIsValid = </span><span style="font-family: 'Courier New'; color: #0000ff;">true</span><span style="font-family: 'Courier New';">;</span></p>
+<p><span style="width:48px">&nbsp;</span><span style="font-family: 'Courier New'; color: #0000ff;">try</span></p>
+<p><span style="width:48px">&nbsp;</span><span style="font-family: 'Courier New';">{</span></p>
+<p><span style="width:48px">&nbsp;</span> &nbsp; &nbsp; &nbsp; &nbsp;<span style="font-family: 'Courier New';">bIsValid = !regExp.test( strText );</span></p>
+<p><span style="width:48px">&nbsp;</span><span style="font-family: 'Courier New';">}</span></p>
+<p><span style="width:48px">&nbsp;</span><span style="font-family: 'Courier New'; color: #0000ff;">catch</span><span style="font-family: 'Courier New';">( e ) &nbsp; &nbsp; &nbsp; &nbsp;{}</span></p>
+<p><span style="width:48px">&nbsp;</span><span style="font-family: 'Courier New'; color: #0000ff;">return</span><span style="font-family: 'Courier New';"> bIsValid;</span></p>
+<p><span style="font-family: 'Courier New';">}</span></p>
+<p>&nbsp;</p>
+<p>注意正则表达式对象是如何在函数体外部创建的，这样对任何一个搜索虽然可能被调用多次却只会被创建和编译一次。</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">排除目录</span></p>
+<p>&nbsp;</p>
+<p>NOT表达式的一个变化是从搜索中排除某些目录。例如：要从搜索中排除WIndows目录，用于路径的NOT表达式就是 'C:\\Windows' 。下面的示例是如何在进行路径匹配时运用NOT（要匹配的NOT表达式从“脚本“页签中”文件名称“的”参数“输入框中输入）。</p>
+<p>&nbsp;</p>
+<p><span style="color: #008000;">// An example of a NOT expression on a file's pathname</span></p>
+<p><span style="color: #008000;">// using JScript's built in Regular Expression object.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: 'Courier New'; color: #0000ff;">var</span><span style="font-family: 'Courier New';"> regExp = </span><span style="font-family: 'Courier New'; color: #0000ff;">new</span><span style="font-family: 'Courier New';"> RegExp( SearchParms.FilenameCustomParm );</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: 'Courier New'; color: #0000ff;">function</span><span style="font-family: 'Courier New';"> isValidFileName( strPath, strFileName )</span></p>
+<p><span style="font-family: 'Courier New';">{</span></p>
+<p><span style="width:48px">&nbsp;</span><span style="font-family: 'Courier New'; color: #0000ff;">var</span><span style="font-family: 'Courier New';"> bIsValid = </span><span style="font-family: 'Courier New'; color: #0000ff;">true</span><span style="font-family: 'Courier New';">;</span></p>
+<p><span style="width:48px">&nbsp;</span><span style="font-family: 'Courier New'; color: #0000ff;">try</span></p>
+<p><span style="width:48px">&nbsp;</span><span style="font-family: 'Courier New';">{</span></p>
+<p><span style="width:48px">&nbsp;</span> &nbsp; &nbsp; &nbsp; &nbsp;<span style="font-family: 'Courier New';">bIsValid = !regExp.test( strPath );</span></p>
+<p><span style="width:48px">&nbsp;</span><span style="font-family: 'Courier New';">}</span></p>
+<p><span style="width:48px">&nbsp;</span><span style="font-family: 'Courier New'; color: #0000ff;">catch</span><span style="font-family: 'Courier New';">( e ) &nbsp; &nbsp; &nbsp; &nbsp;{}</span></p>
+<p><span style="width:48px">&nbsp;</span><span style="font-family: 'Courier New'; color: #0000ff;">return</span><span style="font-family: 'Courier New';"> bIsValid;</span></p>
+<p><span style="font-family: 'Courier New';">}</span></p>
+<p>&nbsp;</p>
+<p>注意在'C:\\Windows'中使用了双个反斜杠'\' 代表单个反斜杠'\' ，因为反斜杠字符在正则表达式中是特殊的转义符。</p>
+<p>&nbsp;</p>
+<p><span style="font-weight: bold;">搜索参数对象</span></p>
+<p>&nbsp;</p>
+<p>通过对象'SearchParms'脚本几乎可对其它所有条件进行访问。例如，isValidFileName脚本中可以像这样来使用”脚本页签“中输入的参数：</p>
+<p>&nbsp;</p>
+<p><span style="font-family: 'Courier New'; color: #0000ff;">var</span><span style="font-family: 'Courier New';"> strCustom = SearchParms.FilenameCustomParm;</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>SearchParms提供了对以下条件的访问：</p>
+<p>&nbsp;</p>
+<p>CurrentFileName (字符串) - 当前正在处理的文件名。</p>
+<p>&nbsp;</p>
+<p>CurrentFilePath (字符串) - 当前正在处理的文件的路径。</p>
+<p>&nbsp;</p>
+<p>ContainingText (字符串) - 在”包含文本“字段中输入的值。</p>
+<p>&nbsp;</p>
+<p>ContainingTextCustomParm (字符串 ) - 对包含文本脚本在”参数“字段中输入的值</p>
+<p>&nbsp;</p>
+<p>ContainingTextRegExp (布尔) - 表明"包含文本"的正则表达式类型是否已打开。</p>
+<p>&nbsp;</p>
+<p>EOLUnix (布尔) - 表明是否打开了UNIX行终止符选项。</p>
+<p>&nbsp;</p>
+<p>EOLMac (布尔) - 表明是否打开了Mac行终止符选项。</p>
+<p>&nbsp;</p>
+<p>Filename (字符串) - 在“文件名称”字段中输入的值。</p>
+<p>&nbsp;</p>
+<p>FilenameCustomParm (字符串) - 对文件名称脚本在“参数”字段中输入的值。</p>
+<p>&nbsp;</p>
+<p>FilenameExcludeExp (布尔) - 表明”指定NOT表达式“是否已打开。</p>
+<p>&nbsp;</p>
+<p>FilenameRegExp (布尔) - 表明“文件名称”的正则表达式是否已打开。</p>
+<p>&nbsp;</p>
+<p>LookIn (字符串) - 在“查找位置”字段中输入的值。</p>
+<p>&nbsp;</p>
+<p>MatchFilenameCase (布尔) - 表明对文件名称的匹配大小写选项是否已打开。</p>
+<p>&nbsp;</p>
+<p>MatchContentsCase (布尔) - 表明对”包含文本“的匹配大小写选项是否已打开。</p>
+<p>&nbsp;</p>
+<p>ModifiedAfter (日期) &nbsp; - 在“修改时间晚于”字段中输入的值。</p>
+<p>&nbsp;</p>
+<p>ModifiedBefore (日期) - 在“修改时间早于”字段中输入的值。</p>
+<p>&nbsp;</p>
+<p>SearchContents (布尔) - 表明搜索是否为搜索文件的内容。</p>
+<p>&nbsp;</p>
+<p>SearchOnePhase (布尔) - 表明“单阶段搜索”是否已打开。</p>
+<p>&nbsp;</p>
+<p>SearchSubFolders (布尔) - 表明“搜索子文件夹”是否已打开。</p>
+<p>&nbsp;</p>
+<p>SizeMoreThan (整数) - 表明在”大小大于“字段中输入的值。</p>
+<p>&nbsp;</p>
+<p>SizeLessThan (整数) - 表明在”大小小于“字段中输入的值。</p>
+
+</td></tr></table>
+<hr>
+<font face="Arial" size="-2">
+Copyright &copy; 2013 Mythicsoft Ltd. All rights reserved.
+<br />
+Help file version: 7.0<br />
+<br />
+PDF and CHM versions of this help file are available here:<br />
+<a href="http://mythicsoft.com/filelocatorpro/help" target="_blank">http://mythicsoft.com/filelocatorpro/help</a><br /> 
+    <br />
+</font>
+
+</body>
+</html>

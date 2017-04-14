@@ -1,0 +1,7 @@
+The following materials are defined as "Developer Tools" and are subject
+to the terms and conditions of the End User License Agreement
+
+<InstallationFolder>\IntelVideoProAnalyzerEvaluation.exe
+<InstallationFolder>\IntelVideoProAnalyzerEvaluation.jar
+<InstallationFolder>\IntelVideoProAnalyzerUserGuide.pdf
+<InstallationFolder>\release_notes.pdf

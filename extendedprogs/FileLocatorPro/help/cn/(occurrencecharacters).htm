@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head>
+   <title>*, ?, + （次数字符）</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="* (Occurrence character),? (Occurrence character),+ (Occurrence character),Examples for occurrence characters,Occurrence characters" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+<script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if (location.search.lastIndexOf("toc=0")<=0) {
+  if (parent.frames.length==0) { parent.location.href="index.html?(occurrencecharacters).htm"; }
+  else { parent.quicksync('a5.4'); }
+}
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script></head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#649CCC">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">*, ?, + （次数字符）</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="introduction.htm">Top</a>&nbsp;
+     <a href="regularexpressionbasics.htm">Previous</a>&nbsp;
+     <a href="(escapecharacter).htm">Next</a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p>&nbsp;</p>
+<p>指定前字符或分组的出现次数。在一个正则表达式中要指定正则表达式应该匹配多少次数时，有四个选择值：</p>
+<p style="margin: 0px 0px 0px 48px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="margin: 0px 0px 0px 48px;">0或1次，字符 ’?' 。</p>
+<p style="margin: 0px 0px 0px 48px;">0或多次，字符’*' 。</p>
+<p style="margin: 0px 0px 0px 48px;">1或多次，字符'+' 。</p>
+<p style="margin: 0px 0px 0px 48px;">仅为1次，字符本身，后面不接任何次数字符。</p>
+<p style="margin: 0px 0px 0px 48px;"><span style="color: #000000;">&nbsp;</span></p>
+<p>例如：</p>
+<p>&nbsp;</p>
+<p style="margin: 0px 0px 0px 48px;">如果您将表达式 'complaint ?doc' 作为文件名输入，那么它将找到含有词 ’complaint' ，后跟0个或1个空格，后跟 ‘doc' 的所有文件。因此它会找到如 'my complaint doc.doc' 和 'mycomplaintdoc.txt' 这样的文件，而不会找到如 'my complaint_doc.doc' &nbsp;或 'my complaints doc.doc' 这样的文件。</p>
+<p style="margin: 0px 0px 0px 48px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="margin: 0px 0px 0px 48px;">如果您将表达式 '^my.*doc$' 作为文件名输入，那么它将找到以词 'my' 开始，后跟0个或多个字符，以’doc'结尾的所有文件（注意这里使用了 特殊字符<a href="%5E(beginningofstring).htm">'^' 字符串的开始</a>， <a href="_(anycharacter).htm">'.' 任何单个字符</a>，和 <a href="(endofstring).htm">'$' 字符串的结束</a> ）。因此它将找到如 'my_note.doc'， 'my_owndoc' 和 'my_specialfile.doc' 这样的文件，而不会找到 'my_note.txt'， 'thisis_my_note.doc'。</p>
+<p style="margin: 0px 0px 0px 48px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="margin: 0px 0px 0px 48px;">如果您将表达式 '_file[0-9]+' 作为文件名输入，那么它将找到含有词 ’_file' ，后跟1个或多个数字（注意这里使用了 <a href="and(characterlists).htm">'[' 和 ']' 字符列表</a> 特殊字符）的所有文件。因此它将找到如 'my_file245.doc' 和 'the_file0023.txt' 这样的文件，而不会找到'a_file_34.txt' 或 'some_file 009.txt' 。</p>
+<p style="margin: 0px 0px 0px 48px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="margin: 0px 0px 0px 48px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="margin: 0px 0px 0px 48px;"><span style="color: #000000;">&nbsp;</span></p>
+<p>&nbsp;</p>
+
+</td></tr></table>
+<hr>
+<font face="Arial" size="-2">
+Copyright &copy; 2013 Mythicsoft Ltd. All rights reserved.
+<br />
+Help file version: 7.0<br />
+<br />
+PDF and CHM versions of this help file are available here:<br />
+<a href="http://mythicsoft.com/filelocatorpro/help" target="_blank">http://mythicsoft.com/filelocatorpro/help</a><br /> 
+    <br />
+</font>
+
+</body>
+</html>

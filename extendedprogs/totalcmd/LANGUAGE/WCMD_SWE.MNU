@@ -1,0 +1,138 @@
+POPUP "&Arkiv"
+  MENUITEM "&Ändra attribut ...", cm_SetAttrib
+  MENUITEM "&Packa fil(er) ...\tAlt+F5", cm_PackFiles
+  MENUITEM "Packa upp fi&l(er) ...\tAlt+F9", cm_UnpackFiles
+  MENUITEM "&Kontrollera arkivfil(er)\tAlt+Skift+F9",518
+  MENUITEM "&Jämför filinnehåll ...", 2022
+  MENUITEM "Asso&ciera ...", cm_associate
+  MENUITEM "&Interna associationer (endast Total Commander) ...", 519
+  MENUITEM "&Egenskaper ...\tAlt+Enter", cm_versioninfo
+  MENUITEM "U&tnyttjat utrymme ...\tCtrl+L", cm_GetFileSpace
+  MENUITEM "&Massomdöpningsverktyg ...\tCtrl+M", 2400
+  MENUITEM "Redigera komme&ntar ...\tCtrl+Z", 2700
+  POPUP "Skriv &ut"
+    MENUITEM "&Fillista ...", 2027
+    MENUITEM "Fillista med &undermappar ...", 2028
+    MENUITEM "F&ilinnehåll\tCtrl+F9", cm_PrintFile
+  END_POPUP
+  MENUITEM SEPARATOR
+  MENUITEM "&Dela upp fil ...", 560
+  MENUITEM "Sätt i&hop filer ...", 561
+  MENUITEM "K&oda fil (MIME, UUE, XXE) ...", 562
+  MENUITEM "Avkoda &fil (MIME, UUE, XXE, BinHex) ...", 563
+  MENUITEM "Skapa checksummefil(er) (C&RC32, MD5, SHA1) ...", 564
+  MENUITEM "&Verifiera checksummor (från checksummefiler)", 565
+  MENUITEM SEPARATOR
+  MENUITEM "&Avsluta\tAlt+F4", 24340
+END_POPUP
+
+POPUP "&Markera"
+  MENUITEM "&Markera grupp ...\t[Num +]", cm_spreadselection
+  MENUITEM "A&vmarkera grupp ...\t[Num -]", cm_shrinkselection
+  MENUITEM "Markera &alla\t[Ctrl]+[Num +]", cm_selectall
+  MENUITEM "Avmarkera a&lla\t[Ctrl]+[Num -]", cm_Clearall
+  MENUITEM "&Invertera markering\t[Num *]", cm_ExchangeSelection
+  MENUITEM "Markera alla med samma fil&ändelse\t[Alt]+[Num +]",527
+  MENUITEM SEPARATOR
+  MENUITEM "&Spara urval", 530
+  MENUITEM "&Återställ markering\t[Num /]", 529
+  MENUITEM "S&para urval som fil", 2031
+  MENUITEM "&Hämta urval från fil", 2032
+  MENUITEM SEPARATOR
+  MENUITEM "K&opiera markering till Urklipp (endast filnamn)", 2017
+  MENUITEM "Kopiera markering till Urklipp (s&ökväg + filnamn)", 2018
+  MENUITEM "Kopiera markering till Urklipp (filnamn + &detaljer)", 2036
+  MENUITEM "&Kopiera markering till Urklipp (sökväg + filnamn + detaljer)", 2037
+  MENUITEM SEPARATOR
+  MENUITEM "&Jämför mappar\tSkift+F2", cm_CompareDirs
+  MENUITEM "Markera &nyare, dölj likadana filer", cm_DirMatch
+END_POPUP
+
+POPUP "&Kommandon"
+  MENUITEM "Mapp&träd ...\tAlt+F10", cm_CDtree
+  MENUITEM "&Sök ...\tAlt+F7", cm_searchfor
+  MENUITEM "Sök i sep&arat process ...\tAlt+Skift+F7", 545
+  MENUITEM "&Enhetsetikett ...", cm_VolumeId
+  MENUITEM "System&information ...", cm_sysinfo
+  MENUITEM "S&ynkronisera mappar ...", 2020
+  MENUITEM "Ma&pplista\tCtrl+D", 526
+  MENUITEM "&Bakåt\tAlt+Vänsterpil", 570
+  MENUITEM SEPARATOR
+  MENUITEM "Komman&dotolk", cm_ExecuteDOS
+  MENUITEM SEPARATOR
+  MENUITEM "T&rädvy (med undermappar)\tCtrl+B", 2026
+  MENUITEM "Öppna S&krivbordsmappen", 2121
+  MENUITEM "&Hantering av bakgrundsöverföring ...",559
+  MENUITEM SEPARATOR
+  MENUITEM "Skifta f&önster\tCtrl+U", cm_exchange
+  MENUITEM "&Likställ fönster", cm_matchsrc
+END_POPUP
+
+POPUP "&Nät"
+  MENUITEM "&Anslut nätverksenhet ...", cm_NetConnect
+  MENUITEM "Koppla från n&ätverksenhet ...", cm_NetDisconnect
+  MENUITEM "Dela &mapp som ...", cm_NetShareDir
+  MENUITEM "Sl&uta dela mapp ...", cm_NetUnshareDir
+  MENUITEM "V&isa administratörsdelningar", 2204
+  MENUITEM SEPARATOR
+  MENUITEM "Anslut med &FTP ...\tCtrl+F", 550
+  MENUITEM "&Ny anslutning med FTP ...\tCtrl+N", 551
+  MENUITEM "&Koppla ifrån FTP\tCtrl+Skift+F", 552
+  MENUITEM "&Visa gömda filer - FTP", 553
+  MENUITEM "&Hämta med FTP enligt lista ...", 558
+  MENUITEM "P&ORT-anslutning till annan PC ...", 2300
+END_POPUP
+
+POPUP "&Visa"
+  MENUITEM "&Kort\tCtrl+F1", cm_srcshort
+  MENUITEM "&Lång\tCtrl+F2", cm_srclong
+  MENUITEM "Ko&mmentarer\tCtrl+Skift+F2", 300
+  MENUITEM "Anpassade kol&umner", 270
+  MENUITEM "Tr&äd\tCtrl+F8", cm_srcTree
+  POPUP "Separat s&ökträd\tCtrl+Skift+F8"
+    MENUITEM "&0 (Ingen)", 3200
+    MENUITEM "&1 (En för båda paneler)", 3201
+    MENUITEM "&2 (Två - en för varje panel)", 3202
+  END_POPUP
+  MENUITEM "M&iniatyrer\tCtrl+Skift+F1", 269
+  MENUITEM "&Visa i fönster\tCtrl+Q",304
+  MENUITEM "V&ertikal delning", 305
+  MENUITEM "N&y mappflik\tCtrl+T", 3001
+  MENUITEM SEPARATOR
+  MENUITEM "&Alla\tCtrl+F10", cm_srcallfiles
+  MENUITEM "&Program\tCtrl+F11", cm_srcexecs
+  MENUITEM "&*.*", cm_srcuserspec
+  MENUITEM "&Filter ...\tCtrl+F12", cm_srcuserdef
+  MENUITEM "En&bart markerade filer", 2023
+  MENUITEM SEPARATOR
+  MENUITEM "Sortera efter &namn\tCtrl+F3", cm_srcbyname
+  MENUITEM "Sortera efter &typ\tCtrl+F4", cm_srcbyext
+  MENUITEM "Sortera efter &datum\tCtrl+F5", cm_srcbydatetime
+  MENUITEM "Sortera efter &storlek\tCtrl+F6", cm_srcbysize
+  MENUITEM "So&rtera inte\tCtrl+F7", cm_srcunsorted
+  MENUITEM SEPARATOR
+  MENUITEM "&Omvänd sortering", cm_srcnegorder
+  MENUITEM SEPARATOR
+  MENUITEM "Läs i&gen\tCtrl+R", cm_Rereadsource
+END_POPUP
+
+POPUP "Kon&figurera"
+  MENUITEM "&Generella inställningar ...", cm_config
+  MENUITEM "&Verktygsfält ...", cm_ButtonConfig
+  MENUITEM "&Ändra inställningsfilerna direkt ...", 581
+  MENUITEM "&Spara position", cm_configSavepos
+  MENUITEM "S&para inställningar", 580
+END_POPUP
+
+STARTMENU
+
+HELP_BREAK
+
+POPUP "&Hjälp", HELP
+  MENUITEM "&Index\tF1", cm_HelpIndex
+  MENUITEM "&Tangentbord", cm_keyboard
+  MENUITEM "&Registreringsinformation", cm_register
+  MENUITEM "&Besök TotalCmds webbplats", 640
+  MENUITEM SEPARATOR
+  MENUITEM "&Om Total Commander ...", cm_About
+END_POPUP

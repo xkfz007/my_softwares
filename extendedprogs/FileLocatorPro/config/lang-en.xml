@@ -1,0 +1,1761 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<translation lang="English" helplang="en">
+
+	<dialog name="IDD_REPORTS_SELECTION" id="2009" caption="" maxgrow="700">
+		<res id="1" text="Report:" />
+		<res id="2" text="Style:" />
+		<res id="3" text="Next" />
+		<res id="4" text="Next" />
+		<res id="5" text="All" />
+		<res id="6" text="Files:" />
+		<res id="7" text="Selected" />
+	</dialog>
+	<dialog name="IDD_REPORT_PROGRESS" id="2306" caption="">
+		<res id="1" text="" />
+		<res id="2" text="Generating report..." />
+		<res id="3" text="Cancel" />
+	</dialog>	
+	<dialog name="IDD_ADV_MEMMANAGER" id="6503" caption="">
+		<res id="1" text="Limit memory consumption on large searches" />
+		<res id="2" text="Memory limit per search:" />
+		<res id="3" text="System calculated amount" />
+		<res id="4" text="Specific amount:" />
+		<res id="5" text="Truncate lines to:" />
+		<res id="6" text="Truncate characters per line to:" />
+		<res id="7" text="Only apply truncation to search history" />
+	</dialog>	
+	<dialog name="IDD_REPORT_OPTIONS" id="2300" caption="">
+		<res id="1" text="Display" />
+		<res id="2" text="Criteria summary" />
+		<res id="3" text="Search statistics" />
+		<res id="4" text="Column headings" />
+		<res id="5" text="Fields" />
+		<res id="6" text="OK" />
+		<res id="7" text="Cancel" />
+		<res id="8" text="Note: Drag + Drop to re-order fields" />
+	</dialog>	
+	<dialog name="IDD_CACHE_SETTINGS" id="6501" caption="">
+		<res id="1" text="" />
+		<res id="2" text="" />
+		<res id="3" text="Information" />
+		<res id="4" text="Cache folder:" />
+		<res id="5" text="Items:" />
+		<res id="6" text="Total size:" />
+		<res id="7" text="Compact..." />
+		<res id="8" text="Clear..." />
+		<res id="9" text="Settings" />
+		<res id="10" text="Maximum allowed size per item (KB):" />
+		<res id="11" text="Expiration" />
+		<res id="12" text="Never" />
+		<res id="13" text="Delete unreferenced cache items after:" />
+		<res id="14" text="Clear cache on exit" />
+		<res id="15" text="OK" />
+		<res id="16" text="Cancel" />
+		<res id="17" text="days" />
+	</dialog>  
+	<dialog name="IDD_GENERAL_SEARCH" id="6502" caption="">
+		<res id="1" text="Search Method" />
+		<res id="2" text="&amp;Multi-phase (default)" />
+		<res id="3" text="Single &amp;phase" />
+		<res id="4" text="&amp;Calculate Hit Count" />
+	</dialog>  
+	<dialog name="IDD_SAVE_WORKSPACE" id="263" caption="Save Workspace">
+		<res id="1" text="Save to" />
+		<res id="2" text="&amp;File:" />
+		<res id="3" text="&amp;Browse..." />
+		<res id="4" text="Information to save" />
+		<res id="5" text="&amp;Complete workspace" />
+		<res id="6" text="&amp;Partial workspace" />
+		<res id="7" text="&amp;All searches" />
+		<res id="8" text="C&amp;urrent search only:" />
+		<res id="9" text="&amp;Include search history for each search" />
+		<res id="15" text="Save" />
+		<res id="16" text="Cancel" />
+	</dialog>
+	<dialog name="IDD_SAVE_SESSION" id="262" caption="Save Search Session">
+		<res id="1" text="Save to" />
+		<res id="2" text="&amp;File:" />
+		<res id="3" text="&amp;Browse..." />
+		<res id="4" text="&amp;Include search history" />
+		<res id="15" text="Save" />
+		<res id="16" text="Cancel" />
+	</dialog>
+	<dialog name="IDD_CONFIGENTRY_EXTENSION" id="6106" caption="">
+		<res id="1" text="Name:" />
+		<res id="2" text="&lt;name&gt;" />
+		<res id="3" text="File types:" />
+		<res id="4" text="(Add each valid file type on a separate line.)" />
+		<res id="5" text="Prog Id:" />
+		<res id="6" text="&lt;progid&gt;" />
+		<res id="7" text="Run in &amp;Safe Mode" />
+		<res id="8" text="&amp;Use Indexing Service Filter (if available)" />
+		<res id="9" text="&amp;Exclude file type from content searches when not active" />
+	</dialog>
+	<dialog name="IDD_CONFIGENTRY_EXTENSIONMAIN" id="6236" caption="">
+		<res id="1" text="Restore..." />
+		<res id="2" text="Press the button below to restore extension settings to the installation defaults." />
+		<res id="3" text="Restore Extension Configuration" />
+		<res id="4" text="This configuration group controls the extension settings for advanced file processing." />
+	</dialog>
+	<dialog name="IDD_CONFIGENTRY_GENERAL" id="6242" caption="">
+		<res id="1" text="This configuration group contains general settings used to control FileLocator Pro searches." />
+	</dialog>
+	<dialog name="IDD_CONFIGENTRY_EDITOR" id="6243" caption="">
+		<res id="1" text="This configuration group controls which editor will be used when working with the Contents View." />
+	</dialog>
+	<dialog name="IDD_CONFIGENTRY_ADVANCED" id="6249" caption="">
+		<res id="1" text="This configuration group contains the advanced settings for FileLocator Pro." />
+	</dialog>
+	<dialog name="IDD_CLEARARHISTORY_DIALOG" id="6175" caption="Clear History">
+		<res id="1" text="&amp;File name" />
+		<res id="2" text="&amp;Containing text" />
+		<res id="3" text="&amp;Look in" />
+		<res id="4" text="OK" />
+		<res id="5" text="Cancel" />
+		<res id="6" text="Which history you would like cleared?" />
+		<res id="7" text="All history" />
+	</dialog>
+	<dialog name="IDD_FILETYPE_UTF8" id="6253" caption="">
+		<res id="1" text="UTF-8 files types that may not have a Byte Object Marker (BOM)." />
+		<res id="2" text="File types:" />
+		<res id="3" text="(Add each valid file type on a separate line.)" />
+	</dialog>
+	<dialog name="IDD_GENERAL_IFILTER" id="6250" caption="">
+		<res id="1" text="" />
+		<res id="2" text="&amp;Refresh" />
+		<res id="3" text="IFilters registered on this computer:" />
+		<res id="4" text="Include IFilters for HTML/XML based file types" />
+		<res id="5" text="IFilter Search Priority:" />
+	</dialog>
+	<dialog name="IDD_EDITORSETTINGS_DEFAULT" id="6238" caption="">
+		<res id="1" text="Select your default editor:" />
+		<res id="2" text="Internal Viewer in Text Tab" />
+		<res id="3" text="Internal Viewer in New Window" />
+		<res id="4" text="Microsoft Visual Studio.NET" />
+		<res id="5" text="External Editor" />
+	</dialog>
+	<dialog name="IDD_EDITORSETTINGS_EXTERNAL" id="6237" caption="">
+		<res id="1" text="&amp;Browse..." />
+		<res id="2" text="Common Editor Defaults:" />
+		<res id="3" text="Command Line Parameters:" />
+		<res id="4" text="Variables: " />
+		<res id="5" text="$(FILEPATH)" />
+		<res id="6" text="- Currently selected file" />
+		<res id="7" text="$(LINENUM)" />
+		<res id="8" text="- Currently selected line number" />
+		<res id="9" text="Program Location:" />
+	</dialog>
+	<dialog name="IDD_CONFIGURATION_MAIN" id="6235" caption="FileLocator Pro Configuration">
+		<res id="1" text="" />
+		<res id="2" text="" />
+		<res id="3" text="OK" />
+		<res id="4" text="Cancel" />
+		<res id="5" text="Settings" />
+		<res id="6" text="Reset to Default Configuration" />
+	</dialog>
+	<dialog name="IDD_GENERAL_DISPLAYCONFIG" id="6239" caption="">
+		<res id="1" text="Display Lines" />
+		<res id="2" text="Max displayed lines per file:" />
+		<res id="3" text="Limit max characters displayed per line to:" />
+		<res id="4" text="Surrounding Lines" />
+		<res id="5" text="Lines before:" />
+		<res id="6" text="Lines after:" />
+		<res id="7" text="File List View column settings" />
+		<res id="8" text="Display end of path if insufficient space for whole path" />
+	</dialog>
+	<dialog name="IDD_GENERAL_HISTORY" id="6240" caption="">
+		<res id="1" text="&amp;Clear all history on exit" />
+		<res id="2" text="Clear &amp;History..." />
+		<res id="3" text="Remember" />
+		<res id="4" text="&amp;Options settings" />
+		<res id="5" text="Window si&amp;ze, position &amp;&amp; font settings" />
+		<res id="6" text="&amp;Load last search on startup" />
+		<res id="7" text="Maximum List Sizes" />
+		<res id="8" text="Search navigation:" />
+		<res id="9" text="Drop Down Lists" />
+		<res id="10" text="Drop down lists:" />
+		<res id="11" text="Recent files:" />
+	</dialog>
+	<dialog name="IDD_GENERAL_CHARPROC" id="6241" caption="">
+		<res id="1" text="Other valid End of Line (EOL) identifiers" />
+		<res id="2" text="&amp;Unix (LF)" />
+		<res id="3" text="&amp;Mac (CR)" />
+		<res id="4" text="Maximum characters per line:" />
+		<res id="5" text="Special" />
+		<res id="6" text="Convert to 7-bit chars" />
+		<res id="7" text="Containing Text" />
+		<res id="8" text="&amp;Include file name in content search" />
+	</dialog>
+	<dialog name="IDD_GENERAL_THREADING" id="6244" caption="">
+		<res id="1" text="Search Threads" />
+		<res id="2" text="&amp;Auto Manage" />
+		<res id="3" text="Concurrent threads:" />
+		<res id="4" text="(between 1 - 99)" />
+		<res id="5" text="Warning: Setting the thread count too high can affect performance. " />
+		<res id="6" text="Process Priority" />
+		<res id="7" text="Foreground:" />
+		<res id="8" text="Background:" />
+		<res id="9" text="Minimized:" />
+	</dialog>
+	<dialog name="IDD_GENERAL_SHELL" id="6245" caption="">
+		<res id="1" text="&amp;Associate with FileLocator Pro file types (SRF, FLSX, FLWX)" />
+		<res id="2" text="Add 'FileLocator Pro...' to a &amp;Folder's context menu options" />
+		<res id="3" text="Add 'FileLocator Pro...' to a F&amp;ile's context menu options" />
+		<res id="4" text="Add to Find/&amp;Search Start menu options" />
+		<res id="5" text="&amp;Replace default Explorer search (Ctrl+F, F3)" />
+		<res id="6" text="Enable &amp;HotKey launch (WinKey+Alt+F, WinKey+Alt+F3)" />
+		<res id="7" text="UAC Note: Changing Shell settings causes the application FLProShellAdmin.exe to launch with privilege escalation required." />
+	</dialog>
+	<dialog name="IDD_GENERAL_FOLDERS" id="6246" caption="">
+		<res id="1" text="&amp;Browse..." />
+		<res id="2" text="&amp;Browse..." />
+		<res id="3" text="&amp;Browse..." />
+		<res id="4" text="&amp;Browse..." />
+		<res id="5" text="Log file folder:" />
+		<res id="6" text="Configuration files folder:" />
+		<res id="7" text="&amp;Browse..." />
+		<res id="8" text="&amp;Browse..." />
+		<res id="9" text="Favorites folder:" />
+	</dialog>
+	<dialog name="IDD_GENERAL_ALERTS" id="6247" caption="">
+		<res id="1" text="Play sound" />
+		<res id="2" text="..." />
+		<res id="3" text="..." />
+		<res id="4" text="Show task bar notification message" />
+		<res id="5" text="Repeat for every file found" />
+		<res id="6" text="Play sound" />
+		<res id="7" text="..." />
+		<res id="8" text="..." />
+		<res id="9" text="Show task bar notification message" />
+		<res id="10" text="File Found" />
+		<res id="11" text="Search Finished" />
+	</dialog>
+	<dialog name="IDD_ADV_TRANSFORM" id="6248" caption="">
+		<res id="1" text="Select the XSLT processor used for Save Results custom format transforms:" />
+		<res id="2" text="DOM Prog Id:" />
+		<res id="3" text="Microsoft XML Core Services" />
+	</dialog>
+	<dialog name="IDD_ADV_JUNCTIONS" id="6251" caption="">
+		<res id="1" text="How do you want FileLocator Pro to handle junction points?" />
+		<res id="2" text="&amp;Search folders marked as junction points (if ACLs allow)" />
+		<res id="3" text="E&amp;xclude System Hidden junction joints" />
+	</dialog>
+	<dialog name="IDD_ADV_FILELISTS" id="6252" caption="">
+		<res id="1" text="Select which criteria fields accept file lists (e.g., =c:\list.txt):" />
+		<res id="2" text="&amp;File Name" />
+		<res id="3" text="&amp;Containing Text" />
+		<res id="4" text="&amp;Look In" />
+	</dialog>
+	<dialog name="IDD_EXPRESSION_BOOLEAN" id="6254" caption="">
+		<res id="1" text="LIKE Sensitivity" />
+		<res id="2" text="" />
+		<res id="3" text="Very similar" />
+		<res id="4" text="Similar" />
+		<res id="5" text="Approximate" />
+		<res id="6" text="NEAR Distance" />
+		<res id="7" text="Max distance between words (in characters)" />
+		<res id="8" text="Expression Parsing" />
+		<res id="9" text="Process stylized quotes as normal quotes" />
+	</dialog>
+	<dialog name="IDD_FILTERS" id="6272" caption="Persistent Search Filters">
+		<res id="1" text="&amp;Use Persistent Search Filters" />
+		<res id="2" text="Search Filters:" />
+		<res id="3" text="&amp;Add..." />
+		<res id="4" text="" />
+		<res id="5" text="OK" />
+		<res id="6" text="Cancel" />
+	</dialog>
+	<dialog name="IDD_FILTERS_EDIT" id="6273" caption="Search Filter Definition">
+		<res id="1" text="&amp;Description:" />
+		<res id="2" text="&amp;Filter:" />
+		<res id="3" text="" />
+		<res id="4" text="Browse..." />
+		<res id="5" text="Browse..." />
+		<res id="6" text="Save" />
+		<res id="7" text="Cancel" />
+		<res id="8" text="" />
+		<res id="9" text="A Search Filter can be any value valid for a Look In location. It can include or exclude a folder or simply specify a location filter." />
+		<res id="10" text="Note: Separate multiple entries using a semicolon." />
+	</dialog>
+	<dialog name="IDD_EXPRESSION_REGEX" id="6274" caption="">
+		<res id="1" text="Regular Expression Syntax" />
+		<res id="2" text="&amp;Perl compatible" />
+		<res id="3" text="&amp;Classic" />
+		<res id="4" text="&amp;Collate character ranges" />
+	</dialog>
+	<dialog name="IDD_EXPRESSION_HASH" id="6275" caption="">
+		<res id="1" text="Hashing Algorithms" />
+		<res id="2" text="SHA-&amp;1" />
+		<res id="3" text="SHA-&amp;256" />
+		<res id="4" text="SHA-&amp;512" />
+		<res id="5" text="&amp;MD5" />
+	</dialog>
+	<dialog name="IDD_FORMATS_DOCUMENT" id="6000" caption="Document Search Settings">
+		<res id="1" text="Select the search method for searching common Office document formats (e.g. doc, pdf, xls, etc):" />
+		<res id="2" text="Deep Search (searches both the raw data and uses all available processing extensions)" />
+		<res id="3" text="Custom processing settings" />
+		<res id="4" text="Use ALL appropriate document extensions" />
+		<res id="5" text="Use only selected document extensions:" />
+		<res id="6" text="&amp;All" />
+		<res id="7" text="&amp;None" />
+		<res id="8" text="" />
+		<res id="9" text="Also search raw document data of processed files" />
+		<res id="10" text="OK" />
+		<res id="11" text="Cancel" />
+	</dialog>
+	<dialog name="IDD_FORMATS_ARCHIVE" id="6180" caption="Compressed/Archive Format Search Settings">
+		<res id="1" text="Select which compressed/archive formats you wish to search within:" />
+		<res id="2" text="Search within ALL compressed/archive files" />
+		<res id="3" text="Search within only selected compressed/archive formats:" />
+		<res id="4" text="&amp;All" />
+		<res id="5" text="&amp;None" />
+		<res id="6" text="" />
+		<res id="7" text="OK" />
+		<res id="8" text="Cancel" />
+	</dialog>
+	<dialog name="IDD_CONFIGENTRY_EXPRESSIONS" id="6001" caption="">
+		<res id="1" text="This configuration group contains the expression settings for FileLocator Pro." />
+	</dialog>
+	<dialog name="IDD_EXPRESSION_DOS" id="6002" caption="">
+		<res id="1" text="&amp;Strictly conforming syntax" />
+		<res id="2" text="DOS Expressions" />
+	</dialog>
+	<dialog name="IDD_GENERAL_GUI" id="6003" caption="">
+		<res id="1" text="Look and Feel" />
+		<res id="2" text="Default (Tabbed search, Standard theme)" />
+		<res id="3" text="Classic (MDI search, Classic theme)" />
+		<res id="4" text="Custom" />
+		<res id="5" text="Theme:" />
+		<res id="6" text="Tabbed search" />
+		<res id="7" text="&amp;Individual taskbar tab previews (Win 7 only)*" />
+		<res id="8" text="* Takes effect after you restart FileLocator Pro" />
+	</dialog>
+	<dialog name="IDD_EDITORSETTINGS_INTERNALVIEWER" id="6004" caption="">
+		<res id="1" text="Display" />
+		<res id="2" text="* Takes effect for all newly loaded files." />
+		<res id="3" text="Tab size:" />
+	</dialog>
+	<dialog name="IDD_ABOUTBOX" id="100" caption="About FileLocator Pro">
+		<res id="1" text="http://www.mythicsoft.com" />
+		<res id="2" text="mailto:support@mythicsoft.com" />
+		<res id="3" text="&amp;Registration Code..." />
+		<res id="4" text="OK" />
+		<res id="5" text="Copyright © 2013 Mythicsoft Ltd. All rights reserved." />
+		<res id="6" text="FileLocator Pro is the feature extended version of the hugely popular freeware searching utility Agent Ransack." />
+		<res id="7" text="FileLocator Pro must be registered after the trial period has expired. Registration codes may be obtained via the web site shown below." />
+		<res id="8" text="For a registration code please visit the web site at:" />
+		<res id="9" text="Privacy policy: Personal information will NOT be sold or distributed" />
+		<res id="10" text="Comments/questions should be sent to: " />
+		<res id="11" text="This copy of FileLocator Pro is registered to:" />
+		<res id="12" text="FileLocator Pro" />
+	</dialog>
+	<dialog name="IDD_TESTREGEXP" id="130" caption="Test Regular Expression">
+		<res id="1" text="&amp;Regular Expression:" />
+		<res id="2" text="Match Case" />
+		<res id="3" text="&amp;Sample Text:" />
+		<res id="4" text="Test" />
+		<res id="5" text="Close" />
+		<res id="6" text="Result:" />
+		<res id="7" text="Not quite sure if your regular expression is correct? This window allows you to test the regular expression engine. Simply enter the expression you wish to test along with some sample text and then press Test." />
+		<res id="8" text="Note: The expression tester uses Perl style regular expressions." />
+	</dialog>
+	<dialog name="IDD_SEARCHFOR_FORM" id="102" caption="">
+		<res id="1" text="" />
+		<res id="2" text="E&amp;xpert User" />
+		<res id="3" text="Start" />
+		<res id="4" text="Stop" />
+		<res id="5" text="Progress1" />
+		<res id="6" text="Animate1" />
+		<res id="7" text="" />
+	</dialog>
+	<dialog name="IDD_BASIC" id="132" caption="Main">
+		<res id="1" text="File &amp;name:" />
+		<res id="2" text="&amp;Containing text:" />
+		<res id="3" text="Search Wi&amp;zard..." />
+		<res id="4" text="&amp;Look in:" />
+		<res id="5" text="" />
+		<res id="6" text="Search s&amp;ubfolders" />
+		<res id="7" text="&amp;Browse..." />
+	</dialog>
+	<dialog name="IDD_SEARCH_WIZ_NAME" id="135" caption="Name of file">
+		<res id="1" text="What is the name of the file you want to find?" />
+		<res id="2" text="You don't know the exact name? Not to worry, you can search on parts of the name. If you don't know any part of the name leave it blank." />
+		<res id="3" text="Examples:" />
+		<res id="4" text="My.*Doc" />
+		<res id="5" text="Would find all documents having My and then Doc somewhere else in the name" />
+		<res id="6" text="(e.g. My_Document.doc, My_Autodoc.txt etc.)" />
+		<res id="7" text="Make sure the file name is set to Regular expression in the options tab before using regular expressions, like those shown in the examples. For more complex search &quot;expressions&quot; use the expression wizards available with the Expert User interface." />
+		<res id="8" text="MyDoc" />
+		<res id="9" text="Would find all documents with MyDoc somwhere in the name" />
+		<res id="10" text="(e.g. MyDocument.doc, Note_From_MyDoctor.txt etc.)" />
+		<res id="11" text="^MyDoc" />
+		<res id="12" text="Would find all documents beginning with MyDoc" />
+		<res id="13" text="(e.g. MyDocument.doc, MyDoctorsNote.txt etc.)" />
+	</dialog>
+	<dialog name="IDD_SEARCH_WIZ_LOCATION" id="136" caption="Location of file">
+		<res id="1" text="&amp;All local hard drives" />
+		<res id="2" text="Specific &amp;drive (e.g. C:, D: etc.)" />
+		<res id="3" text="" />
+		<res id="4" text="Specific &amp;folder (e.g. C:\Windows, D:\Files\My Docs etc.)" />
+		<res id="5" text="" />
+		<res id="6" text="&amp;Browse..." />
+		<res id="7" text="&amp;Yes, also search the sub folders" />
+		<res id="8" text="&amp;No, only search that folder" />
+		<res id="9" text="&amp;Start the search automatically when you click the Finish button" />
+		<res id="10" text="Where do you want to search for the file?" />
+		<res id="11" text="Do you want to search the folder's sub folders as well?" />
+		<res id="12" text="Performance tip: Choosing a specific folder greatly reduces the number of files to be searched and so is usually much faster." />
+	</dialog>
+	<dialog name="IDD_SEARCH_WIZ_CONTENTS" id="137" caption="Contents of file">
+		<res id="1" text="Do you want to search for the file based upon text within the file?" />
+		<res id="2" text="&amp;No, just search by file name" />
+		<res id="3" text="&amp;Yes, search the contents of the file" />
+		<res id="4" text="What text should the file contain?" />
+		<res id="5" text="Examples:" />
+		<res id="6" text="Dear Bill" />
+		<res id="7" text="Would find any file that had a line with the phrase Dear Bill in it." />
+		<res id="8" text="(e.g. My Dear Bill..., Dear Billy how are you... etc.)" />
+		<res id="9" text="Dear.*Bill" />
+		<res id="10" text="Would find any file that had a line with both the words Dear and Bill in it (e.g. Dear Fred how is Bill..., The dearest items should be rebilled...)" />
+		<res id="11" text="Performance tip: Searching the contents of files can take a long time, especially if a name has not been entered or is not very specific. Therefore, choosing No is usually much faster." />
+	</dialog>
+	<dialog name="IDD_REGISTER" id="138" caption="Enter Registration Info">
+		<res id="1" text="OK" />
+		<res id="2" text="Cancel" />
+		<res id="3" text="&amp;First name:" />
+		<res id="4" text="&amp;Last name:" />
+		<res id="5" text="&amp;Registration key:" />
+		<res id="6" text="&amp;Email Address:" />
+		<res id="7" text="Note: The first name, last name, and email address must be entered exactly as shown in the registration email." />
+		<res id="8" text="If you have any problems please contact support@mythicsoft.com for assistance." />
+		<res id="9" text="Please enter your registration information." />
+	</dialog>
+	<dialog name="IDD_ADVANCED" id="139" caption="Main">
+		<res id="1" text="File &amp;name:" />
+		<res id="2" text="&amp;Containing text:" />
+		<res id="3" text="&amp;Look in:" />
+		<res id="4" text="" />
+		<res id="5" text="N&amp;ot" />
+		<res id="6" text="" />
+		<res id="7" text="Help..." />
+		<res id="8" text="" />
+		<res id="9" text="Help..." />
+		<res id="10" text="S&amp;ubfolders" />
+		<res id="11" text="Browse..." />
+		<res id="12" text="Browse..." />
+		<res id="13" text="&amp;&gt;" />
+		<res id="14" text="&amp;&lt;" />
+		<res id="15" text="&amp;Modified:" />
+		<res id="16" text="&amp;After:" />
+		<res id="17" text="&amp;Before:" />
+		<res id="18" text="Show calendar..." />
+		<res id="19" text="Show calendar..." />
+		<res id="20" text="" />
+	</dialog>
+	<dialog name="IDD_EXPR_WIZ" id="140" caption="Create the expression">
+		<res id="1" text="that occurs" />
+		<res id="2" text="&amp;Add" />
+		<res id="3" text="&amp;Modify" />
+		<res id="4" text="&amp;Delete" />
+		<res id="5" text="List2" />
+		<res id="6" text="Resulting expression" />
+		<res id="7" text="Note: Drag &amp;&amp; Drop to rearrange items" />
+	</dialog>
+	<dialog name="IDD_EXPR_WIZ_INTRO" id="141" caption="Introducing the Expression Wizard">
+		<res id="1" text="Welcome to the Expression Wizard. This wizard will help you define exactly what you are looking for." />
+		<res id="2" text="FileLocator Pro uses the concept of 'regular expressions' to describe the patterns for string matching. While regular expressions are very powerful they also tend to be daunting for the uninitiated." />
+		<res id="3" text="Expression Wizard's purpose is therefore to reduce the complexity of regular expressions without sacrificing the power. Expression Wizard will help build the expression for you by asking you to describe what you are looking in terms easier to understand." />
+		<res id="4" text="Note:" />
+		<res id="5" text="The search specific note goes here." />
+		<res id="6" text="&amp;Don't show this introduction next time." />
+	</dialog>
+	<dialog name="IDD_EXPR_WIZ_SPECIAL" id="143" caption="Warning: Special characters entered">
+		<res id="1" text="&amp;Yes. Please insert appropriate backslashes because none of the characters I entered should be treated as special characters." />
+		<res id="2" text="&amp;No. I am deliberately using special characters for advanced searching." />
+		<res id="3" text="One or more of the expressions you entered contains at least one of the following special characters: ^$*?+.[]()|\ " />
+		<res id="4" text="Special characters are used in regular expressions to define the pattern matching rules and therefore should be used with caution. If you want to search for a character that is also a special character that you must put a backslash before the character. " />
+		<res id="5" text="" />
+		<res id="6" text="For example:" />
+		<res id="7" text="To search for:" />
+		<res id="8" text="the expression would be:" />
+		<res id="9" text="$400.00" />
+		<res id="10" text="\$400\.00" />
+		<res id="11" text="What was that?" />
+		<res id="12" text="What was that\?" />
+		<res id="13" text="(12\4)*5=15" />
+		<res id="14" text="\(12\\4\)\*5=15" />
+		<res id="15" text="To search for:" />
+		<res id="16" text="To search for:" />
+		<res id="17" text="the expression would be:" />
+		<res id="18" text="the expression would be:" />
+		<res id="19" text="Would you like Expression Wizard to automatically insert the backslashes before all special characters?" />
+	</dialog>
+	<dialog name="IDD_OPTIONS" id="144" caption="Options">
+		<res id="1" text="Specifies &amp;NOT expression" />
+		<res id="2" text="&amp;Match case" />
+		<res id="3" text="Match &amp;case" />
+		<res id="4" text=" File name " />
+		<res id="5" text=" Contents " />
+		<res id="6" text="Look In" />
+	</dialog>
+	<dialog name="IDD_HELPPARMS" id="169" caption="Command line parameter help">
+		<res id="1" text="Close" />
+		<res id="2" text="FileLocatorPro.exe [saved search] | -o [output file] | -oa | -oc | -ol [num] | -oe? | -of? | -os |" />
+		<res id="3" text="-cm | -fm | -s | -fe? | -fx | -ce? | le? | -pa | -po | -ma [datetime] | -mb [datetime] | -h | -?" />
+		<res id="4" text="-d [folder name] | -dw | -c [containing text] | -f [file name] | -r |" />
+		<res id="5" text="Directory(s) to search (i.e. the Look In field), use -dw for current working directory" />
+		<res id="6" text="Text to search for in specified files" />
+		<res id="7" text="File names to search for" />
+		<res id="8" text="Match case when contents searching" />
+		<res id="9" text="Match case when comparing file names" />
+		<res id="10" text="Search subfolders" />
+		<res id="11" text="File name expr type: -fed=DOS, -fex=Regular Expression, -feb=Boolean, -fee=Plain text" />
+		<res id="12" text="Contents expr type: -ceb=Boolean, -cex=Regular Expression, -cee=Plain text" />
+		<res id="13" text="Always use command line parameters when creating new or opening existing searches" />
+		<res id="14" text="Override values from file when loading from file AND specifying command line parameters" />
+		<res id="15" text="Start search immediately (implied by -o option)" />
+		<res id="16" text="To switch an option off append 'n' to the flag, e.g. " />
+		<res id="17" text="FileLocatorPro.exe -fmn Switches OFF match case when comparing files" />
+		<res id="18" text="File name shows the file names to exclude" />
+		<res id="19" text="Output filename (runs the search without showing the FileLocator Pro GUI)" />
+		<res id="20" text="Output format: -oft=Text, -ofc=CSV, -ofb=Tab, -ofx=XML, -ofh=HTML, -ofxslt=Custom (XSLT)" />
+		<res id="21" text="Output surrounding lines" />
+		<res id="22" text="Modified before date value, pass &quot;now&quot; as the date to use the current date and time" />
+		<res id="23" text="Modified after date value, pass &quot;now&quot; as the date to use the current date and time" />
+		<res id="24" text="Output content lines" />
+		<res id="25" text="Look In expr type: -leb=Boolean, -lex=Regular Expression, -lee=Plain text" />
+		<res id="26" text="Show this help dialog" />
+		<res id="27" text="-o" />
+		<res id="28" text="-of?" />
+		<res id="29" text="-oc" />
+		<res id="30" text="-os" />
+		<res id="31" text="-d" />
+		<res id="32" text="-c" />
+		<res id="33" text="-f" />
+		<res id="34" text="-cm" />
+		<res id="35" text="-fm" />
+		<res id="36" text="-s" />
+		<res id="37" text="-fe?" />
+		<res id="38" text="-fx" />
+		<res id="39" text="-ce?" />
+		<res id="40" text="-le?" />
+		<res id="41" text="-pa" />
+		<res id="42" text="-po" />
+		<res id="43" text="-ma" />
+		<res id="44" text="-mb" />
+		<res id="45" text="-r" />
+		<res id="46" text="-h / -?" />
+		<res id="47" text="-re?" />
+		<res id="48" text="Regular expression type: -rep=Perl syntax, -rec=Classic syntax" />
+		<res id="49" text="-cf" />
+		<res id="50" text="Contents expression spans file (only valid with Boolean expressions)" />
+		<res id="51" text="Overwrite configuration with configuration stored in saved search criteria file" />
+		<res id="52" text="-pc" />
+		<res id="53" text="-oe?" />
+		<res id="54" text="Output encoding: -oea=ASCII, -oe8=UTF-8, -oeu=Unicode" />
+		<res id="55" text="-ol" />
+		<res id="56" text="Maximum number of found lines per file to output" />
+		<res id="57" text="-oa" />
+		<res id="58" text="Append to output file" />
+	</dialog>
+	<dialog name="IDD_SAVE_RESULTS" id="173" caption="Export Results">
+		<res id="1" text="&amp;Clipboard" />
+		<res id="2" text="&amp;File" />
+		<res id="3" text="&amp;Browse..." />
+		<res id="4" text="&amp;Overwrite file" />
+		<res id="5" text="A&amp;ppend to file" />
+		<res id="6" text="&amp;Encoding:" />
+		<res id="7" text="Standard" />
+		<res id="8" text="Custom (XSLT)" />
+		<res id="9" text="&amp;Browse..." />
+		<res id="10" text="&amp;All files" />
+		<res id="11" text="&amp;Selected files" />
+		<res id="12" text="File &amp;name" />
+		<res id="13" text="Con&amp;tents" />
+		<res id="14" text="Surrounding &amp;lines" />
+		<res id="15" text="Export" />
+		<res id="16" text="Cancel" />
+		<res id="17" text="Save results for" />
+		<res id="18" text="Save information" />
+		<res id="19" text="Export to" />
+		<res id="20" text="Format" />
+	</dialog>
+	<dialog name="IDD_OPTIONALMSG" id="177" caption="Dialog">
+		<res id="1" text="OK" />
+		<res id="2" text="Don't tell me again." />
+	</dialog>
+	<dialog name="IDD_BLANK" id="178" caption="Dialog">
+		<res id="1" text="This is a blank dialog" />
+	</dialog>
+	<dialog name="IDD_SCRIPTING" id="179" caption="Scripting">
+		<res id="1" text="File name script:" />
+		<res id="2" text="Browse..." />
+		<res id="3" text="Engine:" />
+		<res id="4" text="Parm:" />
+		<res id="5" text="Containing text script:" />
+		<res id="6" text="Browse..." />
+		<res id="7" text="Engine:" />
+		<res id="8" text="Parm:" />
+		<res id="9" text="&amp;Test" />
+	</dialog>
+	<dialog name="IDD_EXPR_WIZ_DOSEXPR" id="217" caption="DOS Expression">
+		<res id="1" text="DOS Expressions use the standard Windows syntax for specifying a group of files. A semi-colon is used to separate multiple expressions." />
+		<res id="2" text="Example:" />
+		<res id="3" text="*.txt\t\tspecifies all files with a .txt extension\n\n*.xls;*.doc\tspecifies all files with either a .xls or a .doc extension" />
+		<res id="4" text="Advanced examples:" />
+		<res id="5" text="*.png;*.jpg:holiday\t\tspecifies all .png and .jpg files with the word holiday in their name\n\nNOT:*.doc;*.xls\t\t\tspecifies all files except .doc and .xls files\n\nholiday;NOT:*.exe;*.dll\t\tspecifies all files except .exe or .dll files with the word holiday in their name" />
+	</dialog>
+	<dialog name="IDD_EXPR_WIZ_BOOLEANEXPR" id="218" caption="Boolean Expression Engine">
+		<res id="1" text="Boolean expressions use the web style search operators AND, OR, NOT, LIKE and NEAR. Boolean searches can be either by line or by file:" />
+		<res id="2" text="Examples:" />
+		<res id="3" text="work AND document\tsearches for the words 'work' and 'document' in the same line/file" />
+		<res id="4" text="work document\t\tperforms the same search as above (the AND is implicit)" />
+		<res id="5" text="work OR document\tsearches for the words 'work' OR 'document' in the same line/file" />
+		<res id="6" text="work NEAR document\tsearches for 'work' close to the word 'document' in a line/file" />
+		<res id="7" text="&quot;work document&quot;\tsearches for the exact phrase 'work document'" />
+		<res id="8" text="By Line" />
+		<res id="9" text="expression is separately tested against each individual line" />
+		<res id="10" text="By File" />
+		<res id="11" text="expression is tested across the whole file" />
+		<res id="12" text="Note: Use parentheses to group expressions, e.g. (work AND doc) OR (special AND case)" />
+	</dialog>
+	<dialog name="IDD_EXPR_WIZ_EXACTEXPR" id="219" caption="Plain Text">
+		<res id="1" text="Plain Text treats the search criteria text entered as a literal value, i.e. exactly as the text is entered in the edit field. The search criteria matches against all or part of a word." />
+		<res id="2" text="For example:" />
+		<res id="3" text="the author\twould find phrases like 'the author' or 'the authors'." />
+		<res id="4" text="fish\t\tmatches against 'fish', 'fishing', or 'elfish'." />
+	</dialog>
+	<dialog name="IDD_ATTRIBUTES" id="220" caption="Attributes">
+		<res id="1" text="&amp;Use Attributes" />
+		<res id="2" text="Clear All" />
+		<res id="3" text="&amp;Archive:" />
+		<res id="4" text="&amp;Compressed:" />
+		<res id="5" text="E&amp;ncrypted:" />
+		<res id="6" text="Index:" />
+		<res id="7" text="Fol&amp;der:" />
+		<res id="8" text="&amp;Hidden:" />
+		<res id="9" text="&amp;Offline:" />
+		<res id="10" text="&amp;Read only:" />
+		<res id="11" text="S&amp;ystem:" />
+		<res id="12" text="S&amp;parse:" />
+	</dialog>
+	<dialog name="IDD_ATTRIBUTE_SUMMARY" id="221" caption="Summary Attributes">
+		<res id="1" text="Attribute" />
+		<res id="2" text="Search for:" />
+	</dialog>
+	<dialog name="IDD_OPTIONS_ADVANCED" id="222" caption="Options" maxgrow="700">
+		<res id="1" text="Boolean Expression" />
+		<res id="2" text="Match:" />
+		<res id="3" text="&amp;Line by line" />
+		<res id="4" text="&amp;Across whole file" />
+		<res id="5" text="Allow wildcards (&amp;*, ?)" />
+		<res id="6" text="Email" />
+		<res id="10" text="Enhanced File Searching" />
+		<res id="11" text="&amp;Office/PDF documents" />
+		<res id="12" text="Settings..." />
+		<res id="13" text="O&amp;utlook PST/MSG files" />
+		<res id="14" text="Sea&amp;rch attachments" />
+		<res id="15" text="Remove &amp;HTML markup" />
+		<res id="16" text="&amp;Cache text" />
+		<res id="17" text="Cache..." />
+		<res id="18" text="Exclude &amp;binary files" />
+	</dialog>
+	<dialog name="IDD_DATETIMEPICKER" id="242" caption="Date/Time Selection">
+		<res id="1" text="Date" />
+		<res id="2" text="Fixed Date:" />
+		<res id="3" text="Relative Date:" />
+		<res id="4" text="" />
+		<res id="5" text="Adjust (+/-)" />
+		<res id="6" text="Days:" />
+		<res id="7" text="Weeks:" />
+		<res id="8" text="Months:" />
+		<res id="9" text="Years:" />
+		<res id="10" text="Time" />
+		<res id="11" text="Specify Time" />
+		<res id="12" text="Fixed Time:" />
+		<res id="13" text="Relative Time:" />
+		<res id="14" text="HH:mm:ss" />
+		<res id="15" text="Adjust (+/-)" />
+		<res id="16" text="Seconds:" />
+		<res id="17" text="Minutes:" />
+		<res id="18" text="Hours:" />
+		<res id="19" text="OK" />
+		<res id="20" text="Cancel" />
+		<res id="21" text="Current expression:" />
+		<res id="22" text="Evaluates to:" />
+	</dialog>
+	<dialog name="IDD_EXPR_WIZ_FILEHASH" id="243" caption="File Hash">
+		<res id="1" text="File Hashing generates a fixed length unique identifier for each file based on the contents of the file. Files with identical contents will produce identical hash values." />
+		<res id="2" text="1. Specify the hash algorithms from the Options tab" />
+		<res id="3" text="To search by hash value:" />
+		<res id="4" text="2. Enter the hash value to search for as either a comma separated list of hash values or a pointer to a list of hash values, e.g." />
+		<res id="5" text="12EB0C408189C7870C83F0879B7C71AA,77116AB1664F3F85515F55F64506F848" />
+		<res id="6" text="=c:\hashfile.txt" />
+		<res id="7" text="OR," />
+	</dialog>
+	<dialog name="IDD_EXPR_WIZ_BOOLEANREGEX" id="246" caption="Boolean RegEx Engine">
+		<res id="1" text="Boolean RegEx expressions are a hybrid of Boolean and Regular Expressions. Regular expressions can be combined using the familiar boolean operators AND, OR, and NOT." />
+		<res id="2" text="Examples:" />
+		<res id="3" text="&quot;doc.*[0-9]+&quot; AND &quot;author&quot;" />
+		<res id="4" text="&quot;error (120|121|123)&quot; OR &quot;info 344&quot; NOT &quot;archive&quot;" />
+		<res id="5" text="Note: Use parentheses to group expressions, e.g. (work AND doc) OR (special AND case)" />
+	</dialog>
+	<dialog name="IDD_EXPR_WIZ_WHOLEWORD" id="247" caption="Whole Word">
+		<res id="1" text="Whole Word treats the search criteria text entered as a literal value, i.e. exactly as the text is entered in the edit field, but also matches the beginning and end of the criteria text against the 'word boundary'." />
+		<res id="2" text="For example:" />
+		<res id="3" text="the author\tsearches for the specific phrase 'the author'." />
+		<res id="4" text="fish\t\tmatches against 'fish' but not 'fishing' or 'elfish'." />
+	</dialog>
+	<dialog name="IDD_DATES" id="250" caption="Dates" >
+		<res id="1" text="Clear All" />
+		<res id="2" text="&amp;Modified:" />
+		<res id="3" text="After:" />
+		<res id="4" text="Show calendar..." />
+		<res id="5" text="Before:" />
+		<res id="6" text="Show calendar..." />
+		<res id="7" text="&amp;Created:" />
+		<res id="8" text="After:" />
+		<res id="9" text="Show calendar..." />
+		<res id="10" text="Before:" />
+		<res id="11" text="Show calendar..." />
+		<res id="12" text="&amp;Last Accessed:" />
+		<res id="13" text="After:" />
+		<res id="14" text="Show calendar..." />
+		<res id="15" text="Before:" />
+		<res id="16" text="Show calendar..." />
+	</dialog>
+	<dialog name="IDD_ADVANCEDTAB" id="260" caption="Advanced">
+		<res id="1" text="File Hashing" />
+		<res id="2" text="SHA-&amp;1" />
+		<res id="3" text="SHA-&amp;256" />
+		<res id="4" text="SHA-&amp;512" />
+		<res id="5" text="&amp;MD5" />
+		<res id="6" text="Regular Expression" />
+		<res id="7" text="&amp;Perl compatible" />
+		<res id="8" text="&amp;Classic" />
+		<res id="9" text="Active Scripting" />
+		<res id="10" text="Settings..." />
+	</dialog>
+	<dialog name="IDD_EXTENSIONS" id="180" caption="Compressed Files">
+		<res id="1" text="" />
+		<res id="2" text="Select the file formats you want to search within:" />
+		<res id="3" text="Configuration..." />
+		<res id="4" text="&amp;None" />
+		<res id="5" text="&amp;All" />
+	</dialog>
+	<dialog name="IDD_CHECKVERSION" id="249" caption="Check For Updates">
+		<res id="1" text="Checking for updates..." />
+		<res id="2" text="" />
+		<res id="3" text="FileLocator Pro web links:" />
+		<res id="4" text="Download Page:" />
+		<res id="5" text="http://www.mythicsoft.com/filelocatorpro/download?fwd=upd" />
+		<res id="6" text="Version History Page: " />
+		<res id="7" text="http://www.mythicsoft.com/filelocatorpro/history?fwd=upd" />
+		<res id="8" text="Automatically check for updates" />
+		<res id="9" text="Close" />
+	</dialog>
+	<dialog name="IDD_FAVOURITE_SEARCH" id="258" caption="">
+		<res id="1" text="" />
+		<res id="2" text="Static" />
+	</dialog>
+	<dialog name="IDD_FAVOURITE_ADD" id="259" caption="Add a Favorite">
+		<res id="1" text="" />
+		<res id="2" text="Add this search as a favorite." />
+		<res id="3" text="&amp;Description:" />
+		<res id="4" text="&amp;Tags:" />
+		<res id="5" text="&amp;Add" />
+		<res id="6" text="Cancel" />
+	</dialog>
+	<dialog name="IDD_MULTIFOLDER" id="5176" caption="Multiple Folders">
+		<res id="1" text="Add each folder on a separate line by either typing directly, adding from drop down, or browsing." />
+		<res id="2" text="&amp;Recent folders:" />
+		<res id="3" text="" />
+		<res id="4" text="&amp;Add" />
+		<res id="5" text="&amp;Exclude" />
+		<res id="6" text="&amp;Macros:" />
+		<res id="7" text="" />
+		<res id="8" text="&amp;Add" />
+		<res id="9" text="&amp;Exclude" />
+		<res id="10" text="&amp;Look in folders:" />
+		<res id="11" text="&amp;Browse..." />
+		<res id="12" text="&amp;Exclude folders:" />
+		<res id="13" text="&amp;Browse..." />
+		<res id="14" text="&amp;Inclusion filter:" />
+		<res id="15" text="E&amp;xclusion filter:" />
+		<res id="16" text="OK" />
+		<res id="17" text="Cancel" />
+	</dialog>
+	<dialog name="IDD_FILEVIEWER_FIND" id="2245" caption="">
+		<res id="1" text="Find:" />
+		<res id="2" text="l" />
+		<res id="3" text="Next" />
+		<res id="4" text="Previous" />
+		<res id="5" text="Highlight:" />
+		<res id="6" text="" />
+		<res id="7" text="" />
+		<res id="8" text="" />
+		<res id="9" text="" />
+		<res id="10" text="l" />
+		<res id="11" text="Next" />
+		<res id="12" text="Next" />
+	</dialog>
+	<dialog name="IDD_MULTIFOLDER" id="2176" caption="Multiple Folders">
+		<res id="1" text="Add each folder on a separate line by either typing directly, adding from drop down, or browsing." />
+		<res id="2" text="Recent folders:" />
+		<res id="3" text="" />
+		<res id="4" text="&amp;Add" />
+		<res id="5" text="&amp;Exclude" />
+		<res id="6" text="Macros:" />
+		<res id="7" text="" />
+		<res id="8" text="&amp;Add" />
+		<res id="9" text="&amp;Exclude" />
+		<res id="10" text="Look in folders:" />
+		<res id="11" text="&amp;Browse..." />
+		<res id="12" text="Exclude folders:" />
+		<res id="13" text="&amp;Browse..." />
+		<res id="14" text="OK" />
+		<res id="15" text="Cancel" />
+	</dialog>
+	<dialog name="IDD_ACTION_PROGRESS" id="2014" caption="Action:">
+		<res id="1" text="Cancel" />
+		<res id="2" text="" />
+		<res id="3" text="Progress" />
+	</dialog>
+	<dialog name="IDD_GENERAL_LOCALIZATION" id="6276" caption="">
+		<res id="1" text="User interface language:" />
+		<res id="2" text="* Changes take effect after you restart FileLocator Pro"/>
+	</dialog>
+	<dialog name="IDD_SINGLE_CONFIG" id="6277" caption="Localization Settings">
+		<res id="1" text="OK" />
+		<res id="2" text="Cancel" />
+	</dialog>
+	<menu name="IDR_FILTERLIST_CONTEXTMENU" id="1126">
+		<res id="1" text="List" />
+		<res id="2" text="&amp;Edit..." />
+		<res id="3" text="&amp;Delete" />
+	</menu>
+	<menu name="IDR_SHAREDMENU" id="190">
+		<res id="1" text="&amp;File" />
+		<res id="2" text="&amp;New" />
+		<res id="3" text="&amp;Blank Search" />
+		<res id="4" text="&amp;Open..." />
+		<res id="5" text="&amp;Close" />
+		<res id="6" text="&amp;Save Criteria" />
+		<res id="7" text="Save Criteria &amp;As..." />
+		<res id="8" text="Search Result &amp;List" />
+		<res id="9" text="Search C&amp;urrent Selection" />
+		<res id="10" text="&amp;Export Results..." />
+		<res id="12" text="&amp;Print..." />
+		<res id="13" text="P&amp;rint Setup..." />
+		<res id="14" text="Recent File" />
+		<res id="15" text="E&amp;xit" />
+		<res id="16" text="&amp;Edit" />
+		<res id="17" text="&amp;Word Wrap" />
+		<res id="18" text="&amp;Set Font..." />
+		<res id="19" text="Set &amp;Highlight Colour..." />
+		<res id="20" text="&amp;Find" />
+		<res id="21" text="&amp;Find..." />
+		<res id="22" text="Find &amp;Next" />
+		<res id="23" text="Find &amp;Previous" />
+		<res id="24" text="Highlight &amp;Original" />
+		<res id="25" text="Highlight &amp;Current" />
+		<res id="26" text="Select Al&amp;l" />
+		<res id="27" text="&amp;Open" />
+		<res id="28" text="&amp;Explore here..." />
+		<res id="29" text="Copy &amp;Path" />
+		<res id="30" text="&amp;Copy" />
+		<res id="31" text="Cu&amp;t" />
+		<res id="32" text="&amp;Delete" />
+		<res id="33" text="Rena&amp;me" />
+		<res id="34" text="&amp;Properties..." />
+		<res id="35" text="&amp;View" />
+		<res id="36" text="&amp;Favorites" />
+		<res id="37" text="&amp;Toolbar" />
+		<res id="38" text="&amp;Status Bar" />
+		<res id="39" text="&amp;Error Report" />
+		<res id="40" text="S&amp;ort by" />
+		<res id="41" text="&amp;File name" />
+		<res id="42" text="&amp;Location" />
+		<res id="43" text="&amp;Size" />
+		<res id="44" text="&amp;Type" />
+		<res id="45" text="&amp;Date" />
+		<res id="46" text="Te&amp;xt Preview" />
+		<res id="47" text="&amp;Previous File" />
+		<res id="48" text="&amp;Next" />
+		<res id="49" text="Thumb&amp;nails" />
+		<res id="50" text="&amp;Extra Large Icons" />
+		<res id="51" text="&amp;Large Icons" />
+		<res id="52" text="&amp;Medium Icons" />
+		<res id="53" text="&amp;Small Icons" />
+		<res id="54" text="&amp;Return to Main View" />
+		<res id="55" text="&amp;Back" />
+		<res id="56" text="Forward" />
+		<res id="57" text="&amp;Search" />
+		<res id="58" text="&amp;Start" />
+		<res id="59" text="&amp;Pause" />
+		<res id="60" text="S&amp;top" />
+		<res id="61" text="&amp;Tools" />
+		<res id="62" text="&amp;Regular Expression Tester..." />
+		<res id="63" text="Clear Search &amp;History..." />
+		<res id="64" text="&amp;Editor Settings..." />
+		<res id="65" text="&amp;Configuration..." />
+		<res id="66" text="S&amp;hell Integration..." />
+		<res id="67" text="&amp;Window" />
+		<res id="68" text="Contents &amp;View" />
+		<res id="69" text="Dock &amp;Right" />
+		<res id="70" text="Dock &amp;Below" />
+		<res id="71" text="Show" />
+		<res id="72" text="&amp;Cascade" />
+		<res id="73" text="&amp;Tile" />
+		<res id="74" text="Arrange &amp;Icons" />
+		<res id="75" text="Move &amp;Focus" />
+		<res id="76" text="Search Cri&amp;teria" />
+		<res id="77" text="&amp;File List" />
+		<res id="78" text="Cont&amp;ents View" />
+		<res id="79" text="&amp;Current Tab" />
+		<res id="80" text="&amp;Summary" />
+		<res id="81" text="&amp;Hits" />
+		<res id="82" text="&amp;Text" />
+		<res id="83" text="Thumb&amp;nails" />
+		<res id="84" text="Favor&amp;ites" />
+		<res id="85" text="Error &amp;Report" />
+		<res id="86" text="Tab &amp;Order" />
+		<res id="87" text="&amp;Optimized" />
+		<res id="88" text="&amp;Traditional Left to Right" />
+		<res id="89" text="&amp;Help" />
+		<res id="90" text="&amp;Contents..." />
+		<res id="91" text="Command Line &amp;Parms..." />
+		<res id="92" text="Check For &amp;Updates..." />
+		<res id="93" text="&amp;About FileLocator Pro..." />
+		<res id="94" text="Save Searc&amp;h..." />
+		<res id="95" text="Save &amp;Workspace..." />
+		<res id="96" text="Close &amp;All" />
+		<res id="97" text="Close All &amp;Text Windows" />
+		<res id="98" text="Close All &amp;except Active Search" />
+		<res id="99" text="Contact &amp;Technical Support..." />
+		<res id="100" text="&amp;Generate Error Report..." />
+		<res id="101" text="&amp;Registration Code..." />
+		<res id="102" text="Close All &amp;except Active Search" />
+		<res id="103" text="&amp;Menu Bar" />
+		<res id="104" text="&amp;Reports" />
+		<res id="105" text="&amp;Filter Bar" />
+	</menu>
+	<menu name="IDR_CONTENTSVIEWMENU" id="189">
+		<res id="1" text="Contents View" />
+		<res id="2" text="Open in Text Tab" />
+		<res id="3" text="Open in New Window..." />
+		<res id="4" text="Open in External Editor..." />
+		<res id="5" text="Open in Visual Studio..." />
+		<res id="6" text="Export Results..." />
+		<res id="7" text="Word Wrap" />
+		<res id="8" text="Copy" />
+		<res id="9" text="Expand All" />
+		<res id="10" text="Collapse All" />
+		<res id="11" text="Dock to Right" />
+		<res id="12" text="Dock Below" />
+		<res id="13" text="Hide Contents View" />
+	</menu>
+	<menu name="IDR_MENU_PLACEHOLDER" id="253">
+		<res id="1" text="Blank" />
+	</menu>
+	<menu name="IDR_FAVOURITES_MENU" id="261">
+		<res id="1" text="FindMenu" />
+		<res id="2" text="Open" />
+		<res id="3" text="Open in New Window" />
+		<res id="4" text="Edit" />
+		<res id="5" text="Delete" />
+	</menu>
+	<menu name="IDR_FILELOTYPE" id="129">
+		<res id="1" text="Dummy" />
+	</menu>
+	<menu name="IDR_FILEVIEWER" id="112">
+		<res id="1" text="Dummy" />
+	</menu>
+	<menu name="IDR_FILTERMENU" id="268">
+		<res id="1" text="Filter" />
+		<res id="2" text="Search Filters ON" />
+		<res id="3" text="Search Filters OFF" />
+		<res id="4" text="Settings..." />
+	</menu>
+	<menu name="IDR_FILEVIEWER_CONTEXTMENU" id="2116">
+		<res id="1" text="Contents View" />
+		<res id="2" text="&amp;Word Wrap" />
+		<res id="3" text="Copy" />
+		<res id="4" text="Open in New Window..." />
+		<res id="5" text="Open in External Editor..." />
+		<res id="6" text="Open in Visual Studio..." />
+		<res id="7" text="Find" />
+		<res id="8" text="Find Next" />
+		<res id="9" text="Find Previous" />
+		<res id="10" text="Highlight Original" />
+		<res id="11" text="Highlight Current" />
+		<res id="12" text="Set Font..." />
+		<res id="13" text="File" />
+		<res id="14" text="Search Again" />
+	</menu>
+	<menu name="IDR_REPORTVIEW_CONTEXTMENU" id="2302">
+		<res id="1" text="Reports" />
+		<res id="2" text="Copy" />
+		<res id="3" text="Select All" />
+		<res id="4" text="Refresh" />
+	</menu>
+	<menu name="IDR_IMAGESIZES_MENU" id="2003">
+		<res id="1" text="Size" />
+		<res id="2" text="Extra Large Icons" />
+		<res id="3" text="Large Icons" />
+		<res id="4" text="Medium Icons" />
+		<res id="5" text="Small Icons" />
+		<res id="6" text="Size2" />
+	</menu>
+	<string id="1" type="Resource">
+		<res id="1" text="Ready" />
+		<res id="2" text="Browse for sound file" />
+		<res id="3" text="Play sound file" />
+		<res id="4" refid="3" />
+		<res id="5" text="Browse for folder" />
+		<res id="6" text="Path of sound file" />
+		<res id="7" refid="2" />
+		<res id="8" refid="6" />
+		<res id="9" refid="5" />
+		<res id="10" refid="5" />
+		<res id="11" refid="5" />
+		<res id="12" refid="5" />
+		<res id="13" text="Open folder in Explorer" />
+		<res id="14" refid="13" />
+		<res id="15" text="Configuration" />
+		<res id="16" text="Content Viewer" />
+		<res id="18" text="Directory Searching" />
+		<res id="20" text="Extensions" />
+		<res id="21" text="FileLocator Pro" />
+		<res id="22" text="SDI_ONLY\nSearch\nNew Search\nSearch Criteria (*.srf)\n.srf\nFileLocatorPro.SearchCriteria\nFileLocator Pro Search Criteria" />
+		<res id="23" text="One or more of the selected files are composite files and will not be deleted. Do you want to continue?" />
+		<res id="24" text="Registration key has expired. Please purchase a new key or install an older version of the product. Older product versions are available in the MyAccount section of the Mythicsoft web site (www.mythicsoft.com)." />
+		<res id="25" text="Switching to a previous search will stop the current search. Do you want to continue?" />
+		<res id="26" text="FileLocatorPro" />
+		<res id="27" refid="1" />
+		<res id="34" text="Create a new search based on last search\nNew search based on last search" />
+		<res id="35" text="Open a search criteria file\nOpen" />
+		<res id="36" text="Close the active search\nClose" />
+		<res id="37" text="Save the current search criteria\nSave Criteria" />
+		<res id="38" text="Save the current search criteria with a new name\nSave As" />
+		<res id="39" text="Change the printing options\nPage Setup" />
+		<res id="40" text="Change the printer and printing options\nPrint Setup" />
+		<res id="41" text="Print the selected search results\nPrint" />
+		<res id="42" text="Display full pages\nPrint Preview" />
+		<res id="43" text="Display program information, version number and copyright\nAbout" />
+		<res id="44" text="Quit the application; prompts to save searches\nExit" />
+		<res id="45" text="Open this search" />
+		<res id="46" refid="45" />
+		<res id="47" refid="45" />
+		<res id="48" refid="45" />
+		<res id="49" refid="45" />
+		<res id="50" refid="45" />
+		<res id="51" refid="45" />
+		<res id="52" refid="45" />
+		<res id="53" refid="45" />
+		<res id="54" refid="45" />
+		<res id="55" refid="45" />
+		<res id="56" refid="45" />
+		<res id="57" refid="45" />
+		<res id="58" refid="45" />
+		<res id="59" refid="45" />
+		<res id="60" refid="45" />
+		<res id="61" text="Switch to the next window pane\nNext Pane" />
+		<res id="62" text="Switch back to the previous window pane\nPrevious Pane" />
+		<res id="63" text="Open another window for the active document\nNew Window" />
+		<res id="64" text="Arrange icons at the bottom of the window\nArrange Icons" />
+		<res id="65" text="Arrange windows so they overlap\nCascade Windows" />
+		<res id="66" text="Arrange windows as non-overlapping tiles\nTile Windows" />
+		<res id="67" refid="66" />
+		<res id="68" text="Split the active window into panes\nSplit" />
+		<res id="69" text="Erase the selection\nErase" />
+		<res id="70" text="Erase everything\nErase All" />
+		<res id="71" text="Copy the current selection to the clipboard\nCopy" />
+		<res id="72" text="Cut the selection and put it on the Clipboard\nCut" />
+		<res id="73" text="Find the specified text\nFind" />
+		<res id="74" text="Insert Clipboard contents\nPaste" />
+		<res id="75" text="Repeat the last action\nRepeat" />
+		<res id="76" text="Replace specific text with different text\nReplace" />
+		<res id="77" text="Select the entire document\nSelect All" />
+		<res id="78" text="Undo the last action\nUndo" />
+		<res id="79" text="Redo the previously undone action\nRedo" />
+		<res id="80" text="Show or hide the toolbar\nToggle Toolbar" />
+		<res id="81" text="Show or hide the status bar\nToggle Status Bar" />
+		<res id="82" text="Change the window size" />
+		<res id="83" text="Change the window position" />
+		<res id="84" text="Reduce the window to an icon" />
+		<res id="85" text="Enlarge the window to full size" />
+		<res id="86" text="Switch to the next document window" />
+		<res id="87" text="Switch to the previous document window" />
+		<res id="88" text="Close the active window and prompts to save the documents" />
+		<res id="89" text="Restore the window to normal size" />
+		<res id="90" text="Activate Task List" />
+		<res id="91" text="Activate this window" />
+		<res id="92" text="Close print preview mode\nCancel Preview" />
+		<res id="93" text="This pane displays any files selected in the File List view. If you are searching by Contents then this pane also displays lines found within the selected files. For available options use the right mouse button to bring up the context menu." />
+		<res id="94" text="%s is not a valid search directory. The directory name must be a valid path, including the drive letter (e.g. C:\Windows) OR a properly constructed UNC name (e.g. \\WORKSTATION\Shared_Folder)." />
+		<res id="95" text="\nSearchFor\nSearch\nSearch Files (*.sea)\n.sea\nSearchFor.Document\nSearch Document" />
+		<res id="96" text="Copy the paths of the currently selected file(s) to the clipboard\nCopy file paths" />
+		<res id="97" text="Open properties dialog for currently selected file(s)\nOpen properties" />
+		<res id="98" text="Open the currently selected file\nOpen file" />
+		<res id="99" text="Test regular expression engine" />
+		<res id="100" text="Switch word wrapping on/off when viewing contents\nWord Wrap" />
+		<res id="101" text="Set the font for the contents view\nSet Font" />
+		<res id="102" text="Start the search\nStart" />
+		<res id="103" text="Stop the current search\nStop" />
+		<res id="104" text="Open FileLocator Pro help\nHelp" />
+		<res id="105" text="Select all the files in the File List view\nSelect All" />
+		<res id="106" text="Export search results\nExport results" />
+		<res id="107" text="Delete current selection\nDelete" />
+		<res id="108" text="Clear history items in the drop down lists\nClear History" />
+		<res id="109" text="Modify search configuration\nConfiguration" />
+		<res id="110" text="System ran out of memory during search. Try the search again with the 'One Phase Search' option. If the problem persists please contact technical support." />
+		<res id="111" text="System encountered an unexpected exception during the search. If the problem persists please contact technical support." />
+		<res id="112" text="Ready" />
+		<res id="113" text="Please re-search to see the effects of the new settings." />
+		<res id="114" text="Search in subfolders" />
+		<res id="115" text="Browse for single folder" />
+		<res id="116" text="Open calendar" />
+		<res id="117" text="Open calendar" />
+		<res id="118" text="Browse for multiple folders" />
+		<res id="119" text="FILE_VIEWER\nView\nView\n\n\nFileLocator.FileViewer\nAFile Locator File Viewer" />
+		<res id="120" text="Show/hide the favorites list\nFavorites" />
+		<res id="121" text="Modify editor settings\nEditor Settings" />
+		<res id="122" text="Open an Explorer instance at the path for the currently selected file(s)\nOpen Explorer" />
+		<res id="123" text="Modify system integration settings\nSytem settings" />
+		<res id="124" text="Open multiple extensions dialog" />
+		<res id="125" text="Goes to the previous search results\nPrevious search result" />
+		<res id="126" text="Goes to the next search results\nNext search result" />
+		<res id="127" text="Rename current selection\nRename" />
+		<res id="128" text="Goes to the previous search results\nPrevious search result" />
+		<res id="129" text="Goes to the next search results\nNext search result" />
+		<res id="130" text="Size greater than" />
+		<res id="131" text="Size less than" />
+		<res id="132" text="More information on the chosen expression type" />
+		<res id="133" text="Expression type" />
+		<res id="134" refid="133" />
+		<res id="135" refid="133" />
+		<res id="136" text="Specifies whether or not the content is matched on a line by line basis or across the whole file" />
+		<res id="137" text="Specifies if file name expression is a NOT expression" />
+		<res id="138" text="Show or hide the contents view pane\nShow/Hide Contents View" />
+		<res id="139" text="Pause the search\nPause" />
+		<res id="140" text="Create new search with default settings\nNew blank search" />
+		<res id="141" text="Create new search based on current criteria\nNew search with current criteria" />
+		<res id="142" text="Search for text within file\nFind..." />
+		<res id="143" text="Scroll to the next highlighted line of found text\nScroll to next" />
+		<res id="144" text="Scroll to the previous highlighted line of found text\nScroll to previous" />
+		<res id="145" text="Toggle the highlighting of the current find\nToggle highlighting" />
+		<res id="146" text="Previous hit" />
+		<res id="147" text="Next hit" />
+		<res id="148" text="Previous file" />
+		<res id="149" text="Next file" />
+		<res id="150" text="Edit the currently selected favorite\nEdit Favorite" />
+		<res id="151" text="Delete the currently selected favorite\nDelete Favorite" />
+		<res id="152" text="Return to the main view of the selection\nReturn to main view" />
+		<res id="153" text="Search Filter" />
+		<res id="154" text="Find this word" />
+		<res id="155" text="Add current search as new favorite\nAdd Favorite" />
+		<res id="156" text="Refresh the favorites list\nRefresh" />
+		<res id="166" text="Search" />
+		<res id="169" text="Render Library" />
+		<res id="170" text="Scripting" />
+		<res id="172" text="Search" />
+		<res id="175" text="File" />
+		<res id="177" text="Search Contents" />
+		<res id="201" text="You must set the file name to 'Regular Expression' in the Options tab before you can specify the File name as a regular expression." />
+		<res id="202" text="View the contents found by selecting one or more files in the right hand pane.\n\nNote: To print this pane click Print on the File menu." />
+		<res id="204" text="You must set the Contents to 'Regular Expression' in the Options tab before you can specify the Containing text as a regular expression." />
+		<res id="205" text="Expression wizard does not provide all the functionality of regular expressions but if you know how to construct regular expressions you can specify any regular expression yourself. Just add your regular expression as type 'Phrase' in the 'Followed by' list and switch off escapes on the next wizard page (which is enabled once you start entering special characters)." />
+		<res id="206" text="Set the colour for highlighting found text\nSet Colour" />
+		<res id="207" text="Save the contents view data\nSave Contents View" />
+		<res id="208" text="Toggle One Phase Searching for efficient contents searching of large drives (no progress meter)\nToggle One Phase Searching (for large drives)" />
+		<res id="209" text="Dock the Contents View below the File List View\nDock below" />
+		<res id="210" text="Dock the Contents View to the right of the File List View\nDock to right" />
+		<res id="211" text="Show help dialog for command line parameters\nCommand line parms" />
+		<res id="212" text="More information on the chosen expression type" />
+		<res id="213" text="Search within the current result list\nSearch within current result list" />
+		<res id="214" text="Show/Hide contents view pane\nToggle Contents View" />
+		<res id="215" text="Search within the currently selected files\nSearch within current selection" />
+		<res id="216" text="Toggle the highlighting of the original search\nToggle highlighting" />
+		<res id="217" text="Open the folder where all the favorites are saved\nOpen Favorites Folder" />
+		<res id="218" text="Close all Windows/Tabs\nClose all" />
+		<res id="219" text="Close all Windows/Tabs except the active search\nClose all but active search" />
+		<res id="220" text="Close all open file windows\nClose all files" />
+		<res id="221" text="Save the current search session\nSave search session" />
+		<res id="222" text="Save all search sessions in the workspace\nSave workspace" />
+		<res id="224" text="Refresh the report\nRefresh" />
+		<res id="225" text="Copy the report to the clipboard\nCopy" />
+		<res id="226" text="Save the report to a file\nSave Report" />
+		<res id="227" text="Print the report\nPrint Preview" />
+		<res id="228" text="Modify the fields and layout of the report\nReport Options" />
+		<res id="229" text="Show or hide the menu bar\nToggle Menu Bar" />
+	</string>
+	<string id="2" type="Text">		
+		<res id="1" text="Which folder would you like to select?" />
+		<res id="2" text="Invalid directory" />
+		<res id="3" text="&lt; 1 sec" />
+		<res id="4" text="copying to clipboard" />
+		<res id="5" text="Local hard drives" />
+		<res id="6" text="Boolean" />
+		<res id="7" text="Plain Text" />
+		<res id="8" text="Regular Expression" />
+		<res id="9" text="DOS Expression" />
+		<res id="10" text="File Hash" />
+		<res id="11" text="Boolean RegEx" />
+		<res id="12" text="Whole Word" />
+		<res id="13" text="Expression" />
+		<res id="14" text="(invalid expression type)" />
+		<res id="15" text="High" />
+		<res id="16" text="Normal (default)" />
+		<res id="17" text="Low" />
+		<res id="18" text="Standard (default)" />
+		<res id="19" text="Standard" />
+		<res id="20" text="Black" />
+		<res id="21" text="Blue" />
+		<res id="22" text="Classic" />
+		<res id="23" text="Silver" />
+		<res id="24" text="Top" />
+		<res id="25" text="ASCII" />
+		<res id="26" text="Unicode" />
+		<res id="27" text="Unicode (Big Endian)" />
+		<res id="28" text="UTF8 (No BOM)" />
+		<res id="29" text="Text" />
+		<res id="30" text="Comma separated (CSV)" />
+		<res id="31" text="Tab separated" />
+		<res id="32" text="Unable to open file list: " />
+		<res id="34" text="File Folder" />
+		<res id="35" text="On" />
+		<res id="36" text="Off" />
+		<res id="37" text="Exclude SVN/HG/GIT/CVS meta data folders" />
+		<res id="38" text="Exclude Program Files folder" />
+		<res id="39" text="!$(ProgramFiles)" />
+		<res id="40" text="Exclude Windows system files" />
+		<res id="41" text="!$(WindowsFolder)" />
+		<res id="42" text="Exclude Recycle bin" />
+		<res id="43" text="Deleting history" />
+		<res id="44" text="Advanced" />
+		<res id="45" text="File Lists" />
+		<res id="46" text="Folders" />
+		<res id="47" text="Junction Points" />
+		<res id="48" text="Threads/Priority" />
+		<res id="49" text="XSLT Processor" />
+		<res id="50" text="Editor" />
+		<res id="51" text="Default Editor" />
+		<res id="52" text="External Editor" />
+		<res id="53" text="Internal Viewer" />
+		<res id="54" text="Unable to create XSL parser using specified Prog Id." />
+		<res id="55" text="Application files (*.exe)|*.exe|All files (*.*)|*.*||" />
+		<res id="56" text="An error occurred while trying to open the file browser. Please make sure the file name is valid before trying to browse." />
+		<res id="57" text="This will reset all Extension settings back to their original installation state. Are you sure?" />
+		<res id="58" text="Resetting extensions" />
+		<res id="59" text="Please specify a sound to play when a file is found" />
+		<res id="60" text="Please specify a sound to play when a search ends" />
+		<res id="61" text="Unable to play sound. The sound file may be corrupt or not in a valid waveform format" />
+		<res id="62" text="Please specify a valid sound file to play." />
+		<res id="63" text="Sound files (*.wav)|*.wav|All files (*.*)|*.*||" />
+		<res id="64" text="Unable to browse for sound file." />
+		<res id="65" text="Type" />
+		<res id="66" text="Status" />
+		<res id="67" text="Associated IFilter" />
+		<res id="68" text="FileLocator Pro is configured for operation from a USB device. Shell settings cannot be set." />
+		<res id="69" text="Expressions" />
+		<res id="70" text="Boolean Expressions" />
+		<res id="71" text="DOS Expressions" />
+		<res id="72" text="Regular Expressions" />
+		<res id="73" text="File Hashing" />
+		<res id="74" text="UTF-8 Default Format" />
+		<res id="75" text="Extensions" />
+		<res id="76" text="General" />
+		<res id="77" text="History" />
+		<res id="78" text="Display" />
+		<res id="79" text="Character Processing" />
+		<res id="80" text="Shell Integration" />
+		<res id="81" text="Sounds/Alerts" />
+		<res id="82" text="User Interface" />
+		<res id="83" text="applying configuration information" />
+		<res id="84" text="This will reset ALL configuration settings to the installation defaults. Are you sure?" />
+		<res id="85" text="Resetting configuration" />
+		<res id="86" text="Description" />
+		<res id="87" text="Filter Value" />
+		<res id="88" text="Retrieving file data..." />
+		<res id="89" text="Single user license" />
+		<res id="90" text="Organization multi-site license (up to %s users)" />
+		<res id="91" text="Organization multi-site license (unlimited users)" />
+		<res id="92" text="Multi-user license: %s licenses" />
+		<res id="93" text="Registration code: \r\n%s" />
+		<res id="94" text="Support/free upgrades until: %s\r\n" />
+		<res id="95" text="Trial license has expired. You MUST register to continue legally using this product." />
+		<res id="96" text="Trial license. Days remaining: %d." />
+		<res id="97" text="Match case " />
+		<res id="98" text="Persistent Search Filters " />
+		<res id="99" text="Size (byte)" />
+		<res id="100" text="Size (kB)" />
+		<res id="101" text="Size (MB)" />
+		<res id="102" text="Size (GB)" />
+		<res id="103" text="Finished" />
+		<res id="104" text="NEW VERSION AVAILABLE" />
+		<res id="105" text="No update found." />
+		<res id="106" text="New Search" />
+		<res id="107" text="Show" />
+		<res id="108" text="Unable to open criteria file" />
+		<res id="109" text="Search was not successful. Failure during CCmdLineSearch::search()" />
+		<res id="110" text="file(s) found" />
+		<res id="111" text=" is not a recognized date/time format." />
+		<res id="112" text="No files selected." />
+		<res id="113" text="Search Statistics" />
+		<res id="114" text="Summary" />
+		<res id="115" text="Thumbnails" />
+		<res id="116" text="Errors" />
+		<res id="117" text="Modified Date" />
+		<res id="118" text="Created Date" />
+		<res id="119" text="Last Accessed Date" />
+		<res id="120" text="Now" />
+		<res id="121" text="Start of minute" />
+		<res id="122" text="Start of hour" />
+		<res id="123" text="Start of day" />
+		<res id="124" text="End of minute" />
+		<res id="125" text="End of hour" />
+		<res id="126" text="End of day" />
+		<res id="133" text="%s is not a valid time format" />
+		<res id="134" text="Unexpected expression type" />
+		<res id="135" text="Don't know" />
+		<res id="136" text="Any character" />
+		<res id="137" text="The character" />
+		<res id="138" text="Any one of these chars" />
+		<res id="139" text="Any char except these" />
+		<res id="140" text="The phrase" />
+		<res id="141" text="Space(s)" />
+		<res id="142" text="Any numeric character" />
+		<res id="143" text="Any text character" />
+		<res id="144" text="Zero or once" />
+		<res id="145" text="Zero or many times" />
+		<res id="146" text="Once only" />
+		<res id="147" text="Once or many times" />
+		<res id="148" text="Followed by" />
+		<res id="149" text="Occurs" />
+		<res id="150" text="Filename Expression Wizard" />
+		<res id="151" text="Edit Favorite" />
+		<res id="152" text="Save" />
+		<res id="153" text="Showing: %s of %s" />
+		<res id="154" text="Loading..." />
+		<res id="155" text="Loaded: %s" />
+		<res id="156" text="Unknown Favourite" />
+		<res id="157" text="Preparing to find favorites failed: " />
+		<res id="158" text="Reading favorites" />
+		<res id="159" text="Deleting favorite" />
+		<res id="160" text="Editing favorite" />
+		<res id="161" text="Tags" />
+		<res id="162" text="Search" />
+		<res id="163" text="Saving favorite" />
+		<res id="164" text="Opening favorites folder" />
+		<res id="165" text="Unable to retrieve search criteria. Add failed." />
+		<res id="166" text="Please open or create a search that you would like to add to favorites." />
+		<res id="167" text="Trial period has expired. Would you like to enter a registration code?" />
+		<res id="168" text="Changing configuration settings" />
+		<res id="169" text="Unable to load reg key configuration file" />
+		<res id="170" text="Unable to load configuration file" />
+		<res id="171" text="Unable to load history configuration file" />
+		<res id="172" text="Creating blank config mgr" />
+		<res id="173" text="Unable to open file" />
+		<res id="174" text="Opening file" />
+		<res id="175" text="Failed to open file in Visual Studio. For more information please check the log file." />
+		<res id="176" text="No External Editor specified. Would you like to specify one now?" />
+		<res id="178" text="Error launching external editor.\r\n\r\n%s" />
+		<res id="179" text="Search could not be loaded" />
+		<res id="180" text="Expecting a value for command line flag '-%s' but none provided" />
+		<res id="181" text="Command line flag '-%s' is not valid" />
+		<res id="182" text="Invalid date format: %s" />
+		<res id="183" text="Unexpected command line parameter: %s" />
+		<res id="184" text="Running" />
+		<res id="185" text="Starting search" />
+		<res id="186" text="** LOAD FAILED **\r\n\r\nUnable to load: %s\r\n\r\nPlease check that the file still exists and that you have the appropriate security permissions to read it.\r\n\r\nPlease contact technical support if you need more assistance and include both this error text and any log files stored in the folder:\r\n%s\r\n\r\nMore information:\r\n%s\r\n" />
+		<res id="189" text="Unable to open the file." />
+		<res id="190" text="Stopped" />
+		<res id="191" text="Completed" />
+		<res id="192" text="Errors occurred during search. If the problem persists please contact technical support" />
+		<res id="193" text="Contents View" />
+		<res id="194" text="changing selection" />
+		<res id="195" text="Saving search results operation" />
+		<res id="196" text="Search: " />
+		<res id="197" text="%s in " />
+		<res id="198" text="Unable to load criteria file. Please check that it is a valid criteria file and is not from a older version of FileLocator Pro." />
+		<res id="199" text="You are about to overwrite a Favorite. Are you sure?" />
+		<res id="200" text="%s %s found." />
+		<res id="201" text="Search finished - %s %s found." />
+		<res id="202" text="View" />
+		<res id="203" text="Favorites" />
+		<res id="204" text="Error Report" />
+		<res id="205" text="Paused" />
+		<res id="206" text="Search time" />
+		<res id="208" text="Current Find: " />
+		<res id="209" text="Original Search:" />
+		<res id="210" text="Displayed:" />
+		<res id="211" text="Found:" />
+		<res id="212" text="Showing:" />
+		<res id="213" text="Selected " />
+		<res id="214" text="Found " />
+		<res id="215" text="item" />
+		<res id="216" text="Filtering:" />
+		<res id="217" text="Selected:" />
+		<res id="218" text="%s MB" />
+		<res id="219" text="%s files found" />
+		<res id="220" text="A new version of FileLocator Pro is available. Would you like to see the details?" />
+		<res id="221" text="Registered! Thank you for taking the time to register" />
+		<res id="222" text="Registration key is not valid. Please make sure the registration information is entered EXACTLY as shown in the registration email." />
+		<res id="225" text="Please specify a valid file name for saving the results." />
+		<res id="226" text="Please specify a valid transform file." />
+		<res id="227" text="SearchResults." />
+		<res id="228" text="All files (*.*)|*.*||" />
+		<res id="229" text="Custom format file is not valid. Please check that the file exists and that you have appropriate security permissions to open the file.\r\n\r\n" />
+		<res id="230" text="XSL (*.xsl)|*.xsl|All Files (*.*)|*.*||" />
+		<res id="231" text="Unable to open the file selection dialog: %d" />
+		<res id="232" text="Test successful." />
+		<res id="233" text="Searched:" />
+		<res id="234" text="Checked:" />
+		<res id="235" text="Status:" />
+		<res id="236" text="Not started" />
+		<res id="237" text="Pause" />
+		<res id="238" text="Resume" />
+		<res id="239" text="Searching %sMb" />
+		<res id="240" text="%sMb of %sMb" />
+		<res id="241" text="Filtering %sMb" />
+		<res id="242" text="Filtering " />
+		<res id="243" text="Searching: " />
+		<res id="244" text="Start" />
+		<res id="245" text="Expression was found in text.\r\nExpression start: %d\r\nExpression length: %d\r\nFound: %s" />
+		<res id="246" text="Empty results list." />
+		<res id="247" text="Expression NOT found in text." />
+		<res id="248" text="Registration file is corrupt." />
+		<res id="249" text="Registration information not found." />
+		<res id="250" text="Registration key has expired." />
+		<res id="251" text="FileLocator Pro Keyboard Hook" />
+		<res id="252" text="Your current registration key is not valid for this install. This install of FileLocator Pro will work for the trial period of 30 days after which you will need to buy a new registration key or re-install the previous version.\r\n\r\nContinue with the install?" />
+		<res id="256" text="Installation log failed to start. Please try installing again. If the problem persists please contact FileLocator Pro technical support." />
+		<res id="258" text="Copy" />
+		<res id="259" text="Copy Path" />
+		<res id="260" text="Cut" />
+		<res id="261" text="Delete" />
+		<res id="262" text="Explore here..." />
+		<res id="263" text="Properties" />
+		<res id="264" text="Search Within Selection" />
+		<res id="265" text="Search Within Result List" />
+		<res id="266" text="%s Contents View" />
+		<res id="267" text="Hide" />
+		<res id="268" text="\r\nFollowing search directories were not valid:\r\n\r\n" />
+		<res id="269" text="\r\nThe directory name must be a valid path and include the drive letter (e.g. C:\Windows) OR a properly constructed UNC name (e.g. \\WORKSTATION\Shared_Folder)." />
+		<res id="272" text="Loading Macros" />
+		<res id="273" text="Parsing script failed:\r\n" />
+		<res id="274" text="Problem creating scripting engine. " />
+		<res id="275" text="(No subject)" />
+		<res id="276" text="(unknown)" />
+		<res id="277" text="Created:" />
+		<res id="278" text="Contact:" />
+		<res id="279" text="Location:" />
+		<res id="280" text="Date:" />
+		<res id="281" text="From:" />
+		<res id="282" text="To:" />
+		<res id="283" text="(empty)" />
+		<res id="284" text="(Recipient list could not be loaded - Content tech support for more information)\r\n" />
+		<res id="285" text="Received by:" />
+		<res id="286" text="Sent:" />
+		<res id="287" text="Subject:" />
+		<res id="288" text="\r\nError during message building: " />
+		<res id="289" text=" file(s) could not be " />
+		<res id="290" text="Attribute" />
+		<res id="291" text="File size" />
+		<res id="292" text="Ignored extensions" />
+		<res id="293" text=" due to the search criteria.&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;" />
+		<res id="294" text="Error reported but no details provided." />
+		<res id="295" text="Contents validation script failed with: " />
+		<res id="296" text="sec" />
+		<res id="297" text="hr" />
+		<res id="298" text="min" />
+		<res id="299" text="Today" />
+		<res id="300" text="Start of week" />
+		<res id="301" text="Start of month" />
+		<res id="302" text="Start of year" />
+		<res id="303" text="End of week" />
+		<res id="304" text="End of month" />
+		<res id="305" text="End of year" />
+		<res id="306" text="day" />
+		<res id="307" text="week" />
+		<res id="308" text="month" />
+		<res id="309" text="year" />
+		<res id="310" text="Retrieving files..." />
+		<res id="311" text="Creating item name validation script: %s" />
+		<res id="312" text="Item name validation script failed with: " />
+		<res id="313" text="Yes" />
+		<res id="314" text="No" />
+		<res id="315" text="File name Expression:" />
+		<res id="316" text="File name - Match case:" />
+		<res id="317" text="Content Search:" />
+		<res id="318" text="Containing text:" />
+		<res id="319" text="Content Expression:" />
+		<res id="320" text="Content - Match case:" />
+		<res id="321" text="Span file:" />
+		<res id="322" text="Look in:" />
+		<res id="323" text="Subfolders:" />
+		<res id="324" text="Look in Expression:" />
+		<res id="325" text="Modified After:" />
+		<res id="326" text="Modified Before:" />
+		<res id="327" text="Last Accessed After:" />
+		<res id="328" text="Last Accessed Before:" />
+		<res id="329" text="Created After:" />
+		<res id="330" text="Created Before:" />
+		<res id="331" text="Greater than:" />
+		<res id="332" text="Less than:" />
+		<res id="333" text="Containing text Active Scripting is not supported with Boolean searches which are matching the expression across the whole file. Switch to 'Line By Line' in the Options tab." />
+		<res id="334" text="Contents search value:" />
+		<res id="335" text="File name filter:" />
+		<res id="336" text="No script type specified" />
+		<res id="337" text="Script file does not exist or cannot be opened." />
+		<res id="338" text="Script engine not specified" />
+		<res id="339" text="Script Path:" />
+		<res id="340" text="Engine:" />
+		<res id="341" text="Custom Parm:" />
+		<res id="342" text="Archive" />
+		<res id="343" text="Compressed" />
+		<res id="344" text="Encrypted" />
+		<res id="345" text="Folder" />
+		<res id="346" text="Offline" />
+		<res id="347" text="Read Only" />
+		<res id="348" text="Sparse" />
+		<res id="349" text="System" />
+		<res id="350" text="Initializing..." />
+		<res id="351" text="Completed." />
+		<res id="352" text="Extracting files from archive..." />
+		<res id="353" text="%s is not a valid path on this machine." />
+		<res id="354" text="Invalid use of NEAR operator. No preceding operand found." />
+		<res id="355" text="FileLocator Pro Results" />
+		<res id="356" text="Cancelling..." />
+		<res id="357" text="Cancelling action..." />
+		<res id="358" text="One or more of the selected files are composite files and will not be deleted. Do you want to continue?" />
+		<res id="359" text="Delete did not complete successfully. Some of the files were not deleted." />
+		<res id="360" text="Executing menu option" />
+		<res id="361" text="Warning: Operation failed on %d of the files processed. See log for more details." />
+		<res id="362" text="Extracting file data" />
+		<res id="363" text="Unable to access all items for drag drop" />
+		<res id="364" text="Generating file data" />
+		<res id="365" text="Executing operation on current selection" />
+		<res id="366" text="Warning: Operation (%s) failed on %d of the selected files. See log for more details." />
+		<res id="367" text="default" />
+		<res id="368" text="Executing context menu" />
+		<res id="369" text="Page %d of %d" />
+		<res id="370" text="... additional lines truncated ..." />
+		<res id="371" text="Name" />
+		<res id="372" text="Location" />
+		<res id="373" text="Modified" />
+		<res id="374" text="Created" />
+		<res id="375" text="Last Accessed" />
+		<res id="376" text="Hits" />
+		<res id="377" text="Unknown" />
+		<res id="378" text="Failure during CFileListCtrl::loadList()" />
+		<res id="379" text="Creating file viewer frame" />
+		<res id="380" text="Search string is invalid: \n%s" />
+		<res id="381" text="Unable to load editor. If the problem persists please contact technical support" />
+		<res id="382" text="File" />
+		<res id="383" text="Message" />
+		<res id="384" text="Size" />
+		<res id="385" text="Small Icons" />
+		<res id="386" text="Medium Icons" />
+		<res id="387" text="Large Icons" />
+		<res id="388" text="Extra Large Icons" />
+		<res id="389" text="&lt;html&gt;&lt;h1&gt;Reports&lt;/h1&gt;&lt;p&gt;This will be the reports section. Much like exporting but a bit more visual.&lt;/p&gt;&lt;/html&gt;" />
+		<res id="390" text="Showing summary report" />
+		<res id="391" text="Do you want to also remove all the user data associated with FileLocator Pro?" />
+		<res id="392" text="Delete User Data" />
+		<res id="393" text="Delete failed" />
+		<res id="394" text="Unable to translate dialog" />
+		<res id="395" text="Are you sure you want to delete the favourite '%s'?" />
+		<res id="396" text="%s script is not valid.\n\nAdditional information:\n\n%s" />
+		<res id="397" text="Are you sure you want to delete the search filter '%s'?" />
+		<res id="398" text="IFilters" />
+		<res id="399" text="Bottom" />
+		
+		<res id="400" regex="start" />
+		<res id="401" regex="today" />
+		<res id="402" regex="now" />
+		<res id="403" regex="s.*" />
+		<res id="404" regex="mi.*" />
+		<res id="405" regex="mo.*" />
+		<res id="406" regex="h.*" />
+		<res id="407" regex="d.*" />
+		<res id="408" regex="w.*" />
+		<res id="409" regex="y.*" />
+		<res id="410" regex="\b(today)|(start|end) *(?: +(?:the|of|this))* +(w|mo|y)[a-z]*" />
+		<res id="411" regex="\b(now)|(start|end) *(?: +(?:the|of|this))* +(mi|h|d)[a-z]*" />
+		<res id="412" regex="([+-]) *([0-9]+) *(d|w|mo|y)[a-z]*" />
+		<res id="413" regex="([+-]) *([0-9]+) *(s|mi|h)[a-z]*" />
+		<res id="414" regex="\b[0-9]+(?: *(am|pm)|(?:[:][0-9]+)+) *(am|pm)?\b" />
+		
+		<res id="415" text="B" />
+		<res id="416" text="KB" />
+		<res id="417" text="MB" />
+		<res id="418" text="GB" />
+		<res id="420" text="AND" />
+		<res id="421" text="OR" />
+		<res id="422" text="NOT" />
+		<res id="423" text="NEAR" />
+		<res id="424" text="LIKE" />
+		<res id="425" text="REGEX" />
+		<res id="426" text="DOSEX" />
+		<res id="427" text="LINES" />
+		
+		<res id="430" regex="AND" case="1" />
+		<res id="431" regex="OR" case="1" />
+		<res id="432" regex="NOT" case="1" />
+		<res id="433" regex="NEAR(:\d+)?" case="1" />
+		<res id="434" regex="LIKE" case="1" />
+		<res id="435" regex="REGEX" case="1" />
+		<res id="436" regex="DOSEX" case="1" />
+		<res id="437" regex="LINES?:([^ ]*)?" case="1" />
+		
+		<res id="440" text="Localization" />
+		<res id="441" text="Insufficient memory to start new search. Please close previous searches and/or other applications and try again." />
+		<res id="442" text="Truncated (to release memory)." />
+		<res id="443" text="Because regular expressions work slightly differently than DOS expressions the result of the Expression Wizard may look different to what you are used to. e.g. The DOS expression 'filename.*' as a regular expression is '^filename\.*'." />
+		<res id="444" text="FileLocator Pro searches on a line by line basis through the file looking for all lines that match the defined expression. The expression allows you to define how the line should begin, followed by what it should contain, and then how it should end.  FileLocator Pro will then finds all lines in the files that match the expression." />
+		<res id="445" text="File name" />
+		<res id="446" text="Line" />
+		<res id="447" text="Open" />
+		<res id="448" text="Attachments" />
+		<res id="449" text="Stopped (out of memory)" />
+		<res id="450" text="Containing text" />
+		<res id="451" text="items" />
+		<res id="452" text="days" />
+		<res id="453" text="weeks" />
+		<res id="454" text="months" />
+		<res id="455" text="years" />
+		<res id="456" text="hit" />
+		<res id="457" text="hits" />
+		<res id="458" text="Tab separated (spreadsheet)" />
+		<res id="459" text="%s Settings" />
+		<res id="460" text="This is the most recent version of FileLocator Pro." />
+		<res id="461" text="An error occurred while trying to check for updates, please check log for more details." />
+		<res id="462" text="Saving Workspace" />
+		<res id="463" text="Saving Search Session" />
+		<res id="464" text="Workspace Files (*.flwx)|*.flwx" />
+		<res id="465" text="FileLocator Pro Files (*.flwx;*.flsx;*.srf)|*.flwx;*.flsx;*.srf" />
+		<res id="466" text="Search Criteria (*.srf)|*.srf" />
+		<res id="467" text="All Files (*.*)|*.*" />
+		<res id="468" text="Loading Workspace" />
+		<res id="469" text="Loading Search Session" />
+		<res id="470" text="Unable to load file" />
+		<res id="471" text="Search Session Files (*.flsx)|*.flsx" />
+		<res id="472" text="%s already exists.\r\n\r\nDo you want to replace it?" />
+		<res id="473" text="Opening parenthesis '(' not found for corresponding closing parenthesis ')'. Use quotes to specify literal text, e.g. &quot;ending)&quot;" />
+		<res id="474" text="Closing parenthesis ')' not found for corresponding opening parenthesis '('. Use quotes to specify literal text, e.g. &quot;(starting&quot; or &quot;Method(&quot;\r\n\r\nError position: %d\r\nText: %s" />
+		<res id="475" text="The keyword '%s' could not be compiled. Please check documentation for correct use of the keyword." />
+		<res id="476" text="Changing the cache location will delete all currently cached text. Do you want to continue?" />
+		<res id="477" text="Unable to delete cache database. Please check you have no other instances of the application open and try again." />
+		<res id="478" text="Reports" />
+		<res id="479" text="Tabulated" />
+		<res id="480" text="Standard" />
+		<res id="481" text="File List" />
+		<res id="482" text="Contents" />
+		<res id="483" text="Keywords Summary" />
+		<res id="484" text="HTML" />
+		<res id="485" text="The Windows Shell could not create a context menu for the selected files. Would you like to continue with a restricted context menu?" />
+		<res id="486" text="Question" />
+		<res id="487" text="Error" />
+		<res id="488" text="Information" />
+		<res id="489" text="Memory Manager" />
+		<res id="490" text="Summary" />
+		<res id="491" text="By File" />
+		<res id="492" text="All files" />
+		<res id="493" text="Selected files only" />
+		<res id="494" text="All" />
+		<res id="495" text="Selected" />
+		<res id="496" text="CSV" />
+		<res id="497" text="Tab" />
+		<res id="498" text="Keywords by File" />
+		<res id="499" text="File Extension" />
+		<res id="500" text="Count" />
+		<res id="501" text="Keyword Name" />
+		<res id="502" text="Results" />
+		<res id="503" text="Hidden" />
+		<res id="504" text="Before" />
+		<res id="505" text="After" />
+		<res id="506" text="Search Criteria" />
+		<res id="507" text="The %s report is only valid when searching file contents" />
+		<res id="508" text="Keyword Hit" />
+		<res id="509" text="Save failed. Please make sure that you have the appropriate permissions to write to the specified file and folder." />
+		<res id="510" text="Cancelling report..." />
+		<res id="511" text="Report did not finish." />
+		<res id="512" text="Error occurred during report generation." />
+		<res id="513" text="Generating report..." />
+		<res id="514" text="Sequential Id" />
+		<res id="515" text="Seq Id" />
+		<res id="516" text="Sequential Id (per file)" />
+		<res id="517" text="File Seq Id" />
+		<res id="518" text="Full File Path" />
+		<res id="520" text="Folders Only" />
+		<res id="521" text="Files Only" />
+		<res id="522" text="Documents" />
+		<res id="523" text="Music" />
+		<res id="524" text="Pictures" />
+		<res id="525" text="Video" />
+		<res id="526" text="Technician License: %s licence(s)" />
+		<res id="527" text="Server License: %s licence(s)" />
+		<res id="528" text="Primary" />
+		<res id="529" text="Secondary" />
+		<res id="530" text="Line No." />
+		<res id="531" text="Line Number" />
+		<res id="532" text="Filter" />
+		<res id="533" text="Apply a filter to the search results" />
+		<res id="534" text="No files/folders found that match search criteria" />
+		<res id="535" text="No results match column filters" />
+		<res id="536" text="Searching" />
+		<res id="537" text="'%s' is not valid for the expression type" />
+		<res id="538" text="Reported Error" />
+		<res id="539" text="Problem running task" />
+		<res id="540" text="An error has occurred. If the problem persists please contact technical support." />
+		<res id="541" text="Additional information" />
+		<res id="542" text="Title" />
+		<res id="543" text="Artist" />
+		<res id="544" text="Album" />
+		<res id="545" text="Comment" />
+		<res id="546" text="Genre" />
+		<res id="547" text="Year" />
+		<res id="548" text="Track" />
+		<res id="549" text="Length: %s secs" />
+		<res id="550" text="Bit rate: %s Kbps" />
+		<res id="551" text="Sample rate: %s Hz" />
+		<res id="552" text="Channels: %s" />
+		<res id="553" text="Width" />
+		<res id="554" text="Height" />
+		<res id="555" text="Samples" />
+		<res id="556" text="Document" />
+		<res id="557" text="Image" />
+		<res id="558" text="Equipment make" />
+		<res id="559" text="Equipment model" />
+		<res id="560" text="Page" />
+		<res id="561" text="Page number" />
+		<res id="562" text="Software" />
+		<res id="563" text="Date" />
+		<res id="564" text="Artist" />
+		<res id="565" text="Computer" />
+		<res id="566" text="Title" />
+		<res id="567" text="Frame delay: %s/100 s" />
+		<res id="568" text="Loop count" />
+		<res id="569" text="Copyright" />
+		<res id="570" text="Exposure: %s s" />
+		<res id="571" text="Aperture: F%s" />
+		<res id="572" text="Exposure program" />
+		<res id="573" text="Normal" />
+		<res id="574" text="Manual" />
+		<res id="575" text="Aperture priority" />
+		<res id="576" text="Shutter priority" />
+		<res id="577" text="Creative" />
+		<res id="578" text="Action" />
+		<res id="579" text="Portrait" />
+		<res id="580" text="Landscape" />
+		<res id="581" text="ISO Speed" />
+		<res id="582" text="Original date" />
+		<res id="583" text="Flash" />
+		<res id="584" text="Comment" />
+		<res id="585" text="Size" />
+		<res id="586" text="Bits per pixel" />
+		<res id="587" text="Alpha channel" />
+	</string>
+</translation>

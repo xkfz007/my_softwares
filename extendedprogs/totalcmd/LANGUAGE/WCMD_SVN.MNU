@@ -1,0 +1,139 @@
+POPUP "&Datoteka"
+  MENUITEM "&Spremeni atribute...", cm_SetAttrib
+  MENUITEM "Pakiraj iz&brane datoteke...\tALT+F5", cm_PackFiles
+  MENUITEM "Razpak&iraj izbrane datoteke...\tALT+F9", cm_UnpackFiles
+  MENUITEM "&Testiraj pakiran arhiv...\tALT+SHIFT+F9", 518
+  MENUITEM "Primerjaj p&o vsebini...", 2022
+  MENUITEM "&Združi konènico s programom...", cm_associate
+  MENUITEM "Notran&je združitve (samo za Total Commander)...", 519
+  MENUITEM "&Lastnosti...\tALT+ENTER", cm_versioninfo
+  MENUITEM "Izr&aèunaj zaseden prostor...", cm_GetFileSpace
+  MENUITEM "Soèasno p&reimenuj veè datotek...\tCtrl+M", 2400
+  MENUITEM "Uredi &pripombo...\tCtrl+Z", 2700
+ POPUP "Natis&ni"
+    MENUITEM "Se&znam datotek...", 2027
+    MENUITEM "Seznam datotek s pod&mapami...", 2028
+    MENUITEM "Vsebina dato&teke\tCtrl+F9", cm_PrintFile
+  END_POPUP
+  MENUITEM SEPARATOR
+  MENUITEM "Raz&deli datoteko", 560
+  MENUITEM "Zdr&uži datoteke", 561
+  MENUITEM "Kodiraj datot&eko (MIME,UUE,XXE)...", 562
+  MENUITEM "Dekodiraj datoteko (&MIME,UUE,XXE,BinHex)...", 563
+  MENUITEM "Ustvari &kontrolno vsoto datotek (CRC32, MD5, SHA1)...", 564
+  MENUITEM "Pre&veri kontrolne vsote (iz datotek kontrolnih vsot )", 565
+  MENUITEM SEPARATOR
+  MENUITEM "Iz&hod\tALT+F4", 24340
+END_POPUP
+
+POPUP "&Izbor"
+  MENUITEM "Izberi skupin&o...\tNUM +", cm_spreadselection
+  MENUITEM "Odstrani izbor &skupine...\tNUM -", cm_shrinkselection
+  MENUITEM "Izberi &vse\tCTRL NUM +", cm_selectall
+  MENUITEM "Odstrani celoten izbor\tCTRL NUM -", cm_Clearall
+  MENUITEM "O&brni izbor\tNUM *", cm_ExchangeSelection
+  MENUITEM "Izberi vse z isto konènico\tAlt Gray +",527
+  MENUITEM SEPARATOR
+  MENUITEM "Shrani &izbor", 530
+  MENUITEM "Obnovi izbo&r\tNUM /", 529
+  MENUITEM "Shrani izbor v &datoteko", 2031
+  MENUITEM "Na&loži izbor iz datoteke", 2032
+  MENUITEM SEPARATOR
+  MENUITEM "Kopir&aj izbrana imena v Odložišèe", 2017
+  MENUITEM "Kopira&j imena s potjo v Odložišèe", 2018
+  MENUITEM "Kopiraj v Odložišè&e z vsemi podrobnostmi", 2036
+  MENUITEM "&Kopiraj v Odložišèe s potjo + podrobnostmi", 2037
+  MENUITEM SEPARATOR
+  MENUITEM "&Primerjaj mapi\tShift+F2", cm_CompareDirs
+  MENUITEM "&Nikoli ne oznaèi, skrij iste datoteke", cm_DirMatch
+END_POPUP
+
+POPUP "&Ukazi"
+  MENUITEM "&Drevo...\tALT+F10", cm_CDtree
+  MENUITEM "Po&išèi...\tALT+F7", cm_searchfor
+  MENUITEM "Poišèi v loèenem &procesu...\tAlt+Shift+F7", 545
+  MENUITEM "Ozna&ka pogona...", cm_VolumeId
+  MENUITEM "I&nformacije o sistemu...", cm_sysinfo
+  MENUITEM "Sin&hroniziraj mape...", 2020
+  MENUITEM "Vroè &seznam map\tCTRL+D", 526
+  MENUITEM "Pojdi n&azaj\tALT+Leva pušèica", 570
+  MENUITEM SEPARATOR
+  MENUITEM "Odpri okno Ukazn&e vrstice", cm_ExecuteDOS
+  MENUITEM SEPARATOR
+  MENUITEM "Raz&vejan pogled (s podmapami)\tCtrl+B", 2026
+  MENUITEM "&Odpri mapo Namizje", 2121
+  MENUITEM "Upravitelj prenosa v o&zadju...",559
+  MENUITEM SEPARATOR
+  MENUITEM "Vir&<->Cilj\tCTRL+U", cm_exchange
+  MENUITEM "Cilj&=Vir", cm_matchsrc
+END_POPUP
+
+POPUP "&Omrežje"
+  MENUITEM "Omrežne &povezave...", cm_NetConnect
+  MENUITEM "Iz&kljuèi omrežne pogone...", cm_NetDisconnect
+  MENUITEM "Dodaj trenutno &mapo v skupno rabo...", cm_NetShareDir
+  MENUITEM "Odstrani skupno rabo mape...", cm_NetUnshareDir
+  MENUITEM "Pokaži Skrbnikovo skupno rabo", 2204
+  MENUITEM SEPARATOR
+  MENUITEM "&FTP strežnik: Poveži...\tCTRL+F", 550
+  MENUITEM "FTP strežnik: No&va povezava...\tCTRL+N", 551
+  MENUITEM "FTP strežnik: Prekini pove&zavo\tCTRL+SHIFT+F", 552
+  MENUITEM "FTP strežnik: P&rikaži skrite datoteke", 553
+  MENUITEM "FTP strežnik: Prene&si s seznama...", 558
+  MENUITEM "Poveži z drugim raèunalnikom preko LPT...", 2300
+END_POPUP
+
+POPUP "&Prikaz"
+  MENUITEM "&Kratki prikaz\tCTRL+F1", cm_srcshort
+  MENUITEM "P&olni prikaz\tCTRL+F2", cm_srclong
+  MENUITEM "Prikaz komentar&jev\tCtrl+Shift+F2", 300
+  MENUITEM "&Uredi stolpce po meri\tShift+F1", 270
+  MENUITEM "D&revo\tCTRL+F8", cm_srcTree
+  POPUP "Loèeno drevo\tCtrl+Shift+F8"
+    MENUITEM "&0 (Nobeno)", 3200
+    MENUITEM "&1 (Eno za obe strani)", 3201
+    MENUITEM "&2 (Dve, za vsako stran posebej)", 3202
+  END_POPUP
+  MENUITEM "Slièi&ce predogleda\tCtrl+Shift+F1", 269
+  MENUITEM "&Hitri vpogled\tCTRL+Q",304
+  MENUITEM "&Pokonèna poravnava", 305
+  MENUITEM "Nov &zavihek mape\tCtrl+T", 3001
+  MENUITEM SEPARATOR
+  MENUITEM "Vse &datoteke\tCTRL+F10", cm_srcallfiles
+  MENUITEM "Pro&grami\tCTRL+F11", cm_srcexecs
+  MENUITEM "*.*", cm_srcuserspec
+  MENUITEM "Po &meri...\tCTRL+F12", cm_srcuserdef
+  MENUITEM "S&amo izbrane datoteke", 2023
+  MENUITEM SEPARATOR
+  MENUITEM "&Ime\tCTRL+F3", cm_srcbyname
+  MENUITEM "Konè&nica\tCTRL+F4", cm_srcbyext
+  MENUITEM "Èa&s\tCTRL+F5", cm_srcbydatetime
+  MENUITEM "V&elikost\tCTRL+F6", cm_srcbysize
+  MENUITEM "Neraz&vršèeno\tCTRL+F7", cm_srcunsorted
+  MENUITEM SEPARATOR
+  MENUITEM "Obra&tna razvrstitev", cm_srcnegorder
+  MENUITEM SEPARATOR
+  MENUITEM "Znova pre&beri vir\tCTRL+R", cm_rereadsource
+END_POPUP
+
+POPUP "&Nastavitve"
+  MENUITEM "M&ožnosti...", cm_config
+  MENUITEM "S&premeni orodno vrstico...", cm_ButtonConfig
+  MENUITEM "Neposredno spremen&i nastavitvene datoteke...", 581
+  MENUITEM "&Shrani položaj", cm_configSavepos
+  MENUITEM "Shrani nasta&vitve", 580
+END_POPUP
+
+STARTMENU
+
+HELP_BREAK
+
+POPUP "Po&moè"
+  MENUITEM "Teme &pomoèi\tF1", cm_HelpIndex
+  MENUITEM "Vroèe &tipke", cm_keyboard
+  MENUITEM "Informacije o &registraciji", cm_register
+  MENUITEM "O&bišèite domaèo stran Totalcmd", 640
+  MENUITEM SEPARATOR
+  MENUITEM "Vizitka T&otal Commanderja", cm_About
+END_POPUP
+

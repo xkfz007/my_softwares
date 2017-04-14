@@ -1,0 +1,193 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head>
+   <title>Boolean Expressions</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="AND Boolean operator,Boolean expression (detail),Boolean RegEx (detail),Boolean sub expressions,LIKE Boolean operator,LINES operator,NEAR Boolean operator,NOT Boolean operator,OR Boolean operator,REGEX operator,Sub expressions,Whole word (detail),Wildcards (Boolean expressions)" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+<script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if (location.search.lastIndexOf("toc=0")<=0) {
+  if (parent.frames.length==0) { parent.location.href="index.html?boolean_expressions.htm"; }
+  else { parent.quicksync('a3.3'); }
+}
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script></head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#649CCC">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">Boolean Expressions</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="introduction.htm">Top</a>&nbsp;
+     <a href="expressiontypes.htm">Previous</a>&nbsp;
+     <a href="dos_expressions2.htm">Next</a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p>&nbsp;</p>
+<p>FileLocator Pro's Boolean expression engine supports Web style search expressions using the AND, OR, NOT, NEAR, REGEX, and LIKE operators. FileLocator Pro can be configured to match the expression across the whole file (default) or on a line by line basis in the <a href="options_advanced.htm">Options Tab</a>.</p>
+<p>&nbsp;</p>
+<p>Line by Line example</p>
+<p style="margin: 0px 0px 0px 48px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="margin: 0px 0px 0px 48px;">The expression <span class="f_ExpressionText">work AND document</span> searches for lines that include the words <span class="f_ExpressionText">work</span> and <span class="f_ExpressionText">document</span>. Since FileLocator Pro implicity assumes an AND the expression can alternatively be written as <span class="f_ExpressionText">work document</span>.</p>
+<p style="margin: 0px 0px 0px 48px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="margin: 0px 0px 0px 48px;">The expression <span class="f_ExpressionText">work OR document</span> searches for lines that include either 'work' or 'document'.</p>
+<p style="margin: 0px 0px 0px 48px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="margin: 0px 0px 0px 48px;">The expression <span class="f_ExpressionText">work NOT document</span> searches for lines that include 'work' but not 'document'.</p>
+<p>&nbsp;</p>
+<p>Whole file example</p>
+<p>&nbsp;</p>
+<p style="margin: 0px 0px 0px 48px;">The expression <span class="f_ExpressionText">work AND document</span> searches for files that include the words <span class="f_ExpressionText">work</span> and <span class="f_ExpressionText">document</span>. The words can occur on the same line or on different lines throughout the file.</p>
+<p style="margin: 0px 0px 0px 48px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="margin: 0px 0px 0px 48px;">The expression <span class="f_ExpressionText">work NOT document</span> searches for files that include <span class="f_ExpressionText">work</span> but not <span class="f_ExpressionText">document</span> anywhere in the file.</p>
+<p>&nbsp;</p>
+<p>Note: the operators AND, OR, and NOT must be written in capital letters otherwise they are assumed to be search terms.</p>
+<p>&nbsp;</p>
+<p>Quotes can be used to search for literal phrases, e.g. </p>
+<p>&nbsp;</p>
+<p style="margin: 0px 0px 0px 48px;"><span class="f_ExpressionText">"work document"</span> searches for the exact phrase <span class="f_ExpressionText">work document</span>.</p>
+<p>&nbsp;</p>
+<p>Brackets can be used to specify phrase grouping, e.g. </p>
+<p style="margin: 0px 0px 0px 48px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="margin: 0px 0px 0px 48px;">The expression <span class="f_ExpressionText">work AND (document OR letter)</span> searches for lines that include <span class="f_ExpressionText">work</span> and either <span class="f_ExpressionText">document</span> or <span class="f_ExpressionText">letter</span>.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="font-weight: bold;">LIKE Operator</span></p>
+<p>&nbsp;</p>
+<p>If the spelling of the search term is unsure, or possibly misspelled in the search text, the LIKE operator can be used to specify an approximate search term. For example,</p>
+<p>&nbsp;</p>
+<p><span class="f_ExpressionText">LIKE necessary</span></p>
+<p>&nbsp;</p>
+<p>will find <span class="f_ExpressionText">necessary</span> but also slight variations such as <span class="f_ExpressionText">neccessary</span>. The scale of the approximation can be changed in the <a href="boolean_expressions_settings.htm">Configuration settings</a>.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="font-weight: bold;">NEAR Operator</span></p>
+<p>&nbsp;</p>
+<p>To specify that two search terms should be near to each other in the search text use the NEAR operator. For example,</p>
+<p>&nbsp;</p>
+<p><span class="f_ExpressionText">work NEAR document</span></p>
+<p>&nbsp;</p>
+<p>will only match the two terms if they are within a certain number of characters of each other (the maximum character distance is specified in the <a href="boolean_expressions_settings.htm">Configuration settings</a>). </p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="font-weight: bold;">REGEX Operator</span></p>
+<p>&nbsp;</p>
+<p>To specify that a term is a regular expression use the REGEX operator. For example,</p>
+<p>&nbsp;</p>
+<p><span class="f_ExpressionText">work AND REGEX "\d{5,6}"</span></p>
+<p>&nbsp;</p>
+<p>will match any document that has the term <span class="f_ExpressionText">work</span> and the regex <span class="f_ExpressionText">\d{5,6}</span> (ie. a number with 5-6 digits) in it. To specify that terms should always be treated as regular expressions, ie without the need to use the REGEX operator, use the Boolean RegEx expression type (see below).</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="font-weight: bold;">LINES Operator</span></p>
+<p>&nbsp;</p>
+<p>The LINES operator limits the lines that are searched for the following expression. For example,</p>
+<p>&nbsp;</p>
+<p><span class="f_ExpressionText">LINES:3-5 (tower AND london)</span></p>
+<p>&nbsp;</p>
+<p>searches only lines 3, 4, and 5 for the expression <span class="f_ExpressionText">tower AND london</span>.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="font-weight: bold;">Boolean Sub Expressions</span></p>
+<p>&nbsp;</p>
+<p>Boolean expressions are comprised of sub expressions. The sub expression type will depend on the <a href="expressiontypes.htm">Expression Type</a> chosen</p>
+<p>&nbsp;</p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table cellspacing="2" cellpadding="2" border="0" style="border: none; border-spacing:2px;">
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="159" style="width:159px;"><p>Boolean (no wildcards<span style="font-size: 7pt; vertical-align: super;">1</span>)</p>
+</td>
+<td valign="top" width="849" style="width:849px;"><p>Each phrase is matched exactly as typed but will match against partial words.</p>
+<p>e.g. </p>
+<p><span class="f_ExpressionText">fish</span> will match against the words <span class="f_ExpressionText">fish</span>, <span class="f_ExpressionText">fishing</span> and <span class="f_ExpressionText">selfish</span>.</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="159" style="width:159px;"><p>Boolean (with wildcards<span style="font-size: 7pt; vertical-align: super;">1</span>)</p>
+</td>
+<td valign="top" width="849" style="width:849px;"><p>Allows wildcard characters '*' and '?'. '?' will match any single character and '*' will match zero or more characters until the end of the word.</p>
+<p>e.g. </p>
+<p><span class="f_ExpressionText">fish*</span> will match against the words <span class="f_ExpressionText">fish</span>, <span class="f_ExpressionText">fishing</span>, and <span class="f_ExpressionText">selfish</span>.</p>
+<p>&nbsp;</p>
+<p>The wildcard setting also allows word boundary matching using the '&lt;' and '&gt;' characters to specify the beginning or end of the word, e.g.</p>
+<p>&nbsp;</p>
+<p><span class="f_ExpressionText">&lt;fish&gt;</span> will match against only the whole word <span class="f_ExpressionText">fish</span> and not <span class="f_ExpressionText">fishing</span> or <span class="f_ExpressionText">selfish</span>. Similarily <span class="f_ExpressionText">fish&gt;</span> would match both <span class="f_ExpressionText">fish</span> and <span class="f_ExpressionText">selfish</span> but not <span class="f_ExpressionText">fishing</span> since the word must end with <span class="f_ExpressionText">fish</span>.</p>
+<p>&nbsp;</p>
+<p>To search for the literal text <span class="f_ExpressionText">fish*</span> or <span class="f_ExpressionText">fish&gt;</span> put the search term in quotes, e.g. <span class="f_ExpressionText">"fish*"</span> or <span class="f_ExpressionText">"fish&gt;"</span></p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="159" style="width:159px;"><p>Boolean RegEx</p>
+</td>
+<td valign="top" width="849" style="width:849px;"><p>Each phrase is treated as a regular expression. If the regular expression includes spaces or parenthesis use quotes to group the expression together.</p>
+<p>e.g.</p>
+<p><span class="f_ExpressionText">trout.* OR "fish(es|ing)"</span></p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="159" style="width:159px;"><p>Whole Word</p>
+</td>
+<td valign="top" width="849" style="width:849px;"><p>Each phrase is matched exactly as typed.</p>
+<p>e.g.</p>
+<p><span class="f_ExpressionText">fish</span> will match against only the word <span class="f_ExpressionText">fish</span> and not <span class="f_ExpressionText">fishing</span> or <span class="f_ExpressionText">selfish</span>.</p>
+</td>
+</tr>
+</table>
+</div>
+<p><span style="color: #000000;">&nbsp;</span></p>
+<p><span style="font-size: 7pt; vertical-align: super;">1</span> The wildcard setting is specified in the <a href="options_advanced.htm">Options tab</a> (the default is to allow wildcards).</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="font-weight: bold;">Example: Boolean RegEx</span></p>
+<p>&nbsp;</p>
+<p>By using the Boolean RegEx expression type regular expression searches can be combined using the operators AND, OR, and NOT. The regular expressions are evaluated on each line but the behaviour of the Boolean combination of those regex results, ie line by line or across whole file, is defined by the Boolean Expression settings in the <a href="options_advanced.htm">Options Tab</a>.</p>
+<p>&nbsp;</p>
+<p>Line by Line example</p>
+<p style="margin: 0px 0px 0px 48px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="margin: 0px 0px 0px 48px;">The expression <span class="f_ExpressionText">[0-9]+ AND document</span> searches for lines that include both a number and the word <span class="f_ExpressionText">document</span>.</p>
+<p style="margin: 0px 0px 0px 48px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="margin: 0px 0px 0px 48px;">The expression <span class="f_ExpressionText">"[a-z]+@[a-z]+" NOT "\.(com|net)"</span> searches for lines with email like text but not including <span class="f_ExpressionText">.com</span> or <span class="f_ExpressionText">.net</span>. Note the use of quotes to show the regular expression grouping (otherwise the brackets would have been treated as a boolean grouping).</p>
+<p>&nbsp;</p>
+<p>Whole file example</p>
+<p>&nbsp;</p>
+<p style="margin: 0px 0px 0px 48px;">The expression <span class="f_ExpressionText">"([0-9]+\.){3}[0-9]+" AND error</span> searches for files with an IP address and the word <span class="f_ExpressionText">error</span> somewhere in the file but not necessarily on the same line.</p>
+<p><span style="width:48px">&nbsp;</span></p>
+<p>Quotes are used to identify parts of the expression that are regular expressions.</p>
+<p>&nbsp;</p>
+<p>Note: Due to the complex nature of the Boolean RegEx expression type searches using it are usually slower than with the other expression types. Therefore use of Boolean RegEx is only recommended when its specific capabilities are required.</p>
+<p>&nbsp;</p>
+
+</td></tr></table>
+<hr>
+<font face="Arial" size="-2">
+Copyright &copy; 2013 Mythicsoft Ltd. All rights reserved.
+<br />
+Help file version: 7.0<br />
+<br />
+PDF and CHM versions of this help file are available here:<br />
+<a href="http://mythicsoft.com/filelocatorpro/help" target="_blank">http://mythicsoft.com/filelocatorpro/help</a><br /> 
+    <br />
+</font>
+
+</body>
+</html>

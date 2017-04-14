@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head>
+   <title>. （通配符）</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content=". (Wildcard character),Any character,Example using .,Wildcard character (Regular expressions)" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+<script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if (location.search.lastIndexOf("toc=0")<=0) {
+  if (parent.frames.length==0) { parent.location.href="index.html?_(anycharacter).htm"; }
+  else { parent.quicksync('a5.9'); }
+}
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script></head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#649CCC">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">. (通配符)</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="introduction.htm">Top</a>&nbsp;
+     <a href="and(characterlists).htm">Previous</a>&nbsp;
+     <a href="(endofstring).htm">Next</a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p>&nbsp;</p>
+<p>匹配任何单个字符。它用于指定在字符串的一个未知部分。因为句点几乎用于所有的Windows文件名称中，所以忘记了在正则表达式中它有一个非常特殊的含义的情况非常普遍。如果用户希望在搜索中按字面含义使用句点，那么前面必须加上 <a href="(escapecharacter).htm">'\' 转义符</a> 。例如：</p>
+<p style="margin: 0px 0px 0px 48px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="margin: 0px 0px 0px 48px;">如果您将表达式 'mydoc.doc' 作为文件名输入，那么它将找到任何含有 'mydoc' ，后跟任何单个字符，后跟 'doc' 的文件。因此虽然它会找到 'mydoc.doc' ，可它还会找到 'mydoc1doc' 和 'mydocXdoc' 。如果您希望仅搜索 'mydoc.doc' ，那么表达式为 'mydoc\.doc' 。</p>
+<p style="margin: 0px 0px 0px 48px;"><span style="color: #000000;">&nbsp;</span></p>
+<p>示例：</p>
+<p>&nbsp;</p>
+<p style="margin: 0px 0px 0px 48px;">如果您将表达式 '^mydocument..\.txt$' 作为文件名称输入，那么它将找到任何以 &nbsp;'mydocument' 开始，后跟正好2个任何字符，以 '.txt' 结尾的文件（注意这里使用了 <a href="%5E(beginningofstring).htm">'^' 字符串的开始</a> 字符，将 '.' in '.txt' 作为字面含义对待的 <a href="(escapecharacter).htm">'\' 转义符</a> ，还有 <a href="(endofstring).htm">'$' 字符串的结束</a> 字符）。因此它会找到如 'mydocument_1.txt' 和 'mydocument1a.txt' 这样的文件，而不会找到如 'mydocument.txt' 和 'mydocument_1a.txt' 这样的文件。</p>
+<p style="margin: 0px 0px 0px 48px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="margin: 0px 0px 0px 48px;">表达式 'my.*\.txt' 会找到任何包含 'my' ，后跟任何数目的字符，后跟 '.txt' 的文件（注意这里使用了 <a href="(occurrencecharacters).htm">'*'</a> 来指定0或多次出现）。因此它会找到如 &nbsp;'my_examples.txt' 和 'this is my file.txt.doc' 这样的文件，而不会找到如 'myfile.doc' 和 'm_y_file.txt' 这样的文件。</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+</td></tr></table>
+<hr>
+<font face="Arial" size="-2">
+Copyright &copy; 2013 Mythicsoft Ltd. All rights reserved.
+<br />
+Help file version: 7.0<br />
+<br />
+PDF and CHM versions of this help file are available here:<br />
+<a href="http://mythicsoft.com/filelocatorpro/help" target="_blank">http://mythicsoft.com/filelocatorpro/help</a><br /> 
+    <br />
+</font>
+
+</body>
+</html>

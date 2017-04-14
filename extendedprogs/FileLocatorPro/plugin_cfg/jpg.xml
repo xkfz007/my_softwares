@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<InterpreterConfig xmlns="http://www.mythicsoft.com/FileLocator">
+	<displayname>JPEG</displayname>
+	<uniquename>http://www.mythicsoft.com/jpeg</uniquename>
+	<progid>Extensions.GDIPInterpreter</progid>
+	<filetypes>jpg,jpeg</filetypes>
+	<interpretertype>textinterpreter</interpretertype>
+	<active>no</active>
+	<safemode>no</safemode>
+	<useisfilter>no</useisfilter>
+	<nonreglibrary>extensions.dll</nonreglibrary>
+</InterpreterConfig>

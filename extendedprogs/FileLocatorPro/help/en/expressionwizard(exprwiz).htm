@@ -1,0 +1,90 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head>
+   <title>Expression Wizard (Expr Wiz)</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="Expression Wizard,Begins with,Followed by,Ends with,Special characters" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+<script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if (location.search.lastIndexOf("toc=0")<=0) {
+  if (parent.frames.length==0) { parent.location.href="index.html?expressionwizard(exprwiz).htm"; }
+  else { parent.quicksync('a4.2'); }
+}
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script></head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#649CCC">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">Expression Wizard (Expr Wiz)</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="introduction.htm">Top</a>&nbsp;
+     <a href="searchwizard.htm">Previous</a>&nbsp;
+     <a href="regular_expressions.htm">Next</a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p>&nbsp;</p>
+<p>Expression Wizard walks the user through creating a basic <a href="regularexpressionintroduction.htm">regular expression</a>. The Expression Wizard can be used for building expressions to search for either the file name or the file contents.</p>
+<p>&nbsp;</p>
+<p>Note: The term 'string' is used as a generic term referring to either the file name or file contents. Basically a string is any word or group of words which, if you think about it, is exactly what a file name is.</p>
+<p>&nbsp;</p>
+<p><span style="font-weight: bold;">First page (Introducing the Expression Wizard)</span></p>
+<p>&nbsp;</p>
+<p>The first page of the wizard is just an introduction for the Expression Wizard with notes for the particular type of expression being built (i.e. a note for file name and a different note for file contents).</p>
+<p>&nbsp;</p>
+<p><span style="font-weight: bold;">Second page (Create the Expression)</span></p>
+<p>&nbsp;</p>
+<p>The second page is where all the work takes place. It should look something like this:</p>
+<p>&nbsp;</p>
+<p><img src="../img/regwizard.png" width="595" height="475" border="0" alt="RegWizard"></p>
+<p>&nbsp;</p>
+<p>Shown above is an example expression for a file name and will find any file name that includes the phrase 'MyFile' followed by any character followed by any number and finally ending with '.txt', i.e. a text file. Therefore it would find files such as 'Dave_MyFile54.txt' or 'MyFile_Num2.txt' but would not find the files 'MyFile.txt', 'A_MyFile34a.txt', or 'MyFile34.doc'.</p>
+<p>&nbsp;</p>
+<p>If you think back to how regular expressions work the layout of the Expression Wizard should become apparent. A regular expression is built out of a number of 'entries'. There is one beginning entry, multiple main body entries, and one final end entry. Each entry has a specific type:</p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td> &nbsp; &nbsp; &nbsp; &nbsp;Don't know. The value of the entry is unknown. e.g. The beginning of the file name may be unknown.</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td> &nbsp; &nbsp; &nbsp; &nbsp;Any character. Matches to any single character.</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td> &nbsp; &nbsp; &nbsp; &nbsp;The character. Matches to a character entered by the user in the Text field.</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td> &nbsp; &nbsp; &nbsp; &nbsp;Any one of these characters. Matches to any one of the characters entered by the user in the Text field.</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td> &nbsp; &nbsp; &nbsp; &nbsp;Any character except these. Matches to any character except the ones entered by the user in the Text field.</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td> &nbsp; &nbsp; &nbsp; &nbsp;The phrase. Matches to the specific phrase entered by the user in the Text field.</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td> &nbsp; &nbsp; &nbsp; &nbsp;Space(s). Matches to a space.</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td> &nbsp; &nbsp; &nbsp; &nbsp;Any numeric character. Matches to any numeric character, i.e. 0-9.</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td> &nbsp; &nbsp; &nbsp; &nbsp;Any text character. Matches to any alphabetic character, i.e. a-z.</td></tr></table></div><p>&nbsp;</p>
+<p>Once the user has specified the entry type and the text, if required for the entry type, then the user needs to specify the number of occurrences of that entry:</p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td> &nbsp; &nbsp; &nbsp; &nbsp;Zero or once. The entry type may or may not be there but if it is then it maps to one occurrence.</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td> &nbsp; &nbsp; &nbsp; &nbsp;Zero or many times. The entry type may or may not be there but if it is then it can map to one or more occurrences.</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td> &nbsp; &nbsp; &nbsp; &nbsp;Once only. The entry type must be there and is mapped to only one occurrence.</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td> &nbsp; &nbsp; &nbsp; &nbsp;Once or many times. The entry type must be there and can map to many occurrences.</td></tr></table></div><p>&nbsp;</p>
+<p>The Expression Wizard does not currently provide all the functionality of regular expressions. However, if the user knows how to construct their own regular expressions they can enter the any part of a regular expression by adding an entry of type 'The phrase' and putting the regular expression in the Text field.</p>
+<p>&nbsp;</p>
+<p>The entries can be rearranged using drag and drop.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="font-weight: bold;">Third page (Warning: Special characters entered)</span></p>
+<p>&nbsp;</p>
+<p>When the user has finished entering the regular expression the user can normally press Finish to feed the regular expression back to the main search window. However, if the user has entered any special characters (i.e. characters that have special meaning in a regular expressions) in the Text field for any entry then the Finish button actually changes into a Next button and the user is warned that special characters were entered. The user then has two choices, either to have FileLocator Pro convert the special characters so that they will not be treated as special (default) or to leave the expression as it is because the user specifically entered special characters.</p>
+<p>&nbsp;</p>
+<p>In the screen shot shown above you can see that this is exactly what happened with the example. The '.' in '.txt' is the <a href="_(anycharacter).htm">wildcard character</a> and therefore instead of a Finish button there is a Next button. If you look at the resulting expression you'll see that the '.' has been prefixed with the <a href="(escapecharacter).htm">'\' escape character</a>. This happened automatically because of the default action, which is to convert the special characters so that they are not treated as special. This page (i.e. the third page) allows the user to turn that default action off.</p>
+
+</td></tr></table>
+<hr>
+<font face="Arial" size="-2">
+Copyright &copy; 2013 Mythicsoft Ltd. All rights reserved.
+<br />
+Help file version: 7.0<br />
+<br />
+PDF and CHM versions of this help file are available here:<br />
+<a href="http://mythicsoft.com/filelocatorpro/help" target="_blank">http://mythicsoft.com/filelocatorpro/help</a><br /> 
+    <br />
+</font>
+
+</body>
+</html>

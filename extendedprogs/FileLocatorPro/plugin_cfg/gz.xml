@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<InterpreterConfig xmlns="http://www.mythicsoft.com/FileLocator">
+	<displayname>GZIP</displayname>
+	<uniquename>http://www.mythicsoft.com/gzipinterpreter</uniquename>
+	<progid>SvnExtLib.SZGZInterpreter</progid>
+	<filetypes>gz,gzip</filetypes>
+	<interpretertype>compositefile</interpretertype>
+	<active>no</active>
+	<safemode>no</safemode>
+	<useisfilter>no</useisfilter>
+	<nonreglibrary>SvnExtLib.dll</nonreglibrary>
+	<searchbinary>no</searchbinary>
+</InterpreterConfig>

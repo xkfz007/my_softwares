@@ -1,0 +1,69 @@
+Elecard StreamEye 4.0 beta Release Notes
+August 2014
+
+Copyright information
+Copyright © 2007-2014 Elecard
+All Rights Reserved
+
+IMPORTANT INFORMATION
+The demo version for 4.0 beta has limited functionality (positioning for the first 42 frames, limited formats supported: H.264/AVC and H.265/HEVC only).
+For more details on the registration contact Elecard Sales Department (sales@elecard.net.ru).
+And to find more information on the activation procedure visit Elecard site http://www.elecard.com.
+
+OVERVIEW
+The Elecard StreamEye (StreamEye) program is a tool designed for professionals and prosumers in the video compression field. StreamEye enables the user to perform an effective in-depth analysis of video sequences.
+StreamEye provides the user with a visual representation of the encoded video features and a stream structure analysis of H.264/AVC and H.265/HEVC.
+
+PRODUCT DESCRIPTION
+Elecard StreamEye enables the user to perform an effective in-depth analysis of video sequences. Elecard StreamEye provides a visual representation of the encoded video features and a stream structure analysis of AVC/H.264 (see ISO/IEC 14496-10) and HEVC/Í.265 (ISO/IEC 23008-2 MPEG-H Part 2) video. With navigation down to the deepest levels of an encoded stream StreamEyeStreamEye enables powerful and efficient debuging for development of AVC/H.264 and HEVC/H.265 video codec. Detailed display of information includes frames types and sizes, coded units data, visualization of slice and tile boundaries, partition, motion vectors, types, bit sizes, quantizers etc along with a quick-to- capture summary of encoded data against the reference raw data.
+
+MAIN CHANGES, FIXED BUGS AND NEW FEATURES AVAILABLE IN VERSION 4.0
+New features:
+- AVC/H.264, HEVC/H.265 video supported (MPEG-2, and VP9 to be available in the next updates);
+- automated processing using command-line interface;
+- UltraHD 4K videos support; 
+- new UI;
+- automatic synchronization of two or more instances of the application for comparison of files encoded  with different settings;
+-  compliance verification of the stream against the compression standard;
+- interactive usage on networked PCs (floating license option).
+
+INSTALLATION AND UNINSTALLATION
+Run the delivery pack and follow the instructions of Wizard. After you click "Finish" the program is ready to run and doesn't require rebooting your computer.
+To uninstall the program, click Start->Programs->Elecard->Elecard StreamEye Studio Lite ->Uninstall Elecard StreamEye.
+Note: During the uninstallation some dialogs can be placed behind the top window that stops the process, please give attention to this situation and switch active windows.
+
+SUPPORTED FORMATS
+ o  Transport Stream MPEG-2
+ o  Program Stream MPEG-2
+ o  HEVC/H.265 Video stream 
+ o  AVC/H.264 Video stream 
+
+FEATURES
+ o   Display of stream summary and picture information. 
+ o   Display of decoded, predicted, and unfiltered frame data (YUV and single plane). 
+ o   Display of residual, transform, and dequantized coefficients. 
+ o   Display of bitsteam headers for each standard. 
+ o   Display of Macroblock / Coded Tree Unit data: location, slice index, tile index, sizes, coded, prediction, transform unit info. 
+ o   Visualization of slice and tile boundaries, partition, motion vectors, types, bit sizes, quantizers.
+ o   Navigation via chart bar or thumbnails. 
+ o   Display of bit distribution inside a video stream. Ability to choose bitstream elements to display. (HEVC only; AVC to be available in the next updates)
+ o   Stream navigation and display in I, P, B, IP and Key Frames modes. 
+ o   Display of reference frames. 
+ o   Hex viewer. 
+ o   Stream viewer – file content (header level) presentation in text mode. 
+ o   Viewing of reference raw data. 
+ o   Metrics calculation. 
+ o   Visual comparison with reference raw data (Temperature, Subtraction, Compare).
+
+SYSTEM REQUIREMENTS
+Minimum (for video resolution below HD):
+4 GB, 32-bit Windows®(Server 2008/Vista/7/8/8.1) operating system.
+Recommended (for HD video (or higher): 
+8 GB RAM 
+64-bit Windows®(Server 2008/Vista/7/8/8.1) operating system.
+
+
+FEEDBACK
+Visit Elecard on WWW at http://www.elecard.com.
+On technical issues, please contact the Technical Support Team: tsup@elecard.com
+For licensing information, please contact Elecard Sales Department: sales@elecard.com

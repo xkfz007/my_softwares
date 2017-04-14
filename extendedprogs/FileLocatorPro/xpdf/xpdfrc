@@ -1,0 +1,68 @@
+
+textEncoding UTF-8
+textEOL      dos
+
+#----- begin Arabic support package (2011-aug-15)
+unicodeMap	ISO-8859-6	.\xpdf-lang\ISO-8859-6.unicodeMap
+#----- end Arabic support package
+
+#----- begin Chinese Simplified support package (2011-sep-02)
+cidToUnicode	Adobe-GB1	.\xpdf-chinese-simplified\Adobe-GB1.cidToUnicode
+unicodeMap	ISO-2022-CN	.\xpdf-chinese-simplified\ISO-2022-CN.unicodeMap
+unicodeMap	EUC-CN		.\xpdf-chinese-simplified\EUC-CN.unicodeMap
+unicodeMap	GBK		.\xpdf-chinese-simplified\GBK.unicodeMap
+cMapDir		Adobe-GB1	.\xpdf-chinese-simplified\CMap
+toUnicodeDir			.\xpdf-chinese-simplified\CMap
+#----- end Chinese Simplified support package
+
+#----- begin Chinese Traditional support package (2011-sep-02)
+cidToUnicode	Adobe-CNS1	.\xpdf-chinese-traditional\Adobe-CNS1.cidToUnicode
+unicodeMap	Big5		.\xpdf-chinese-traditional\Big5.unicodeMap
+unicodeMap	Big5ascii	.\xpdf-chinese-traditional\Big5ascii.unicodeMap
+cMapDir		Adobe-CNS1	.\xpdf-chinese-traditional\CMap
+toUnicodeDir			.\xpdf-chinese-traditional\CMap
+#----- end Chinese Traditional support package
+
+#----- begin Cyrillic support package (2011-aug-15)
+nameToUnicode			.\xpdf-lang\Bulgarian.nameToUnicode
+unicodeMap	KOI8-R		.\xpdf-lang\KOI8-R.unicodeMap
+#----- end Cyrillic support package
+
+#----- begin Greek support package (2011-aug-15)
+nameToUnicode			.\xpdf-lang\Greek.nameToUnicode
+unicodeMap	ISO-8859-7	.\xpdf-lang\ISO-8859-7.unicodeMap
+#----- end Greek support package
+
+#----- begin Hebrew support package (2011-aug-15)
+unicodeMap	ISO-8859-8	.\xpdf-lang\ISO-8859-8.unicodeMap
+unicodeMap	Windows-1255	.\xpdf-lang\Windows-1255.unicodeMap
+#----- end Hebrew support package
+
+#----- begin Japanese support package (2011-sep-02)
+cidToUnicode	Adobe-Japan1	.\xpdf-japanese\Adobe-Japan1.cidToUnicode
+unicodeMap	ISO-2022-JP	.\xpdf-japanese\ISO-2022-JP.unicodeMap
+unicodeMap	EUC-JP		.\xpdf-japanese\EUC-JP.unicodeMap
+unicodeMap	Shift-JIS	.\xpdf-japanese\Shift-JIS.unicodeMap
+cMapDir		Adobe-Japan1	.\xpdf-japanese\CMap
+toUnicodeDir			.\xpdf-japanese\CMap
+#----- end Japanese support package
+
+#----- begin Korean support package (2011-sep-02)
+cidToUnicode	Adobe-Korea1	.\xpdf-korean\Adobe-Korea1.cidToUnicode
+unicodeMap	ISO-2022-KR	.\xpdf-korean\ISO-2022-KR.unicodeMap
+cMapDir		Adobe-Korea1	.\xpdf-korean\CMap
+toUnicodeDir			.\xpdf-korean\CMap
+#----- end Korean support package
+
+#----- begin Latin2 support package (2011-aug-15)
+unicodeMap	Latin2	.\xpdf-lang\Latin2.unicodeMap
+#----- end Latin2 support package
+
+#----- begin Thai support package (2011-aug-15)
+nameToUnicode			.\xpdf-lang\Thai.nameToUnicode
+unicodeMap	TIS-620		.\xpdf-lang\TIS-620.unicodeMap
+#----- end Thai support package
+
+#----- begin Turkish support package (2011-aug-15)
+unicodeMap	ISO-8859-9	.\xpdf-lang\ISO-8859-9.unicodeMap
+#----- end Turkish support package

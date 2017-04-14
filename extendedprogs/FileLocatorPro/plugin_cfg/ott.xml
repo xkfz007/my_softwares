@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<InterpreterConfig xmlns="http://www.mythicsoft.com/FileLocator">
+	<displayname>OTT</displayname>
+	<uniquename>http://www.mythicsoft.com/ott</uniquename>
+	<progid>Extensions.ExternalWordMgr</progid>
+	<filetypes>ott</filetypes>
+	<interpretertype>textconverter</interpretertype>
+	<active>no</active>
+	<safemode>no</safemode>
+	<useisfilter>no</useisfilter>
+	<nonreglibrary>extensions.dll</nonreglibrary>
+</InterpreterConfig>

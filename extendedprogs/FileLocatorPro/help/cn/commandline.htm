@@ -1,0 +1,336 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head>
+   <title>命令行</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="Command line options,Searching directly to file" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+<script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if (location.search.lastIndexOf("toc=0")<=0) {
+  if (parent.frames.length==0) { parent.location.href="index.html?commandline.htm"; }
+  else { parent.quicksync('a3.1'); }
+}
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script></head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#649CCC">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">命令行</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="introduction.htm">Top</a>&nbsp;
+     <a href="advanced_features.htm">Previous</a>&nbsp;
+     <a href="expressiontypes.htm">Next</a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p>&nbsp;</p>
+<p>FileLocator Pro的启动初值可以通过由命令行传递的信息来改变。如果指定了输出文件，那么就不会显示用户界面，而是将结果直接导入文件中。</p>
+<p>可用的命令行选项如下：</p>
+<p>&nbsp;</p>
+<p style="text-indent: -36px; margin: 0px 179px 0px 84px;">FileLocatorPro.exe [保存的搜索] | -o [输出文件] | -oa | -oc | -ol [数字] | -oe? | -of? | -os | -d [文件夹名称] | -c [包含文本] | -f [文件名称] | -cm | -fm | -s | -fd | -fx | -cr | -pa | -po | -ma [日期时间] | -mb [日期时间] | -h | -?</p>
+<p>&nbsp;</p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table cellspacing="1" cellpadding="1" border="0" style="border: none; border-spacing:1px;">
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-c</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>在指定文件中搜索的文本（即，”包括文本“输入框）</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-ce?</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>内容表达式类型： -ceb=布尔表达式, -cex=正则表达式, -cee=纯文本, -ceh=布尔正则表达式, -cew=全字匹配 </p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-cf</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>内容表达式匹配范围为整个文件（仅对布尔表达式有效）</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-cm</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>内容搜索时要匹配大小写</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-d</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>要搜索的（多个）文件夹（即，”查找位置“输入框，用-dw代表当前工作文件夹）</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-f</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>要搜索的文件名称</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-fe?</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>文件名称表达式类型： -fed=DOS, -fex=正则表达式, -feb=布尔表达式, -fee=纯文本, -feh=布尔正则表达式</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-fm</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>比较文件名称时匹配大小写</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-fx</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>排除的文件名称</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-le?</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>查找位置表达式类型：-leb=布尔表达式, -lex=正则表达式, -lee=纯文本</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-ma</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>”修改时间“的”晚于“的日期值，用”now"来传递当前的日期和时间</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-mb</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>“修改时间”的“早于”的日期值，用“now"来传递当前的日期和时间</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-o</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>输出文件名（运行搜索时不显示FileLocator Pro 的图形用户界面，将结果直接导入文件中）</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-oa</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>追加输出文件</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-oc</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>输出内容行</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-oe?</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>输出编码： -oea=ASCII, -oe8=UTF-8, -oeu=Unicode, -oe8nb=UTF8 (无 BOM), -oeub=Unicode (big endian)</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-of?</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>输出格式：-oft = Text (默认), -ofc = CSV文本, -ofb = 制表符文本, -ofx = XML, -ofh = HTML, -ofxslt=自定义 (XSLT)</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-ol</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>单个文件结果行最大输出数</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-os</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>输出周围的行</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-pa</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>在创建新搜索或打开现有搜索时总是使用命令行中的参数</p>
+<p>注：不论何时用户创建了新的搜索，此选项可用作强制让某个条件的值预设为某个值，而与以前使用过的值无关。</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-pc</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>用保存的搜索条件文件中的配置来覆盖程序配置</p>
+<p>注：配置设置，例如：所启用的压缩文件类型（如Zip）或字符处理设置一般不是从SRF文件中加载。此选项强制从SRF文件中加载配置设置，有效地将FileLocator Pro设置为和在保存SRF文件时一样的状态。</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-po</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>当从文件加载且指定了命令行参数时，覆盖来自文件的值。</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-r</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>立刻开始搜索（隐含在-o选项中）</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-re?</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>正则表达式类型：-rep=Perl语法， -rec=经典语法</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-resetui</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>重置用户界面为默认的大小和位置，即：工具栏、菜单、停靠窗口等重置为安装默认值。</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-s</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>搜索子文件夹</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-view</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>在内部查看器中打开文件（使用 -viewline 和 -viewcol 指定行和列）</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="904" style="width:904px;"><br>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-h or -?</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>显示帮助对话框</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="904" style="width:904px;"><br>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="904" style="width:904px;"><br>
+</td>
+</tr>
+</table>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>要将某个选项关闭，在后追加'n'标识，例如：</p>
+<p><span style="width:48px">&nbsp;</span>FileLocatorPro.exe -fmn 在比较文件时关闭了匹配大小写</p>
+<p>&nbsp;</p>
+<p>示例：</p>
+<p>&nbsp;</p>
+<p style="margin: 0px 0px 0px 48px;">要启动FileLocator Pro，在”查找位置“预先填入"C:\Documents and Settings\user\My Documents"，这样的命令行参数值为：</p>
+<p style="margin: 0px 0px 0px 48px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="margin: 0px 0px 0px 61px;">FileLocatorPro.exe -d "C:\Documents and Settings\user\My Documents"</p>
+<p style="margin: 0px 0px 0px 48px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="margin: 0px 0px 0px 48px;">要运行一个搜索寻找在C:\WINDOWS文件夹中匹配 *.sys的文件，不启动通常的用户界面而将结果直接导入文件中，这样的命令行参数值为：</p>
+<p style="margin: 0px 0px 0px 48px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="margin: 0px 0px 0px 61px;">FileLocatorPro.exe -d "C:\WINDOWS" -f "*.sys" -o "c:\temp\results.txt"</p>
+<p style="margin: 0px 0px 0px 61px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="margin: 0px 0px 0px 48px;">要启动FileLocator，搜索子文件夹开关关闭，内容搜索的匹配大小写开关打开，这样的命令行参数值为：</p>
+<p style="margin: 0px 0px 0px 66px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="margin: 0px 0px 0px 60px;">FileLocatorPro.exe -cm -sn</p>
+
+</td></tr></table>
+<hr>
+<font face="Arial" size="-2">
+Copyright &copy; 2013 Mythicsoft Ltd. All rights reserved.
+<br />
+Help file version: 7.0<br />
+<br />
+PDF and CHM versions of this help file are available here:<br />
+<a href="http://mythicsoft.com/filelocatorpro/help" target="_blank">http://mythicsoft.com/filelocatorpro/help</a><br /> 
+    <br />
+</font>
+
+</body>
+</html>

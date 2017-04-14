@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<InterpreterConfig xmlns="http://www.mythicsoft.com/FileLocator">
+	<displayname>XLS</displayname>
+	<uniquename>http://www.mythicsoft.com/xls</uniquename>
+	<progid>Extensions.ExternalExcelMgr</progid>
+	<filetypes>xls</filetypes>
+	<interpretertype>textconverter</interpretertype>
+	<active>no</active>
+	<safemode>no</safemode>
+	<useisfilter>no</useisfilter>
+	<nonreglibrary>extensions.dll</nonreglibrary>
+</InterpreterConfig>

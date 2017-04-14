@@ -1,0 +1,978 @@
+{
+	"folder_history":
+	[
+		"/E/BaiduCloud/Dropbox/workdocs/LocalNotes"
+	],
+	"last_version": 3114,
+	"last_window_id": 3,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 480.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 392.0,
+				"last_filter": "Package Control: ",
+				"selected_items":
+				[
+					[
+						"Package Control: ",
+						"Package Control: Remove Package"
+					],
+					[
+						"Package Control: ins",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: in",
+						"Package Control: Install Package"
+					],
+					[
+						":w",
+						":w - Save"
+					]
+				],
+				"width": 432.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/D/extendedprogs/Sublime3/Data/Packages/User/Preferences.sublime-settings"
+			],
+			"find":
+			{
+				"height": 0.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 640.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/E/BaiduCloud/Dropbox/workdocs/LocalNotes/linux/vmware.txt",
+					"settings":
+					{
+						"buffer_size": 0,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/E/BaiduCloud/Dropbox/workdocs/LocalNotes/linux/Git常用命令.txt",
+					"settings":
+					{
+						"buffer_size": 2147,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/E/BaiduCloud/Dropbox/workdocs/LocalNotes/output_addr.txt",
+					"settings":
+					{
+						"buffer_size": 378,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"contents": "\nffmpeg -i a.mp4 -c:v libx264 -c:a aac -hls_wrap 0 -hls_time 10 -hls_list_size 15 -hls_flags round_durations -hls_segment_filename hls/20160326010445-01-%d.ts -start_number 1458925485 hls/01.m3u8 \n\nffmpeg -i 'udp://236.114.126.43:10001?overrun_nonfatal=1&buffer_size=100000000&fifo_size=10000000' -map p:3902:1 -map p:3902:0 -c copy a.ts -y\n\n\nffmpeg -y -f concat -safe 0 <(for i in \"'e:/QQDownload/aa1.mp4' 'e:/QQDownload/aa2.mp4'\";do echo \"file '$i'\";done) -c copy \"concatenated_file.mp4\"\n\n\nkeepTime:751095_nowTime:\n14631294511095_startTime:\n1463128700000\n\n[flv @ 0x6988d60] Malformed AAC bitstream detected: use the audio bitstream filter 'aac_adtstoasc' to fix it ('-bsf:a aaa\nc_adtstoasc' option with ffmpeg)\nav_interleaved_write_frame(): Invalid data found when processing input\n[flv @ 0x6988d60] Malformed AAC bitstream detected: use the audio bitstream filter 'aac_adtstoasc' to fix it ('-bsf:a aaa\nc_adtstoasc' option with ffmpeg)\nav_interleaved_write_frame(): Invalid data found when processing input\n[flv @ 0x6988d60] Malformed AAC bitstream detected: use the audio bitstream filter 'aac_adtstoasc' to fix it ('-bsf:a aaa\nc_adtstoasc' option with ffmpeg)\nav_interleaved_write_frame(): Invalid data found when processing input\n[flv @ 0x6988d60] Malformed AAC bitstream detected: use the audio bitstream filter 'aac_adtstoasc' to fix it ('-bsf:a aaa\nc_adtstoasc' option with ffmpeg)\nav_interleaved_write_frame(): Invalid data found when processing input\n[flv @ 0x6988d60] Malformed AAC bitstream detected: use the audio bitstream filter 'aac_adtstoasc' to fix it ('-bsf:a aaa\nc_adtstoasc' option with ffmpeg)\nav_interleaved_write_frame(): Invalid data found when processing input\n@                                                                   \n\n\n-f tee '[f=flv]rtmp://'\n\nlvtranscode -hide_banner -threads auto -y  -re -itsoffset 0.5 -async 1  -i 'udp://236.114.126.42:5001?overrun_nonfatal=1&buffer_size=100000000&fifo_size=100000000' -map p:3802 -vf \"movie='/home/ubuntu/codec/logo/zb_67.tga',scale=279.0:69.0[logo];[in][logo]overlay=main_w-overlay_w-96.0:54.0[out]\"  -c:v  libx264  -preset  superfast  -profile:v  high  -level:v 5.1 -s 1280x720 -r 25 -x264-params keyint=50:scenecut=0  -b:v 856k  -an  -metadata service_provider='WONDERTEK' -f  tee '[f=flv]rtmp://10.200.13.50:19350/live/cctv5hd_rtmp'\n-re -i ~/documents/dragonball.flv -c:v  libx264    -an  -f  tee '[f=flv]rtmp://10.200.13.50:19350/live/cctv5hd_rtmp'\n\n\n ffmpeg -hide_banner -y -xerror -re -loop 1 -i /home/ubuntu/codec/release/res/duanliu.jpg -tune stillimage -pix_fmt yuv420p -shortest -c:v libx264 -preset superfast -profile:v main -level:v 3.1 -f mpegts udp://239.1.1.1:48880\n\n\n\n         av_log(NULL, AV_LOG_INFO, \"  Duration: \");\n        if (ic->duration != AV_NOPTS_VALUE) {\n            int hours, mins, secs, us;\n            int64_t duration = ic->duration + (ic->duration <= INT64_MAX - 5000 ? 5000 : 0);\n            secs  = duration / AV_TIME_BASE;\n            us    = duration % AV_TIME_BASE;\n            mins  = secs / 60;\n            secs %= 60;\n            hours = mins / 60;\n            mins %= 60;\n            av_log(NULL, AV_LOG_INFO, \"%02d:%02d:%02d.%02d\", hours, mins, secs,\n                   (100 * us) / AV_TIME_BASE);\n        } else {\n            av_log(NULL, AV_LOG_INFO, \"N/A\");\n        }",
+					"file": "/E/BaiduCloud/Dropbox/workdocs/LocalNotes/ffmpeg/常用命令行.txt",
+					"file_size": 2473,
+					"file_write_time": 131089866194386454,
+					"settings":
+					{
+						"buffer_size": 3294,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/E/BaiduCloud/Dropbox/workdocs/LocalNotes/ffmpeg/转码器命令行.txt",
+					"settings":
+					{
+						"buffer_size": 37305,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"contents": "安装注意事项\n\n在ubuntu中安装软件的命令是：\napt-get install\n使用时一般应该加上sudo（因为安装软件一般要求权限较高）\n\n安装完xubuntu之后需要在命令行安装如下软件：\nteminator：一个更加完善的命令行终端\nmediainfo：查看媒体文件信息\n\n编译广行的ffmpeg代码需要安装：\nlibgnutls-dev\n编译x265需要安装：\ncmake\ncmake-curses-gui(ccmake)\n\n\n\n\n\nffmpeg中编译libx264，libx265\n\nffmpeg与x264，x265的编译算是比较类似，应该说，开源代码库的编译都比较类似。\n\n从网上下载x264的源代码，运行./configure可以得到Makefile，运行之前可以查看--help来看看需要获取哪些功能。\n然后make，就会编译得到x264的相应的库（动态库，静态库），\n之后再运行make install就会将编译完成对库安装到系统中\n",
+					"file": "/E/BaiduCloud/Dropbox/workdocs/LocalNotes/ffmpeg/installation.txt",
+					"file_size": 671,
+					"file_write_time": 131089873202136326,
+					"settings":
+					{
+						"buffer_size": 428,
+						"line_ending": "Windows",
+						"scratch": true
+					}
+				},
+				{
+					"contents": "2016-04-14 20:29:34,690 DEBUG: com.wd.transcoding.service.impl.InputServiceImpl     - input is null\n2016-04-14 20:29:36,716 DEBUG: com.wd.transcoding.service.impl.InputServiceImpl     - input is null\n2016-04-14 20:29:38,741 DEBUG: com.wd.transcoding.service.impl.InputServiceImpl     - input is null\n2016-04-14 20:29:39,715 DEBUG: com.wd.transcoding.ffprobe.FFrobeExecPrograms     - ffprobe: ffprobeJson={\n    \"programs\": [\n        {\n            \"program_id\": 1,\n            \"program_num\": 1,\n            \"nb_streams\": 2,\n            \"pmt_pid\": 4096,\n            \"pcr_pid\": 256,\n            \"start_pts\": 125485822,\n            \"start_time\": \"125.485822\",\n            \"tags\": {\n                \"service_name\": \"Service01\",\n                \"service_provider\": \"lvtranscode\"\n            },\n            \"streams\": [\n                {\n                    \"index\": 0,\n                    \"codec_name\": \"h264\",\n                    \"codec_long_name\": \"H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10\",\n                    \"codec_type\": \"video\",\n                    \"codec_time_base\": \"1/180000\",\n                    \"codec_tag_string\": \"[27][0][0][0]\",\n                    \"codec_tag\": \"0x001b\",\n                    \"width\": 0,\n                    \"height\": 0,\n                    \"coded_width\": 0,\n                    \"coded_height\": 0,\n                    \"has_b_frames\": 1,\n                    \"sample_aspect_ratio\": \"0:1\",\n                    \"display_aspect_ratio\": \"0:0\",\n                    \"level\": -99,\n                    \"chroma_location\": \"left\",\n                    \"refs\": 1,\n                    \"is_avc\": \"0\",\n                    \"nal_length_size\": \"0\",\n                    \"id\": \"0x100\",\n                    \"r_frame_rate\": \"25/1\",\n                    \"avg_frame_rate\": \"25/1\",\n                    \"time_base\": \"1/90000\",\n                    \"start_pts\": 11311200,\n                    \"start_time\": \"125.680000\",\n                    \"disposition\": {\n                        \"default\": 0,\n                        \"dub\": 0,\n                        \"original\": 0,\n                        \"comment\": 0,\n                        \"lyrics\": 0,\n                        \"karaoke\": 0,\n                        \"forced\": 0,\n                        \"hearing_impaired\": 0,\n                        \"visual_impaired\": 0,\n                        \"clean_effects\": 0,\n                        \"attached_pic\": 0\n                    }\n                },\n                {\n                    \"index\": 1,\n                    \"codec_name\": \"aac\",\n                    \"codec_long_name\": \"AAC (Advanced Audio Coding)\",\n                    \"profile\": \"LC\",\n                    \"codec_type\": \"audio\",\n                    \"codec_time_base\": \"1/44100\",\n                    \"codec_tag_string\": \"[15][0][0][0]\",\n                    \"codec_tag\": \"0x000f\",\n                    \"sample_fmt\": \"fltp\",\n                    \"sample_rate\": \"44100\",\n                    \"channels\": 2,\n                    \"channel_layout\": \"stereo\",\n                    \"bits_per_sample\": 0,\n                    \"id\": \"0x101\",\n                    \"r_frame_rate\": \"0/0\",\n                    \"avg_frame_rate\": \"0/0\",\n                    \"time_base\": \"1/90000\",\n                    \"start_pts\": 11293724,\n                    \"start_time\": \"125.485822\",\n                    \"bit_rate\": \"177433\",\n                    \"disposition\": {\n                        \"default\": 0,\n                        \"dub\": 0,\n                        \"original\": 0,\n                        \"comment\": 0,\n                        \"lyrics\": 0,\n                        \"karaoke\": 0,\n                        \"forced\": 0,\n                        \"hearing_impaired\": 0,\n                        \"visual_impaired\": 0,\n                        \"clean_effects\": 0,\n                        \"attached_pic\": 0\n                    }\n                }\n            ]\n        }\n    ],\n    \"streams\": [\n        {\n            \"index\": 0,\n            \"codec_name\": \"h264\",\n            \"codec_long_name\": \"H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10\",\n            \"codec_type\": \"video\",\n            \"codec_time_base\": \"1/180000\",\n            \"codec_tag_string\": \"[27][0][0][0]\",\n            \"codec_tag\": \"0x001b\",\n            \"width\": 0,\n            \"height\": 0,\n            \"coded_width\": 0,\n            \"coded_height\": 0,\n            \"has_b_frames\": 1,\n            \"sample_aspect_ratio\": \"0:1\",\n            \"display_aspect_ratio\": \"0:0\",\n            \"level\": -99,\n            \"chroma_location\": \"left\",\n            \"refs\": 1,\n            \"is_avc\": \"0\",\n            \"nal_length_size\": \"0\",\n            \"id\": \"0x100\",\n            \"r_frame_rate\": \"25/1\",\n            \"avg_frame_rate\": \"25/1\",\n            \"time_base\": \"1/90000\",\n            \"start_pts\": 11311200,\n            \"start_time\": \"125.680000\",\n            \"disposition\": {\n                \"default\": 0,\n                \"dub\": 0,\n                \"original\": 0,\n                \"comment\": 0,\n                \"lyrics\": 0,\n                \"karaoke\": 0,\n                \"forced\": 0,\n                \"hearing_impaired\": 0,\n                \"visual_impaired\": 0,\n                \"clean_effects\": 0,\n        },\n        {\n            \"index\": 1,\n            \"codec_name\": \"aac\",\n            \"codec_long_name\": \"AAC (Advanced Audio Coding)\",\n            \"profile\": \"LC\",\n            \"codec_type\": \"audio\",\n            \"codec_time_base\": \"1/44100\",\n            \"id\": \"0x101\",\n            \"r_frame_rate\": \"0/0\",\n            \"avg_frame_rate\": \"0/0\",\n            \"time_base\": \"1/90000\",\n            \"start_pts\": 11293724,\n                \"lyrics\": 0,\n                \"karaoke\": 0,\n                \"forced\": 0,\n                \"hearing_impaired\": 0,\n                \"visual_impaired\": 0,\n2016-04-14 20:29:39,725 DEBUG: com.wd.transcoding.ffprobe.FFrobeExecPrograms     - size1=1  size2=2\n2016-04-14 20:29:40,771 DEBUG: com.wd.transcoding.service.impl.InputServiceImpl     - input is null\n2016-04-14 20:29:41,745 DEBUG: com.wd.transcoding.shell.TranscodeH264Shell     - profile.getvideoWxh=1280x720\n2016-04-14 20:29:41,745 DEBUG: com.wd.transcoding.shell.TranscodeH264Shell     - input.Height=0\n2016-04-14 20:29:41,745 DEBUG: com.wd.transcoding.shell.TranscodeH264Shell     - input.Width=0\n2016-04-14 20:29:41,745 ERROR: com.wd.transcoding.shell.TranscodeHlsOutShell     - hls.properties is not found\n2016-04-14 20:29:42,747 DEBUG:     com.wd.transcoding.util.ShellUtil     - runCommand=cp /home/ubuntu/codec/release/index.m3u8 /home/ubuntu/codec/release/hlstemp/3e3af744-499b-42d4-b7a2-402a1c7fbba1/b2589a56-ebdc-4958-a1db-196d5ba8c085\n2016-04-14 20:29:42,809 DEBUG: com.wd.transcoding.service.impl.InputServiceImpl     - input is null\n2016-04-14 20:29:43,748 DEBUG: com.wd.transcoding.shell.TranscodeH264Shell     - profile.getvideoWxh=852x480\n2016-04-14 20:29:43,749 DEBUG: com.wd.transcoding.shell.TranscodeH264Shell     - input.Height=0\n2016-04-14 20:29:43,749 DEBUG: com.wd.transcoding.shell.TranscodeH264Shell     - input.Width=0\n2016-04-14 20:29:43,749 ERROR: com.wd.transcoding.shell.TranscodeHlsOutShell     - hls.properties is not found\n2016-04-14 20:29:43,749 DEBUG: com.wd.transcoding.shell.TranscodeHlsOutShell     - dirPath=/home/ubuntu/codec/release/hlstemp/3e3af744-499b-42d4-b7a2-402a1c7fbba1/cb63a221-431c-4df6-b444-290c9d1bc43e\n2016-04-14 20:29:43,750 DEBUG:     com.wd.transcoding.util.ShellUtil     - runCommand=/sbin/start-stop-daemon --start --quiet --pidfile /home/ubuntu/codec/release/ini/33d05311-7eae-413f-bd2d-da5619a5039a -m --exec /home/ubuntu/codec/release/monitor_merge -- /home/ubuntu/codec/release/hlstemp/3e3af744-499b-42d4-b7a2-402a1c7fbba1/cb63a221-431c-4df6-b444-290c9d1bc43e '/mnt/remote/r3/wd_ls/fbh/fbha/600' 10\n2016-04-14 20:29:44,751 DEBUG:     com.wd.transcoding.util.ShellUtil     - runCommand=cp /home/ubuntu/codec/release/index.m3u8 /home/ubuntu/codec/release/hlstemp/3e3af744-499b-42d4-b7a2-402a1c7fbba1/cb63a221-431c-4df6-b444-290c9d1bc43e\n2016-04-14 20:29:44,852 DEBUG: com.wd.transcoding.service.impl.InputServiceImpl     - input is null\n2016-04-14 20:29:45,753 DEBUG:     com.wd.transcoding.util.ShellUtil     - runCommand=/sbin/start-stop-daemon --start --quiet --pidfile /home/ubuntu/codec/release/ini/a206b134-423b-4c9f-96b1-fe9361162931 -m --exec /home/ubuntu/codec/release/lvtranscode -- -hide_banner -threads auto -y  -xerror  -re -itsoffset 0.5 -async 1  -i 'udp://127.0.0.1:48880?overrun_nonfatal=1&buffer_size=100000000&fifo_size=100000000' -map 0 -vf \"movie='/home/ubuntu/codec/logo/zb_44.tga',scale=0.0:0.0[logo];[in][logo]overlay=main_w-overlay_w-0.0:0.0[out]\"  -c:v  libx264  -preset  superfast  -profile:v  main  -level:v 3.1 -s 640x480 -r 25 -x264-params keyint=50:scenecut=0  -b:v 318k  -c:a  libfdk_aac -profile:a aac_low  -b:a 32k  -ac 2 -ar 44100  -metadata service_provider='WONDERTEK' -f tee \"[hls_wrap=0:hls_time=10:hls_list_size=15:hls_flags=round_durations:hls_segment_filename='/home/ubuntu/codec/release/hlstemp/3e3af744-499b-42d4-b7a2-402a1c7fbba1/3b9e2cb1-b2c6-4aff-a44f-733bd6d2dcac/20160414202939-01-%d.ts':start_number=1460636979]/home/ubuntu/codec/release/hlstemp/3e3af744-499b-42d4-b7a2-402a1c7fbba1/3b9e2cb1-b2c6-4aff-a44f-733bd6d2dcac/01.m3u8\" -map 0 -vf \"movie='/home/ubuntu/codec/logo/zb_67.tga',scale=0.0:0.0[logo];[in][logo]overlay=main_w-overlay_w-0.0:0.0[out]\"  -c:v  libx264  -preset  superfast  -level:v 5.1 -s 1280x720 -r 25 -x264-params keyint=50:scenecut=0  -b:v 1072k  -c:a  libfdk_aac -profile:a aac_low  -b:a 128k  -ac 2 -ar 44100  -metadata service_provider='WONDERTEK' -f tee \"[hls_wrap=0:hls_time=10:hls_list_size=15:hls_flags=round_durations:hls_segment_filename='/home/ubuntu/codec/release/hlstemp/3e3af744-499b-42d4-b7a2-402a1c7fbba1/b2589a56-ebdc-4958-a1db-196d5ba8c085/20160414202939-01-%d.ts':start_number=1460636979]/home/ubuntu/codec/release/hlstemp/3e3af744-499b-42d4-b7a2-402a1c7fbba1/b2589a56-ebdc-4958-a1db-196d5ba8c085/01.m3u8\" -map 0 -vf \"movie='/home/ubuntu/codec/logo/zb_44.tga',scale=0.0:0.0[logo];[in][logo]overlay=main_w-overlay_w-0.0:0.0[out]\"  -c:v  libx264  -preset  superfast  -profile:v  main  -level:v 3.1 -s 852x480 -r 25 -x264-params keyint=50:scenecut=0  -b:v 579k  -c:a  libfdk_aac -profile:a aac_low  -b:a 32k  -ac 2 -ar 44100  -metadata service_provider='WONDERTEK' -f tee \"[hls_wrap=0:hls_time=10:hls_list_size=15:hls_flags=round_durations:hls_segment_filename='/home/ubuntu/codec/release/hlstemp/3e3af744-499b-42d4-b7a2-402a1c7fbba1/cb63a221-431c-4df6-b444-290c9d1bc43e/20160414202939-01-%d.ts':start_number=1460636979]/home/ubuntu/codec/release/hlstemp/3e3af744-499b-42d4-b7a2-402a1c7fbba1/cb63a221-431c-4df6-b444-290c9d1bc43e/01.m3u8\"\n2016-04-14 20:29:46,873 DEBUG: com.wd.transcoding.service.impl.InputServiceImpl     - input is null\nhttp://221.181.100.24:8088/wd_r2/ocn/cctv10hd/350/index.m3u8?is_ec=1\n\n/mnt/remote/r1/envivo_v/HD/cctv5/2000/03.m3u8 \n\n/mnt/remote/r1/envivo_v/HD/cctv5/711/02.m3u8 \n\n/mnt/remote/r1/envivo_v/D/cctv5/450/01.m3u8 \n\n\nrtmp://live.moguv.com/live/conference\n\n\n   （1）转码上线频道 ：  \n                  总共上线频道有128路，其中高清18路；印象天下10路；（都可以在app观看）\n            网仕总共有224路频道；\n   （2）临时直播总共支持了51场，这周16场；\n\n本周直播转码这边完成任务状况：\n1. 替换Envivo共73个频道，包括3个高清频道\n2. 增加CCTV5HD频道转码\n3. 本周支持临时直播16场\n4. 录制抽取系统功能已经完成，业务部门使用基本稳定，下周进行功能优化，提供新版本\n4. 直播预览功能基本实现，已部署到服务器在测试中\n\n\nrtmp://117.131.17.31:19350/live/truecut\n\n\n-rw-r--r-- 1 root root 1621766  3月 24  2014 libx264.a\nlrwxrwxrwx 1 root root      14  3月 19 02:06 libx264.so -> libx264.so.142\n-rw-r--r-- 1 root root 1158792  3月 24  2014 libx264.so.142\n./ffmpeg -i a.ts -c:v libx264 -c:a aac -f flv rtmp://10.200.13.50:19350/live/truecut\n\n/mnt/remote/r4/wd_r4/test/test_dsjhd/600/02.m3u8 \n\n\nframe=   86 fps= 21 q=0.0 q=0.0 q=0.0 size=N/A time=00:00:04.13 bitrate=N/A dup=24 drop=0 video_processed=-0.00%\n[Parsed_overlay_2 @ 0x242a560] [framesync @ 0x242a6a8] Buffer queue overflow, dropping.\n[Parsed_overlay_2 @ 0x26d3aa0] [framesync @ 0x26d4568] Buffer queue overflow, dropping.\n[Parsed_overlay_2 @ 0x242a560] [framesync @ 0x242a6a8] Buffer queue overflow, dropping.\n[Parsed_overlay_2 @ 0x26d3aa0] [framesync @ 0x26d4568] Buffer queue overflow, dropping.\n[Parsed_overlay_2 @ 0x242a560] [framesync @ 0x242a6a8] Buffer queue overflow, dropping.\n[Parsed_overlay_2 @ 0x26d3aa0] [framesync @ 0x26d4568] Buffer queue overflow, dropping.\n[Parsed_overlay_2 @ 0x242a560] [framesync @ 0x242a6a8] Buffer queue overflow, dropping.\n[Parsed_overlay_2 @ 0x26d3aa0] [framesync @ 0x26d4568] Buffer queue overflow, dropping.\n[Parsed_overlay_2 @ 0x242a560] [framesync @ 0x242a6a8] Buffer queue overflow, dropping.\n[Parsed_overlay_2 @ 0x26d3aa0] [framesync @ 0x26d4568] Buffer queue overflow, dropping.\n[Parsed_overlay_2 @ 0x242a560] [framesync @ 0x242a6a8] Buffer queue overflow, dropping.\n[Parsed_overlay_2 @ 0x26d3aa0] [framesync @ 0x26d4568] Buffer queue overflow, dropping.\n    Last message repeated 1 times\nframe=   96 fps= 21 q=41.0 q=38.0 q=0.0 size=N/A time=00:00:04.55 bitrate=N/A dup=77 drop=0 video_processed=-0.00%\nframe=  111 fps= 22 q=35.0 q=29.0 q=24.0 size=N/A time=00:00:05.13 bitrate=N/A dup=83 drop=0 video_processed=-0.00%\nframe=  124 fps= 22 q=35.0 q=31.0 q=26.0 size=N/A time=00:00:05.66 bitrate=N/A dup=83 drop=0 video_processed=-0.00%\n[h264 @ 0xca3d600] left block unavailable for requested intra4x4 mode -1 at 0 35\n[h264 @ 0xca3d600] error while decoding MB 0 35, bytestream 3423\n[h264 @ 0xca3d600] concealing 849 DC, 849 AC, 849 MV errors in P frame\n\n\n\n/home/ubuntu/codec/logo/hnws720p.tga   (64 36  186 46) 1280-186-64=1030   36\n/home/ubuntu/codec/logo/hnwshd_sd.tga  (42 24 123 30)   854-123-42=689    24\n                                       (32 24 123 30)   640-123-32=485    24\n\n/mnt/remote/r3/wd_r3/test/test_hunanwshd/350/01.m3u8\n\n\n\nrtmp://117.131.17.33:19350/live/\n/wd_ls/mxzf/mxzf/1200/index.m3u8\n\n\n-rw-r--r-- 1 root root     1119  6月  5 20:57 1465131273.idx\n-rw-r--r-- 1 root root 22532364  6月  5 21:00 1465131459.ts\n-rw-r--r-- 1 root root     1119  6月  5 21:00 1465131459.idx\n-rw-r--r-- 1 root root 22776200  6月  5 21:03 1465131646.ts\n-rw-r--r-- 1 root root     1120  6月  5 21:03 1465131646.idx\n-rw-r--r-- 1 root root 22984316  6月  5 21:06 1465131832.ts\n-rw-r--r-- 1 root root     1119  6月  5 21:06 1465131832.idx\n-rw-r--r-- 1 root root 23471048  6月  5 21:09 1465132019.ts\n-rw-r--r-- 1 root root     1120  6月  5 21:09 1465132019.idx\n-rw-r--r-- 1 root root  2624292  6月  5 21:10 1465132206.ts\n-rw-r--r-- 1 root root      118  6月  5 21:10 1465132206.idx\n-rw-r--r-- 1 root root 24386608  6月  5 21:15 1465132387.ts\n-rw-r--r-- 1 root root     1119  6月  5 21:15 1465132387.idx\n-rw-r--r-- 1 root root 23846296  6月  5 21:19 1465132574.ts\n-rw-r--r-- 1 root root     1120  6月  5 21:19 1465132574.idx\n-rw-r--r-- 1 root root 24826904  6月  5 21:22 1465132762.ts\n-rw-r--r-- 1 root root     1120  6月  5 21:22 1465132762.idx\n-rw-r--r-- 1 root root 24006848  6月  5 21:25 1465132950.ts\n-rw-r--r-- 1 root root     1120  6月  5 21:25 1465132950.idx\n-rw-r--r-- 1 root root 23970000  6月  5 21:28 1465133140.ts\n\n\nubuntu@wd-h264-f0802:/mnt/remote/r3/wd_ls/mxzf/mxzf/1200$ cat 1465132387.idx\n1465132387 20160605211244-01-1465132364.ts 0 1176880 10\n1465132397 20160605211244-01-1465132365.ts 1176880 1391200 10\n1465132406 20160605211244-01-1465132366.ts 2568080 1346456 9\n1465132416 20160605211244-01-1465132367.ts 3914536 1322204 10\n1465132427 20160605211244-01-1465132368.ts 5236740 1354164 11\n1465132438 20160605211244-01-1465132369.ts 6590904 1360180 11\n1465132448 20160605211244-01-1465132370.ts 7951084 1406428 10\n1465132459 20160605211244-01-1465132371.ts 9357512 1419776 11\n1465132469 20160605211244-01-1465132372.ts 10777288 1422972 10\n1465132480 20160605211244-01-1465132373.ts 12200260 1385184 11\n1465132490 20160605211244-01-1465132374.ts 13585444 1474672 10\n1465132501 20160605211244-01-1465132375.ts 15060116 1409436 11\n1465132511 20160605211244-01-1465132376.ts 16469552 1396464 10\n1465132521 20160605211244-01-1465132377.ts 17866016 1341568 10\n1465132532 20160605211244-01-1465132378.ts 19207584 1358300 11\n1465132542 20160605211244-01-1465132379.ts 20565884 1245688 10\n1465132553 20160605211244-01-1465132380.ts 21811572 1282348 11\n1465132563 20160605211244-01-1465132381.ts 23093920 1292688 10\nubuntu@wd-h264-f0802:/mnt/remote/r3/wd_ls/mxzf/mxzf/1200$ cat 1465132206.idx\n1465132206 20160605184641-01-1465124429.ts 0 1328032 10\n1465132217 20160605184641-01-1465124430.ts 1328032 1296260 11\nubuntu@wd-h264-f0802:/mnt/remote/r3/wd_ls/mxzf/mxzf/1200$ \n\n-rw-r--r-- 1 root root   137345  6月  5 21:10 20160605184645542.log\n-rw-r--r-- 1 root root   197074  6月  5 21:10 20160605174425720.log\n-rw-r--r-- 1 root root   197074  6月  5 21:10 20160605174423710.log\n-rw-r--r-- 1 root root       23  6月  5 21:10 20160605211024246.log\n-rw-r--r-- 1 root root       23  6月  5 21:10 20160605211024245.log\n-rw-r--r-- 1 root root       23  6月  5 21:10 20160605211024244.log\n-rw-r--r-- 1 root root       23  6月  5 21:10 20160605211024250.log\n-rw-r--r-- 1 root root       23  6月  5 21:10 20160605211024249.log\n-rw-r--r-- 1 root root       23  6月  5 21:10 20160605211024248.log\n-rw-r--r-- 1 root root  3925917  6月  5 21:10 20160605174425713.log\n-rw-r--r-- 1 root root  3927642  6月  5 21:10 20160605174425712.log\n-rw-r--r-- 1 root root       23  6月  5 21:10 20160605211025734.log\n-rw-r--r-- 1 root root       23  6月  5 21:10 20160605211025732.log\n-rw-r--r-- 1 root root   911200  6月  5 21:10 20160605184641532.log\n-rw-r--r-- 1 root root       23  6月  5 21:10 20160605211025739.log\n-rw-r--r-- 1 root root       23  6月  5 21:10 20160605211025738.log\n-rw-r--r-- 1 root root   908623  6月  5 21:10 20160605184643537.log\n-rw-r--r-- 1 root root   908615  6月  5 21:10 20160605184645541.log\n-rw-r--r-- 1 root root  3072438  6月  5 21:10 20160605184647561.log\n-rw-r--r-- 1 root root       23  6月  5 21:10 20160605211026023.log\n-rw-r--r-- 1 root root       23  6月  5 21:10 20160605211026021.log\n-rw-r--r-- 1 root root       23  6月  5 21:10 20160605211026025.log\n-rw-r--r-- 1 root root  1300620  6月  5 21:10 20160605174425714.log\n-rw-r--r-- 1 root root  1305437  6月  5 21:10 20160605174423709.log\n-rw-r--r-- 1 root root  4220299  6月  5 21:10 20160605174427722.log\n-rw-r--r-- 1 root root      159  6月  5 21:10 20160605211032148.log\n-rw-r--r-- 1 root root    21334  6月  5 21:11 20160605211033149.log\n-rw-r--r-- 1 root root       24  6月  5 21:11 20160605211131159.log\n-rw-r--r-- 1 root root       56  6月  5 21:11 20160605211131160.log\n-rw-r--r-- 1 root root     7080  6月  5 21:11 20160605211031147.log\n-rw-r--r-- 1 root root      159  6月  5 21:11 20160605211133922.log\n-rw-r--r-- 1 root root      159  6月  5 21:12 20160605211230020.log\n-rw-r--r-- 1 root root      159  6月  5 21:12 20160605211232167.log\n-rw-r--r-- 1 root root      159  6月  5 21:12 20160605211245687.log\n-rw-r--r-- 1 root root      159  6月  5 21:12 20160605211245686.log\n-rw-r--r-- 1 root root      159  6月  5 21:12 20160605211247693.log\n-rw-r--r-- 1 root root      159  6月  5 21:12 20160605211249697.log\n-rw-r--r-- 1 root root       21  6月  5 22:43 20160605224323795.log\n-rw-r--r-- 1 root root       21  6月  5 22:43 20160605224323797.log\n-rw-r--r-- 1 root root       21  6月  5 22:43 20160605224323796.log\n-rw-r--r-- 1 root root   566301  6月  5 22:43 20160605211246692.log\n\n\n\n-rw-r--r-- 1 root root    2622  6月  5 17:40 20160605174022798.log\n-rw-r--r-- 1 root root    1857  6月  5 17:40 20160605174023368.log\n-rw-r--r-- 1 root root    1073  6月  5 17:41 20160605174042750.log\n-rw-r--r-- 1 root root    2685  6月  5 17:44 20160605174353327.log\n-rw-r--r-- 1 root root    4975  6月  5 17:44 20160605174349316.log\n-rw-r--r-- 1 root root    4975  6月  5 17:44 20160605174349318.log\n-rw-r--r-- 1 root root    6877  6月  5 17:44 20160605174351322.log\n-rw-r--r-- 1 root root 1217168  6月  5 18:41 20160605174429719.log\n-rw-r--r-- 1 root root 3927642  6月  5 21:10 20160605174425712.log\n-rw-r--r-- 1 root root 3072438  6月  5 21:10 20160605184647561.log\n-rw-r--r-- 1 root root 4220299  6月  5 21:10 20160605174427722.log\n-rw-r--r-- 1 root root   21334  6月  5 21:11 20160605211033149.log\n-rw-r--r-- 1 root root 1916111  6月  5 22:43 20160605211250698.log\n-rw-r--r-- 1 root root 1723991  6月  5 22:43 20160605211134923.log\n-rw-r--r-- 1 root root 1865954  6月  5 22:43 20160605211233168.log\n\n\n北京新闻广播：172.16.2.4:48880\n北京城市广播：172.16.2.4:48882\n北京故事广播：172.16.2.4:48884\n北京体育广播：172.16.2.4:48886\n北京音乐广播：172.16.2.4:48888\n\n\n/home/ubuntu/codec/release/lvtranscode -hide_banner -y -xerror -re -loop 1 -i /home/ubuntu/codec/release/res/duanliu.jpg -tune stillimage -pix_fmt yuv420p -shortest -vf [in]scale=480.0:360.0[pre_logo];movie='/home/ubuntu/codec/logo/zb_33.tga',scale=92.0:23.0[logo];[pre_logo][logo]overlay=main_w-overlay_w-24.0:18.0[out] -c:v libx264 -preset superfast -profile:v main -level:v 3.1 -s 480x360 -r 25 -x264-params keyint=50:scenecut=0 -b:v 168k -metadata service_provider=WONDERTEK -hls_wrap 0 -hls_time 10 -hls_list_size 15 -hls_flags round_durations -hls_segment_filename /home/ubuntu/codec/release/hlstemp/f2dc2064-c616-410e-be1c-48176ace411a/8840a9dd-cd3e-4cd6-9b18-758346db020d/20160527163859-01-%d.ts -start_number 1464338339 /home/ubuntu/codec/release/hlstemp/f2dc2064-c616-410e-be1c-48176ace411a/8840a9dd-cd3e-4cd6-9b18-758346db020d/01.m3u8 -tune stillimage -pix_fmt yuv420p -shortest -vf [in]scale=640.0:480.0[pre_logo];movie='/home/ubuntu/codec/logo/zb_44.tga',scale=123.0:30.0[logo];[pre_logo][logo]overlay=main_w-overlay_w-32.0:24.0[out] -c:v libx264 -preset superfast -profile:v main -level:v 3.1 -s 640x480 -r 25 -x264-params keyint=50:scenecut=0 -b:v 318k -metadata service_provider=WONDERTEK -hls_wrap 0 -hls_time 10 -hls_list_size 15 -hls_flags round_durations -hls_segment_filename /home/ubuntu/codec/release/hlstemp/f2dc2064-c616-410e-be1c-48176ace411a/a6e00262-b651-423b-99ce-290b0176ebe2/20160527163859-01-%d.ts -start_number 1464338339 /home/ubuntu/codec/release/hlstemp/f2dc2064-c616-410e-be1c-48176ace411a/a6e00262-b651-423b-99ce-290b0176ebe2/01.m3u8 -tune stillimage -pix_fmt yuv420p -shortest -vf [in]scale=852.0:480.0[pre_logo];movie='/home/ubuntu/codec/logo/zb_44.tga',scale=123.0:22.54[logo];[pre_logo][logo]overlay=main_w-overlay_w-42.0:18.03[out] -c:v libx264 -preset superfast -profile:v main -level:v 3.1 -s 852x480 -r 25 -x264-params keyint=50:scenecut=0 -b:v 579k -metadata service_provider=WONDERTEK -hls_wrap 0 -hls_time 10 -hls_list_size 15 -hls_flags round_durations -hls_segment_filename /home/ubuntu/codec/release/hlstemp/f2dc2064-c616-410e-be1c-48176ace411a/2bed6e76-d3b4-458f-8590-a071b67f9d81/20160527163859-01-%d.ts -start_number 1464338339 /home/ubuntu/codec/release/hlstemp/f2dc2064-c616-410e-be1c-48176ace411a/2bed6e76-d3b4-458f-8590-a071b67f9d81/01.m3u8\n\n\n\ncommand=/sbin/start-stop-daemon --start --quiet --pidfile /home/ubuntu/codec/release/ini/a566f2d8-26d1-4d22-b848-ce665d6ea2d8 -m --exec /home/ubuntu/codec/release/lvtranscode -- -hide_banner -threads auto -y  -re -itsoffset 0.5 -async 1\n  -i 'rtmp://172.16.68.206:19350/live/c3' -map 0 -vf \"[in]scale=1280.0:720.0[pre_logo];movie='/home/ubuntu/codec/logo/zb_67.tga',scale=186.0:46.0[logo];[pre_logo][logo]overlay=main_w-overlay_w-64.0:36.0[out]\"  -c:v  libx264  -preset  su\nperfast  -profile:v  high  -level:v 5.1 -s 1280x720 -r 25 -x264-params keyint=50:scenecut=0  -b:v 1072k  -c:a  libfdk_aac -profile:a aac_low  -b:a 128k  -ac 2 -ar 44100  -sn  -metadata service_provider='WONDERTEK' -f tee \"[f=mpegts:max_\ninterleave_delta=1000M:mpegts_flags=+latm]'udp://172.17.91.173:7000?pkt_size=1316&buffer_size=1'\" -map 0 -vf \"[in]scale=1280.0:720.0[pre_logo];movie='/home/ubuntu/codec/logo/zb_67.tga',scale=186.0:46.0[logo];[pre_logo][logo]overlay=main\n_w-overlay_w-64.0:36.0[out]\"  -c:v  libx264  -preset  superfast  -profile:v  high  -level:v 5.1 -s 1280x720 -r 25 -x264-params keyint=50:scenecut=0  -b:v 1072k  -c:a  libfdk_aac -profile:a aac_low  -b:a 128k  -ac 2 -ar 44100  -sn  -meta\ndata service_provider='WONDERTEK' -f tee \"[hls_wrap=null:hls_time=null:hls_list_size=null:hls_flags=round_durations:hls_segment_filename='/home/ubuntu/nginx-rtmp/html/live/channel_ls/index-%010d.ts']'/home/ubuntu/nginx-rtmp/html/live/ch\nannel_ls/index.m3u8'\"\n[flv @ 0x331cf20] Stream discovered after head already parsed\nInput #0, flv, from 'rtmp://172.16.68.206:19350/live/c3':\n  Metadata:\n\n\n\n/home/ubuntu/codec/release/lvtranscode -hide_banner -threads auto -y -re -itsoffset 0.5 -async 1 -i udp://236.114.126.10:10001?overrun_nonfatal=1&buffer_size=100000000&fifo_size=100000000 -map p:101 -vf [in]scale=640.0:480.0[pre_logo];movie='/home/ubuntu/codec/logo/zb_44.tga',scale=123.0:30.0[logo];[pre_logo][logo]overlay=main_w-overlay_w-32.0:24.0[out] -c:v libx264 -preset superfast -profile:v main -level:v 3.1 -s 640x480 -r 25 -x264-params keyint=50:scenecut=0 -b:v 318k -c:a libfdk_aac -profile:a aac_low -b:a 32k -ac 2 -ar 44100 -sn -metadata service_provider=WONDERTEK -f tee [hls_wrap=0:hls_time=10:hls_list_size=15:hls_flags=round_durations:hls_segment_filename='/home/ubuntu/codec/release/hlstemp/51/99/20160615143849-01-%d.ts':start_number=1465972729]/home/ubuntu/codec/release/hlstemp/51/99/01.m3u8|[hls_wrap=0:hls_time=10:hls_list_size=15:hls_flags=round_durations:hls_segment_filename='/home/ubuntu/codec/release/hlstemp/51/100/20160615143849-01-%d.ts':start_number=1465972729]/home/ubuntu/codec/release/hlstemp/51/100/01.m3u8|[hls_wrap=0:hls_time=10:hls_list_size=15:hls_flags=round_durations:hls_segment_filename='/home/ubuntu/codec/release/hlstemp/51/101/20160615143849-01-%d.ts':start_number=1465972729]/home/ubuntu/codec/release/hlstemp/51/101/01.m3u8 -map p:101 -vf [in]scale=852.0:480.0[pre_logo];movie='/home/ubuntu/codec/logo/zb_44.tga',scale=123.0:22.54[logo];[pre_logo][logo]overlay=main_w-overlay_w-42.0:18.03[out] -c:v libx264 -preset superfast -profile:v main -level:v 3.1 -s 852x480 -r 25 -x264-params keyint=50:scenecut=0 -b:v 568k -c:a libfdk_aac -profile:a aac_low -b:a 32k -ac 2 -ar 44100 -sn -metadata service_provider=WONDERTEK -f tee [hls_wrap=0:hls_time=10:hls_list_size=15:hls_flags=round_durations:hls_segment_filename='/home/ubuntu/codec/release/hlstemp/51/102/20160615143849-01-%d.ts':start_number=1465972729]/home/ubuntu/codec/release/hlstemp/51/102/01.m3u8|[hls_wrap=0:hls_time=10:hls_list_size=15:hls_flags=round_durations:hls_segment_filename='/home/ubuntu/codec/release/hlstemp/51/103/20160615143849-01-%d.ts':start_number=1465972729]/home/ubuntu/codec/release/hlstemp/51/103/01.m3u8|[hls_wrap=0:hls_time=10:hls_list_size=15:hls_flags=round_durations:hls_segment_filename='/home/ubuntu/codec/release/hlstemp/51/104/20160615143849-01-%d.ts':start_number=1465972729]/home/ubuntu/codec/release/hlstemp/51/104/01.m3u8\n\n\n\n\n1465765213.ts\n1465765213.idx\n\n\n1465772413.ts\n1465772413.idx\n\n\n/home/ubuntu/codec/release/lvtranscode -hide_banner -threads auto -y -itsoffset 0.5 -async 1 -i udp://236.114.126.18:5001?overrun_nonfatal=1&buffer_size=100000000&fifo_size=100000000 -map p:905 -vf [in]scale=640.0:480.0[pre_logo];movie='/home/ubuntu/codec/logo/zb_44.tga',scale=123.0:30.0[logo];[pre_logo][logo]overlay=main_w-overlay_w-32.0:24.0[out] -c:v libx264 -preset superfast -profile:v main -level:v 3.1 -s 640x480 -r 25 -x264-params keyint=50:scenecut=0 -b:v 318k -c:a libfdk_aac -profile:a aac_low -b:a 32k -ac 2 -ar 44100 -sn -metadata service_provider=WONDERTEK -f tee [hls_wrap=0:hls_time=10:hls_list_size=15:hls_flags=round_durations:hls_segment_filename='/home/ubuntu/codec/release/hlstemp/af40b070-398b-4aac-9799-e989ad6ce2b7/be0fd869-9236-43de-bdab-111afa587017/20160614160418-01-%d.ts':start_number=1465891458]/home/ubuntu/codec/release/hlstemp/af40b070-398b-4aac-9799-e989ad6ce2b7/be0fd869-9236-43de-bdab-111afa587017/01.m3u8|[hls_wrap=0:hls_time=10:hls_list_size=15:hls_flags=round_durations:hls_segment_filename='/home/ubuntu/codec/release/hlstemp/af40b070-398b-4aac-9799-e989ad6ce2b7/a04f83e9-2e73-4a1f-bbd0-4030cfb8a0af/20160614160418-01-%d.ts':start_number=1465891458]/home/ubuntu/codec/release/hlstemp/af40b070-398b-4aac-9799-e989ad6ce2b7/a04f83e9-2e73-4a1f-bbd0-4030cfb8a0af/01.m3u8 -map p:905 -vf [in]scale=852.0:480.0[pre_logo];movie='/home/ubuntu/codec/logo/zb_44.tga',scale=123.0:22.54[logo];[pre_logo][logo]overlay=main_w-overlay_w-42.0:18.03[out] -c:v libx264 -preset superfast -profile:v main -level:v 3.1 -s 852x480 -r 25 -x264-params keyint=50:scenecut=0 -b:v 579k -c:a libfdk_aac -profile:a aac_low -b:a 32k -ac 2 -ar 44100 -sn -metadata service_provider=WONDERTEK -f tee [hls_wrap=0:hls_time=10:hls_list_size=15:hls_flags=round_durations:hls_segment_filename='/home/ubuntu/codec/release/hlstemp/af40b070-398b-4aac-9799-e989ad6ce2b7/e556373f-4509-4fa5-8a79-67fdcd766aad/20160614160418-01-%d.ts':start_number=1465891458]/home/ubuntu/codec/release/hlstemp/af40b070-398b-4aac-9799-e989ad6ce2b7/e556373f-4509-4fa5-8a79-67fdcd766aad/01.m3u8|[hls_wrap=0:hls_time=10:hls_list_size=15:hls_flags=round_durations:hls_segment_filename='/home/ubuntu/codec/release/hlstemp/af40b070-398b-4aac-9799-e989ad6ce2b7/04b429d2-8d8f-4847-8895-ef5e32ab9284/20160614160418-01-%d.ts':start_number=1465891458]/home/ubuntu/codec/release/hlstemp/af40b070-398b-4aac-9799-e989ad6ce2b7/04b429d2-8d8f-4847-8895-ef5e32ab9284/01.m3u8\n\nhttp://10.200.13.50/live/dfws_cdn/350/index.m3u8\nhttp://10.200.13.50/live/dfws_cdn/350-2/index.m3u8\n/mnt/remote/r3/wd_r3/test/dfws_cdn/350/index.m3u8\n\n\ndrwxr-xr-x 2 root root     16384  6月 15 14:41 ./\n-rw-r--r-- 1 root root    842533  6月 15 16:13 20160615144140896.log\n-rw-r--r-- 1 root root    842537  6月 15 16:13 20160615144142898.log\n-rw-r--r-- 1 root root    842571  6月 15 16:13 20160615144144900.log\n-rw-r--r-- 1 root root    842570  6月 15 16:13 20160615144146902.log\n-rw-r--r-- 1 root root  10405398  6月 15 16:13 20160615144148905.log\n\n-rw-r--r-- 1 root root 103542058  6月 15 13:07 20160614215826659.log\n-rw-r--r-- 1 root root   9905474  6月 15 14:34 20160615130749512.log\n-rw-r--r-- 1 root root  18498601  6月 15 17:24 20160615144148905.log\n\n\n-i 'udp://236.114.126.10:10001?overrun_nonfatal=1&buffer_size=100000000&fifo_size=100000000' -map p:105 -vf \"[in]scale=640.0:480.0[pre_logo];movie='/home/ubuntu/codec/logo/zb_44.tga',scale=123.0:30.0[logo];[pre_logo][logo]overlay=main_w-overlay_w-32.0:24.0[out]\"  -c:v  libx264  -preset  superfast  -profile:v  main  -level:v 3.1 -s 640x480 -r 25 -x264-params keyint=50:scenecut=0  -b:v 318k  -c:a  libfdk_aac -profile:a aac_low  -b:a 32k  -ac 2 -ar 44100  -sn  -metadata service_provider='WONDERTEK' -f tee \"[hls_wrap=0:hls_time=10:hls_list_size=15:hls_flags=round_durations:hls_segment_filename='/home/ubuntu/codec/release/hlstemp/live_52/task_108/20160615180705-01-%d.ts':start_number=1465985225]/home/ubuntu/codec/release/hlstemp/live_52/task_108/01.m3u8|[hls_wrap=0:hls_time=10:hls_list_size=15:hls_flags=round_durations:hls_segment_filename='/home/ubuntu/codec/release/hlstemp/live_52/task_109/20160615180705-01-%d.ts':start_number=1465985225]/home/ubuntu/codec/release/hlstemp/live_52/task_109/01.m3u8\" \n-map p:105 -vf \"[in]scale=852.0:480.0[pre_logo];movie='/home/ubuntu/codec/logo/zb_44.tga',scale=123.0:22.54[logo];[pre_logo][logo]overlay=main_w-overlay_w-42.0:18.03[out]\"  -c:v  libx264  -preset  superfast  -profile:v  main  -level:v 3.1 -s 852x480 -r 25 -x264-params keyint=50:scenecut=0  -b:v 568k  -c:a  libfdk_aac -profile:a aac_low  -b:a 32k  -ac 2 -ar 44100  -sn  -metadata service_provider='WONDERTEK'  -hls_wrap 0 -hls_time 10 -hls_list_size 15 -hls_flags round_durations -hls_segment_filename '/home/ubuntu/codec/release/hlstemp/live_52/task_110/20160615180705-01-%d.ts'  -start_number 1465985225 /home/ubuntu/codec/release/hlstemp/live_52/task_110/01.m3u8 -metadata service_provider='WONDERTEK'  -f flv 'rtmp://10.200.13.114:19350/live/multi_rtmp'\n\n\n\n\n -i 'udp://236.114.126.10:10001?overrun_nonfatal=1&buffer_size=100000000&fifo_size=100000000' \n -map p:105 -vf \"[in]scale=640.0:480.0[pre_logo];movie='/home/ubuntu/codec/logo/zb_44.tga',scale=123.0:30.0[logo];[pre_logo][logo]overlay=main_w-overlay_w-32.0:24.0[out]\"  -c:v  libx264  -preset  superfast  -profile:v  main  -level:v 3.1 -s 640x480 -r 25 -x264-params keyint=50:scenecut=0  -b:v 318k  -c:a  libfdk_aac -profile:a aac_low  -b:a 32k  -ac 2 -ar 44100  -sn  -metadata service_provider='WONDERTEK' -f tee \"[hls_wrap=0:hls_time=10:hls_list_size=15:hls_flags=round_durations:hls_segment_filename='/home/ubuntu/codec/release/hlstemp/live_52/task_108/20160615181508-01-%d.ts':start_number=1465985708]/home/ubuntu/codec/release/hlstemp/live_52/task_108/01.m3u8|[hls_wrap=0:hls_time=10:hls_list_size=15:hls_flags=round_durations:hls_segment_filename='/home/ubuntu/codec/release/hlstemp/live_52/task_109/20160615181508-01-%d.ts':start_number=1465985708]/home/ubuntu/codec/release/hlstemp/live_52/task_109/01.m3u8\" \n -map p:105 -vf \"[in]scale=852.0:480.0[pre_logo];movie='/home/ubuntu/codec/logo/zb_44.tga',scale=123.0:22.54[logo];[pre_logo][logo]overlay=main_w-overlay_w-42.0:18.03[out]\"  -c:v  libx264  -preset  superfast  -profile:v  main  -level:v 3.1 -s 852x480 -r 25 -x264-params keyint=50:scenecut=0  -b:v 568k  -c:a  libfdk_aac -profile:a aac_low  -b:a 32k  -ac 2 -ar 44100  -sn  -metadata service_provider='WONDERTEK'  -hls_wrap 0 -hls_time 10 -hls_list_size 15 -hls_flags round_durations -hls_segment_filename '/home/ubuntu/codec/release/hlstemp/live_52/task_110/20160615181508-01-%d.ts'  -start_number 1465985708 /home/ubuntu/codec/release/hlstemp/live_52/task_110/01.m3u8 \n -map p:105 -vf \"[in]scale=852.0:480.0[pre_logo];movie='/home/ubuntu/codec/logo/zb_44.tga',scale=123.0:22.54[logo];[pre_logo][logo]overlay=main_w-overlay_w-42.0:18.03[out]\"  -c:v  libx264  -preset  superfast  -profile:v  main  -level:v 3.1 -s 852x480 -r 25 -x264-params keyint=50:scenecut=0  -b:v 568k  -c:a  libfdk_aac -profile:a aac_low  -b:a 32k  -ac 2 -ar 44100  -sn  -metadata service_provider='WONDERTEK'  -f flv 'rtmp://10.200.13.114:19350/live/multi_rtmp'\n\n\n\n (1)./uhdkit --feature multiencoder --preset ultrafast ./Barca_30p80Mbps.yuv --input-res 3840x2160 --fps 30 --bitrate \"15000,10000,8000\" -o \"out_15000.hevc,out_100000.hevc,out_8000.hevc\" \n (2)./uhdkit --feature multiencoder --preset ultrafast ./Barca_30p80Mbps.yuv --input-res 3840x2160 --fps 30 --bitrate \"15000,10000\" -o \"out_15000.hevc,out_100000.hevc\" \n (3)./uhdkit --feature multiencoder --preset ultrafast ./Barca_30p80Mbps.yuv --input-res 3840x2160 --fps 30 --bitrate \"10000,8000\" -o \"out_100000.hevc,out_8000.hevc\" \n\n\n-rw-r--r-- 1 root root   147945  6月 14 17:01 20160614164622289.log\n-rw-r--r-- 1 root root   148313  6月 14 17:01 20160614164626291.log\n-rw-r--r-- 1 root root   147945  6月 14 17:01 20160614164624289.log\n-rw-r--r-- 1 root root  5667314  6月 16 16:36 20160614170242164.log\n-rw-r--r-- 1 root root 27668088  6月 16 16:36 20160614170242163.log\n-rw-r--r-- 1 root root 27601453  6月 16 16:36 20160614170240162.log\n-rw-r--r-- 1 root root 27600894  6月 16 16:36 20160614170238162.log\n-rw-r--r-- 1 root root    47452  6月 16 17:01 20160616163707598.log\n-rw-r--r-- 1 root root   230157  6月 16 17:01 20160616163705597.log\n-rw-r--r-- 1 root root   230729  6月 16 17:01 20160616163709599.log\n-rw-r--r-- 1 root root   230157  6月 16 17:01 20160616163707597.log\n-rw-r--r-- 1 root root    28649  6月 16 17:05 20160616170237711.log\n-rw-r--r-- 1 root root     6202  6月 16 17:05 20160616170235711.log\n-rw-r--r-- 1 root root    28649  6月 16 17:05 20160616170235710.log\n-rw-r--r-- 1 root root    28721  6月 16 17:05 20160616170239713.log\n\n\n\n-rw-r--r-- 1 root root 2123652  6月 19 12:21 20160619103929519.log\n-rw-r--r-- 1 root root 1103384  6月 19 13:14 20160619122146309.log\n-rw-r--r-- 1 root root 1201452  6月 19 14:12 20160619131502712.log\n-rw-r--r-- 1 root root 1004922  6月 19 15:00 20160619141221428.log\n-rw-r--r-- 1 root root   13702  6月 19 15:01 20160619150035449.log\n-rw-r--r-- 1 root root  969128  6月 19 15:48 20160619150142079.log\n-rw-r--r-- 1 root root  189429  6月 19 15:57 20160619154834435.log\n-rw-r--r-- 1 root root  331949  6月 19 16:14 20160619155837442.log\n-rw-r--r-- 1 root root  904281  6月 19 16:57 20160619161421350.log\n-rw-r--r-- 1 root root 3357730  6月 19 19:39 20160619165730498.log\n-rw-r--r-- 1 root root 2159483  6月 19 21:25 20160619193925547.log\n-rw-r--r-- 1 root root   98294  6月 19 21:30 20160619212545496.log\n-rw-r--r-- 1 root root 1561782  6月 19 22:46 20160619213025211.log\n-rw-r--r-- 1 root root 1467303  6月 19 23:56 20160619224633227.log\n-rw-r--r-- 1 root root   68148  6月 20 00:00 20160619235721616.log\n-rw-r--r-- 1 root root 2246510  6月 20 01:50 20160620000021134.log\n-rw-r--r-- 1 root root 1466816  6月 20 03:00 20160620015043831.log\n-rw-r--r-- 1 root root  744957  6月 20 03:36 20160620030055975.log\n-rw-r--r-- 1 root root 3457516  6月 20 06:21 20160620033635809.log\n-rw-r--r-- 1 root root 1937673  6月 20 07:55 20160620062157990.log\n-rw-r--r-- 1 root root  885717  6月 20 08:41 20160620075533369.log\n-rw-r--r-- 1 root root   66713  6月 20 08:41 20160620075533370.log\n-rw-r--r-- 1 root root 1885039  6月 20 10:14 20160620084121873.log\n-rw-r--r-- 1 root root  516175  6月 20 10:39 20160620101435445.log\n-rw-r--r-- 1 root root  471210  6月 20 11:02 20160620103930119.log\n-rw-r--r-- 1 root root  106578  6月 20 11:08 20160620110303312.log\n-rw-r--r-- 1 root root 1648525  6月 20 12:28 20160620110846768.log\n-rw-r--r-- 1 root root 2173842  6月 20 14:12 20160620122840549.log\n-rw-r--r-- 1 root root 1011053  6月 20 15:00 20160620141223560.log\n-rw-r--r-- 1 root root   70377  6月 20 15:00 20160620141223561.log\n-rw-r--r-- 1 root root 1540266  6月 20 16:14 20160620150032875.log\n-rw-r--r-- 1 root root   66277  6月 20 16:17 20160620161426221.log\n-rw-r--r-- 1 root root  821781  6月 20 16:57 20160620161812422.log\n-rw-r--r-- 1 root root  418289  6月 20 17:17 20160620165736038.log\n-rw-r--r-- 1 root root 2891419  6月 20 19:39 20160620171812145.log\n\n\n\n\n-rw-r--r-- 1 root root 2687605  6月 20 19:40 20160620173101287.log\n-rw-r--r-- 1 root root 2310418  6月 20 21:30 20160620194026546.log\n-rw-r--r-- 1 root root 3687196  6月 21 00:26 20160620213037619.log\n-rw-r--r-- 1 root root 3181380  6月 21 02:58 20160621002622689.log\n-rw-r--r-- 1 root root   42698  6月 21 03:00 20160621025836981.log\n-rw-r--r-- 1 root root 7451910  6月 21 08:55 20160621030054014.log\n-rw-r--r-- 1 root root  654705  6月 21 09:26 20160621085522816.log\n-rw-r--r-- 1 root root 1856834  6月 21 10:55 20160621092709636.log\n-rw-r--r-- 1 root root 1880716  6月 21 12:25 20160621105533847.log\n-rw-r--r-- 1 root root 1974398  6月 21 14:00 20160621122600004.log\n-rw-r--r-- 1 root root  978672  6月 21 14:47 20160621140024356.log\n-rw-r--r-- 1 root root 1086312  6月 21 15:39 20160621144728980.log\n-rw-r--r-- 1 root root 2334058  6月 21 17:30 20160621153923254.log\n-rw-r--r-- 1 root root  161003  6月 21 17:30 20160621153923255.log\n-rw-r--r-- 1 root root   56719  6月 21 17:33 20160621173037793.log\n-rw-r--r-- 1 root root  161858  6月 21 17:41 20160621173345546.log\n-rw-r--r-- 1 root root 1343172  6月 21 18:47 20160621174158937.log\n-rw-r--r-- 1 root root 1115956  6月 21 19:40 20160621184739907.log\n-rw-r--r-- 1 root root   77561  6月 21 19:40 20160621184739908.log\n-rw-r--r-- 1 root root 2313229  6月 21 21:30 20160621194024004.log\n-rw-r--r-- 1 root root    2103  6月 21 21:30 20160621213040124.log\n-rw-r--r-- 1 root root   56642  6月 21 21:33 20160621213040123.log\n-rw-r--r-- 1 root root    7890  6月 21 21:34 20160621213346347.log\n-rw-r--r-- 1 root root 3520077  6月 22 00:23 20160621213505307.log\n-rw-r--r-- 1 root root   63818  6月 22 00:26 20160622002338591.log\n-rw-r--r-- 1 root root    5561  6月 22 00:26 20160622002338592.log\n-rw-r--r-- 1 root root 3202458  6月 22 02:58 20160622002623034.log\n-rw-r--r-- 1 root root  219419  6月 22 02:58 20160622002623035.log\n-rw-r--r-- 1 root root   42235  6月 22 03:00 20160622025838078.log\n-rw-r--r-- 1 root root 2849067  6月 22 05:17 20160622030050129.log\n-rw-r--r-- 1 root root  778354  6月 22 05:54 20160622051727286.log\n-rw-r--r-- 1 root root   55353  6月 22 05:54 20160622051727287.log\n-rw-r--r-- 1 root root 3780509  6月 22 08:55 20160622055507476.log\n-rw-r--r-- 1 root root 2474771  6月 22 10:55 20160622085522160.log\n-rw-r--r-- 1 root root  164717  6月 22 11:03 20160622105542390.log\n-rw-r--r-- 1 root root 3708163  6月 22 14:00 20160622110404306.log\n-rw-r--r-- 1 root root  983148  6月 22 14:47 20160622140026869.log\n-rw-r--r-- 1 root root   68939  6月 22 14:47 20160622140026870.log\n-rw-r--r-- 1 root root  716693  6月 22 15:23 20160622144725587.log\n-rw-r--r-- 1 root root   66509  6月 22 15:27 20160622152416679.log\n-rw-r--r-- 1 root root  243318  6月 22 15:39 20160622152759102.log\n-rw-r--r-- 1 root root   54004  6月 22 15:42 20160622153923104.log\n-rw-r--r-- 1 root root 2270028  6月 22 17:30 20160622154226588.log\n-rw-r--r-- 1 root root 2681760  6月 22 19:40 20160622173035714.log\n-rw-r--r-- 1 root root 2301235  6月 22 21:30 20160622194020241.log\n-rw-r--r-- 1 root root 3692502  6月 23 00:26 20160622213034875.log\n-rw-r--r-- 1 root root 3158139  6月 23 02:58 20160623002623742.log\n-rw-r--r-- 1 root root   40731  6月 23 03:00 20160623025842921.log\n-rw-r--r-- 1 root root 4018465  6月 23 06:12 20160623030049954.log\n-rw-r--r-- 1 root root  276537  6月 23 06:12 20160623030049955.log\n-rw-r--r-- 1 root root 3413719  6月 23 08:55 20160623061257078.log\n-rw-r--r-- 1 root root  507388  6月 23 09:19 20160623085526514.log\n-rw-r--r-- 1 root root  306526  6月 23 09:34 20160623092007069.log\n-rw-r--r-- 1 root root 1683722  6月 23 10:55 20160623093511492.log\n-rw-r--r-- 1 root root 3848113  6月 23 14:00 20160623105531508.log\n-rw-r--r-- 1 root root  985232  6月 23 14:47 20160623140020487.log\n-rw-r--r-- 1 root root   52031  6月 23 14:49 20160623144723792.log\n\n\n\n-rw-r--r-- 1 root root    1064  6月 23 16:22 20160623162233916.log\n-rw-r--r-- 1 root root      55  6月 23 16:22 20160623162247939.log\n-rw-r--r-- 1 root root      23  6月 23 16:22 20160623162247938.log\n-rw-r--r-- 1 root root      23  6月 23 16:22 20160623162247937.log\n-rw-r--r-- 1 root root    1069  6月 23 16:22 20160623162237922.log\n-rw-r--r-- 1 root root    1064  6月 23 16:22 20160623162235919.log\n-rw-r--r-- 1 root root   71023  6月 23 16:22 20160623161118494.log\n-rw-r--r-- 1 root root   71019  6月 23 16:22 20160623161116489.log\n-rw-r--r-- 1 root root   71236  6月 23 16:22 20160623161120497.log\n-rw-r--r-- 1 root root      23  6月 23 16:22 20160623162248344.log\n-rw-r--r-- 1 root root      23  6月 23 16:22 20160623162248342.log\n-rw-r--r-- 1 root root    1094  6月 23 16:22 20160623162236325.log\n-rw-r--r-- 1 root root    1094  6月 23 16:22 20160623162234321.log\n-rw-r--r-- 1 root root      23  6月 23 16:22 20160623162248346.log\n-rw-r--r-- 1 root root    1099  6月 23 16:22 20160623162238329.log\n-rw-r--r-- 1 root root      55  6月 23 16:22 20160623162248349.lo^Cc^C\nubuntu@wd-h264-f0402:~/livelog/translog$ ^C\n\n\n-rw-r--r-- 1 root root   2477  6月 23 16:52 20160623165217667.log\n-rw-r--r-- 1 root root  44289  6月 23 16:54 20160623165241167.log\n-rw-r--r-- 1 root root  76954  6月 23 16:55 20160623165200384.log\n-rw-r--r-- 1 root root  72223  6月 23 16:59 20160623165622987.log\n-rw-r--r-- 1 root root 242821  6月 23 17:03 20160623165200907.log\n-rw-r--r-- 1 root root 346145  6月 23 17:09 20160623165201503.log\n-rw-r--r-- 1 root root 345253  6月 23 17:09 20160623165202107.log\n-rw-r--r-- 1 root root 359613  6月 23 17:09 20160623165203504.log\n-rw-r--r-- 1 root root 358968  6月 23 17:09 20160623165203022.log\n-rw-r--r-- 1 root root 176445  6月 23 17:09 20160623170120349.log\n-rw-r--r-- 1 root root 349956  6月 23 17:09 20160623165230794.log\n-rw-r--r-- 1 root root 348727  6月 23 17:09 20160623165229903.log\n-rw-r--r-- 1 root root 355120  6月 23 17:09 20160623165216705.log\n-rw-r--r-- 1 root root 353077  6月 23 17:09 20160623165216156.log\n-rw-r--r-- 1 root root  32303  6月 23 17:09 20160623170838912.log\n-rw-r--r-- 1 root root 355438  6月 23 17:09 20160623165215025.log\n-rw-r--r-- 1 root root 355029  6月 23 17:09 20160623165217666.log\n-rw-r--r-- 1 root root 348817  6月 23 17:09 20160623165232304.log\n-rw-r--r-- 1 root root 355275  6月 23 17:09 20160623165215548.log\n-rw-r--r-- 1 root root 349714  6月 23 17:09 20160623165231351.log\n-rw-r--r-- 1 root root  70945  6月 23 17:09 20160623170644473.log\n\n-rw-r--r-- 1 root root   128  6月 24 16:38 20160624163822462.log\n-rw-r--r-- 1 root root   128  6月 24 16:38 20160624163824468.log\n-rw-r--r-- 1 root root   128  6月 24 16:38 20160624163826474.log\n-rw-r--r-- 1 root root 27178  6月 24 16:42 20160624163825472.log\n-rw-r--r-- 1 root root 27094  6月 24 16:42 20160624163823467.log\n-rw-r--r-- 1 root root 27094  6月 24 16:42 20160624163821460.log\n-rw-r--r-- 1 root root 90376  6月 24 16:42 20160624163827476.log\n\n\nbuntu@wd-h264-f0401:~/codec/release/hlstemp$ cd ~/livelog/translog/\nubuntu@wd-h264-f0401:~/livelog/translog$ ll -rt `grep -rl 20_STREAM_1466755957191`\n-rw-r--r-- 1 root root    128  6月 24 16:12 20160624161243839.log\n-rw-r--r-- 1 root root    128  6月 24 16:12 20160624161245844.log\n-rw-r--r-- 1 root root    128  6月 24 16:12 20160624161247849.log\n-rw-r--r-- 1 root root   2531  6月 24 16:12 20160624161248852.log\n-rw-r--r-- 1 root root  32698  6月 24 16:45 20160624161244843.log\n-rw-r--r-- 1 root root 200035  6月 24 16:45 20160624161246848.log\n-rw-r--r-- 1 root root 199420  6月 24 16:45 20160624161244842.log\n-rw-r--r-- 1 root root 199420  6月 24 16:45 20160624161242838.log\n-rw-r--r-- 1 root root 649517  6月 24 16:45 20160624161248851.log",
+					"file": "/E/BaiduCloud/Dropbox/workdocs/LocalNotes/temp.txt",
+					"file_size": 36240,
+					"file_write_time": 131111165208594832,
+					"settings":
+					{
+						"buffer_size": 44924,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"contents": "\n\n/mnt/remote/r1/envivo_v/SD/beijing/711/02.m3u8\n\n\n\n\n/mnt/remote/r3/envivo_x/SD/guangdong/711/02.m3u8\n\n\n\n/mnt/remote/r1/envivo_v/HD/mymusic/711/02.m3u8\nhttp://221.181.100.24:8088/wd_r3/peoplecn/cibnqgyy/200/index.m3u8?is_ec=1\nhttp://221.181.100.24:8088/wd_r3/peoplecn/cibnrbjc/200/index.m3u8?is_ec=1\nhttp://221.181.100.24:8088/wd_r3/peoplecn/cibndmpd/200/index.m3u8?is_ec=1\n\n/mnt/remote/r3/envivo_x/SD/cctv2/450/01.m3u8\n -i http://live.zzbtv.com:80/live/live123/800K/tzwj_video.m3u8 -c copy  b.ts -y -v trace\n\n\n rtmp://220.181.155.59/live/lecloud1_720\n\n\n\n-map 0 -vf movie='/home/ubuntu/codec/logo/zb_67.tga',scale=186.0:66.0[logo];[in][logo]overlay=main_w-overlay_w-64.0:56.0[out] -c:v libx264 -preset superfast -profile:v high -level:v 5.1 -s 1280x720 -r 25 -x264-params keyint=50:scenecut=0 -b:v 1072k -c:a libfdk_aac -profile:a aac_low -b:a 128k -ac 2 -ar 44100 -metadata service_provider=WONDERTEK -f tee [hls_wrap=0:hls_time=10:hls_list_size=15:hls_flags=round_durations:hls_segment_filename='/home/ubuntu/codec/release/hlstemp/45c8d794-09dd-4d01-b59e-108a0ca0f3c2/8b011286-ed93-4c37-9eb8-316d2c15e4fb/20160425164149-01-%d.ts':start_number=1461573709]/home/ubuntu/codec/release/hlstemp/45c8d794-09dd-4d01-b59e-108a0ca0f3c2/8b011286-ed93-4c37-9eb8-316d2c15e4fb/01.m3u8 \n-map 0 -vf movie='/home/ubuntu/codec/logo/zb_44.tga',scale=184.5:75.0[logo];[in][logo]overlay=main_w-overlay_w-64.5:66.0[out] -c:v libx264 -preset superfast -profile:v main -level:v 3.1 -s 852x480 -r 25 -x264-params keyint=50:scenecut=0 -b:v 568k -c:a libfdk_aac -profile:a aac_low -b:a 32k -ac 2 -ar 44100 -metadata service_provider=WONDERTEK -f tee [hls_wrap=0:hls_time=10:hls_list_size=15:hls_flags=round_durations:hls_segment_filename='/home/ubuntu/codec/release/hlstemp/45c8d794-09dd-4d01-b59e-108a0ca0f3c2/aabafb43-c91b-44ee-9c12-46798d351fd4/20160425164149-01-%d.ts':start_number=1461573709]/home/ubuntu/codec/release/hlstemp/45c8d794-09dd-4d01-b59e-108a0ca0f3c2/aabafb43-c91b-44ee-9c12-46798d351fd4/01.m3u8\n-map 0 -vf movie='/home/ubuntu/codec/logo/zb_44.tga',scale=246.0:100.0[logo];[in][logo]overlay=main_w-overlay_w-64.0:88.0[out] -c:v libx264 -preset superfast -profile:v main -level:v 3.1 -s 640x480 -r 25 -x264-params keyint=50:scenecut=0 -b:v 318k -c:a libfdk_aac -profile:a aac_low -b:a 32k -ac 2 -ar 44100 -metadata service_provider=WONDERTEK -f tee [hls_wrap=0:hls_time=10:hls_list_size=15:hls_flags=round_durations:hls_segment_filename='/home/ubuntu/codec/release/hlstemp/45c8d794-09dd-4d01-b59e-108a0ca0f3c2/f219c313-501a-4f6f-bd2c-b67fd10b3a2f/20160425164149-01-%d.ts':start_number=1461573709]/home/ubuntu/codec/release/hlstemp/45c8d794-09dd-4d01-b59e-108a0ca0f3c2/f219c313-501a-4f6f-bd2c-b67fd10b3a2f/01.m3u8 \n-map 0 -vf movie='/home/ubuntu/codec/logo/zb_33.tga',scale=245.64001:114.810005[logo];[in][logo]overlay=main_w-overlay_w-64.08:101.46001[out] -c:v libx264 -preset superfast -profile:v main -level:v 3.1 -s 480x360 -r 25 -x264-params keyint=50:scenecut=0 -b:v 168k -c:a libfdk_aac -profile:a aac_low -b:a 32k -ac 2 -ar 44100 -metadata service_provider=WONDERTEK -f tee [hls_wrap=0:hls_time=10:hls_list_size=15:hls_flags=round_durations:hls_segment_filename='/home/ubuntu/codec/release/hlstemp/45c8d794-09dd-4d01-b59e-108a0ca0f3c2/4a575fe5-ab44-4dda-817f-5b9466c8d35f/20160425164149-01-%d.ts':start_number=1461573709]/home/ubuntu/codec/release/hlstemp/45c8d794-09dd-4d01-b59e-108a0ca0f3c2/4a575fe5-ab44-4dda-817f-5b9466c8d35f/01.m3u8 \n\n\n-map p:708 -vf movie='/home/ubuntu/codec/logo/zb_44.tga',scale=147.6:36.0[logo];[in][logo]overlay=main_w-overlay_w-36.55:28.800001[out] -c:v libx264 -preset superfast -profile:v main -level:v 3.1 -s 852x480 -r 25 -x264-params keyint=50:scenecut=0 -b:v 579k -c:a libfdk_aac -profile:a aac_low -b:a 32k -ac 2 -ar 44100 -metadata service_provider=WONDERTEK -f tee [hls_wrap=0:hls_time=10:hls_list_size=15:hls_flags=round_durations:hls_segment_filename='/home/ubuntu/codec/release/hlstemp/4499aad2-d533-46c6-9b4b-42d7bdbc211b/6b7f03d3-f5fd-42e7-92bc-5abb2b01b77a/20160425054507-01-%d.ts':start_number=1461534307]/home/ubuntu/codec/release/hlstemp/4499aad2-d533-46c6-9b4b-42d7bdbc211b/6b7f03d3-f5fd-42e7-92bc-5abb2b01b77a/01.m3u8\n-map p:708 -vf movie='/home/ubuntu/codec/logo/zb_44.tga',scale=147.6:36.0[logo];[in][logo]overlay=main_w-overlay_w-36.16:28.800001[out] -c:v libx264 -preset superfast -profile:v main -level:v 3.1 -s 640x480 -r 25 -x264-params keyint=50:scenecut=0 -b:v 318k -c:a libfdk_aac -profile:a aac_low -b:a 32k -ac 2 -ar 44100 -metadata service_provider=WONDERTEK -f tee [hls_wrap=0:hls_time=10:hls_list_size=15:hls_flags=round_durations:hls_segment_filename='/home/ubuntu/codec/release/hlstemp/4499aad2-d533-46c6-9b4b-42d7bdbc211b/8d7e2530-f1fa-4f8e-9338-544682db7712/20160425054507-01-%d.ts':start_number=1461534307]/home/ubuntu/codec/release/hlstemp/4499aad2-d533-46c6-9b4b-42d7bdbc211b/8d7e2530-f1fa-4f8e-9338-544682db7712/01.m3u8 \n\n\n-vf movie='/home/ubuntu/codec/logo/zb_44.tga',scale=147.6:36.0[logo];[in][logo]overlay=main_w-overlay_w-36.55:28.800001[out] -c:v libx264 -preset superfast -profile:v main -level:v 3.1 -s 852x480 -r 25 -x264-params keyint=50:scenecut=0 -b:v 579k -c:a libfdk_aac -profile:a aac_low -b:a 32k -ac 2 -ar 44100 -metadata service_provider=WONDERTEK -hls_wrap 0 -hls_time 10 -hls_list_size 15 -hls_flags round_durations -hls_segment_filename /home/ubuntu/codec/release/hlstemp/cea43616-ef2d-4415-a863-855097e95229/2b68a745-e563-4e95-ae44-84fd877082ad/20160425163450-01-%d.ts -start_number 1461573290 /home/ubuntu/codec/release/hlstemp/cea43616-ef2d-4415-a863-855097e95229/2b68a745-e563-4e95-ae44-84fd877082ad/01.m3u8\n-vf movie='/home/ubuntu/codec/logo/zb_44.tga',scale=147.6:36.0[logo];[in][logo]overlay=main_w-overlay_w-36.16:28.800001[out] -c:v libx264 -preset superfast -profile:v main -level:v 3.1 -s 640x480 -r 25 -x264-params keyint=50:scenecut=0 -b:v 318k -c:a libfdk_aac -profile:a aac_low -b:a 32k -ac 2 -ar 44100 -metadata service_provider=WONDERTEK -hls_wrap 0 -hls_time 10 -hls_list_size 15 -hls_flags round_durations -hls_segment_filename /home/ubuntu/codec/release/hlstemp/cea43616-ef2d-4415-a863-855097e95229/3ff5ffab-f7dd-4eda-8a46-b3ba576e0356/20160425163448-01-%d.ts -start_number 1461573288 /home/ubuntu/codec/release/hlstemp/cea43616-ef2d-4415-a863-855097e95229/3ff5ffab-f7dd-4eda-8a46-b3ba576e0356/01.m3u8 \n-vf movie='/home/ubuntu/codec/logo/zb_33.tga',scale=147.2:36.8[logo];[in][logo]overlay=main_w-overlay_w-36.0:28.800001[out] -c:v libx264 -preset superfast -profile:v main -level:v 3.1 -s 480x360 -r 25 -x264-params keyint=50:scenecut=0 -b:v 168k -c:a libfdk_aac -profile:a aac_low -b:a 32k -ac 2 -ar 44100 -metadata service_provider=WONDERTEK -hls_wrap 0 -hls_time 10 -hls_list_size 15 -hls_flags round_durations -hls_segment_filename /home/ubuntu/codec/release/hlstemp/cea43616-ef2d-4415-a863-855097e95229/f4a8f2c2-06fa-4537-9c05-85f748da9e0c/20160425163446-01-%d.ts -start_number 1461573286 /home/ubuntu/codec/release/hlstemp/cea43616-ef2d-4415-a863-855097e95229/f4a8f2c2-06fa-4537-9c05-85f748da9e0c/01.m3u8 \n\n-map 0 -vf movie='/home/ubuntu/codec/logo/zb_67.tga',scale=186.0:66.0[logo];[in][logo]overlay=main_w-overlay_w-64.0:56.0[out] -c:v libx264 -preset superfast -profile:v high -level:v 5.1 -s 1280x720 -r 25 -x264-params keyint=50:scenecut=0 -b:v 1072k -c:a libfdk_aac -profile:a aac_low -b:a 128k -ac 2 -ar 44100 -metadata service_provider=WONDERTEK -f tee [hls_wrap=0:hls_time=10:hls_list_size=15:hls_flags=round_durations:hls_segment_filename='/home/ubuntu/codec/release/hlstemp/3a92e535-25f1-40fd-8f4e-e21b1c32675f/188ece10-4b5b-44b1-9d34-9fce56b0f84c/20160425174119-01-%d.ts':start_number=1461577279]/home/ubuntu/codec/release/hlstemp/3a92e535-25f1-40fd-8f4e-e21b1c32675f/188ece10-4b5b-44b1-9d34-9fce56b0f84c/01.m3u8\n-map 0 -vf movie='/home/ubuntu/codec/logo/zb_44.tga',scale=184.5:75.0[logo];[in][logo]overlay=main_w-overlay_w-64.5:66.0[out] -c:v libx264 -preset superfast -profile:v main -level:v 3.1 -s 852x480 -r 25 -x264-params keyint=50:scenecut=0 -b:v 568k -c:a libfdk_aac -profile:a aac_low-b:a 32k -ac 2 -ar 44100 -metadata service_provider=WONDERTEK -f tee [hls_wrap=0:hls_time=10:hls_list_size=15:hls_flags=round_durations:hls_segment_filename='/home/ubuntu/codec/release/hlstemp/3a92e535-25f1-40fd-8f4e-e21b1c32675f/809bf8a5-3135-415f-b20c-4339357c1c6d/20160425174119-01-%d.ts':start_number=1461577279]/home/ubuntu/codec/release/hlstemp/3a92e535-25f1-40fd-8f4e-e21b1c32675f/809bf8a5-3135-415f-b20c-4339357c1c6d/01.m3u8\n-map 0 -vf movie='/home/ubuntu/codec/logo/zb_44.tga',scale=276.75:112.5[logo];[in][logo]overlay=main_w-overlay_w-72.0:99.0[out] -c:v libx264 -preset superfast -profile:v main -level:v 3.1 -s 640x480 -r 25 -x264-params keyint=50:scenecut=0 -b:v 318k -c:a libfdk_aac -profile:a aac_low -b:a 32k -ac 2 -ar 44100 -metadata service_provider=WONDERTEK -f tee [hls_wrap=0:hls_time=10:hls_list_size=15:hls_flags=round_durations:hls_segment_filename='/home/ubuntu/codec/release/hlstemp/3a92e535-25f1-40fd-8f4e-e21b1c32675f/6f85c398-de52-4247-9f53-a2d55568dbec/20160425174119-01-%d.ts':start_number=1461577279]/home/ubuntu/codec/release/hlstemp/3a92e535-25f1-40fd-8f4e-e21b1c32675f/6f85c398-de52-4247-9f53-a2d55568dbec/01.m3u8 \n-map 0 -vf movie='/home/ubuntu/codec/logo/zb_33.tga',scale=276.0:129.0[logo];[in][logo]overlay=main_w-overlay_w-72.0:114.0[out] -c:v libx264 -preset superfast -profile:v main -level:v 3.1 -s 480x360 -r 25 -x264-params keyint=50:scenecut=0 -b:v 168k -c:a libfdk_aac -profile:a aac_low -b:a 32k -ac 2 -ar 44100 -metadata service_provider=WONDERTEK -f tee [hls_wrap=0:hls_time=10:hls_list_size=15:hls_flags=round_durations:hls_segment_filename='/home/ubuntu/codec/release/hlstemp/3a92e535-25f1-40fd-8f4e-e21b1c32675f/403e7b25-b8d5-4395-8e53-f92d37b4aef2/20160425174119-01-%d.ts':start_number=1461577279]/home/ubuntu/codec/release/hlstemp/3a92e535-25f1-40fd-8f4e-e21b1c32675f/403e7b25-b8d5-4395-8e53-f92d37b4aef2/01.m3u8 \n\n\n\n\nubuntu@wd-h264-f0802:~/livelog/translog$ ll -rt `grep -rl p:805`\n-rw-r--r-- 1 root root 181837626  4月 20 17:12 20160419144241187.log\n-rw-r--r-- 1 root root 182667116  4月 21 19:42 20160420171249820.log\n-rw-r--r-- 1 root root 182266583  4月 22 22:12 20160421194256796.log\n-rw-r--r-- 1 root root 182118210  4月 24 00:43 20160422221303974.log\n-rw-r--r-- 1 root root 184592560  4月 25 03:13 20160424004311255.log\n-rw-r--r-- 1 root root 182456453  4月 26 05:43 20160425031318464.log\n-rw-r--r-- 1 root root 182775021  4月 27 08:16 20160426054325394.log\n-rw-r--r-- 1 root root 370209017  4月 29 13:16 20160427081652364.log\n-rw-r--r-- 1 root root 216774894  4月 30 20:43 20160429131701041.log\n-rw-r--r-- 1 root root    154047  4月 30 20:44 20160430204326768.log\n-rw-r--r-- 1 root root 182811008  5月  1 23:14 20160430204454304.log\n-rw-r--r-- 1 root root  89640493  5月  2 12:18 20160501231500952.log\n\n\n\n-s 与 -vf scale=1280:720\n\nffmpeg -i cctv10.ts -s 1280x720 -vf scale=1280:1080 -c:v libx264 -an a.ts -y -v trace >a.txt 2>&1\n\n Opening an output file: a.ts.                                                                                                                                                           \n  62 [file @ 0000000004326780] Setting default whitelist 'file,crypto'                                                                                                                       \n  63 Successfully opened the file.                                                                                                                                                           \n  64 detected 4 logical cores                                                                                                                                                                \n  65 [Parsed_scale_0 @ 00000000033c0f00] Setting 'w' to value '1280'                                                                                                                         \n  66 [Parsed_scale_0 @ 00000000033c0f00] Setting 'h' to value '1080'                                                                                                                         \n  67 [Parsed_scale_0 @ 00000000033c0f00] Setting 'flags' to value 'bicubic'                                                                                                                  \n  68 [Parsed_scale_0 @ 00000000033c0f00] w:1280 h:1080 flags:'bicubic' interl:0                                                                                                              \n  69 [graph 0 input from stream 0:1 @ 0000000004470300] Setting 'video_size' to value '1920x1080'                                                                                            \n  70 [graph 0 input from stream 0:1 @ 0000000004470300] Setting 'pix_fmt' to value '0'                                                                                                       \n  71 [graph 0 input from stream 0:1 @ 0000000004470300] Setting 'time_base' to value '1/90000'                                                                                               \n  72 [graph 0 input from stream 0:1 @ 0000000004470300] Setting 'pixel_aspect' to value '1/1'                                                                                                \n  73 [graph 0 input from stream 0:1 @ 0000000004470300] Setting 'sws_param' to value 'flags=2'                                                                                               \n  74 [graph 0 input from stream 0:1 @ 0000000004470300] Setting 'frame_rate' to value '25/1'                                                                                                 \n  75 [graph 0 input from stream 0:1 @ 0000000004470300] w:1920 h:1080 pixfmt:yuv420p tb:1/90000 fr:25/1 sar:1/1 sws_param:flags=2                                                            \n  76 [scaler for output stream 0:0 @ 0000000004470ac0] Setting 'w' to value '1280'                                                                                                           \n  77 [scaler for output stream 0:0 @ 0000000004470ac0] Setting 'h' to value '720'                                                                                                            \n  78 [scaler for output stream 0:0 @ 0000000004470ac0] Setting 'flags' to value 'bicubic'                                                                                                    \n  79 [scaler for output stream 0:0 @ 0000000004470ac0] w:1280 h:720 flags:'bicubic' interl:0                                                                                                 \n  80 [format @ 0000000004470da0] compat: called with args=[yuv420p|yuvj420p|yuv422p|yuvj422p|yuv444p|yuvj444p|nv12|nv16|nv21]                                                                \n  81 [format @ 0000000004470da0] Setting 'pix_fmts' to value 'yuv420p|yuvj420p|yuv422p|yuvj422p|yuv444p|yuvj444p|nv12|nv16|nv21'                                                             \n  82 [AVFilterGraph @ 00000000043266e0] query_formats: 5 queried, 4 merged, 0 already done, 0 delayed                                                                                        \n  83 [Parsed_scale_0 @ 00000000033c0f00] w:1920 h:1080 fmt:yuv420p sar:1/1 -> w:1280 h:1080 fmt:yuv420p sar:3/2 flags:0x4                                                                    \n  84 [scaler for output stream 0:0 @ 0000000004470ac0] w:1280 h:1080 fmt:yuv420p sar:3/2 -> w:1280 h:720 fmt:yuv420p sar:1/1 flags:0x4                                                       \n  85 [libx264 @ 0000000000600c40] using mv_range_thread = 56                                                                                                                                 \n  86 [libx264 @ 0000000000600c40] using SAR=1/1                                                                                                                                              \n  87 [libx264 @ 0000000000600c40] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 AVX2 LZCNT BMI2                                                                                \n  88 [libx264 @ 0000000000600c40] profile High, level 3.1                                                                                                                                    \n  89 [mpegts @ 0000000004327820] Using AVStream.codec to pass codec parameters to muxers is deprecated, use AVStream.codecpar instead.                                                       \n  90 [mpegts @ 0000000004327820] muxrate VBR, pcr every 2 pkts, sdt every 200, pat/pmt every 40 pkts    \n\n\n\n\nffmpeg -i cctv10.ts  -vf scale=1280:1080 -c:v libx264 -an -s 854x480 a.ts -y -v trace >b.txt 2>&1\n\n\n   59 [file @ 0000000002be8820] Setting default whitelist 'file,crypto'                                                                                                                       \n  60 Successfully opened the file.                                                                                                                                                           \n  61 detected 4 logical cores                                                                                                                                                                \n  62 [Parsed_scale_0 @ 0000000002ae59c0] Setting 'w' to value '1280'                                                                                                                         \n  63 [Parsed_scale_0 @ 0000000002ae59c0] Setting 'h' to value '1080'                                                                                                                         \n  64 [Parsed_scale_0 @ 0000000002ae59c0] Setting 'flags' to value 'bicubic'                                                                                                                  \n  65 [Parsed_scale_0 @ 0000000002ae59c0] w:1280 h:1080 flags:'bicubic' interl:0                                                                                                              \n  66 [graph 0 input from stream 0:1 @ 00000000003a2140] Setting 'video_size' to value '1920x1080'                                                                                            \n  67 [graph 0 input from stream 0:1 @ 00000000003a2140] Setting 'pix_fmt' to value '0'                                                                                                       \n  68 [graph 0 input from stream 0:1 @ 00000000003a2140] Setting 'time_base' to value '1/90000'                                                                                               \n  69 [graph 0 input from stream 0:1 @ 00000000003a2140] Setting 'pixel_aspect' to value '1/1'                                                                                                \n  70 [graph 0 input from stream 0:1 @ 00000000003a2140] Setting 'sws_param' to value 'flags=2'                                                                                               \n  71 [graph 0 input from stream 0:1 @ 00000000003a2140] Setting 'frame_rate' to value '25/1'                                                                                                 \n  72 [graph 0 input from stream 0:1 @ 00000000003a2140] w:1920 h:1080 pixfmt:yuv420p tb:1/90000 fr:25/1 sar:1/1 sws_param:flags=2                                                            \n  73 [scaler for output stream 0:0 @ 00000000003a34a0] Setting 'w' to value '854'                                                                                                            \n  74 [scaler for output stream 0:0 @ 00000000003a34a0] Setting 'h' to value '480'                                                                                                            \n  75 [scaler for output stream 0:0 @ 00000000003a34a0] Setting 'flags' to value 'bicubic'                                                                                                    \n  76 [scaler for output stream 0:0 @ 00000000003a34a0] w:854 h:480 flags:'bicubic' interl:0                                                                                                  \n  77 [format @ 000000000039dfa0] compat: called with args=[yuv420p|yuvj420p|yuv422p|yuvj422p|yuv444p|yuvj444p|nv12|nv16|nv21]                                                                \n  78 [format @ 000000000039dfa0] Setting 'pix_fmts' to value 'yuv420p|yuvj420p|yuv422p|yuvj422p|yuv444p|yuvj444p|nv12|nv16|nv21'                                                             \n  79 [AVFilterGraph @ 0000000002be87a0] query_formats: 5 queried, 4 merged, 0 already done, 0 delayed                                                                                        \n  80 [Parsed_scale_0 @ 0000000002ae59c0] w:1920 h:1080 fmt:yuv420p sar:1/1 -> w:1280 h:1080 fmt:yuv420p sar:3/2 flags:0x4                                                                    \n  81 [scaler for output stream 0:0 @ 00000000003a34a0] w:1280 h:1080 fmt:yuv420p sar:3/2 -> w:854 h:480 fmt:yuv420p sar:1280/1281 flags:0x4                                                  \n  82 [libx264 @ 0000000002ae49a0] using mv_range_thread = 40                                                                                                                                 \n  83 [libx264 @ 0000000002ae49a0] using SAR=1280/1281                                                                                                                                        \n  84 [libx264 @ 0000000002ae49a0] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 AVX2 LZCNT BMI2                                                                                \n  85 [libx264 @ 0000000002ae49a0] profile High, level 3.0                                                                                                                                    \n  86 [mpegts @ 00000000034b00a0] Using AVStream.codec to pass codec parameters to muxers is deprecated, use AVStream.codecpar instead.                                                       \n  87 [mpegts @ 00000000034b00a0] muxrate VBR, pcr every 2 pkts, sdt every 200, pat/pmt every 40 pkts                        \n\n\n\n\n/mnt/remote/r3/wd_r3/test/cctv5hd2/1200/01.m3u8 \n\n/mnt/remote/r3/wd_r3/test/cctv5hd2/350/01.m3u8\n\n\n\n/mnt/remote/r3/wd_r3/ocn/jiangxiws-test/200/01.m3u8\n\n\n\n/mnt/remote/r3/wd_r3/test/test_1280x1080/600/02.m3u8 \n\n\nA Hadoop-based Multimedia Transcoding System for Processing Social Media in the PaaS Platform of SMCCSE\n\n\n\n\n:\n[h264 @ 0x32eb400] no frame!\n[mpegts @ 0x32c6b40] DTS 10530000 < 15854400 out of order\n[mpegts @ 0x32c6b40] DTS discontinuity in stream 1: packet 65 with DTS 10551972, packet 66 with DTS 13901906\n[mpegts @ 0x32c6b40] DTS discontinuity in stream 1: packet 123 with DTS 10595856, packet 124 with DTS 13947882\n[mpegts @ 0x32c6b40] DTS discontinuity in stream 1: packet 166 with DTS 10627204, packet 167 with DTS 13977139\nInput #0, mpegts, from 'udp://127.0.0.1:48880?overrun_nonfatal=1&buffer_size=100000000&fifo_size=100000000':\n  Duration: N/A, start: 116.593967, bitrate: N/A\n  Program 1 \n    Metadata:\n      service_name    : Service01\n      service_provider: FFmpeg\n    Stream #0:0[0x100]: Video: h264 (Baseline) ([27][0][0][0] / 0x001B), yuv420p(tv), 640x360 [SAR 1:1 DAR 16:9], 25 fps, 25 tbr, 90k tbn, 50 tbc\n    Stream #0:1[0x101](eng): Audio: aac (LC) ([15][0][0][0] / 0x000F), 44100 Hz, stereo, fltp, 121 kb/s\nOutput #0, tee, to '[f=mpegts:max_interleave_delta=1000M:mpegts_flags=+latm]'udp://192.168.111.1:48880?pkt_size=1316&buffer_size=1'':\nOutput file #0 does not contain any stream\n:\ncommand=/sbin/start-stop-daemon --start --quiet --pidfile /home/ubuntu/codec/release/ini/d3afcbd0-005f-4275-a68e-5065d18abc7d -m --exec /home/ubuntu/codec/release/lvtranscode -- -hide_banner -threads auto -y  -xerror  -i 'udp://127.0.0.1:48880?overrun_nonfatal=1&buffer_size=100000000&fifo_size=100000000' -c:v  libx264  -preset  superfast  -profile:v  main  -level:v 4.2 -r 25 -x264-params keyint=50:scenecut=0  -b:v 1072k  -c:a  libfdk_aac -profile:a aac_low  -ac 5 -ar 8000  -metadata service_provider='WONDERTEK' -f tee \"[f=mpegts:max_interleave_delta=1000M:mpegts_flags=+latm]'udp://192.168.111.1:48880?pkt_size=1316&buffer_size=1'\"\n[udp @ 0x32c7380] attempted to set receive buffer to size 100000000 but it only ended up set as 425984non-existing PPS 0 referenced\n[h264 @ 0x32eb400] non-existing PPS 0 referenced\n[h264 @ 0x32eb400] decode_slice_header error\n[h264 @ 0x32eb400] no frame!\n[h264 @ 0x32eb400] non-existing PPS 0 referenced\n    Last message repeated 1 times\n\n\n /mnt/remote/r3/wd_r3/test/test_cctv5hd/1200/01.m3u8 \n\n\n\n http://live.zzbtv.com:80/live/live123/800K/tzwj_video.m3u8\nudp://236.114.126.42:10001\nudp://236.114.125.136:60013\nroot      18275  0.0  0.0   4440   656 ?        S    12:41   0:00 sh -c /sbin/start-stop-daemon --start --quiet --pidfile /home/ubuntu/codec/release/ini/e3d45f59-dd55-48e3-b874-4e82e929801f -m --exec /home/ubuntu/codec/release/lvtranscode -- -hide_banner -threads auto -y  -re -itsoffset 0.5 -async 1  -i 'udp://236.114.126.42:10001?overrun_nonfatal=1&buffer_size=100000000&fifo_size=100000000' -map p:3802 -vf \"[in]scale=1280.0:720.0[pre_logo];movie='/home/ubuntu/codec/logo/zb_67.tga',scale=186.0:46.0[logo];[pre_logo][logo]overlay=main_w-overlay_w-64.0:36.0[out]\"  -c:v  libx264  -preset  superfast  -profile:v  high  -level:v 5.1 -s 1280x720 -r 25 -x264-params keyint=50:scenecut=0  -b:v 1072k  -c:a  libfdk_aac -profile:a aac_low  -b:a 128k  -ac 2 -ar 44100  -sn  -metadata service_provider='WONDERTEK' -f tee \"[hls_wrap=0:hls_time=10:hls_list_size=15:hls_flags=round_durations:hls_segment_filename='/home/ubuntu/codec/release/hlstemp/c13426db-4b06-4744-aceb-e3faf57443f9/a8fcdf6d-bc67-428d-abf4-813587398528/20160510124108-01-%d.ts':start_number=1462855268]/home/ubuntu/codec/release/hlstemp/c13426db-4b06-4744-aceb-e3faf57443f9/a8fcdf6d-bc67-428d-abf4-813587398528/01.m3u8\"\nroot      18278 80.7  2.1 9068056 2890008 ?     Sl   12:41  11:29 /home/ubuntu/codec/release/lvtranscode -hide_banner -threads auto -y -re -itsoffset 0.5 -async 1 -i udp://236.114.126.42:10001?overrun_nonfatal=1&buffer_size=100000000&fifo_size=100000000 -map p:3802 -vf [in]scale=1280.0:720.0[pre_logo];movie='/home/ubuntu/codec/logo/zb_67.tga',scale=186.0:46.0[logo];[pre_logo][logo]overlay=main_w-overlay_w-64.0:36.0[out] -c:v libx264 -preset superfast -profile:v high -level:v 5.1 -s 1280x720 -r 25 -x264-params keyint=50:scenecut=0 -b:v 1072k -c:a libfdk_aac -profile:a aac_low -b:a 128k -ac 2 -ar 44100 -sn -metadata service_provider=WONDERTEK -f tee [hls_wrap=0:hls_time=10:hls_list_size=15:hls_flags=round_durations:hls_segment_filename='/home/ubuntu/codec/release/hlstemp/c13426db-4b06-4744-aceb-e3faf57443f9/a8fcdf6d-bc67-428d-abf4-813587398528/20160510124108-01-%d.ts':start_number=1462855268]/home/ubuntu/codec/release/hlstemp/c13426db-4b06-4744-aceb-e3faf57443f9/a8fcdf6d-bc67-428d-abf4-813587398528/01.m3u8\nroot      19513  0.0  0.0   4444   660 ?        S    12:52   0:00 sh -c /sbin/start-stop-daemon --start --quiet --pidfile /home/ubuntu/codec/release/ini/a46dd852-4d70-4070-8eb8-b02d5c674e15 -m --exec /home/ubuntu/codec/release/lvtranscode -- -hide_banner -threads auto -y  -re -itsoffset 0.5 -async 1  -i 'udp://236.114.126.42:10001?overrun_nonfatal=1&buffer_size=100000000&fifo_size=100000000' -map p:3801 -vf \"[in]scale=1280.0:720.0[pre_logo];movie='/home/ubuntu/codec/logo/zb_67.tga',scale=186.0:46.0[logo];[pre_logo][logo]overlay=main_w-overlay_w-64.0:36.0[out]\"  -c:v  libx264  -preset  superfast  -profile:v  high  -level:v 5.1 -s 1280x720 -r 25 -x264-params keyint=50:scenecut=0  -b:v 1072k  -c:a  libfdk_aac -profile:a aac_low  -b:a 128k  -ac 2 -ar 44100  -sn  -metadata service_provider='WONDERTEK' -f tee \"[hls_wrap=0:hls_time=10:hls_list_size=15:hls_flags=round_durations:hls_segment_filename='/home/ubuntu/codec/release/hlstemp/774b397c-212a-4561-a5b7-3a14febc511d/7f3e41a4-aedf-4edd-b394-c9bf82d1db05/20160510125250-01-%d.ts':start_number=1462855970]/home/ubuntu/codec/release/hlstemp/774b397c-212a-4561-a5b7-3a14febc511d/7f3e41a4-aedf-4edd-b394-c9bf82d1db05/01.m3u8\" -map p:3801 -vf \"[in]scale=640.0:480.0[pre_logo];movie='/home/ubuntu/codec/logo/zb_44.tga',scale=92.25:30.0[logo];[pre_logo][logo]overlay=main_w-overlay_w-24.0:24.0[out]\"  -c:v  libx264  -preset  superfast  -profile:v  main  -level:v 3.1 -s 640x480 -r 25 -x264-params keyint=50:scenecut=0  -b:v 318k  -c:a  libfdk_aac -profile:a aac_low  -b:a 32k  -ac 2 -ar 44100  -sn  -metadata service_provider='WONDERTEK' -f tee \"[hls_wrap=0:hls_time=10:hls_list_size=15:hls_flags=round_durations:hls_segment_filename='/home/ubuntu/codec/release/hlstemp/774b397c-212a-4561-a5b7-3a14febc511d/7cf0f037-8ff8-43ef-b306-4d62bee937c6/20160510125250-01-%d.ts':start_number=1462855970]/home/ubuntu/codec/release/hlstemp/774b397c-212a-4561-a5b7-3a14febc511d/7cf0f037-8ff8-43ef-b306-4d62bee937c6/01.m3u8\" -map p:3801 -vf \"[in]scale=852.0:480.0[pre_logo];movie='/home/ubuntu/codec/logo/zb_44.tga',scale=122.81:30.0[logo];[pre_logo][logo]overlay=main_w-overlay_w-41.93:24.0[out]\"  -c:v  libx264  -preset  superfast  -profile:v  main  -level:v 3.1 -s 852x480 -r 25 -x264-params keyint=50:scenecut=0  -b:v 568k  -c:a  libfdk_aac -profile:a aac_low  -b:a 32k  -ac 2 -ar 44100  -sn  -metadata service_provider='WONDERTEK' -f tee \"[hls_wrap=0:hls_time=10:hls_list_size=15:hls_flags=round_durations:hls_segment_filename='/home/ubuntu/codec/release/hlstemp/774b397c-212a-4561-a5b7-3a14febc511d/43992f8d-72ca-4911-ad87-d100bcdf3f51/20160510125250-01-%d.ts':start_number=1462855970]/home/ubuntu/codec/release/hlstemp/774b397c-212a-4561-a5b7-3a14febc511d/43992f8d-72ca-4911-ad87-d100bcdf3f51/01.m3u8\"\nroot      19516  123  2.3 17998768 3037024 ?    Sl   12:52   3:00 /home/ubuntu/codec/release/lvtranscode -hide_banner -threads auto -y -re -itsoffset 0.5 -async 1 -i udp://236.114.126.42:10001?overrun_nonfatal=1&buffer_size=100000000&fifo_size=100000000 -map p:3801 -vf [in]scale=1280.0:720.0[pre_logo];movie='/home/ubuntu/codec/logo/zb_67.tga',scale=186.0:46.0[logo];[pre_logo][logo]overlay=main_w-overlay_w-64.0:36.0[out] -c:v libx264 -preset superfast -profile:v high -level:v 5.1 -s 1280x720 -r 25 -x264-params keyint=50:scenecut=0 -b:v 1072k -c:a libfdk_aac -profile:a aac_low -b:a 128k -ac 2 -ar 44100 -sn -metadata service_provider=WONDERTEK -f tee [hls_wrap=0:hls_time=10:hls_list_size=15:hls_flags=round_durations:hls_segment_filename='/home/ubuntu/codec/release/hlstemp/774b397c-212a-4561-a5b7-3a14febc511d/7f3e41a4-aedf-4edd-b394-c9bf82d1db05/20160510125250-01-%d.ts':start_number=1462855970]/home/ubuntu/codec/release/hlstemp/774b397c-212a-4561-a5b7-3a14febc511d/7f3e41a4-aedf-4edd-b394-c9bf82d1db05/01.m3u8 -map p:3801 -vf [in]scale=640.0:480.0[pre_logo];movie='/home/ubuntu/codec/logo/zb_44.tga',scale=92.25:30.0[logo];[pre_logo][logo]overlay=main_w-overlay_w-24.0:24.0[out] -c:v libx264 -preset superfast -profile:v main -level:v 3.1 -s 640x480 -r 25 -x264-params keyint=50:scenecut=0 -b:v 318k -c:a libfdk_aac -profile:a aac_low -b:a 32k -ac 2 -ar 44100 -sn -metadata service_provider=WONDERTEK -f tee [hls_wrap=0:hls_time=10:hls_list_size=15:hls_flags=round_durations:hls_segment_filename='/home/ubuntu/codec/release/hlstemp/774b397c-212a-4561-a5b7-3a14febc511d/7cf0f037-8ff8-43ef-b306-4d62bee937c6/20160510125250-01-%d.ts':start_number=1462855970]/home/ubuntu/codec/release/hlstemp/774b397c-212a-4561-a5b7-3a14febc511d/7cf0f037-8ff8-43ef-b306-4d62bee937c6/01.m3u8 -map p:3801 -vf [in]scale=852.0:480.0[pre_logo];movie='/home/ubuntu/codec/logo/zb_44.tga',scale=122.81:30.0[logo];[pre_logo][logo]overlay=main_w-overlay_w-41.93:24.0[out] -c:v libx264 -preset superfast -profile:v main -level:v 3.1 -s 852x480 -r 25 -x264-params keyint=50:scenecut=0 -b:v 568k -c:a libfdk_aac -profile:a aac_low -b:a 32k -ac 2 -ar 44100 -sn -metadata service_provider=WONDERTEK -f tee [hls_wrap=0:hls_time=10:hls_list_size=15:hls_flags=round_durations:hls_segment_filename='/home/ubuntu/codec/release/hlstemp/774b397c-212a-4561-a5b7-3a14febc511d/43992f8d-72ca-4911-ad87-d100bcdf3f51/20160510125250-01-%d.ts':start_number=1462855970]/home/ubuntu/codec/release/hlstemp/774b397c-212a-4561-a5b7-3a14febc511d/43992f8d-72ca-4911-ad87-d100bcdf3f51/01.m3u8\n\nudp://236.114.126.43:10001\n\nroot      26194  0.0  0.0   4444   660 ?        S    13:12   0:00 sh -c /sbin/start-stop-daemon --start --quiet --pidfile /home/ubuntu/codec/release/ini/3ab2bbc5-3066-4b76-82a4-412fb3aac9a1 -m --exec /home/ubuntu/codec/release/lvtranscode -- -hide_banner -threads auto -y  -re -itsoffset 0.5 -async 1  -i 'udp://236.114.126.43:10001?overrun_nonfatal=1&buffer_size=100000000&fifo_size=100000000' -map p:3902 -vf \"[in]scale=1280.0:720.0[pre_logo];movie='/home/ubuntu/codec/logo/zb_67.tga',scale=186.0:46.0[logo];[pre_logo][logo]overlay=main_w-overlay_w-64.0:36.0[out]\"  -c:v  libx264  -preset  superfast  -profile:v  high  -level:v 5.1 -s 1280x720 -r 25 -x264-params keyint=50:scenecut=0  -b:v 1072k  -c:a  libfdk_aac -profile:a aac_low  -b:a 128k  -ac 2 -ar 44100  -sn  -metadata service_provider='WONDERTEK' -f tee \"[hls_wrap=0:hls_time=10:hls_list_size=15:hls_flags=round_durations:hls_segment_filename='/home/ubuntu/codec/release/hlstemp/275b404b-7566-4f3e-8b44-72ac7dab761f/dc437d1f-77a1-4920-bfb6-abb922ddacd7/20160510131236-01-%d.ts':start_number=1462857156]/home/ubuntu/codec/release/hlstemp/275b404b-7566-4f3e-8b44-72ac7dab761f/dc437d1f-77a1-4920-bfb6-abb922ddacd7/01.m3u8\" -map p:3902 -vf \"[in]scale=640.0:480.0[pre_logo];movie='/home/ubuntu/codec/logo/zb_44.tga',scale=92.25:30.0[logo];[pre_logo][logo]overlay=main_w-overlay_w-24.0:24.0[out]\"  -c:v  libx264  -preset  superfast  -profile:v  main  -level:v 3.1 -s 640x480 -r 25 -x264-params keyint=50:scenecut=0  -b:v 318k  -c:a  libfdk_aac -profile:a aac_low  -b:a 32k  -ac 2 -ar 44100  -sn  -metadata service_provider='WONDERTEK' -f tee \"[hls_wrap=0:hls_time=10:hls_list_size=15:hls_flags=round_durations:hls_segment_filename='/home/ubuntu/codec/release/hlstemp/275b404b-7566-4f3e-8b44-72ac7dab761f/21e529e3-3223-4b4b-ae78-bc1cb9db409e/20160510131236-01-%d.ts':start_number=1462857156]/home/ubuntu/codec/release/hlstemp/275b404b-7566-4f3e-8b44-72ac7dab761f/21e529e3-3223-4b4b-ae78-bc1cb9db409e/01.m3u8\" -map p:3902 -vf \"[in]scale=852.0:480.0[pre_logo];movie='/home/ubuntu/codec/logo/zb_44.tga',scale=122.81:30.0[logo];[pre_logo][logo]overlay=main_w-overlay_w-41.93:24.0[out]\"  -c:v  libx264  -preset  superfast  -profile:v  main  -level:v 3.1 -s 852x480 -r 25 -x264-params keyint=50:scenecut=0  -b:v 568k  -c:a  libfdk_aac -profile:a aac_low  -b:a 32k  -ac 2 -ar 44100  -sn  -metadata service_provider='WONDERTEK' -f tee \"[hls_wrap=0:hls_time=10:hls_list_size=15:hls_flags=round_durations:hls_segment_filename='/home/ubuntu/codec/release/hlstemp/275b404b-7566-4f3e-8b44-72ac7dab761f/c13cf1b4-4f80-4360-92db-215664319fe9/20160510131236-01-%d.ts':start_number=1462857156]/home/ubuntu/codec/release/hlstemp/275b404b-7566-4f3e-8b44-72ac7dab761f/c13cf1b4-4f80-4360-92db-215664319fe9/01.m3u8\"\nroot      26197 20.0  0.0 1838300 84832 ?       Sl   13:12   0:00 /home/ubuntu/codec/release/lvtranscode -hide_banner -threads auto -y -re -itsoffset 0.5 -async 1 -i udp://236.114.126.43:10001?overrun_nonfatal=1&buffer_size=100000000&fifo_size=100000000 -map p:3902 -vf [in]scale=1280.0:720.0[pre_logo];movie='/home/ubuntu/codec/logo/zb_67.tga',scale=186.0:46.0[logo];[pre_logo][logo]overlay=main_w-overlay_w-64.0:36.0[out] -c:v libx264 -preset superfast -profile:v high -level:v 5.1 -s 1280x720 -r 25 -x264-params keyint=50:scenecut=0 -b:v 1072k -c:a libfdk_aac -profile:a aac_low -b:a 128k -ac 2 -ar 44100 -sn -metadata service_provider=WONDERTEK -f tee [hls_wrap=0:hls_time=10:hls_list_size=15:hls_flags=round_durations:hls_segment_filename='/home/ubuntu/codec/release/hlstemp/275b404b-7566-4f3e-8b44-72ac7dab761f/dc437d1f-77a1-4920-bfb6-abb922ddacd7/20160510131236-01-%d.ts':start_number=1462857156]/home/ubuntu/codec/release/hlstemp/275b404b-7566-4f3e-8b44-72ac7dab761f/dc437d1f-77a1-4920-bfb6-abb922ddacd7/01.m3u8 -map p:3902 -vf [in]scale=640.0:480.0[pre_logo];movie='/home/ubuntu/codec/logo/zb_44.tga',scale=92.25:30.0[logo];[pre_logo][logo]overlay=main_w-overlay_w-24.0:24.0[out] -c:v libx264 -preset superfast -profile:v main -level:v 3.1 -s 640x480 -r 25 -x264-params keyint=50:scenecut=0 -b:v 318k -c:a libfdk_aac -profile:a aac_low -b:a 32k -ac 2 -ar 44100 -sn -metadata service_provider=WONDERTEK -f tee [hls_wrap=0:hls_time=10:hls_list_size=15:hls_flags=round_durations:hls_segment_filename='/home/ubuntu/codec/release/hlstemp/275b404b-7566-4f3e-8b44-72ac7dab761f/21e529e3-3223-4b4b-ae78-bc1cb9db409e/20160510131236-01-%d.ts':start_number=1462857156]/home/ubuntu/codec/release/hlstemp/275b404b-7566-4f3e-8b44-72ac7dab761f/21e529e3-3223-4b4b-ae78-bc1cb9db409e/01.m3u8 -map p:3902 -vf [in]scale=852.0:480.0[pre_logo];movie='/home/ubuntu/codec/logo/zb_44.tga',scale=122.81:30.0[logo];[pre_logo][logo]overlay=main_w-overlay_w-41.93:24.0[out] -c:v libx264 -preset superfast -profile:v main -level:v 3.1 -s 852x480 -r 25 -x264-params keyint=50:scenecut=0 -b:v 568k -c:a libfdk_aac -profile:a aac_low -b:a 32k -ac 2 -ar 44100 -sn -metadata service_provider=WONDERTEK -f tee [hls_wrap=0:hls_time=10:hls_list_size=15:hls_flags=round_durations:hls_segment_filename='/home/ubuntu/codec/release/hlstemp/275b404b-7566-4f3e-8b44-72ac7dab761f/c13cf1b4-4f80-4360-92db-215664319fe9/20160510131236-01-%d.ts':start_number=1462857156]/home/ubuntu/codec/release/hlstemp/275b404b-7566-4f3e-8b44-72ac7dab761f/c13cf1b4-4f80-4360-92db-215664319fe9/01.m3u8\n\n\n\n\n/mnt/remote/r3/wd_r3/test/test_cctv3hd/1200/01.m3u8\n\n\n/mnt/remote/r3/wd_r3/test/test_truecut_film2/1080p/01.m3u8 \n删除 \n\n\n \n/mnt/remote/r3/wd_r3/test/test_cctv5hd/1200/01.m3u8 \n删除 \n\n\n /mnt/remote/r3/wd_r3/ocn/guizhouws-test/600/01.m3u8 \n\n现在闸北机房还有50台机器，其中视频云10台，滚播6台，直播转码34台，已使用17台，未使用17台\n云桥共45台，14台位于库房，31台已上架，其中2台未上电（电源线问题），15台未使用，14台在使用中\n\n\n\n/mnt/remote/r3/wd_r3/test/test_cctv5hd/1200/01.m3u8 \nffmpeg -i 058-The.Land.Of.Korin.flv -af 'pan=stereo|c0=FL' -c:a mp3 left.mp3 -af 'pan=stereo|c0=FR' -c:a mp3 right.mp3 -y\nffmpeg -i 058-The.Land.Of.Korin.flv -af 'pan=stereo|c0=c0|c1=c0' -c:v libx264 -c:a aac a.ts  -af 'pan=stereo|c0=c1|c1=c1' -c:v libx264 -c:a aac b.ts -y\n\n\n/mnt/remote/r3/wd_r3/test/test_cctv3hd/1200/01.m3u8 \n\n/mnt/remote/r3/wd_r3/test/test_cctv5hd/1200/01.m3u8 \n\n\n\n/mnt/remote/r1/envivo_r1/SD/nxtv/450/01.m3u8\n\n\n 3802_央\nroot      30799  0.0  0.0   4440   652 pts/23   S    19:32   0:00 sh -c /sbin/start-stop-daemon --start --quiet --pidfile /home/ubuntu/codec/release/ini/2f687f50-395e-4583-bed4-a00335c674e1 -m --exec /home/ubuntu/codec/release/lvtranscode -- -hide_banner -threads auto -y  -i 'udp://236.114.125.88:10041?overrun_nonfatal=1&buffer_size=100000000&fifo_size=100000000' -map p:3 -af 'pan=stereo|c0=c0|c1=c0' -vn  -c:a  libfdk_aac -profile:a aac_low  -b:a 32k  -ac 2 -ar 44100  -sn  -metadata service_provider='WONDERTEK' -f tee \"[hls_wrap=0:hls_time=10:hls_list_size=15:hls_flags=round_durations:hls_segment_filename='/home/ubuntu/codec/release/hlstemp/153_1463052724136/44_0_1463052729355/20160512193209-01-%d.ts':start_number=1463052729]/home/ubuntu/codec/release/hlstemp/153_1463052724136/44_0_1463052729355/01.m3u8\"\nroot      30802  9.5  0.4 2245048 611584 pts/23 Sl   19:32   0:30 /home/ubuntu/codec/release/lvtranscode -hide_banner -threads auto -y -i udp://236.114.125.88:10041?overrun_nonfatal=1&buffer_size=100000000&fifo_size=100000000 -map p:3 -af pan=stereo|c0=c0|c1=c0 -vn -c:a libfdk_aac -profile:a aac_low -b:a 32k -ac 2 -ar 44100 -sn -metadata service_provider=WONDERTEK -f tee [hls_wrap=0:hls_time=10:hls_list_size=15:hls_flags=round_durations:hls_segment_filename='/home/ubuntu/codec/release/hlstemp/153_1463052724136/44_0_1463052729355/20160512193209-01-%d.ts':start_number=1463052729]/home/ubuntu/codec/release/hlstemp/153_1463052724136/44_0_1463052729355/01.m3u8\nroot      31135  0.0  0.0   4440   656 pts/23   S    19:35   0:00 sh -c /sbin/start-stop-daemon --start --quiet --pidfile /home/ubuntu/codec/release/ini/2580bff3-f0d3-412d-92be-5e7a40b5fa35 -m --exec /home/ubuntu/codec/release/lvtranscode -- -hide_banner -threads auto -y  -i 'udp://236.114.125.88:10041?overrun_nonfatal=1&buffer_size=100000000&fifo_size=100000000' -map p:3 -af 'pan=stereo|c0=c1|c1=c1' -vn  -c:a  libfdk_aac -profile:a aac_low  -b:a 32k  -ac 2 -ar 44100  -sn  -metadata service_provider='WONDERTEK' -f tee \"[hls_wrap=0:hls_time=10:hls_list_size=15:hls_flags=round_durations:hls_segment_filename='/home/ubuntu/codec/release/hlstemp/173_1463052945626/45_0_1463052950778/20160512193550-01-%d.ts':start_number=1463052950]/home/ubuntu/codec/release/hlstemp/173_1463052945626/45_0_1463052950778/01.m3u8\"\nroot      31138  9.6  0.1 2245096 203800 pts/23 Sl   19:35   0:09 /home/ubuntu/codec/release/lvtranscode -hide_banner -threads auto -y -i udp://236.114.125.88:10041?overrun_nonfatal=1&buffer_size=100000000&fifo_size=100000000 -map p:3 -af pan=stereo|c0=c1|c1=c1 -vn -c:a libfdk_aac -profile:a aac_low -b:a 32k -ac 2 -ar 44100 -sn -metadata service_provider=WONDERTEK -f tee [hls_wrap=0:hls_time=10:hls_list_size=15:hls_flags=round_durations:hls_segment_filename='/home/ubuntu/codec/release/hlstemp/173_1463052945626/45_0_1463052950778/20160512193550-01-%d.ts':start_number=1463052950]/home/ubuntu/codec/release/hlstemp/173_1463052945626/45_0_1463052950778/01.m3u8\nubuntu    31364  0.0  0.0  13420   968 pts/21   S+   19:37   0:00 grep --color=auto lvtrans\n\n\n/mnt/remote/r3/wd_r3/test/test_truecut_film2/1080p/01.m3u8 \n\n\n\n  \n/mnt/remote/r3/wd_r3/test/test_tjwshd/600/01.m3u8 \n\n咪咕广告片\nrtmp://10.200.13.50:19350/live/guanggao\n五星体育\nrtmp://10.200.13.50:19350/live/wxtyhd\n测试影片\nrtmp://10.200.13.52:19350/live/truecut_film\n\n预览地址：\nhttp://172.16.0.39/live/source/3dsyhd/index.m3u8\nhttp://172.16.0.39/live/source/anhuiweishi/index.m3u8\nhttp://172.16.0.39/live/source/anhuiwshd/index.m3u8\nhttp://172.16.0.39/live/source/beijingws/index.m3u8\nhttp://172.16.0.39/live/source/beijingwshd/index.m3u8\nhttp://172.16.0.39/live/source/bingtuanws/index.m3u8\nhttp://172.16.0.39/live/source/bjgqhd/index.m3u8\nhttp://172.16.0.39/live/source/cctv1/index.m3u8\nhttp://172.16.0.39/live/source/cctv10/index.m3u8\nhttp://172.16.0.39/live/source/cctv10hd/index.m3u8\nhttp://172.16.0.39/live/source/cctv11/index.m3u8\nhttp://172.16.0.39/live/source/cctv12/index.m3u8\nhttp://172.16.0.39/live/source/cctv14hd/index.m3u8\nhttp://172.16.0.39/live/source/cctv1hd/index.m3u8\nhttp://172.16.0.39/live/source/cctv2/index.m3u8\nhttp://172.16.0.39/live/source/cctv3/index.m3u8\nhttp://172.16.0.39/live/source/cctv3hd/index.m3u8\nhttp://172.16.0.39/live/source/cctv4/index.m3u8\nhttp://172.16.0.39/live/source/cctv5/index.m3u8\nhttp://172.16.0.39/live/source/cctv5hd/index.m3u8\nhttp://172.16.0.39/live/source/cctv6/index.m3u8\nhttp://172.16.0.39/live/source/cctv6hd/index.m3u8\nhttp://172.16.0.39/live/source/cctv7/index.m3u8\nhttp://172.16.0.39/live/source/cctv8/index.m3u8\nhttp://172.16.0.39/live/source/cctv8hd/index.m3u8\nhttp://172.16.0.39/live/source/cctv9/index.m3u8\nhttp://172.16.0.39/live/source/cctvse/index.m3u8\nhttp://172.16.0.39/live/source/cctvsshd/index.m3u8\nhttp://172.16.0.39/live/source/cctvxw/index.m3u8\nhttp://172.16.0.39/live/source/cctvyinyue/index.m3u8\nhttp://172.16.0.39/live/source/cctvyy/index.m3u8\nhttp://172.16.0.39/live/source/cftx/index.m3u8\nhttp://172.16.0.39/live/source/chcgqdy/index.m3u8\nhttp://172.16.0.39/live/source/dfcj/index.m3u8\nhttp://172.16.0.39/live/source/dfdyhd/index.m3u8\nhttp://172.16.0.39/live/source/dfgw/index.m3u8\nhttp://172.16.0.39/live/source/dfgwe/index.m3u8\nhttp://172.16.0.39/live/source/dfws/index.m3u8\nhttp://172.16.0.39/live/source/dfwshd/index.m3u8\nhttp://172.16.0.39/live/source/dmxc/index.m3u8\nhttp://172.16.0.39/live/source/dmxchd/index.m3u8\n\n\n\n\n南方影视\n\nzjdy\n\n\n/mnt/remote/r3/wd_r3/nfmedia/gdty/200/03.m3u8 \n\nhttp://172.17.90.152:8080/000000001000/4625292887079171688/4625292887079171688.m3u8?&channel-id=bestzb&Contentid=4612233678249154892&stbId=tomiguheshiping&livemode=1\n\n\nubuntu@ubuntu-06:~/Documents/audio_split$ ps aux|grep sd.sh\nubuntu   30053  0.0  0.0  13416   972 pts/5    S+   17:32   0:00 grep --color=auto sd.sh\nubuntu   61720  0.0  0.0  14112   804 ?        S     4月01   0:00 /bin/bash ./channel_split_sd.sh 236.114.125.88 10092 172.16.68.248 30002 20092\nubuntu   62107  0.0  0.0  14112   804 ?        S     4月01   0:00 /bin/bash ./channel_split_sd.sh 236.114.125.88 10097 172.16.68.248 20097 30003\n\n\nubuntu    4814  0.0  0.0  13416   976 pts/15   S+   17:59   0:00 grep --color=auto hb.sh\nubuntu   33606  0.0  0.0  14112   800 ?        S     4月01   0:00 /bin/bash ./channel_split_hb.sh 236.114.125.88 10037 172.16.2.14 20036 20037\nubuntu   36997  0.0  0.0  14112   804 ?        S     4月01   0:00 /bin/bash ./channel_split_hb.sh 236.114.125.88 10032 172.16.2.14 30036 20031\nubuntu@ubuntu-06:~/Documents/audio_split$ \n\n\n\n\n/mnt/remote/r2/envivo_w/HD/dfws/450/01.m3u8 \n\n\n\n/mnt/remote/r3/ws_x/HD/dfwsh/711/01.m3u8 \n\n\n\n/mnt/remote/r3/envivo_x/SD/jiangsuTV/450/01.m3u8 \n\n\n-preset superfast\n\n\n/home/ubuntu/nginx-rtmp/html/live/test_cctv5hd/1200/index.m3u8 \n\n\n\n\n\ne:/movies/美国队长3.Captain.America.Civil.War.2016.HDTC720P.x264.精校中英双字幕.默认英语国语公映双语版.rarbt\n\n\n\n\n\n/mnt/remote/r3/wd_r3/radio/ms/zwgb/32/76.m3u8\n\n\n 1_Service02\n/mnt/remote/r3/wd_r3/radio/ms/zwgb/16/76.m3u8\n\n audi\n\n\n\n/mnt/remote/r3/wd_r3/radio/hitfm/tb/16/46.m3u8\n\n\n/mnt/remote/r3/wd_r3/radio/hitfm/gx/16/49.m3u8\n\n\n/mnt/remote/r3/wd_r3/radio/bazhou/shijiayinyuepinlv/32/793.m3u8\n\n257,245,256,\nhttp://221.181.100.24:8088/wd_r2/ocn/ylhd/350/index.m3u8?is_ec=1\n\n-Y -nhb\n\n-i \"e:/movies/*1024x576.mp4\" -c:v libx264 -c:a copy -o a.ts -c copy -o b.ts\ne:/movies/b_1024x576.mp4\n0001.芒果TV-商海通牒.mp4\nNAME\n       mbsrtowcs - convert a multibyte string to a wide-character string\nSYNOPSIS\n       #include <wchar.h>\n       size_t mbsrtowcs(wchar_t *dest, const char **src, size_t len, mbstate_t *ps);\n\nNAME\n       mbstowcs - convert a multibyte string to a wide-character string\nSYNOPSIS\n       #include <stdlib.h>\n       size_t mbstowcs(wchar_t *dest, const char *src, size_t n);\nMad.Max3.疯狂麦克斯3.1985.1024x576.mkv\n-i \"e:/movies/Mad*\" -c:v libx264 -c:a copy -o a\n\n2016-05-23 11:20:03 DEBUG: com.gx.transcoding.util.ShellUtil - runCommand=/sbin/start-stop-daemon --start --quiet --pidfile /home/ubuntu/codec/release/ini/88bc4f99-e8c5-4ab1-abe3-921e0e7d6d76 -m --exec /home/ubuntu/codec/release/client -- -c /home/ubuntu/codec/release/ini/f32110fc-2ae9-45a9-bb5f-5e1a551286a3.ini & /sbin/start-stop-daemon --start --quiet --pidfile /home/ubuntu/codec/release/ini/afa097cf-d117-47f5-8207-5ce8888387c8 -m --exec /home/ubuntu/codec/release/client -- -c /home/ubuntu/codec/release/ini/f32110fc-2ae9-45a9-bb5f-5e1a551286a3.ini & /sbin/start-stop-daemon --start --quiet --pidfile /home/ubuntu/codec/release/ini/20649cd2-a029-4ec3-89c1-f6aa491b646f -m --exec /home/ubuntu/codec/release/client -- -c /home/ubuntu/codec/release/ini/f32110fc-2ae9-45a9-bb5f-5e1a551286a3.ini & /sbin/start-stop-daemon --start --quiet --pidfile /home/ubuntu/codec/release/ini/003de004-0b25-4ca2-9351-bfb32a955d07 -m --exec /home/ubuntu/codec/release/client -- -c /home/ubuntu/codec/release/ini/f32110fc-2ae9-45a9-bb5f-5e1a551286a3.ini & /sbin/start-stop-daemon --start --quiet --pidfile /home/ubuntu/codec/release/ini/ef86a087-8ce9-4c5a-b00c-3c02e7b94005 -m --exec /home/ubuntu/codec/release/ffmpeg -- -y -xerror  -re -itsoffset 0.5 -async 1  -i 'udp://236.114.126.42:10001?overrun_nonfatal=1&buffer_size=10000000' -map p:3802 -c:v  libDT  -rd 3  -s 1280x720 -r 25 -gop_size 50 -b:v 536k  -c:a  libfdk_aac -profile:a aac_low  -b:a 64k  -ar 44100  -metadata service_provider='WONDERTEK'  -ini /home/ubuntu/codec/release/ini/f32110fc-2ae9-45a9-bb5f-5e1a551286a3.ini -client_num 4 -license /home/ubuntu/codec/release/ahgx.dtlicense  -hls_wrap 0 -hls_time 10 -hls_list_size 15 -hls_flags round_durations -hls_segment_filename '/home/ubuntu/nginx-rtmp/html/cctv5hd_hevc/01-%010d.ts' '/home/ubuntu/nginx-rtmp/html/cctv5hd_hevc/01.m3u8' \n\n\nudp://235.1.1.1:48882\n\n\n之前其他频道也出现过声音问题，我们对这些频道进行监控，但是有时运行很长时间也没有出问题，有时比较短就出问题。\n我们分析也有可能是源的问题，源某些时间段的不稳定，导致转码中音画不同步。\n接下来我们会继续关注这种问题，如果找到是转码器的问题，我们会进行转码器升级。\n\n\n\n\n/mnt/remote/r3/wd_r3/test/test_hunanws/1200/01.m3u8 \nudp://236.114.126.40:5001\n\n\n\nrtmp://117.131.17.33:19350/live/jingchaixiaoyuan\nrtmp://10.200.13.114:19350/live/jingchaixiaoyuan\n\n205  1703189591\n207 1891098721\n208 10558332126\n\n\n\nhttp://10.200.13.50:80/live/h265_test/index.m3u8 \n\n\n/mnt/remote/r3/wd_r3/test/test_hunanws/350/01.m3u8 \n\n\n\n\n \n/mnt/remote/r3/wd_r3/test/test_hunanws/1200/01.m3u8 \n\n-rw-r--r-- 1 root root 1.1K  5月 24 20:45 1464093761.idx\n-rw-r--r-- 1 root root  16M  5月 24 20:48 1464093941.ts\n-rw-r--r-- 1 root root 1.1K  5月 24 20:48 1464093941.idx\ndrwxr-xr-x 2 root root 224K  5月 24 20:48 ./\n-rw-rw-rw- 1 root root  93K  5月 24 20:48 normal.index\n-rw-rw-rw- 1 root root  726  5月 24  2016 01.m3u8\n-rw-r--r-- 1 root root 6.9M  5月 24  2016 1464094121.ts\n-rw-r--r-- 1 root root  544  5月 24  2016 1464094121.idx\n-rw------- 1 root root  726  5月 24  2016 01-0.m3u8\n-rw-r--r-- 1 root root  726  5月 24  2016 01-1.m3u8\nubuntu@wd-h264-f0802:/mnt/remote/r2/envivo_w/HD/hunan/711$ cat 1464093941.idx\n1464093941 20160524172419-01-1464083065.ts 0 595584 10\n1464093970 20160524172419-01-1464083066.ts 595584 692592 29\n1464093970 20160524172419-01-1464083067.ts 1288176 863108 0\n1464093971 20160524172419-01-1464083068.ts 2151284 1077992 1\n1464093981 20160524172419-01-1464083069.ts 3229276 1031556 10\n1464093991 20160524172419-01-1464083070.ts 4260832 772304 10\n1464094001 20160524172419-01-1464083071.ts 5033136 1128564 10\n1464094011 20160524172419-01-1464083072.ts 6161700 1549496 10\n1464094021 20160524172419-01-1464083073.ts 7711196 1316564 10\n1464094031 20160524172419-01-1464083074.ts 9027760 555540 10\n1464094041 20160524172419-01-1464083075.ts 9583300 867244 10\n1464094051 20160524172419-01-1464083076.ts 10450544 768544 10\n1464094061 20160524172419-01-1464083077.ts 11219088 1183460 10\n1464094071 20160524172419-01-1464083078.ts 12402548 840360 10\n1464094081 20160524172419-01-1464083079.ts 13242908 716092 10\n1464094091 20160524172419-01-1464083080.ts 13959000 586372 10\n1464094101 20160524172419-01-1464083081.ts 14545372 758768 10\n1464094111 20160524172419-01-1464083082.ts 15304140 669844 10\nubuntu@wd-h264-f0802:/mnt/remote/r2/envivo_w/HD/hunan/711$ cat 1464093581.idx\n1464093581 20160524172419-01-1464083029.ts 0 1280280 10\n1464093591 20160524172419-01-1464083030.ts 1280280 803512 10\n1464093601 20160524172419-01-1464083031.ts 2083792 806708 10\n1464093611 20160524172419-01-1464083032.ts 2890500 1015576 10\n1464093621 20160524172419-01-1464083033.ts 3906076 1227076 10\n1464093631 20160524172419-01-1464083034.ts 5133152 623596 10\n1464093641 20160524172419-01-1464083035.ts 5756748 718348 10\n1464093651 20160524172419-01-1464083036.ts 6475096 610436 10\n1464093661 20160524172419-01-1464083037.ts 7085532 642960 10\n1464093671 20160524172419-01-1464083038.ts 7728492 734140 10\n1464093681 20160524172419-01-1464083039.ts 8462632 949776 10\n1464093691 20160524172419-01-1464083040.ts 9412408 837728 10\n1464093701 20160524172419-01-1464083041.ts 10250136 776252 10\n1464093711 20160524172419-01-1464083042.ts 11026388 1822660 10\n1464093721 20160524172419-01-1464083043.ts 12849048 982300 10\n1464093731 20160524172419-01-1464083044.ts 13831348 1078368 10\n1464093741 20160524172419-01-1464083045.ts 14909716 555916 10\n1464093751 20160524172419-01-1464083046.ts 15465632 853708 10\nubuntu@wd-h264-f0802:/mnt/remote/r2/envivo_w/HD/hunan/711$ cat 1464093761.idx\n1464093761 20160524172419-01-1464083047.ts 0 907664 10\n1464093771 20160524172419-01-1464083048.ts 907664 699736 10\n1464093781 20160524172419-01-1464083049.ts 1607400 948084 10\n1464093791 20160524172419-01-1464083050.ts 2555484 614196 10\n1464093801 20160524172419-01-1464083051.ts 3169680 573588 10\n1464093811 20160524172419-01-1464083052.ts 3743268 1070096 10\n1464093821 20160524172419-01-1464083053.ts 4813364 821748 10\n1464093831 20160524172419-01-1464083054.ts 5635112 532040 10\n1464093841 20160524172419-01-1464083055.ts 6167152 594832 10\n1464093851 20160524172419-01-1464083056.ts 6761984 611752 10\n1464093861 20160524172419-01-1464083057.ts 7373736 660632 10\n1464093871 20160524172419-01-1464083058.ts 8034368 1338184 10\n1464093881 20160524172419-01-1464083059.ts 9372552 860476 10\n1464093891 20160524172419-01-1464083060.ts 10233028 644276 10\n1464093901 20160524172419-01-1464083061.ts 10877304 1391576 10\n1464093911 20160524172419-01-1464083062.ts 12268880 764032 10\n1464093921 20160524172419-01-1464083063.ts 13032912 807460 10\n1464093931 20160524172419-01-1464083064.ts 13840372 811972 10\nubuntu@wd-h264-f0802:/mnt/remote/r2/envivo_w/HD/hunan/711$ \n\n\n\n\nubuntu@wd-h264-f0802:/mnt/remote/r2/envivo_w/HD/hunan/450$ cat 1464095381.idx\n1464095381 20160524172419-01-1464083209.ts 0 406644 10\n1464095391 20160524172419-01-1464083210.ts 406644 412096 10\n1464095401 20160524172419-01-1464083211.ts 818740 421872 10\n1464095411 20160524172419-01-1464083212.ts 1240612 439544 10\n1464095421 20160524172419-01-1464083213.ts 1680156 518316 10\n1464095431 20160524172419-01-1464083214.ts 2198472 511736 10\n1464095441 20160524172419-01-1464083215.ts 2710208 473572 10\n1464095451 20160524172419-01-1464083216.ts 3183780 436348 10\n1464095461 20160524172419-01-1464083217.ts 3620128 429392 10\n1464095471 20160524172419-01-1464083218.ts 4049520 466052 10\n1464095481 20160524172419-01-1464083219.ts 4515572 418676 10\n1464095491 20160524172419-01-1464083220.ts 4934248 445372 10\n1464095501 20160524172419-01-1464083221.ts 5379620 484664 10\n1464095511 20160524172419-01-1464083222.ts 5864284 392920 10\n1464095521 20160524172419-01-1464083223.ts 6257204 535236 10\n1464095531 20160524172419-01-1464083224.ts 6792440 438792 10\n1464095541 20160524172419-01-1464083225.ts 7231232 636380 10\n1464095551 20160524172419-01-1464083226.ts 7867612 422812 10\nubuntu@wd-h264-f0802:/mnt/remote/r2/envivo_w/HD/hunan/450$ cat 1464095259.idx\n1464095259 20160524172419-01-1464083191.ts 0 631680 0\n1464095259 20160524172419-01-1464083192.ts 631680 655744 0\n1464095259 20160524172419-01-1464083193.ts 1287424 842992 0\n1464095259 20160524172419-01-1464083194.ts 2130416 776252 0\n1464095259 20160524172419-01-1464083195.ts 2906668 675484 0\n1464095259 20160524172419-01-1464083196.ts 3582152 743164 0\n1464095261 20160524172419-01-1464083197.ts 4325316 454772 2\n1464095271 20160524172419-01-1464083198.ts 4780088 417360 10\n1464095281 20160524172419-01-1464083199.ts 5197448 789412 10\n1464095291 20160524172419-01-1464083200.ts 5986860 634500 10\n1464095301 20160524172419-01-1464083201.ts 6621360 487672 10\n1464095311 20160524172419-01-1464083202.ts 7109032 522076 10\n1464095321 20160524172419-01-1464083203.ts 7631108 399688 10\n1464095331 20160524172419-01-1464083204.ts 8030796 405140 10\n1464095341 20160524172419-01-1464083205.ts 8435936 434092 10\n1464095351 20160524172419-01-1464083206.ts 8870028 624912 10\n1464095361 20160524172419-01-1464083207.ts 9494940 605172 10\n1464095371 20160524172419-01-1464083208.ts 10100112 418488 10\nubuntu@wd-h264-f0802:/mnt/remote/r2/envivo_w/HD/hunan/450$ cat 1464094841.idx\n1464094841 20160524172419-01-1464083155.ts 0 353064 10\n1464094896 20160524172419-01-1464083156.ts 353064 454584 55\n1464094896 20160524172419-01-1464083157.ts 807648 517564 0\n1464094896 20160524172419-01-1464083158.ts 1325212 859536 0\n1464094896 20160524172419-01-1464083159.ts 2184748 506472 0\n1464094896 20160524172419-01-1464083160.ts 2691220 423564 0\n1464094901 20160524172419-01-1464083161.ts 3114784 405704 5\n1464094911 20160524172419-01-1464083162.ts 3520488 476016 10\n1464094921 20160524172419-01-1464083163.ts 3996504 652360 10\n1464094931 20160524172419-01-1464083164.ts 4648864 475076 10\n1464094941 20160524172419-01-1464083165.ts 5123940 455712 10\n1464094951 20160524172419-01-1464083166.ts 5579652 508352 10\n1464094961 20160524172419-01-1464083167.ts 6088004 529596 10\n1464094971 20160524172419-01-1464083168.ts 6617600 647096 10\n1464094981 20160524172419-01-1464083169.ts 7264696 526024 10\n1464094991 20160524172419-01-1464083170.ts 7790720 537680 10\n1464095001 20160524172419-01-1464083171.ts 8328400 499328 10\n1464095011 20160524172419-01-1464083172.ts 8827728 448756 10\nubuntu@wd-h264-f0802:/mnt/remote/r2/envivo_w/HD/hunan/450$ \n\n\nubuntu@wd-h264-f0505:~/livelog/translog$ ll -rt `grep -rl 3601`\n-rw-r--r-- 1 root root  47078118  5月 24 10:41 20160519140910032.log\n-rw-r--r-- 1 root root 140683164  5月 24 10:41 20160519140912039.log\n-rw-r--r-- 1 root root  57616745  5月 24 10:41 20160518133820413.log\n-rw-r--r-- 1 root root 171234774  5月 24 10:41 20160518133822415.log\n-rw-r--r-- 1 root root     42717  5月 24 10:44 20160524104225945.log\n-rw-r--r-- 1 root root   3597998  5月 24 13:41 20160524105436095.log\n-rw-r--r-- 1 root root   1758531  5月 24 15:04 20160524134248498.log\n-rw-r--r-- 1 root root   1906335  5月 24 16:37 20160524150916217.log\n-rw-r--r-- 1 root root    125418  5月 24 16:37 20160524150916218.log\n-rw-r--r-- 1 root root     43498  5月 24 17:10 20160524164152110.log\n-rw-r--r-- 1 root root    633736  5月 24 17:10 20160524164152109.log\n-rw-r--r-- 1 root root    402856  5月 24 17:22 20160524171935704.log\n-rw-r--r-- 1 root root    267218  5月 24 17:22 20160524171105756.log\n-rw-r--r-- 1 root root   5030665  5月 24 21:16 20160524172425262.log\n-rw-r--r-- 1 root root  26856377  5月 24 21:16 20160524172535251.log\n\n\nidx:\n1464096641 20160524172419-01-1464083335.ts 0 1000160 10\n1464096651 20160524172419-01-1464083336.ts 1000160 930976 10\n1464096759 20160524172419-01-1464083337.ts 1931136 569076 108\n1464096759 20160524172419-01-1464083338.ts 2500212 483912 0\n1464096759 20160524172419-01-1464083339.ts 2984124 511548 0\n1464096759 20160524172419-01-1464083340.ts 3495672 677364 0\n1464096759 20160524172419-01-1464083341.ts 4173036 528844 0\n1464096759 20160524172419-01-1464083342.ts 4701880 702368 0\n1464096759 20160524172419-01-1464083343.ts 5404248 399876 0\n1464096759 20160524172419-01-1464083344.ts 5804124 372428 0\n1464096759 20160524172419-01-1464083345.ts 6176552 404952 0\n1464096759 20160524172419-01-1464083346.ts 6581504 461164 0\n1464096761 20160524172419-01-1464083347.ts 7042668 370736 2\n1464096771 20160524172419-01-1464083348.ts 7413404 548020 10\n1464096781 20160524172419-01-1464083349.ts 7961424 499140 10\n1464096791 20160524172419-01-1464083350.ts 8460564 592012 10\n1464096801 20160524172419-01-1464083351.ts 9052576 588252 10\n1464096811 20160524172419-01-1464083352.ts 9640828 660632 10\n\n\n\nhttp://10.200.13.50:80/live/h265_test/index.m3u8 \n\n\n\n  -lDTApp -lstdc++ -lzmq -lfacesdk -lcrypto -lhiredis -lnuma\n\n\n 852 - 123 - 42=687   18  600k\n 640 - 123 - 32=485 24   350k\nudp://127.0.0.1:48892\n\n\n-rw-r--r-- 1 root root  5880264  5月 25 15:41 1464161858.ts\n-rw-r--r-- 1 root root     1089  5月 25 15:41 1464161858.idx\n-rw-r--r-- 1 root root  6120716  5月 25 15:42 1464161978.ts\n-rw-r--r-- 1 root root     1090  5月 25 15:42 1464161978.idx\n-rw-r--r-- 1 root root 10771272  5月 25 15:44 1464162038.ts\n-rw-r--r-- 1 root root     1091  5月 25 15:44 1464162038.idx\n-rw-r--r-- 1 root root 12777608  5月 25 15:45 1464162158.ts\n-rw-r--r-- 1 root root     1092  5月 25 15:45 1464162158.idx\n-rw-r--r-- 1 root root 11735712  5月 25 15:47 1464162218.ts\n-rw-r--r-- 1 root root     1093  5月 25 15:47 1464162218.idx\n-rw-r--r-- 1 root root 11058912  5月 25 15:48 1464162338.ts\n-rw-r--r-- 1 root root     1092  5月 25 15:48 1464162338.idx\n-rw-r--r-- 1 root root  9604920  5月 25 15:50 1464162398.ts\n-rw-r--r-- 1 root root     1092  5月 25 15:50 1464162398.idx\n-rw-r--r-- 1 root root  8450412  5月 25 15:51 1464162518.ts\n-rw-r--r-- 1 root root     1090  5月 25 15:51 1464162518.idx\n-rw-r--r-- 1 root root  9195268  5月 25 15:53 1464162578.ts\n-rw-r--r-- 1 root root     1091  5月 25 15:53 1464162578.idx\n-rw-r--r-- 1 root root 10430052  5月 25 15:54 1464162698.ts\n-rw-r--r-- 1 root root     1091  5月 25 15:54 1464162698.idx\n-rw-r--r-- 1 root root 11389604  5月 25 15:56 1464162758.ts\n-rw-r--r-- 1 root root     1093  5月 25 15:56 1464162758.idx\n-rw-r--r-- 1 root root 10604140  5月 25 15:57 1464162878.ts\n\n\n\n\n-rw-r--r-- 1 root root 10605268  6月 11 19:29 1465644434.ts\n-rw-r--r-- 1 root root     1101  6月 11 19:32 1465644614.idx\n-rw-r--r-- 1 root root 13772880  6月 11 19:32 1465644614.ts\n-rw-r--r-- 1 root root     1092  6月 11 19:35 1465644794.idx\n-rw-r--r-- 1 root root 10786688  6月 11 19:35 1465644794.ts\n-rw-r--r-- 1 root root     1090  6月 11 19:38 1465644974.idx\n-rw-r--r-- 1 root root  8522980  6月 11 19:38 1465644974.ts\n-rw-r--r-- 1 root root     1090  6月 11 19:41 1465645154.idx\n-rw-r--r-- 1 root root  6116580  6月 11 19:41 1465645154.ts\n-rw-r--r-- 1 root root     1090  6月 11 19:45 1465645334.idx\n-rw-r--r-- 1 root root  8338928  6月 11 19:44 1465645334.ts\n-rw-r--r-- 1 root root     1091  6月 11 19:47 1465645514.idx\n-rw-r--r-- 1 root root  8004664  6月 11 19:47 1465645514.ts\n-rw-r--r-- 1 root root     1090  6月 11 19:51 1465645694.idx\n-rw-r--r-- 1 root root  6968408  6月 11 19:50 1465645694.ts\n-rw-r--r-- 1 root root     1090  6月 11 19:53 1465645874.idx\n-rw-r--r-- 1 root root  6733220  6月 11 19:53 1465645874.ts\n-rw-r--r-- 1 root root     1091  6月 11 19:47 1465645514.idx\n-rw-r--r-- 1 root root  8004664  6月 11 19:47 1465645514.ts\n-rw-r--r-- 1 root root     1090  6月 11 19:51 1465645694.idx\n-rw-r--r-- 1 root root  6968408  6月 11 19:50 1465645694.ts\n-rw-r--r-- 1 root root     1090  6月 11 19:53 1465645874.idx\n-rw-r--r-- 1 root root  6733220  6月 11 19:53 1465645874.ts\n-rw-r--r-- 1 root root     1089  6月 11 19:57 1465646054.idx\n-rw-r--r-- 1 root root  9836912  6月 11 19:56 1465646054.ts\n-rw-r--r-- 1 root root     1091  6月 11 20:00 1465646234.idx\n-rw-r--r-- 1 root root  9760584  6月 11 19:59 1465646234.ts\n-rw-r--r-- 1 root root     1091  6月 11 20:03 1465646414.idx\n\n\n45061273-2412-418f-b10c-46449a969266\n\n\n172.16.2.22 宁波tv5 zhejing-nbtv5 rtmp://10.200.13.50:19350/live/vr/nbtv5_sd  /mnt/remote/r4/wd_r4/zhejiang/nbtv5/350/01.m3u8\n                                                                              /mnt/remote/r4/wd_r4/zhejiang/nbtv5/600/01.m3u8\n云南卫视  1 267 192.168.0.9 udp://236.114.126.18\n广东卫视  1 267 192.168.0.9 udp://236.114.126.18\n新疆卫视  1 267 192.168.0.9 udp://236.114.126.18\n重庆卫视  1 267 192.168.0.9 udp://236.114.126.18\n旅游卫视  2 267 192.168.0.9 udp://236.114.126.18\n甘肃卫视  2 267 192.168.0.9 udp://236.114.126.18\n宁夏卫视  2 267 192.168.0.9 udp://236.114.126.18\n厦门卫视  2 267 192.168.0.9 udp://236.114.126.18\n\n\n深圳卫视hd  1 419 192.168.0.25  udp://236.114.126.34\n全纪实hd 1 419 192.168.0.25  udp://236.114.126.34\n\n\n-rw-r--r-- 1 root root   151072  6月 20 06:30 20160620062348696.log\n-rw-r--r-- 1 root root    38582  6月 20 06:33 20160620063153750.log\n-rw-r--r-- 1 root root     5169  6月 20 06:35 20160620063445800.log\n-rw-r--r-- 1 root root   206852  6月 20 06:45 20160620063555928.log\n-rw-r--r-- 1 root root   292299  6月 20 07:01 20160620064653720.log\n-rw-r--r-- 1 root root    22375  6月 20 07:03 20160620070209026.log\n-rw-r--r-- 1 root root   151361  6月 20 07:11 20160620070353907.log\n-rw-r--r-- 1 root root   106050  6月 20 07:18 20160620071212841.log\n-rw-r--r-- 1 root root    25212  6月 20 07:20 20160620071909998.log\n-rw-r--r-- 1 root root    86261  6月 20 07:25 20160620072104756.log\n-rw-r--r-- 1 root root    78137  6月 20 07:30 20160620072644929.log\n-rw-r--r-- 1 root root   137119  6月 20 07:38 20160620073124352.log\n-rw-r--r-- 1 root root   198152  6月 20 07:48 20160620073859659.log\n-rw-r--r-- 1 root root   119839  6月 20 07:55 20160620074930466.log\n-rw-r--r-- 1 root root    37223  6月 20 07:57 20160620075559978.log\n-rw-r--r-- 1 root root   125538  6月 20 08:05 20160620075823495.log\n-rw-r--r-- 1 root root  3904641  6月 20 11:19 20160620080633835.log\n-rw-r--r-- 1 root root   168029  6月 20 11:29 20160620112106038.log\n-rw-r--r-- 1 root root   751202  6月 20 12:14 20160620112940558.log\n-rw-r--r-- 1 root root  5663521  6月 20 16:44 20160620121536045.log\n-rw-r--r-- 1 root root   127826  6月 20 16:50 20160620164509717.log\n\n\n\n-rw-r--r-- 1 root root  54882873  6月 15 11:02 20160613164853449.log\n-rw-r--r-- 1 root root 217297388  6月 22 08:51 20160615110455235.log\n-rw-r--r-- 1 root root    517581  6月 22 09:15 20160622085130521.log\n\n\n-rw-r--r-- 1 root root 41883956  6月 21 22:32 1466519352.ts\n-rw-r--r-- 1 root root     1120  6月 21 22:35 1466519532.idx\n-rw-r--r-- 1 root root 38597340  6月 21 22:35 1466519532.ts\n-rw-r--r-- 1 root root     1120  6月 21 22:38 1466519712.idx\n-rw-r--r-- 1 root root 42417688  6月 21 22:38 1466519712.ts\n-rw-r--r-- 1 root root     1117  6月 21 22:41 1466519891.idx\n-rw-r--r-- 1 root root 37186400  6月 21 22:41 1466519891.ts\n-rw-r--r-- 1 root root     1114  6月 21 22:44 1466520071.idx\n-rw-r--r-- 1 root root 28231960  6月 21 22:44 1466520071.ts\n-rw-r--r-- 1 root root     1115  6月 21 22:47 1466520252.idx\n-rw-r--r-- 1 root root 22939760  6月 21 22:47 1466520252.ts\n-rw-r--r-- 1 root root     1116  6月 21 22:50 1466520432.idx\n-rw-r--r-- 1 root root 26319248  6月 21 22:50 1466520432.ts\n-rw-r--r-- 1 root root     1112  6月 21 22:53 1466520611.idx\n-rw-r--r-- 1 root root 28776596  6月 21 22:53 1466520611.ts\n-rw-r--r-- 1 root root     1114  6月 21 22:56 1466520791.idx\n-rw-r--r-- 1 root root 28609088  6月 21 22:56 1466520791.ts\n-rw-r--r-- 1 root root     1112  6月 21 22:59 1466520972.idx\n-rw-r--r-- 1 root root 24706960  6月 21 22:59 1466520972.ts\n-rw-r--r-- 1 root root     1123  6月 21 23:02 1466521152.idx\n-rw-r--r-- 1 root root 32770092  6月 21 23:02 1466521152.ts\n-rw-r--r-- 1 root root     1115  6月 21 23:05 1466521332.idx\n-rw-r--r-- 1 root root 28018768  6月 21 23:05 1466521332.ts\n-rw-r--r-- 1 root root     1116  6月 21 23:08 1466521511.idx\n-rw-r--r-- 1 root root 28111640  6月 21 23:08 1466521511.ts\n-rw-r--r-- 1 root root     1118  6月 21 23:11 1466521692.idx\n-rw-r--r-- 1 root root 33206816  6月 21 23:11 1466521692.ts\n-rw-r--r-- 1 root root     1122  6月 21 23:14 1466521872.idx\n-rw-r--r-- 1 root root 36637064  6月 21 23:14 1466521872.ts\n-rw-r--r-- 1 root root     1119  6月 21 23:17 1466522051.idx\n-rw-r--r-- 1 root root 35647620  6月 21 23:17 1466522051.ts\n-rw-r--r-- 1 root root     1119  6月 21 23:20 1466522232.idx\n-rw-r--r-- 1 root root 34614936  6月 21 23:20 1466522232.ts\n-rw-r--r-- 1 root root     1114  6月 21 23:23 1466522411.idx\n-rw-r--r-- 1 root root 34314700  6月 21 23:23 1466522411.ts\n\n\n\n-rw-r--r-- 1 root root   34761  6月 23 10:39 20160623101619416.log\n-rw-r--r-- 1 root root 4447846  6月 23 14:12 20160623103928923.log\n-rw-r--r-- 1 root root 1416390  6月 23 14:50 20160623141222429.log\n-rw-r--r-- 1 root root    2103  6月 23 14:50 20160623145057988.log\n-rw-r--r-- 1 root root    9895  6月 23 14:51 20160623145057982.log\n-rw-r--r-- 1 root root   99574  6月 23 14:57 20160623145144200.log\n-rw-r--r-- 1 root root   57277  6月 23 15:00 20160623145736829.log\n-rw-r--r-- 1 root root    5465  6月 23 15:00 20160623145736830.log\n-rw-r--r-- 1 root root   70467  6月 23 15:03 20160623150036175.log\n-rw-r--r-- 1 root root 1348302  6月 23 16:14 20160623150933080.log\n-rw-r--r-- 1 root root  899075  6月 23 16:57 20160623161422460.log\n-rw-r--r-- 1 root root  639670  6月 23 17:28 20160623165726524.log\n-rw-r--r-- 1 root root    8836  6月 23 17:30 20160623172947605.log\n-rw-r--r-- 1 root root   16720  6月 23 17:32 20160623173118509.log\n-rw-r--r-- 1 root root    7388  6月 23 17:33 20160623173303399.log\n-rw-r--r-- 1 root root    2111  6月 23 17:34 20160623173353638.log\n-rw-r--r-- 1 root root   21141  6月 23 17:36 20160623173444195.log\n-rw-r--r-- 1 root root    2174  6月 23 17:37 20160623173706062.log\n-rw-r--r-- 1 root root    2174  6月 23 17:38 20160623173744350.log\n-rw-r--r-- 1 root root    2248  6月 23 17:38 20160623173848632.log\n-rw-r--r-- 1 root root   13708  6月 23 17:40 20160623173916944.log\n-rw-r--r-- 1 root root    2111  6月 23 17:41 20160623174053476.log\n-rw-r--r-- 1 root root    2174  6月 23 17:42 20160623174159676.log\n-rw-r--r-- 1 root root   16743  6月 23 17:44 20160623174237515.log\n-rw-r--r-- 1 root root    6678  6月 23 17:46 20160623174530914.log\n-rw-r--r-- 1 root root    2103  6月 23 17:46 20160623174637013.log\n-rw-r--r-- 1 root root    2111  6月 23 17:46 20160623174637012.log\n-rw-r--r-- 1 root root    2111  6月 23 17:48 20160623174743816.log\n-rw-r--r-- 1 root root    8234  6月 23 17:49 20160623174823752.log\n-rw-r--r-- 1 root root    2103  6月 23 17:49 20160623174925605.log\n-rw-r--r-- 1 root root    2174  6月 23 17:49 20160623174925604.log\n-rw-r--r-- 1 root root   19054  6月 23 17:51 20160623175029513.log\n-rw-r--r-- 1 root root    8949  6月 23 17:53 20160623175303395.log\n-rw-r--r-- 1 root root    2248  6月 23 17:54 20160623175417502.log\n-rw-r--r-- 1 root root   11256  6月 23 17:55 20160623175454543.log\n-rw-r--r-- 1 root root    2174  6月 23 17:56 20160623175620832.log\n-rw-r--r-- 1 root root    2103  6月 23 17:57 20160623175707420.log\n-rw-r--r-- 1 root root    2111  6月 23 17:57 20160623175707419.log\n-rw-r--r-- 1 root root   15413  6月 23 17:59 20160623175819314.log\n-rw-r--r-- 1 root root   13916  6月 23 18:01 20160623180020306.log\n-rw-r--r-- 1 root root    2111  6月 23 18:02 20160623180208455.log\n-rw-r--r-- 1 root root    2111  6月 23 18:03 20160623180255614.log\n-rw-r--r-- 1 root root    2103  6月 23 18:04 20160623180402081.log\n-rw-r--r-- 1 root root    2248  6月 23 18:04 20160623180402080.log\n-rw-r--r-- 1 root root   10334  6月 23 18:05 20160623180439128.log\n-rw-r--r-- 1 root root    2174  6月 23 18:06 20160623180610705.log\n-rw-r--r-- 1 root root    2111  6月 23 18:07 20160623180648903.log\n-rw-r--r-- 1 root root    2174  6月 23 18:08 20160623180753526.log\n-rw-r--r-- 1 root root    6912  6月 23 18:09 20160623180843811.log\n-rw-r--r-- 1 root root    2111  6月 23 18:11 20160623181054165.log\n-rw-r--r-- 1 root root    2248  6月 23 18:12 20160623181159626.log\n-rw-r--r-- 1 root root    9749  6月 23 18:13 20160623181226797.log\n-rw-r--r-- 1 root root    2111  6月 23 18:14 20160623181408615.log\n-rw-r--r-- 1 root root    2174  6月 23 18:15 20160623181448209.log\n-rw-r--r-- 1 root root    2111  6月 23 18:16 20160623181555125.log\n-rw-r--r-- 1 root root    2248  6月 23 18:17 20160623181717244.log\n-rw-r--r-- 1 root root    2174  6月 23 18:17 20160623181741430.log\n-rw-r--r-- 1 root root    2248  6月 23 18:19 20160623181857867.log\n-rw-r--r-- 1 root root    2103  6月 23 18:19 20160623181929714.log\n-rw-r--r-- 1 root root    7150  6月 23 18:19 20160623181929713.log\n-rw-r--r-- 1 root root    2111  6月 23 18:21 20160623182056246.log\n-rw-r--r-- 1 root root    2174  6月 23 18:21 20160623182135185.log\n-rw-r--r-- 1 root root    2174  6月 23 18:23 20160623182245591.log\n-rw-r--r-- 1 root root    2111  6月 23 18:23 20160623182330199.log\n-rw-r--r-- 1 root root    2248  6月 23 18:24 20160623182427353.log\n-rw-r--r-- 1 root root   16835  6月 23 18:26 20160623182454530.log\n-rw-r--r-- 1 root root    2111  6月 23 18:27 20160623182723752.log\n-rw-r--r-- 1 root root    2111  6月 23 18:28 20160623182840366.log\n-rw-r--r-- 1 root root    2174  6月 23 18:31 20160623183129127.log\n-rw-r--r-- 1 root root    7388  6月 23 18:32 20160623183206648.log\n-rw-r--r-- 1 root root    2103  6月 23 18:33 20160623183329069.log\n-rw-r--r-- 1 root root    2111  6月 23 18:33 20160623183329068.log\n-rw-r--r-- 1 root root    2111  6月 23 18:34 20160623183408725.log\n-rw-r--r-- 1 root root    2111  6月 23 18:35 20160623183525399.log\n-rw-r--r-- 1 root root    2248  6月 23 18:36 20160623183605334.log\n-rw-r--r-- 1 root root    2111  6月 23 18:37 20160623183642375.log\n-rw-r--r-- 1 root root    2103  6月 23 18:38 20160623183820871.log\n-rw-r--r-- 1 root root    2111  6月 23 18:38 20160623183820870.log\n-rw-r--r-- 1 root root    6912  6月 23 18:39 20160623183900664.log\n-rw-r--r-- 1 root root  503616  6月 23 19:04 20160623183955493.log\n-rw-r--r-- 1 root root    2111  6月 23 19:05 20160623190518792.log\n-rw-r--r-- 1 root root    2111  6月 23 19:06 20160623190622311.log\n-rw-r--r-- 1 root root   19295  6月 23 19:08 20160623190724613.log\n-rw-r--r-- 1 root root   13014  6月 23 19:10 20160623190926738.log\n-rw-r--r-- 1 root root    2111  6月 23 19:11 20160623191128043.log\n-rw-r--r-- 1 root root    2111  6月 23 19:12 20160623191226092.log\n-rw-r--r-- 1 root root    2111  6月 23 19:13 20160623191329442.log\n-rw-r--r-- 1 root root    2174  6月 23 19:14 20160623191408287.log\n-rw-r--r-- 1 root root    2174  6月 23 19:15 20160623191516128.log\n-rw-r--r-- 1 root root   15568  6月 23 19:17 20160623191634229.log\n-rw-r--r-- 1 root root    2111  6月 23 19:18 20160623191759769.log\n-rw-r--r-- 1 root root    7131  6月 23 19:19 20160623191912824.log\n-rw-r--r-- 1 root root    2248  6月 23 19:24 20160623192400304.log\n-rw-r--r-- 1 root root    2111  6月 23 19:24 20160623192437355.log\n-rw-r--r-- 1 root root    2248  6月 23 19:26 20160623192553646.log\n-rw-r--r-- 1 root root    2111  6月 23 19:26 20160623192620905.log\n-rw-r--r-- 1 root root    2248  6月 23 19:27 20160623192716984.log\n-rw-r--r-- 1 root root    2248  6月 23 19:27 20160623192742937.log\n-rw-r--r-- 1 root root    2174  6月 23 19:28 20160623192810104.log\n-rw-r--r-- 1 root root    9977  6月 23 19:30 20160623192927955.log\n-rw-r--r-- 1 root root    2174  6月 23 19:30 20160623193033444.log\n-rw-r--r-- 1 root root   12283  6月 23 19:33 20160623193211381.log\n-rw-r--r-- 1 root root    9515  6月 23 19:34 20160623193414833.log\n-rw-r--r-- 1 root root    2248  6月 23 19:36 20160623193608852.log\n-rw-r--r-- 1 root root    2248  6月 23 19:36 20160623193645896.log\n-rw-r--r-- 1 root root    2174  6月 23 19:37 20160623193722927.log\n-rw-r--r-- 1 root root    2111  6月 23 19:38 20160623193833958.log\n-rw-r--r-- 1 root root    2111  6月 23 19:39 20160623193915908.log\n-rw-r--r-- 1 root root    8728  6月 23 19:40 20160623194004875.log\n-rw-r--r-- 1 root root    2216  6月 23 19:41 20160623194108883.log\n-rw-r--r-- 1 root root    2142  6月 23 19:42 20160623194143030.log\n-rw-r--r-- 1 root root    8352  6月 23 19:44 20160623194408726.log\n-rw-r--r-- 1 root root    2071  6月 23 19:45 20160623194517144.log\n-rw-r--r-- 1 root root    8689  6月 23 19:45 20160623194517143.log\n-rw-r--r-- 1 root root    2079  6月 23 19:46 20160623194621665.log\n-rw-r--r-- 1 root root    2079  6月 23 19:47 20160623194707523.log\n-rw-r--r-- 1 root root    9962  6月 23 19:49 20160623194828265.log\n-rw-r--r-- 1 root root    2216  6月 23 19:50 20160623195000901.log\n-rw-r--r-- 1 root root    6660  6月 23 19:51 20160623195037950.log\n-rw-r--r-- 1 root root    2079  6月 23 19:52 20160623195211186.log\n-rw-r--r-- 1 root root    2071  6月 23 19:52 20160623195254708.log\n-rw-r--r-- 1 root root    2079  6月 23 19:53 20160623195254709.log\n-rw-r--r-- 1 root root    2216  6月 23 19:53 20160623195333831.log\n-rw-r--r-- 1 root root    2079  6月 23 19:54 20160623195357818.log\n-rw-r--r-- 1 root root    2071  6月 23 19:54 20160623195455426.log\n-rw-r--r-- 1 root root    2216  6月 23 19:55 20160623195455425.log\n-rw-r--r-- 1 root root    2079  6月 23 19:55 20160623195522629.log\n-rw-r--r-- 1 root root    8703  6月 23 19:56 20160623195611549.log\n-rw-r--r-- 1 root root    2079  6月 23 19:58 20160623195744031.log\n-rw-r--r-- 1 root root    9503  6月 23 20:00 20160623195920279.log\n-rw-r--r-- 1 root root    2216  6月 23 20:00 20160623200024267.log\n-rw-r--r-- 1 root root    2216  6月 23 20:01 20160623200100417.log\n-rw-r--r-- 1 root root    2079  6月 23 20:01 20160623200136555.log\n-rw-r--r-- 1 root root    2079  6月 23 20:03 20160623200312905.log\n-rw-r--r-- 1 root root    8344  6月 23 20:05 20160623200429194.log\n-rw-r--r-- 1 root root    2216  6月 23 20:06 20160623200638921.log\n-rw-r--r-- 1 root root    2216  6月 23 20:07 20160623200711846.log\n-rw-r--r-- 1 root root    2071  6月 23 20:07 20160623200739017.log\n-rw-r--r-- 1 root root   10206  6月 23 20:08 20160623200739016.log\n-rw-r--r-- 1 root root    2142  6月 23 20:10 20160623200956283.log\n-rw-r--r-- 1 root root  288240  6月 23 20:24 20160623201032516.log\n-rw-r--r-- 1 root root    2216  6月 23 20:26 20160623202621930.log\n-rw-r--r-- 1 root root    7999  6月 23 20:27 20160623202649131.log\n-rw-r--r-- 1 root root    2216  6月 23 20:28 20160623202815581.log\n-rw-r--r-- 1 root root    2079  6月 23 20:29 20160623202851194.log\n-rw-r--r-- 1 root root    2216  6月 23 20:30 20160623203017886.log\n-rw-r--r-- 1 root root    2071  6月 23 20:30 20160623203045075.log\n-rw-r--r-- 1 root root    2079  6月 23 20:31 20160623203045074.log\n-rw-r--r-- 1 root root    2071  6月 23 20:31 20160623203151380.log\n-rw-r--r-- 1 root root    2216  6月 23 20:32 20160623203151379.log\n-rw-r--r-- 1 root root    2216  6月 23 20:32 20160623203228436.log\n-rw-r--r-- 1 root root    2216  6月 23 20:33 20160623203252653.log\n-rw-r--r-- 1 root root    2079  6月 23 20:33 20160623203329687.log\n-rw-r--r-- 1 root root    2079  6月 23 20:34 20160623203418132.log\n-rw-r--r-- 1 root root    2071  6月 23 20:35 20160623203500760.log\n-rw-r--r-- 1 root root    2079  6月 23 20:35 20160623203500759.log\n-rw-r--r-- 1 root root    2079  6月 23 20:35 20160623203540183.log\n-rw-r--r-- 1 root root    2902  6月 23 20:36 20160623203632090.log\n-rw-r--r-- 1 root root    2216  6月 23 20:37 20160623203711347.log\n-rw-r--r-- 1 root root    2216  6月 23 20:37 20160623203735634.log\n-rw-r--r-- 1 root root   10095  6月 23 20:38 20160623203802807.log\n-rw-r--r-- 1 root root    2079  6月 23 20:39 20160623203905310.log\n-rw-r--r-- 1 root root    2216  6月 23 20:39 20160623203944804.log\n-rw-r--r-- 1 root root    2079  6月 23 20:40 20160623204018925.log\n-rw-r--r-- 1 root root    2216  6月 23 20:41 20160623204115149.log\n-rw-r--r-- 1 root root    2216  6月 23 20:42 20160623204152188.log\n-rw-r--r-- 1 root root    2071  6月 23 20:42 20160623204223666.log\n-rw-r--r-- 1 root root    2079  6月 23 20:42 20160623204223665.log\n-rw-r--r-- 1 root root    2216  6月 23 20:44 20160623204350447.log\n-rw-r--r-- 1 root root    2216  6月 23 20:44 20160623204424576.log\n-rw-r--r-- 1 root root    2079  6月 23 20:45 20160623204501605.log\n-rw-r--r-- 1 root root    2079  6月 23 20:49 20160623204858512.log\n-rw-r--r-- 1 root root    8696  6月 23 20:50 20160623204947468.log\n-rw-r--r-- 1 root root    2079  6月 23 20:51 20160623205057380.log\n-rw-r--r-- 1 root root    2216  6月 23 20:51 20160623205136408.log\n-rw-r--r-- 1 root root    2079  6月 23 20:52 20160623205203789.log\n-rw-r--r-- 1 root root    9596  6月 23 20:54 20160623205331970.log\n-rw-r--r-- 1 root root    2216  6月 23 20:54 20160623205429868.log\n-rw-r--r-- 1 root root    2079  6月 23 20:55 20160623205502990.log\n-rw-r--r-- 1 root root    2216  6月 23 20:56 20160623205559599.log\n-rw-r--r-- 1 root root    2216  6月 23 20:56 20160623205626727.log\n-rw-r--r-- 1 root root    8579  6月 23 20:57 20160623205653940.log\n-rw-r--r-- 1 root root    2079  6月 23 20:58 20160623205757237.log\n-rw-r--r-- 1 root root    2216  6月 23 20:58 20160623205836299.log\n-rw-r--r-- 1 root root    2216  6月 23 20:59 20160623205911112.log\n-rw-r--r-- 1 root root    7777  6月 23 21:00 20160623205948141.log\n-rw-r--r-- 1 root root    2216  6月 23 21:00 20160623210037870.log\n-rw-r--r-- 1 root root    2071  6月 23 21:01 20160623210114922.log\n-rw-r--r-- 1 root root    2079  6月 23 21:01 20160623210114921.log\n-rw-r--r-- 1 root root    2079  6月 23 21:02 20160623210211512.log\n-rw-r--r-- 1 root root    2216  6月 23 21:03 20160623210256069.log\n-rw-r--r-- 1 root root    2216  6月 23 21:03 20160623210320316.log\n-rw-r--r-- 1 root root  544715  6月 23 21:30 20160623210357362.log\n-rw-r--r-- 1 root root  125692  6月 23 21:36 20160623213033202.log\n-rw-r--r-- 1 root root  141795  6月 23 21:44 20160623213718211.log\n-rw-r--r-- 1 root root    2103  6月 23 21:46 20160623214648775.log\n-rw-r--r-- 1 root root    2248  6月 23 21:47 20160623214648774.log\n-rw-r--r-- 1 root root    2103  6月 23 21:47 20160623214730818.log\n-rw-r--r-- 1 root root    2174  6月 23 21:47 20160623214730817.log\n-rw-r--r-- 1 root root    2103  6月 23 21:48 20160623214847586.log\n-rw-r--r-- 1 root root    2111  6月 23 21:49 20160623214847585.log\n-rw-r--r-- 1 root root    2248  6月 23 21:50 20160623215024458.log\n-rw-r--r-- 1 root root    2174  6月 23 21:51 20160623215047766.log\n-rw-r--r-- 1 root root    2248  6月 23 21:52 20160623215203904.log\n-rw-r--r-- 1 root root   13541  6月 23 21:53 20160623215240946.log\n-rw-r--r-- 1 root root    2174  6月 23 21:55 20160623215517519.log\n-rw-r--r-- 1 root root   15010  6月 23 21:57 20160623215605856.log\n-rw-r--r-- 1 root root    2103  6月 23 21:57 20160623215727885.log\n-rw-r--r-- 1 root root    2111  6月 23 21:57 20160623215727884.log\n-rw-r--r-- 1 root root  140264  6月 23 22:07 20160623220004777.log\n-rw-r--r-- 1 root root  328868  6月 23 22:24 20160623220731444.log\n-rw-r--r-- 1 root root  947961  6月 23 23:11 20160623222442161.log\n-rw-r--r-- 1 root root  336170  6月 23 23:28 20160623231155721.log\n-rw-r--r-- 1 root root    2174  6月 23 23:30 20160623233002055.log\n-rw-r--r-- 1 root root    2111  6月 23 23:31 20160623233105124.log\n-rw-r--r-- 1 root root   68780  6月 23 23:35 20160623233141392.log\n-rw-r--r-- 1 root root  254354  6月 23 23:48 20160623233558750.log\n-rw-r--r-- 1 root root   48568  6月 23 23:51 20160623234850293.log\n-rw-r--r-- 1 root root  109001  6月 23 23:57 20160623235216611.log\n-rw-r--r-- 1 root root   41962  6月 24 00:00 20160623235824674.log\n-rw-r--r-- 1 root root    6169  6月 24 00:03 20160624000023824.log\n-rw-r--r-- 1 root root   65975  6月 24 00:03 20160624000023823.log\n-rw-r--r-- 1 root root   47129  6月 24 00:38 20160624000422134.log\n-rw-r--r-- 1 root root  707047  6月 24 00:38 20160624000422133.log\n-rw-r--r-- 1 root root  107499  6月 24 00:44 20160624003930441.log\n-rw-r--r-- 1 root root  110891  6月 24 00:50 20160624004530079.log\n-rw-r--r-- 1 root root  111002  6月 24 00:57 20160624005142988.log\n-rw-r--r-- 1 root root  114834  6月 24 01:03 20160624005745779.log\n-rw-r--r-- 1 root root  108677  6月 24 01:09 20160624010354738.log\n-rw-r--r-- 1 root root   96725  6月 24 01:15 20160624011007641.log\n-rw-r--r-- 1 root root  107078  6月 24 01:21 20160624011607643.log\n-rw-r--r-- 1 root root  126740  6月 24 01:27 20160624012141900.log\n-rw-r--r-- 1 root root  226413  6月 24 01:39 20160624012818044.log\n-rw-r--r-- 1 root root  612147  6月 24 02:10 20160624014027072.log\n-rw-r--r-- 1 root root    6169  6月 24 02:16 20160624021103107.log\n-rw-r--r-- 1 root root  106801  6月 24 02:16 20160624021103106.log\n-rw-r--r-- 1 root root  232064  6月 24 02:28 20160624021639469.log\n-rw-r--r-- 1 root root  116477  6月 24 02:34 20160624022854987.log\n-rw-r--r-- 1 root root  117407  6月 24 02:40 20160624023501091.log\n-rw-r--r-- 1 root root  400463  6月 24 03:00 20160624024110067.log\n-rw-r--r-- 1 root root    9046  6月 24 03:01 20160624030052141.log\n-rw-r--r-- 1 root root    2142  6月 24 03:02 20160624030210569.log\n-rw-r--r-- 1 root root   20792  6月 24 03:04 20160624030258104.log\n-rw-r--r-- 1 root root   63129  6月 24 03:08 20160624030435715.log\n-rw-r--r-- 1 root root    2071  6月 24 03:09 20160624030929083.log\n-rw-r--r-- 1 root root   14753  6月 24 03:10 20160624030929082.log\n-rw-r--r-- 1 root root    2079  6月 24 03:11 20160624031050060.log\n-rw-r--r-- 1 root root    8105  6月 24 03:12 20160624031156089.log\n-rw-r--r-- 1 root root    2071  6月 24 03:13 20160624031314219.log\n-rw-r--r-- 1 root root    2216  6月 24 03:13 20160624031314218.log\n-rw-r--r-- 1 root root    2142  6月 24 03:14 20160624031351272.log\n-rw-r--r-- 1 root root    2079  6月 24 03:14 20160624031426916.log\n-rw-r--r-- 1 root root   48837  6月 24 03:18 20160624031537461.log\n-rw-r--r-- 1 root root   83021  6月 24 03:23 20160624031904415.log\n-rw-r--r-- 1 root root    6774  6月 24 03:24 20160624032404367.log\n-rw-r--r-- 1 root root   18207  6月 24 03:26 20160624032450649.log\n-rw-r--r-- 1 root root   27036  6月 24 03:28 20160624032649002.log\n-rw-r--r-- 1 root root  148017  6月 24 03:36 20160624032853052.log\n-rw-r--r-- 1 root root   69588  6月 24 03:40 20160624033627223.log\n-rw-r--r-- 1 root root    2103  6月 24 03:40 20160624034049287.log\n-rw-r--r-- 1 root root   15212  6月 24 03:41 20160624034049286.log\n-rw-r--r-- 1 root root  323804  6月 24 03:58 20160624034201291.log\n-rw-r--r-- 1 root root    2103  6月 24 03:59 20160624035918968.log\n-rw-r--r-- 1 root root    9632  6月 24 03:59 20160624035918962.log\n-rw-r--r-- 1 root root    2103  6月 24 04:00 20160624040045329.log\n-rw-r--r-- 1 root root    2111  6月 24 04:01 20160624040045328.log\n-rw-r--r-- 1 root root   24104  6月 24 04:03 20160624040140199.log\n-rw-r--r-- 1 root root   16037  6月 24 04:05 20160624040418456.log\n-rw-r--r-- 1 root root   28199  6月 24 04:07 20160624040541191.log\n-rw-r--r-- 1 root root    7976  6月 24 04:08 20160624040802971.log\n-rw-r--r-- 1 root root    2103  6月 24 04:08 20160624040852372.log\n-rw-r--r-- 1 root root   15569  6月 24 04:09 20160624040852371.log\n-rw-r--r-- 1 root root   21838  6月 24 04:11 20160624041004371.log\n-rw-r--r-- 1 root root    7030  6月 24 04:12 20160624041145376.log\n-rw-r--r-- 1 root root   31028  6月 24 04:15 20160624041258533.log\n-rw-r--r-- 1 root root    2174  6月 24 04:16 20160624041635329.log\n-rw-r--r-- 1 root root   23450  6月 24 04:19 20160624041748028.log\n-rw-r--r-- 1 root root   21002  6月 24 04:21 20160624042025997.log\n-rw-r--r-- 1 root root   44708  6月 24 04:26 20160624042244326.log\n-rw-r--r-- 1 root root    2103  6月 24 04:26 20160624042625654.log\n-rw-r--r-- 1 root root    7388  6月 24 04:26 20160624042625653.log\n-rw-r--r-- 1 root root    2103  6月 24 04:27 20160624042730469.log\n-rw-r--r-- 1 root root    9398  6月 24 04:28 20160624042730468.log\n-rw-r--r-- 1 root root   27766  6月 24 04:30 20160624042834443.log\n-rw-r--r-- 1 root root   12648  6月 24 04:31 20160624043048954.log\n-rw-r--r-- 1 root root    8506  6月 24 04:33 20160624043220944.log\n-rw-r--r-- 1 root root    2103  6月 24 04:33 20160624043340147.log\n-rw-r--r-- 1 root root   26109  6月 24 04:35 20160624043340146.log\n-rw-r--r-- 1 root root   12073  6月 24 04:36 20160624043550082.log\n-rw-r--r-- 1 root root    2248  6月 24 04:37 20160624043717091.log\n-rw-r--r-- 1 root root   18378  6月 24 04:39 20160624043744085.log\n-rw-r--r-- 1 root root    2174  6月 24 04:40 20160624043952254.log\n-rw-r--r-- 1 root root   15670  6月 24 04:41 20160624044030175.log\n-rw-r--r-- 1 root root   31747  6月 24 04:44 20160624044158514.log\n-rw-r--r-- 1 root root    2103  6月 24 04:44 20160624044444984.log\n-rw-r--r-- 1 root root    2111  6月 24 04:45 20160624044444983.log\n-rw-r--r-- 1 root root   12433  6月 24 04:46 20160624044551544.log\n-rw-r--r-- 1 root root    2248  6月 24 04:47 20160624044707513.log\n-rw-r--r-- 1 root root    2111  6月 24 04:48 20160624044744553.log\n-rw-r--r-- 1 root root    2174  6月 24 04:48 20160624044820690.log\n-rw-r--r-- 1 root root    2103  6月 24 04:49 20160624044932968.log\n-rw-r--r-- 1 root root   24531  6月 24 04:51 20160624044932967.log\n-rw-r--r-- 1 root root   33942  6月 24 04:54 20160624045148027.log\n-rw-r--r-- 1 root root    2111  6月 24 04:54 20160624045429964.log\n-rw-r--r-- 1 root root    9165  6月 24 04:56 20160624045528723.log\n-rw-r--r-- 1 root root    2103  6月 24 04:56 20160624045622475.log\n-rw-r--r-- 1 root root    2111  6月 24 04:56 20160624045622474.log\n-rw-r--r-- 1 root root    2174  6月 24 04:57 20160624045702018.log\n-rw-r--r-- 1 root root    2103  6月 24 04:57 20160624045739697.log\n-rw-r--r-- 1 root root   15226  6月 24 04:58 20160624045739696.log\n-rw-r--r-- 1 root root    2103  6月 24 04:59 20160624045924206.log\n-rw-r--r-- 1 root root    2248  6月 24 04:59 20160624045924205.log\n-rw-r--r-- 1 root root   39474  6月 24 05:02 20160624050000776.log\n-rw-r--r-- 1 root root    9525  6月 24 05:03 20160624050312788.log\n-rw-r--r-- 1 root root    2111  6月 24 05:04 20160624050413760.log\n-rw-r--r-- 1 root root    2103  6月 24 05:05 20160624050519506.log\n-rw-r--r-- 1 root root   11039  6月 24 05:06 20160624050519505.log\n-rw-r--r-- 1 root root    2248  6月 24 05:07 20160624050657065.log\n-rw-r--r-- 1 root root   10211  6月 24 05:08 20160624050734131.log\n-rw-r--r-- 1 root root   27322  6月 24 05:10 20160624050841486.log\n-rw-r--r-- 1 root root    2174  6月 24 05:11 20160624051135454.log\n-rw-r--r-- 1 root root   18213  6月 24 05:13 20160624051216099.log\n-rw-r--r-- 1 root root    2103  6月 24 05:15 20160624051509314.log\n-rw-r--r-- 1 root root    8141  6月 24 05:15 20160624051509313.log\n-rw-r--r-- 1 root root    8936  6月 24 05:16 20160624051613854.log\n-rw-r--r-- 1 root root    2103  6月 24 05:17 20160624051711430.log\n-rw-r--r-- 1 root root   11722  6月 24 05:17 20160624051711429.log\n-rw-r--r-- 1 root root    2248  6月 24 05:18 20160624051849621.log\n-rw-r--r-- 1 root root   14860  6月 24 05:20 20160624051926660.log\n-rw-r--r-- 1 root root    2248  6月 24 05:21 20160624052119875.log\n-rw-r--r-- 1 root root    2248  6月 24 05:22 20160624052156915.log\n-rw-r--r-- 1 root root    2103  6月 24 05:22 20160624052220923.log\n-rw-r--r-- 1 root root    8132  6月 24 05:22 20160624052220922.log\n-rw-r--r-- 1 root root   13790  6月 24 05:24 20160624052321125.log\n-rw-r--r-- 1 root root   26147  6月 24 05:26 20160624052456454.log\n-rw-r--r-- 1 root root   12781  6月 24 05:28 20160624052702653.log\n-rw-r--r-- 1 root root    8246  6月 24 05:29 20160624052858336.log\n-rw-r--r-- 1 root root    2248  6月 24 05:29 20160624052949420.log\n-rw-r--r-- 1 root root   21416  6月 24 05:31 20160624053026459.log\n-rw-r--r-- 1 root root   12156  6月 24 05:33 20160624053204992.log\n-rw-r--r-- 1 root root   13945  6月 24 05:34 20160624053325830.log\n-rw-r--r-- 1 root root    8339  6月 24 05:35 20160624053434893.log\n-rw-r--r-- 1 root root   11034  6月 24 05:36 20160624053537303.log\n-rw-r--r-- 1 root root    2111  6月 24 05:37 20160624053702628.log\n-rw-r--r-- 1 root root   25354  6月 24 05:39 20160624053750169.log\n-rw-r--r-- 1 root root    2248  6月 24 05:40 20160624053951170.log\n-rw-r--r-- 1 root root   11148  6月 24 05:41 20160624054028224.log\n-rw-r--r-- 1 root root    6913  6月 24 05:42 20160624054157486.log\n-rw-r--r-- 1 root root   17216  6月 24 05:44 20160624054333702.log\n-rw-r--r-- 1 root root    2103  6月 24 05:45 20160624054516331.log\n-rw-r--r-- 1 root root   18335  6月 24 05:46 20160624054516330.log\n-rw-r--r-- 1 root root    8241  6月 24 05:47 20160624054712514.log\n-rw-r--r-- 1 root root   36584  6月 24 05:51 20160624054803496.log\n-rw-r--r-- 1 root root    7735  6月 24 05:52 20160624055159700.log\n-rw-r--r-- 1 root root    8712  6月 24 05:53 20160624055253710.log\n-rw-r--r-- 1 root root   27206  6月 24 05:56 20160624055411792.log\n-rw-r--r-- 1 root root    8124  6月 24 05:57 20160624055638699.log\n-rw-r--r-- 1 root root   20928  6月 24 05:59 20160624055756967.log\n-rw-r--r-- 1 root root   22286  6月 24 06:02 20160624060031668.log\n-rw-r--r-- 1 root root    8703  6月 24 06:03 20160624060233693.log\n-rw-r--r-- 1 root root    2111  6月 24 06:03 20160624060323661.log\n-rw-r--r-- 1 root root   13943  6月 24 06:04 20160624060359504.log\n-rw-r--r-- 1 root root    8941  6月 24 06:05 20160624060505888.log\n-rw-r--r-- 1 root root    7158  6月 24 06:06 20160624060624818.log\n-rw-r--r-- 1 root root   23865  6月 24 06:09 20160624060738015.log\n-rw-r--r-- 1 root root    2111  6月 24 06:10 20160624061005835.log\n-rw-r--r-- 1 root root   15069  6月 24 06:11 20160624061055351.log\n-rw-r--r-- 1 root root   13716  6月 24 06:12 20160624061208859.log\n-rw-r--r-- 1 root root   15222  6月 24 06:14 20160624061321689.log\n-rw-r--r-- 1 root root    2103  6月 24 06:14 20160624061435605.log\n-rw-r--r-- 1 root root   15568  6月 24 06:15 20160624061435604.log\n-rw-r--r-- 1 root root    8814  6月 24 06:16 20160624061611690.log\n-rw-r--r-- 1 root root    2103  6月 24 06:18 20160624061834750.log\n-rw-r--r-- 1 root root    8819  6月 24 06:19 20160624061834749.log\n-rw-r--r-- 1 root root    2103  6月 24 06:19 20160624061952621.log\n-rw-r--r-- 1 root root   10328  6月 24 06:20 20160624061952620.log\n-rw-r--r-- 1 root root    2103  6月 24 06:20 20160624062053463.log\n-rw-r--r-- 1 root root    7151  6月 24 06:21 20160624062053462.log\n-rw-r--r-- 1 root root   15213  6月 24 06:22 20160624062152756.log\n-rw-r--r-- 1 root root    7626  6月 24 06:23 20160624062330811.log\n-rw-r--r-- 1 root root    7626  6月 24 06:25 20160624062443778.log\n-rw-r--r-- 1 root root    2103  6月 24 06:25 20160624062533949.log\n-rw-r--r-- 1 root root   27787  6月 24 06:27 20160624062533948.log\n-rw-r--r-- 1 root root   31738  6月 24 06:30 20160624062801042.log\n-rw-r--r-- 1 root root    2174  6月 24 06:31 20160624063044440.log\n-rw-r--r-- 1 root root   14974  6月 24 06:32 20160624063125773.log\n-rw-r--r-- 1 root root    2111  6月 24 06:33 20160624063309678.log\n-rw-r--r-- 1 root root   13583  6月 24 06:34 20160624063402164.log\n-rw-r--r-- 1 root root    2174  6月 24 06:35 20160624063539073.log\n-rw-r--r-- 1 root root   27720  6月 24 06:38 20160624063652296.log\n-rw-r--r-- 1 root root    8471  6月 24 06:39 20160624063910131.log\n-rw-r--r-- 1 root root    2103  6月 24 06:40 20160624064012954.log\n-rw-r--r-- 1 root root   14282  6月 24 06:41 20160624064012953.log\n-rw-r--r-- 1 root root    8011  6月 24 06:42 20160624064145466.log\n-rw-r--r-- 1 root root   22099  6月 24 06:44 20160624064258694.log\n-rw-r--r-- 1 root root   22049  6月 24 06:47 20160624064544672.log\n-rw-r--r-- 1 root root   12309  6月 24 06:48 20160624064742663.log\n-rw-r--r-- 1 root root    2111  6月 24 06:49 20160624064901167.log\n-rw-r--r-- 1 root root   19289  6月 24 06:50 20160624064950491.log\n-rw-r--r-- 1 root root    2111  6月 24 06:52 20160624065144266.log\n-rw-r--r-- 1 root root   25433  6月 24 06:54 20160624065223330.log\n-rw-r--r-- 1 root root    2111  6月 24 06:55 20160624065505182.log\n-rw-r--r-- 1 root root   18491  6月 24 06:58 20160624065641183.log\n-rw-r--r-- 1 root root    2174  6月 24 06:59 20160624065849362.log\n-rw-r--r-- 1 root root   16699  6月 24 07:01 20160624065938307.log\n-rw-r--r-- 1 root root   25357  6月 24 07:03 20160624070119436.log\n-rw-r--r-- 1 root root    2174  6月 24 07:04 20160624070345144.log\n-rw-r--r-- 1 root root   13695  6月 24 07:05 20160624070428476.log\n-rw-r--r-- 1 root root    2103  6月 24 07:05 20160624070555615.log\n-rw-r--r-- 1 root root    9852  6月 24 07:06 20160624070555614.log\n-rw-r--r-- 1 root root   13702  6月 24 07:07 20160624070700069.log\n-rw-r--r-- 1 root root    2174  6月 24 07:08 20160624070832924.log\n-rw-r--r-- 1 root root    2111  6月 24 07:10 20160624070945412.log\n-rw-r--r-- 1 root root    2111  6月 24 07:11 20160624071058522.log\n-rw-r--r-- 1 root root    2111  6月 24 07:11 20160624071140169.log\n-rw-r--r-- 1 root root    8798  6月 24 07:13 20160624071216162.log\n-rw-r--r-- 1 root root    2174  6月 24 07:13 20160624071325822.log\n-rw-r--r-- 1 root root   12846  6月 24 07:15 20160624071418867.log\n-rw-r--r-- 1 root root   11142  6月 24 07:16 20160624071538031.log\n-rw-r--r-- 1 root root    2248  6月 24 07:17 20160624071703176.log\n-rw-r--r-- 1 root root    2111  6月 24 07:17 20160624071740224.log\n-rw-r--r-- 1 root root    2174  6月 24 07:18 20160624071819021.log\n-rw-r--r-- 1 root root    2248  6月 24 07:19 20160624071907951.log\n-rw-r--r-- 1 root root    2111  6月 24 07:19 20160624071932287.log\n-rw-r--r-- 1 root root   14417  6月 24 07:21 20160624072025441.log\n-rw-r--r-- 1 root root    2111  6月 24 07:22 20160624072158665.log\n-rw-r--r-- 1 root root    2248  6月 24 07:23 20160624072325660.log\n-rw-r--r-- 1 root root    2111  6月 24 07:24 20160624072349769.log\n-rw-r--r-- 1 root root    2174  6月 24 07:24 20160624072425818.log\n-rw-r--r-- 1 root root    2111  6月 24 07:25 20160624072537323.log\n-rw-r--r-- 1 root root    8363  6月 24 07:27 20160624072652403.log\n-rw-r--r-- 1 root root   11373  6月 24 07:28 20160624072751008.log\n-rw-r--r-- 1 root root   12663  6月 24 07:29 20160624072907098.log\n-rw-r--r-- 1 root root   12649  6月 24 07:31 20160624073018499.log\n-rw-r--r-- 1 root root    2111  6月 24 07:32 20160624073146515.log\n-rw-r--r-- 1 root root    8358  6月 24 07:33 20160624073256331.log\n-rw-r--r-- 1 root root   13579  6月 24 07:34 20160624073354059.log\n-rw-r--r-- 1 root root    2174  6月 24 07:35 20160624073525018.log\n-rw-r--r-- 1 root root    6916  6月 24 07:36 20160624073629865.log\n-rw-r--r-- 1 root root    2174  6月 24 07:38 20160624073752370.log\n-rw-r--r-- 1 root root    2174  6月 24 07:39 20160624073902512.log\n-rw-r--r-- 1 root root    2111  6月 24 07:40 20160624074027090.log\n-rw-r--r-- 1 root root    8359  6月 24 07:42 20160624074123537.log\n-rw-r--r-- 1 root root    2248  6月 24 07:42 20160624074244024.log\n-rw-r--r-- 1 root root    7394  6月 24 07:43 20160624074321070.log\n-rw-r--r-- 1 root root    2111  6月 24 07:44 20160624074420104.log\n-rw-r--r-- 1 root root    9054  6月 24 07:45 20160624074508588.log\n-rw-r--r-- 1 root root    2103  6月 24 07:46 20160624074656830.log\n-rw-r--r-- 1 root root    2248  6月 24 07:47 20160624074656829.log\n-rw-r--r-- 1 root root    2103  6月 24 07:47 20160624074726835.log\n-rw-r--r-- 1 root root    8242  6月 24 07:47 20160624074726834.log\n-rw-r--r-- 1 root root    2248  6月 24 07:48 20160624074848655.log\n-rw-r--r-- 1 root root    2248  6月 24 07:49 20160624074925711.log\n-rw-r--r-- 1 root root    2103  6月 24 07:49 20160624074954488.log\n-rw-r--r-- 1 root root   11253  6月 24 07:50 20160624074954487.log\n-rw-r--r-- 1 root root    2174  6月 24 07:51 20160624075118045.log\n-rw-r--r-- 1 root root    2111  6月 24 07:52 20160624075225740.log\n-rw-r--r-- 1 root root    2174  6月 24 07:53 20160624075339719.log\n-rw-r--r-- 1 root root    8709  6月 24 07:55 20160624075444431.log\n-rw-r--r-- 1 root root    7154  6月 24 07:56 20160624075604512.log\n-rw-r--r-- 1 root root    7980  6月 24 07:57 20160624075714767.log\n-rw-r--r-- 1 root root   11848  6月 24 07:58 20160624075815340.log\n-rw-r--r-- 1 root root    2248  6月 24 08:00 20160624075950457.log\n-rw-r--r-- 1 root root    2103  6月 24 08:00 20160624080015523.log\n-rw-r--r-- 1 root root    7153  6月 24 08:00 20160624080015522.log\n-rw-r--r-- 1 root root    2174  6月 24 08:01 20160624080119490.log\n-rw-r--r-- 1 root root    2111  6月 24 08:02 20160624080225637.log\n-rw-r--r-- 1 root root    2248  6月 24 08:03 20160624080324838.log\n-rw-r--r-- 1 root root    2103  6月 24 08:03 20160624080358779.log\n-rw-r--r-- 1 root root    2174  6月 24 08:04 20160624080358778.log\n-rw-r--r-- 1 root root    2103  6月 24 08:04 20160624080440051.log\n-rw-r--r-- 1 root root    2174  6月 24 08:04 20160624080440050.log\n-rw-r--r-- 1 root root    2174  6月 24 08:06 20160624080554937.log\n-rw-r--r-- 1 root root    2111  6月 24 08:07 20160624080709805.log\n-rw-r--r-- 1 root root    2111  6月 24 08:08 20160624080817334.log\n-rw-r--r-- 1 root root    2111  6月 24 08:09 20160624080932048.log\n-rw-r--r-- 1 root root    8415  6月 24 08:11 20160624081036861.log\n-rw-r--r-- 1 root root    7559  6月 24 08:12 20160624081153444.log\n-rw-r--r-- 1 root root    2103  6月 24 08:13 20160624081311610.log\n-rw-r--r-- 1 root root    2248  6月 24 08:13 20160624081311609.log\n-rw-r--r-- 1 root root    2174  6月 24 08:14 20160624081348662.log\n-rw-r--r-- 1 root root    2111  6月 24 08:14 20160624081425232.log\n-rw-r--r-- 1 root root   10952  6月 24 08:16 20160624081536544.log\n-rw-r--r-- 1 root root    2111  6月 24 08:17 20160624081654538.log\n-rw-r--r-- 1 root root   10736  6月 24 08:18 20160624081752088.log\n-rw-r--r-- 1 root root    2174  6月 24 08:19 20160624081915943.log\n-rw-r--r-- 1 root root   14567  6月 24 08:21 20160624082005551.log\n-rw-r--r-- 1 root root    2248  6月 24 08:22 20160624082158542.log\n-rw-r--r-- 1 root root    2248  6月 24 08:22 20160624082222938.log\n-rw-r--r-- 1 root root    2103  6月 24 08:22 20160624082251407.log\n-rw-r--r-- 1 root root    8540  6月 24 08:23 20160624082251406.log\n-rw-r--r-- 1 root root    2111  6月 24 08:24 20160624082414178.log\n-rw-r--r-- 1 root root   10385  6月 24 08:25 20160624082513660.log\n-rw-r--r-- 1 root root    2174  6月 24 08:26 20160624082636691.log\n-rw-r--r-- 1 root root    7563  6月 24 08:28 20160624082748545.log\n-rw-r--r-- 1 root root    7796  6月 24 08:30 20160624082924730.log\n-rw-r--r-- 1 root root    7561  6月 24 08:30 20160624083020692.log\n-rw-r--r-- 1 root root    2103  6月 24 08:31 20160624083133725.log\n-rw-r--r-- 1 root root    2111  6月 24 08:31 20160624083133724.log\n-rw-r--r-- 1 root root    2111  6月 24 08:33 20160624083243960.log\n-rw-r--r-- 1 root root    7324  6月 24 08:34 20160624083348673.log\n-rw-r--r-- 1 root root    2248  6月 24 08:35 20160624083512573.log\n-rw-r--r-- 1 root root    2111  6月 24 08:35 20160624083539739.log\n-rw-r--r-- 1 root root    9002  6月 24 08:36 20160624083620775.log\n-rw-r--r-- 1 root root    2111  6月 24 08:37 20160624083735465.log\n-rw-r--r-- 1 root root   12380  6月 24 08:39 20160624083848114.log\n-rw-r--r-- 1 root root    2174  6月 24 08:40 20160624084033714.log\n-rw-r--r-- 1 root root    8339  6月 24 08:41 20160624084119281.log\n-rw-r--r-- 1 root root    7961  6月 24 08:43 20160624084228434.log\n-rw-r--r-- 1 root root   21686  6月 24 08:45 20160624084333689.log\n-rw-r--r-- 1 root root    9526  6月 24 08:46 20160624084602519.log\n-rw-r--r-- 1 root root    7378  6月 24 08:47 20160624084731733.log\n-rw-r--r-- 1 root root    2071  6月 24 08:48 20160624084845994.log\n-rw-r--r-- 1 root root    2079  6月 24 08:49 20160624084845993.log\n-rw-r--r-- 1 root root    2216  6月 24 08:49 20160624084949172.log\n-rw-r--r-- 1 root root    2216  6月 24 08:50 20160624085016348.log\n-rw-r--r-- 1 root root    9858  6月 24 08:51 20160624085053379.log\n-rw-r--r-- 1 root root    8689  6月 24 08:53 20160624085234295.log\n-rw-r--r-- 1 root root   11364  6月 24 08:54 20160624085330461.log\n-rw-r--r-- 1 root root    2079  6月 24 08:54 20160624085441520.log\n-rw-r--r-- 1 root root   11591  6月 24 08:56 20160624085544231.log\n-rw-r--r-- 1 root root   37945  6月 24 08:59 20160624085658713.log\n-rw-r--r-- 1 root root    9157  6月 24 09:01 20160624090044520.log\n-rw-r--r-- 1 root root    8462  6月 24 09:02 20160624090149458.log\n-rw-r--r-- 1 root root   10893  6月 24 09:03 20160624090255897.log\n-rw-r--r-- 1 root root    9618  6月 24 09:05 20160624090427342.log\n-rw-r--r-- 1 root root    8923  6月 24 09:06 20160624090532222.log\n-rw-r--r-- 1 root root   12540  6月 24 09:07 20160624090702064.log\n-rw-r--r-- 1 root root    6902  6月 24 09:08 20160624090813699.log\n-rw-r--r-- 1 root root    8908  6月 24 09:09 20160624090910870.log\n-rw-r--r-- 1 root root   11261  6月 24 09:10 20160624091017918.log\n-rw-r--r-- 1 root root    8349  6月 24 09:12 20160624091142276.log\n-rw-r--r-- 1 root root    2079  6月 24 09:13 20160624091256434.log\n-rw-r--r-- 1 root root   19185  6月 24 09:15 20160624091337532.log\n-rw-r--r-- 1 root root    2079  6月 24 09:15 20160624091528761.log\n-rw-r--r-- 1 root root   20804  6月 24 09:17 20160624091605506.log\n-rw-r--r-- 1 root root   20389  6月 24 09:19 20160624091826856.log\n-rw-r--r-- 1 root root    2079  6月 24 09:20 20160624092017074.log\n-rw-r--r-- 1 root root   21234  6月 24 09:22 20160624092107342.log\n-rw-r--r-- 1 root root   20640  6月 24 09:24 20160624092306233.log\n-rw-r--r-- 1 root root    2071  6月 24 09:24 20160624092455985.log\n-rw-r--r-- 1 root root   39111  6月 24 09:27 20160624092455984.log\n-rw-r--r-- 1 root root    7842  6月 24 09:28 20160624092733580.log\n-rw-r--r-- 1 root root    2079  6月 24 09:29 20160624092846977.log\n-rw-r--r-- 1 root root    2142  6月 24 09:30 20160624093003339.log\n-rw-r--r-- 1 root root   23862  6月 24 09:32 20160624093047225.log\n-rw-r--r-- 1 root root    2142  6月 24 09:32 20160624093225119.log\n-rw-r--r-- 1 root root    2142  6月 24 09:33 20160624093309325.log\n-rw-r--r-- 1 root root    2142  6月 24 09:34 20160624093345525.log\n-rw-r--r-- 1 root root   12965  6月 24 09:35 20160624093425667.log\n-rw-r--r-- 1 root root   17981  6月 24 09:36 20160624093549584.log\n-rw-r--r-- 1 root root   68486  6月 24 09:40 20160624093720796.log\n-rw-r--r-- 1 root root  503692  6月 24 10:07 20160624094101859.log\n-rw-r--r-- 1 root root   34841  6月 24 10:07 20160624094101861.log\n-rw-r--r-- 1 root root  631097  6月 24 10:39 20160624100752146.log\n-rw-r--r-- 1 root root    8013  6月 24 10:39 20160624103926399.log\n-rw-r--r-- 1 root root   93987  6月 24 10:45 20160624104041213.log\n-rw-r--r-- 1 root root   88113  6月 24 10:50 20160624104621172.log\n-rw-r--r-- 1 root root   35852  6月 24 10:53 20160624105114521.log\n-rw-r--r-- 1 root root  125714  6月 24 11:00 20160624105347594.log\n-rw-r--r-- 1 root root   42332  6月 24 11:02 20160624110031736.log\n-rw-r--r-- 1 root root   98963  6月 24 11:08 20160624110305017.log\n-rw-r--r-- 1 root root   88768  6月 24 11:14 20160624110910960.log\n-rw-r--r-- 1 root root  248508  6月 24 11:27 20160624111516725.log\n-rw-r--r-- 1 root root    2103  6月 24 11:28 20160624112824806.log\n-rw-r--r-- 1 root root  216483  6月 24 11:38 20160624112824805.log",
+					"file": "/E/BaiduCloud/Dropbox/workdocs/LocalNotes/temp2.txt",
+					"file_size": 63795,
+					"file_write_time": 131103468163325518,
+					"settings":
+					{
+						"buffer_size": 103324,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"contents": "\n完成了2场临时直播\n包括世纪人机大战和乐视车联战略发布会，同时完成临时直播视频的录制\nEnvivo音频切换\n已将爱立信早期的音频切换到网达转码器上\nmpts视频的转码\n转码系统已经部署完毕，正在内部测试视频流\n云桥机器上架\n已经上架6台机器，2台可以接收组播，其余4台位于新业务域，需要再作规划\n\n我们暂时已经将70路音频切换到了我们的机器上，\n但是现有mpts流中包括视频，码率达到15M，我们在建立音频转码任务时，\n随着任务数目的增多，网卡流量会增加很大，达到一定数目之后，网卡无法承受，严重丢包，导致转码任务的频繁重启    \n正常情况下，我们一台服务器可以添加很多音频任务（比如我们在鹏博士的一台服务器上接近200路音频转码任务），但是现在由于网卡流量的问题，现在只能添加30路任务。\n所以，我们希望能对卫星接收器修改配置，去除其中的视频流，从而减低网卡的流量。\n\n爱立信音频任务，无法更改，还是维持原有状况（多用机器）\n同时写存储与CDN\n东方有线新加入的节目，本周添加10路，下周完成剩余30路mpts\n\n1. 爱立信更新完毕\n2. mpts3路在测试\n3. 同时写CDN与存储测试\n\n1. 完成6场临时直播，同时周末有5场临时直播要做\n2. 爱立信原有90路音频完成配置转移\n   主要是重新配置了卫星接收器，将原有的Mpts流转为spts\n3. 云桥这边现已经上架14台机器\n   网仕有一些停用的机器，我们正计划将鹏博士的机器移到云桥进行替换\n4. 发布10路mpts新加入节目\n5. 正在进行同时写CDN与存储测试\n\n1. 任务序号\nts切片长度，m3u8中ts数目\n\n切片长度hls_time  10s\n切片数目hls_list_size 15  \nhls_wrap  0\n\n缓冲区大小buffer_size  10000 KB\nFIFO大小fifo_size 100000\n缓冲区是否恢复overrun_nonfatal  1\n\n安徽卫视 可以检测到了\n直接插上可以观看\n0007 1797 6997\n0007 1797 6757\n\n法制天地\n无编码器信息\n0007 1797 8076\n\n\n安徽卫视HD\nvlc可以检测到信息，黑屏\n湖北卫视HD\n0007 1797 7524\n0007 1798 0023\n\n\n   （1）转码上线频道 ：  \n                  总共上线频道有128路，其中高清18路；印象天下10路；（都可以在app观看）\n            网仕总共有224路频道；\n   （2）临时直播总共支持了51场，这周16场；\n\n本周直播转码这边完成任务状况：\n1. 替换Envivo共73个频道，包括3个高清频道\n2. 增加CCTV5HD频道转码\n3. 本周支持临时直播16场\n4. 录制抽取系统功能已经完成，业务部门使用基本稳定，下周进行功能优化，提供新版本\n4. 直播预览功能基本实现，已部署到服务器在测试中\n\n\n星尚高清\nvlc可以检测到信息，黑屏\n0007 1797 7045\n0007 1798 0007\n\n\n上架机器\n在云桥第一批上架14台机器，第二批运来30台机器，已上架5台（2台电源无法使用），其余机器由于要替换的机器太大，移动的库房没有地方存放而无法下架\n上线频道:已上线，即将上线（16个东方有线源，高清频道花屏问题）\n已经上线24频道，\n\n1. 直播转码\n对于东方有线的源，已经上线了2个视频频道，已转码16个频道，还未发布，主要是高清频道存在花屏问题。对于东方有线高清源花屏问题，正在配合移动网络部门进行解决，现在基本找到原因，下周计划扩容。\n2. 对于某些上线的频道，按照移动要求对于中超赛事进行屏蔽\n3. 保障完成了7场临时直播\n4. 测试主备源切换功能，主要是mpts源与spts源的切换。\n\n\n应该是移动这边网络问题，导致从东方有线源接进来到我们服务器存在丢包问题。\n\n相关开发任务：\n视频抽取，\n临时直播系统：主要完成直播源与广告片的切换， \n主备源切换：主要是mpts源与spts源的切换，该开发完成之后可以替换envivo转码器,\n直播预览\n\n\n\n请对下面的卡重新授权一下：\n0007 1797 7607(5001 6377 7216 0468)\n0007 1797 6963(5001 6377 6762 3546)\n括号内是外壳编号\n\n\n\n\n网仕下架服务器共30台，主要是下面两种型号：\nHPDL585G7\nHPDL585G5\nX3850 x5\n\n\n\n今天使用东方有线的频道进行测试：\n0007 1797 7052 （5001 6377 6804 9808）\n\n\n高清花屏问题有些进展\n\n\n\n windows开发，linux编译\n 开发环境配置\n 预处理\n 特征提取，统计分析\n 1月+1周\n \n1. cctv5hd替换\n2. Envivo其他频道的替换（替换之后可以上机器）\n3. 东方有线频道授权：\n   内卡：0007 1797 9538\n   外壳：5001 6377 7219 0929\n\n1. 新引入两路直播\n2. 本周支持临时直播16场\n3. 录制抽取系统继续进行系能优化，提高加速比（抽取速度）\n4. 直播预览系统在修改界面，东方有线源的输入与输出预览已完成，在添加其他直播源的预览（cp专线和OTT）\n\n纪实高清 720p CDN注入可能有问题\n娱乐高清 720p CDN注入可能有问题\n\n\n1. 首页上的通知（可以屏蔽）\n2. 首页上的图表都需要可以点击到相应内容\n   全部任务，正在运行的任务，最新任务列表\n   bug：正在运行的任务和模板数显示为0\n3. 任务搜索功能\n   在没有搜索到相应任务时的提示框的，叉号与确定效果应该一样。\n4. 首页上的欢迎标语改为：网达在线转码系统，不要写版本号\n5. 首页上的直播源分类模块需要完成相应的功能\n    根据标签来统计数据\n6. 模板中几项需要修改\n   封装TS屏蔽\n   Profile改为档次（Profile）\n   Level改为级别（Level）\n   根据分辨率设置默认码率\n   H263和Mpeg4不显示\n7. 系统信息中：\n   硬件版本改为引擎版本\n8. 任务输出中选择HLS类时，HLS相关的选项显示有问题\n9. rtmp和rtsp输出先去掉\nHLS_LOCAL_IDX\nHLS_CDN\n\n为HLS输出添加选项hls_wrap\n\n标签\n任务保存时，确定对话框\n不同任务的logo设置问题\n\n引擎版本3.0.f3525\n\nlogo设置\nHLS输出确认\n\n\n切片时长:\n切片列表长度:\n最大切片数目:\n\n\ntsLength->hlsTime \ntsCount->hlsListSize\n添加：\nhlsWrap\n\n1. 上线问题\n  4K的265转码\n  4K的264转码\n  集群系统\n  抽取系统\n\n2. 新系统测试\n   在云桥部署一台机器添加视频任务\n   在鹏博士部署一台气体添加音频任务\n3. monitor_merge问题\n   idx问题\n\n4. 云桥频道切换\n   切换到3台机器上去\n\n5. 抽取问题\n   热门频道抽取两份\n\n6. 整理机器使用状况\n\n日报填写\n265编译 静态编译ffmpeg\n整理文档：个人任务记录，个人文档使用，evernote整理\n\n20160528 15:08\n1. 版本发布\n规范流程\nRelease：新功能，修正#bug：\n更新说明\npom.xml  \nmarkdown\n\n发布时间：\n（1）每周三发布新版本\n\nftp服务器，发布新版本\n新版本发布邮件：测试人员和开发人员\n\n（2）紧急bug版本的修复\n\n2.  monitor_merge 的修复\n    临时直播bug修复，\n    宋伟\n\n3. 新版本\n任务导入导出功能：\n备份机器\n批量操作\n\nlogo大小设置\n在界面上可以手动设置logo的位置和大小，同时给出一些预定义的值（移动需求的：1200k，600k，350k）\n\n\n全面测试\n移动测试用例，\n稳定性测试（压力测试），（定期查看）\n\n本地测试源搭建（udp单播/udp组播/rtmp/HLS)\n\nudp源：\n利用文件模拟udp组播源\nffmpeg -i a.ts -c copy -f mpegts udp://235.1.1.1:48880\n\nrtmp源模拟：\n先部署srs作为rtmp流媒体服务器，然后利用ffmpeg推出rtmp流\nffmpeg -i a.ts -c copy -f flv rtmp://127.0.0.1:19350/live/test\n这样rtmp://127.0.0.1:19350/live/test就可以作为rtmp源了\n\nhls源模拟：\n先部署nginx服务器，然后利用ffmpeg推出hls流：\nffmpeg -i a.ts -c copy  -f mpegts -hls_wrap 0 -hls_time 10 -hls_list_size 15 -hls_flags round_durations -hls_segment_filename '/home/ubuntu/20160414204040-01-%d.ts' -start_number 0 /home/ubuntu/01.m3u8\n\n\n265编译：x265的加入\nrtmp/rtsp输出格式的支持\n\n\n\n2016-05-31\n\n1. 本地源搭建\n\n2. 音频转移\n102上的任务转移到新的机器上，然后102上部署新的系统\n\n3. 测试UDkit\n\n4. 新的频道接入\n有88路源可用，按照每一台机器15个任务来分配，大约需要6台机器\n网仕共有视频直播频道有184路 音频直播有402路，\n\n5. 新版本部署\n10.200.13.90 音频\n10.200.13.70\n172.16.68.214\n\n\n\nreport\n\n咪咕视讯2015年LiveShow项目现场直播平台进展如下：\n1. 最新上架机器4台\n云桥已经上架机器共33台\n2. 最近支持临时直播约20场\n3. 替换了网东方有线源的频道，共38路\n新接入3路地方电视台\n新接入音频11路\n4. 新接入印象天下5路\n5. 进行VR直播测试\n\n\n咪咕视讯2015年LiveShow项目liveshow直播平台进展如下：\n1. 录制抽取系统已经在使用中，修复了一些业务部门使用中的bug\n2. 直播预览\n界面已经根据要求进行修改\n非东方有线源频道已经加入预览，\n\n\n 咪咕视讯2015年印象天下项目在线编码直播收录系统进展如下：\n 1. 新添加两个滚播频道：正青春和咪咕高清\n\n\n\n\n2016-06-02\n1.新系统部署系统\n10.200.13.102 音频\n10.200.13.90 音频\n10.200.13.70 \n172.16.68.214\n\n2. 测试UHDkit\n\n3. 频道接入或替换\n（1）网仕频道替换\n替换OTT源的频道\n替换英超频道\n替换熊猫高清频道\n\n先建立好任务，再与网仕进行替换\n（2）新频道接入\na. 系统更新\n10.200.13.92  v1.3.4\n10.200.13.72  v1.3.4\n10.200.13.54  v1.3.4\n10.200.13.56  v1.3.6 需要改回1.3.4版本\n116 v1.0.0\n118 v1.0.0\n120 v1.3.6\n122 v1.3.3\n124 v1.3.4\n140 v1.3.4\n142 v1.3.4\n144 v1.0.0\n146 v1.0.0\n148 v1.2.9\n62  v1.0.0\n64  v1.0.0\n66  v1.0.0\n68  v1.0.0\n\nb. 所有机器挂载r4盘符\n在10.200.13.92的Documents目录下有mount_local_storage_v2.sh文件，sudo运行这个就可以\n\n\n\n\n2016-06-06\n1.测试UHDKit\nUHDKit转码离线文件\n\n2. failed to upload m3u8导致出现monitor问题\n\n3. 所有服务器版本更新到2.0.10\n\n4. 新版本测试\n10.200.13.70\n10.200.13.90\n10.200.13.102\n172.16.68.214\n\n5. 高清频道的自动重启测试\n172.16.68.173\n\n6. 音频任务建立\n在10.200.13.102上\n\n7. 网仕频道替换\n在10.200.13.148\n10.200.13.56\n和10.200.13.58\n上建立任务\n\n\n\n\n2016-06-07\n1. 测试UHDKit\n已经离线转码了一部分，再转几个\n2. 新版本测试\n相关问题的关闭\n\n3. 音频任务迁移\n在10.200.13.102上建立\n102上的现有任务建立不起来\n\n4. 网仕频道替换\nCIBN几个频道\n\n5. RTMP输出的支持\n\n\nsudo mount -t nfs -o sync 172.17.108.119:/ifs/zhibo /mnt/remote/r5\n\n/mnt/remote/preview/live$ \n\n\n王经理，你好。\n \n刚刚发进展有些些地方不准确，现已更新如下：\n我们这边的相关项目进展如下：\n1. 咪咕视讯2015年LiveShow项目现场直播平台：\n（1）本周上架机器4台\n         云桥已经上架机器共33台\n（2）为移动提供临时直播系统及相关培训\n        本周支持临时直播18场，其中支持直播中心独立操作12场         \n（3）替换网仕东方有线源的频道，共38路\n         新接入3路地方电视台\n         新接入音频11路\n（4）新接入印象天下8路\n（5）进行VR直播测试\n \n2. 咪咕视讯2015年LiveShow项目liveshow直播平台：\n（1）录制抽取系统已经在使用中，修复了一些业务部门使用中的bug\n（2）为录制系统添加备用源\n（3）直播预览界面已经根据移动要求修改完毕\n         非东方有线源的频道已经加入预览，已经实现200路直播源的预览。\n         转码后预览约350个频道，共1100路输出\n \n3. 咪咕视讯2015年印象天下项目在线编码直播收录系统：\n（1） 新添加三个滚播频道：正青春，咪咕高清和LiveShow高清\n\n\n我们这边的相关项目进展如下：\n1. 咪咕视讯2015年LiveShow项目现场直播平台：\n（1）新接入互联网频道14路，音频4路\n（2）替换网仕频道58路\n（3）支持临时直播18场，其中支持直播中心独立操作7场    \n（4）新接入印象天下8路\n（5）支持VR直播\n\n \n2. 咪咕视讯2015年LiveShow项目liveshow直播平台：\n（1）界面集成了马赛克和遮幅块功能    \n（2）更新现网底层功能（界面未更新）\n \n\n\n\n\n2016-06-12\n\n1. 北京卫视\n标清：回放严重，声音时有时无，\n高清：回放严重，\n\n需要逐步对机器上的存储进行重新挂载\n\n2. 把所有频道的任务核查一遍，删除多余的任务\n\n\n3. 没有机器了，上架机器\n\n4. rtmp输出\n\n\n/mnt/remote/preview/live/bestv/cctv3/600/index.m3u8 \n\n\n山东教育台\n\n厦门卫视\n深圳卫视HD\n\n\n\n1. 版本更新，都更新到v2.1.0(可以解决一些logo问题，比如1080p时会没有logo)\n2. 剩余机器的挂载\n3. 美丽中国替换\n\n4. hevc 4k测试\nx265支持添加\n\n5. 网达在线转码器规格说明书\n6. 转码器操作手册\n\n7. 音频问题\n如何解决\n\n\n\n，主要是源中间断过，然后恢复时没有音频，在转码器启动时候发现没有音频就只对视频转码，后来又加入了音频，但是在转码过程中是不再对流重新检测，所以没有音频，强制重新检测后发现音频，进行正常转码\n\n\n\n\n\n1. hls选项添加\nhls_key_info_file\n\n2. xerror相关还需要继续查看一下\n\n3. x265的支持转码\n\n\n4. 延迟播放\n不仅仅是udp的输入\n\n\n5. logo缩放\n\n6. 底层转码器的重新编译（加上版本信息）\n\n7. 背景音与一般转码采用同一个转码器\n\n8. 宽高比支持多种值\n\n\n\n\n\n\n\n\n\n/wd-jiangsuhd-350/index.m3u8\n\n/wd-jiangsuhd-600/index.m3u8\n\n/wd-jiangsuhd-1200/index.m3u8\n\n",
+					"file": "/E/BaiduCloud/Dropbox/workdocs/LocalNotes/work/worklog.txt",
+					"file_size": 14029,
+					"file_write_time": 131111570625346757,
+					"settings":
+					{
+						"buffer_size": 6845,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"contents": "\n\n3. 使用ffmpeg进行文件合并，包括一些脚本，是否需要修改之前python脚本\n    多个rmvb无法合并到rmvb，因为ffmpeg中没有rmvb的muxer\n    多个rmvb无法合并到mkv，但是可以先转到mkv，然后再合并多个mkv\n    ts与mkv同样的问题\n    ffmpeg:   speed=1.3x\n    \n\n\n4. 整理desktop相关的一些ffmpeg的使用方法\n   包括evernote中的一些临时笔记\n   \n   \n   \n1. cltools代码整理，学习\n其他C/Python代码的整理\n\nEvernote整理\n博客文章阅读及整理：ffmpeg，其他技术\n邮箱和订阅阅读\n\nvim设置\n\n\nffmpeg相关的项目代码学习：主要是网上找到的一些利用ffmpeg接口API编程\n\n为什么mkv可以容纳几乎所有的编解码器，而且容器不可以？\n为什么TS可以无缝的合并播放？\n\n对ffmpeg进行经典的的封装\n\n配置转码器：\n1. 在centos中配置arcvideo转码器\n2. 在ubuntu中配置lvtranscoder\n\n\n\n\nffmpeg basic的阅读\nffmpeg的书籍，文档，介绍ffmpeg的使用\n\n计算机网络：IP地址\n\n ffmpeg源代码学习\n   命令行解析，HLS切片，RTMP流，libx264和libx265，主要几种封装格式\nffplay_simple代码研读，调试\nffmpeg_encode代码阅读\n\n\nsrs使用，rtmp服务器搭建\nngix的配置\n\n\n\ngolang学习\ngo调用ffmpeg\n利用golang改写mmcat\n\n\n1. 在ffmpeg中添加-Y -nhb参数\n2. 显示转码进度\n3. 结合ffmpeg学习ts的解析\n进而学习hls\n4. 整理表格\n5. ffmpeg中的-re选项\n6. ffmpeg中的-async选项\n7. 编译ffmpeg\n先编译ffmpeg_265，然后加上心跳\n再静态编译ffmpeg带有x265\n\nwww.cnscg.com@魔戒(加长版)2002.rmvb: Input/output error\n\n\n   \n",
+					"file": "/E/BaiduCloud/Dropbox/workdocs/LocalNotes/work/will_do.txt",
+					"file_size": 1303,
+					"file_write_time": 131094980855960238,
+					"settings":
+					{
+						"buffer_size": 924,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/E/BaiduCloud/Dropbox/workdocs/LocalNotes/work/Bugs.txt",
+					"settings":
+					{
+						"buffer_size": 309,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/E/BaiduCloud/Dropbox/workdocs/LocalNotes/work/transcoder_roadmap.txt",
+					"settings":
+					{
+						"buffer_size": 3660,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"contents": "https://117.131.17.3\nkwok2015 ig2wfWondertek!\nliubing 1qaz!QAZ\nhufangzhen 1qaz!QAZ(administrator 1qaz2wsx)\n\n98:http://117.131.17.35:8090/nms/jump2live.do\n70:http://117.131.17.39:8090/nms/jump2live.do\n220:http://117.131.17.37:8090/nms/jump2live.do\n226:http://117.131.17.37:8090/live/login_main\n50:http://117.131.17.31:8090/live/login_main\n\n\n跳板机：\n221.181.100.43:6668\ncloud\nkj087l=XSkWAKu94VcdoR3lKj6kcjntflFv9Vyrx54K8=\n\n221.181.100.43:6668\ncloudtemp\n4QTJ3b88tolt4pMmxBXR32IVd/PI62Gj0xfZDwwL+3M=\n\n13764211414\na123a123\n\n\n跳板机：117.131.17.18:52000\nversion\n!Yq2o1otiaoban2015!\n端口转发：\n本地端口：8899\n远程主机：172.16.72.234:3389 \n\n在远程桌面连接中输入127.0.0.1:8899\nadministrator 1qaz2ws	x\n\n\n\nhttp://221.181.100.114:18088\n\nhttp://192.168.1.19(hufangzhen/h)  \nPD-024\n\nftp://192.168.2.52\n\n考勤系统内外网均可访问：\n 内网地址：http://192.168.1.19\n 外网地址：http://180.168.71.6\n\n\n 172.17.230.75:10\nVpn2.seu.edu.cn的帐号。\n账号:220113054\n密码:170031\n\nhttp://117.131.17.39:8090/live/login_main\n\nhttp://git.oschina.net/multimedia/transcoder/issues\n\n/home/ubuntu/codec/release/res/duanliu.jpg\n\n/mnt/remote/r2/wd_r2/ocn/cctv10hd/350/01.m3u8\nhttp://221.181.100.24:8088/wd_r2/ocn/cctv10hd/350/index.m3u8\n\n172.17.108.123:/vx/C16_ZBLZ1   20T   17T  3.3T  84% /mnt/remote/r1\n172.17.108.124:/vx/C16_ZBLZ2   20T   17T  3.8T  82% /mnt/remote/r2\n172.17.108.125:/vx/C17_ZBLZ3   20T   13T  7.1T  65% /mnt/remote/r3\n\n\n在/home/ubuntu/codec/logo/目录下有如下logo:\ndb_100.tga\ndb_150.tga\ndb_22.tga\ndb_33.tga\ndb_44.tga\ndb_67.tga\nmiguyinyue_100.tga\nmiguyinyue_22.tga\nmiguyinyue_33.tga\nmiguyinyue_44_1.tga\nmiguyinyue_44_2.tga\nmiguyinyue_67.tga\nmusic720.tga\nold_miguyinyue_44_2.tga\nzb_100.tga\nzb_22.tga\nzb_33.tga\nzb_44.tga\nzb_67.tga\n\n\n技审：\nhttp://117.131.17.33:8080/Baton/   用户：admin 密码： ig2wfWondertek!\n\n\n\n央广购物logo设置：\n\n350k:\n/home/ubuntu/codec/logo/zb_44.tga   480:24:123:30\n/home/ubuntu/codec/logo/yggw4.tga   115:430:352:21\n\n600k:\n/home/ubuntu/codec/logo/zb_44.tga  650:24:160:30\n/home/ubuntu/codec/logo/yggw4.tga  150:430:450:21",
+					"file": "/E/BaiduCloud/Dropbox/workdocs/LocalNotes/work/user-pass.txt",
+					"file_size": 2124,
+					"file_write_time": 131111165698252839,
+					"settings":
+					{
+						"buffer_size": 1935,
+						"line_ending": "Windows",
+						"scratch": true
+					}
+				},
+				{
+					"file": "/E/BaiduCloud/Dropbox/workdocs/LocalNotes/ffmpeg/transcoder.txt",
+					"settings":
+					{
+						"buffer_size": 16524,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/D/extendedprogs/Sublime3/Data/Packages/User/Preferences.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 169,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 392.0,
+				"last_filter": "Package Control: ",
+				"selected_items":
+				[
+					[
+						"Package Control: ",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: inst",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: in",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: ins",
+						"Package Control: Install Package"
+					],
+					[
+						":w",
+						":w - Save"
+					]
+				],
+				"width": 432.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/E/BaiduCloud/Dropbox/workdocs/LocalNotes",
+				"/E/BaiduCloud/Dropbox/workdocs/LocalNotes/ffmpeg",
+				"/E/BaiduCloud/Dropbox/workdocs/LocalNotes/linux",
+				"/E/BaiduCloud/Dropbox/workdocs/LocalNotes/work"
+			],
+			"file_history":
+			[
+				"/E/BaiduCloud/Dropbox/workdocs/LocalNotes/work/will_do.txt",
+				"/D/extendedprogs/Sublime3/Data/Packages/User/Preferences.sublime-settings"
+			],
+			"find":
+			{
+				"height": 27.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"cdn",
+					"tcp",
+					"linux"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "E:\\BaiduCloud\\Dropbox\\workdocs\\LocalNotes"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 8,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/E/BaiduCloud/Dropbox/workdocs/LocalNotes/linux/vmware.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 0,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"is_init_dirty_state": false,
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 9,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/E/BaiduCloud/Dropbox/workdocs/LocalNotes/linux/Git常用命令.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2147,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"is_init_dirty_state": false,
+									"origin_encoding": "UTF-8",
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 5,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/E/BaiduCloud/Dropbox/workdocs/LocalNotes/output_addr.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 378,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 10,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/E/BaiduCloud/Dropbox/workdocs/LocalNotes/ffmpeg/常用命令行.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 3294,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										3294,
+										3294
+									]
+								],
+								"settings":
+								{
+									"is_init_dirty_state": true,
+									"origin_encoding": "ASCII",
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 4,
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/E/BaiduCloud/Dropbox/workdocs/LocalNotes/ffmpeg/转码器命令行.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 37305,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"is_init_dirty_state": false,
+									"origin_encoding": "UTF-8",
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 5315.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "/E/BaiduCloud/Dropbox/workdocs/LocalNotes/ffmpeg/installation.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 428,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										428,
+										428
+									]
+								],
+								"settings":
+								{
+									"in_converting": true,
+									"is_init_dirty_state": false,
+									"origin_encoding": "GB2312",
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 6,
+							"file": "/E/BaiduCloud/Dropbox/workdocs/LocalNotes/temp.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 44924,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										44708,
+										44729
+									]
+								],
+								"settings":
+								{
+									"is_init_dirty_state": true,
+									"origin_encoding": "UTF-8",
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 12493.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 7,
+							"file": "/E/BaiduCloud/Dropbox/workdocs/LocalNotes/temp2.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 103324,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										103324,
+										103324
+									]
+								],
+								"settings":
+								{
+									"is_init_dirty_state": true,
+									"origin_encoding": "UTF-8",
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 27951.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 6,
+							"type": "text"
+						},
+						{
+							"buffer": 8,
+							"file": "/E/BaiduCloud/Dropbox/workdocs/LocalNotes/work/worklog.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 6845,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										6744,
+										6733
+									]
+								],
+								"settings":
+								{
+									"is_init_dirty_state": false,
+									"origin_encoding": "UTF-8",
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 9533.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 9,
+							"file": "/E/BaiduCloud/Dropbox/workdocs/LocalNotes/work/will_do.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 924,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										917,
+										917
+									]
+								],
+								"settings":
+								{
+									"in_converting": true,
+									"is_init_dirty_state": true,
+									"origin_encoding": "GB2312",
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 718.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 7,
+							"type": "text"
+						},
+						{
+							"buffer": 10,
+							"file": "/E/BaiduCloud/Dropbox/workdocs/LocalNotes/work/Bugs.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 309,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										306,
+										306
+									]
+								],
+								"settings":
+								{
+									"is_init_dirty_state": false,
+									"origin_encoding": "UTF-8",
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 12,
+							"type": "text"
+						},
+						{
+							"buffer": 11,
+							"file": "/E/BaiduCloud/Dropbox/workdocs/LocalNotes/work/transcoder_roadmap.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 3660,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										2899,
+										2899
+									]
+								],
+								"settings":
+								{
+									"is_init_dirty_state": false,
+									"origin_encoding": "UTF-8",
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 3385.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 13,
+							"type": "text"
+						},
+						{
+							"buffer": 12,
+							"file": "/E/BaiduCloud/Dropbox/workdocs/LocalNotes/work/user-pass.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1935,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										927,
+										886
+									]
+								],
+								"settings":
+								{
+									"in_converting": true,
+									"is_init_dirty_state": true,
+									"origin_encoding": "GB2312",
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 1956.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 8,
+							"type": "text"
+						},
+						{
+							"buffer": 13,
+							"file": "/E/BaiduCloud/Dropbox/workdocs/LocalNotes/ffmpeg/transcoder.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 16524,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										893,
+										893
+									]
+								],
+								"settings":
+								{
+									"is_init_dirty_state": false,
+									"origin_encoding": "UTF-8",
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 3593.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 11,
+							"type": "text"
+						},
+						{
+							"buffer": 14,
+							"file": "/D/extendedprogs/Sublime3/Data/Packages/User/Preferences.sublime-settings",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 169,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										165,
+										165
+									]
+								],
+								"settings":
+								{
+									"is_init_dirty_state": false,
+									"origin_encoding": "ASCII",
+									"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 14,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 27.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,2,3,-32000,-32000,-1,-1,788,250,250,906",
+			"project": "",
+			"replace":
+			{
+				"height": 50.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 3,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

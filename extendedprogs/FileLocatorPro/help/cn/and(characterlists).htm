@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head>
+   <title>[...] （字符列表）</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="[...] lists,Example using [...],Lists" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+<script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if (location.search.lastIndexOf("toc=0")<=0) {
+  if (parent.frames.length==0) { parent.location.href="index.html?and(characterlists).htm"; }
+  else { parent.quicksync('a5.8'); }
+}
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script></head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#649CCC">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">[...] （字符列表）</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="introduction.htm">Top</a>&nbsp;
+     <a href="()(expressiongroup).htm">Previous</a>&nbsp;
+     <a href="_(anycharacter).htm">Next</a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p>&nbsp;</p>
+<p>指定了在字符串中为有效字符的一个列表。可以单独将字符列出来，或者通过用两个字符，然后用’-‘号将它们分隔的方式，来表明一个字符的范围。例如：'[abc]' 将匹配 'a'，'b' 或 'c' 中的任何一个字符。这和 '[a-c]' 一样。'[a-c]' &nbsp;使用了一个范围来表示相同的字符集。</p>
+<p>&nbsp;</p>
+<p>您可以通过求集合的补集来匹配不属于一个范围的字符。通过用一个’^'作为列表中的第一个字符来表示（注意：这和表示字符串的开始的字符是同一个字符）。例如，'[^5]' 将匹配除'5‘之外的任何字符。</p>
+<p>&nbsp;</p>
+<p>可以使用多个范围。例如： '[A-Z0-9]' 是用于表达”所有字母和数字的字符“概念的一种普遍方法。要在字符列表中包含 `\'， `]'， `-' 或 `^' ，使用 <a href="(escapecharacter).htm">'\' 转义符</a> 。</p>
+<p>&nbsp;</p>
+<p>例如：</p>
+<p>&nbsp;</p>
+<p style="margin: 0px 0px 0px 48px;">表达式 '[0-9]+' 将找到任何字符串中的任何数字（注意这里使用了 <a href="(occurrencecharacters).htm">'+' 次数字符</a> ）。</p>
+<p style="margin: 0px 0px 0px 48px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="margin: 0px 0px 0px 48px;">表达式 '[0-9]+/[0-9]+/[0-9]+' 是一个可以用于搜索字符串中日期的表达式。虽然它不检查日期的有效性，但是其它的字符串不太可能匹配此模式。</p>
+<p style="margin: 0px 0px 0px 48px;"><span style="color: #000000;">&nbsp;</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+</td></tr></table>
+<hr>
+<font face="Arial" size="-2">
+Copyright &copy; 2013 Mythicsoft Ltd. All rights reserved.
+<br />
+Help file version: 7.0<br />
+<br />
+PDF and CHM versions of this help file are available here:<br />
+<a href="http://mythicsoft.com/filelocatorpro/help" target="_blank">http://mythicsoft.com/filelocatorpro/help</a><br /> 
+    <br />
+</font>
+
+</body>
+</html>

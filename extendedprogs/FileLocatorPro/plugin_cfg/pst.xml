@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<InterpreterConfig xmlns="http://www.mythicsoft.com/FileLocator">
+	<displayname>PST</displayname>
+	<uniquename>http://www.mythicsoft.com/pstinterpreter</uniquename>
+	<progid>PSTReader.PSTInterpreter</progid>
+	<filetypes>pst,ost</filetypes>
+	<interpretertype>emailrepository</interpretertype>
+	<active>no</active>
+	<safemode>no</safemode>
+	<useisfilter>no</useisfilter>
+	<nonreglibrary>pstreader.dll</nonreglibrary>
+	<searchbinary>no</searchbinary>
+</InterpreterConfig>

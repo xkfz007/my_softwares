@@ -1,0 +1,204 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head>
+   <title>Scripting</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="Active Scripting,Archive attribute,Excluding directories/folders,JScript,NOT,Read-only attribute,Scripting,Scripting example,SearchParms,VBScript" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+<script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if (location.search.lastIndexOf("toc=0")<=0) {
+  if (parent.frames.length==0) { parent.location.href="index.html?scripting.htm"; }
+  else { parent.quicksync('a3.5'); }
+}
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script></head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#649CCC">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">Scripting</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="introduction.htm">Top</a>&nbsp;
+     <a href="dos_expressions2.htm">Previous</a>&nbsp;
+     <a href="look_in.htm">Next</a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p>&nbsp;</p>
+<p>FileLocator Pro supports Active Scripting to customize the search engine's file name and contents matching algorithms. </p>
+<p>&nbsp;</p>
+<p><img src="../img/scriptingtab.png" width="607" height="148" border="0" alt="ScriptingTab"></p>
+<p>&nbsp;</p>
+<p>When the user starts a search FileLocator Pro:</p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>Looks to see if any script is active</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>Creates the Active Scripting engine for each script as specified by the Prog Id entered in the 'Engine' field.</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>Loads the script into the scripting engine.</td></tr></table></div><p>&nbsp;</p>
+<p>Once the script is loaded FileLocator Pro will then call a specific function inside the script depending on the script type:</p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>If the script is a 'File Name' script the function called is 'isValidFileName' and is passed the file path and name as parameters.</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>If the script is a 'Containing text' script the function called is 'isValidLine' and is passed the line number and text as parameters.</td></tr></table></div><p>&nbsp;</p>
+<p>Scripts are only called if the other search criteria is satisfied, i.e. file name or containing text expressions. The functions should return a boolean true or false value to indicate if the file or line is valid or not.</p>
+<p>&nbsp;</p>
+<p><span style="font-weight: bold;">Examples:</span></p>
+<p>&nbsp;</p>
+<p>Note: Please see the "Sample Scripts" sub-folder of the main FileLocator Pro installation folder for some provided sample scripts.</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">Read-only script</span></p>
+<p>&nbsp;</p>
+<p>The following example shows a sample file name script to limit the files returned to those that have the Read-Only attribute specified. Note: Other attributes could be used, e.g. use the '32' instead of '1' to find files with Archive attribute specified.</p>
+<p>&nbsp;</p>
+<p><span style="font-family: 'Courier New'; color: #0000ff;">var</span><span style="font-family: 'Courier New';"> objFSO = </span><span style="font-family: 'Courier New'; color: #0000ff;">new</span><span style="font-family: 'Courier New';"> ActiveXObject( "Scripting.FileSystemObject" );</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: 'Courier New'; color: #0000ff;">function</span><span style="font-family: 'Courier New';"> isValidFileName( strPath, strFileName )</span></p>
+<p><span style="font-family: 'Courier New';">{</span></p>
+<p><span style="width:48px">&nbsp;</span><span style="font-family: 'Courier New'; color: #0000ff;">var</span><span style="font-family: 'Courier New';"> bIsValid = </span><span style="font-family: 'Courier New'; color: #0000ff;">false</span><span style="font-family: 'Courier New';">;</span></p>
+<p><span style="width:48px">&nbsp;</span><span style="font-family: 'Courier New'; color: #0000ff;">try</span></p>
+<p><span style="width:48px">&nbsp;</span><span style="font-family: 'Courier New';">{</span></p>
+<p><span style="width:48px">&nbsp;</span> &nbsp; &nbsp; &nbsp; &nbsp;<span style="font-family: 'Courier New'; color: #0000ff;">var</span><span style="font-family: 'Courier New';"> objFile = objFSO.GetFile( strPath + strFileName );</span></p>
+<p><span style="width:48px">&nbsp;</span> &nbsp; &nbsp; &nbsp; &nbsp;<span style="font-family: 'Courier New';">bIsValid = ( objFile.Attributes &amp; 1 );</span></p>
+<p><span style="width:48px">&nbsp;</span><span style="font-family: 'Courier New';">}</span></p>
+<p><span style="width:48px">&nbsp;</span><span style="font-family: 'Courier New'; color: #0000ff;">catch</span><span style="font-family: 'Courier New';">( e ) &nbsp; &nbsp; &nbsp; &nbsp;{}</span></p>
+<p><span style="width:48px">&nbsp;</span><span style="font-family: 'Courier New'; color: #0000ff;">return</span><span style="font-family: 'Courier New';"> bIsValid;</span></p>
+<p><span style="font-family: 'Courier New';">}</span></p>
+<p>&nbsp;</p>
+<p>Note that <span style="font-family: 'Courier New'; font-weight: bold;">try...catch</span> blocks have been used to prevent exceptions being thrown back to the search engine. If an exception occurs and is not caught by the script the search will stop.</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">Folders only script</span></p>
+<p>&nbsp;</p>
+<p>Another example shows how to locate only folders.</p>
+<p>&nbsp;</p>
+<p><span style="font-family: 'Courier New'; color: #0000ff;">var</span><span style="font-family: 'Courier New';"> objFSO = </span><span style="font-family: 'Courier New'; color: #0000ff;">new</span><span style="font-family: 'Courier New';"> ActiveXObject( "Scripting.FileSystemObject" );</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: 'Courier New'; color: #0000ff;">function</span><span style="font-family: 'Courier New';"> isValidFileName( strPath, strFileName )</span></p>
+<p><span style="font-family: 'Courier New';">{</span></p>
+<p><span style="width:48px">&nbsp;</span><span style="font-family: 'Courier New'; color: #0000ff;">var</span><span style="font-family: 'Courier New';"> bIsValid = </span><span style="font-family: 'Courier New'; color: #0000ff;">false</span><span style="font-family: 'Courier New';">;</span></p>
+<p><span style="width:48px">&nbsp;</span><span style="font-family: 'Courier New'; color: #0000ff;">try</span></p>
+<p><span style="width:48px">&nbsp;</span><span style="font-family: 'Courier New';">{</span></p>
+<p><span style="width:48px">&nbsp;</span> &nbsp; &nbsp; &nbsp; &nbsp;<span style="font-family: 'Courier New';">bIsValid = objFSO.FolderExists( strPath + strFileName );</span></p>
+<p><span style="width:48px">&nbsp;</span><span style="font-family: 'Courier New';">}</span></p>
+<p><span style="width:48px">&nbsp;</span><span style="font-family: 'Courier New'; color: #0000ff;">catch</span><span style="font-family: 'Courier New';">( e ) &nbsp; &nbsp; &nbsp; &nbsp;{}</span></p>
+<p><span style="width:48px">&nbsp;</span><span style="font-family: 'Courier New'; color: #0000ff;">return</span><span style="font-family: 'Courier New';"> bIsValid;</span></p>
+<p><span style="font-family: 'Courier New';">}</span></p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">NOT expression script</span></p>
+<p>&nbsp;</p>
+<p>Here's an example of how to implement NOT when contents matching using JScript's own regular expression engine (the NOT expression to be matched is entered in the 'Containing text' CustomParm field on the Scripting tab):</p>
+<p>&nbsp;</p>
+<p><span style="font-family: 'Courier New'; color: #008000;">// An example of a NOT expression, this time using JScript's built in Regular Expression object.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: 'Courier New'; color: #0000ff;">var</span><span style="font-family: 'Courier New';"> regExp = </span><span style="font-family: 'Courier New'; color: #0000ff;">new</span><span style="font-family: 'Courier New';"> RegExp( SearchParms.ContainingTextCustomParm );</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: 'Courier New'; color: #0000ff;">function</span><span style="font-family: 'Courier New';"> isValidLine( nLineNum, strText )</span></p>
+<p><span style="font-family: 'Courier New';">{</span></p>
+<p><span style="width:48px">&nbsp;</span><span style="font-family: 'Courier New'; color: #0000ff;">var</span><span style="font-family: 'Courier New';"> bIsValid = </span><span style="font-family: 'Courier New'; color: #0000ff;">true</span><span style="font-family: 'Courier New';">;</span></p>
+<p><span style="width:48px">&nbsp;</span><span style="font-family: 'Courier New'; color: #0000ff;">try</span></p>
+<p><span style="width:48px">&nbsp;</span><span style="font-family: 'Courier New';">{</span></p>
+<p><span style="width:48px">&nbsp;</span> &nbsp; &nbsp; &nbsp; &nbsp;<span style="font-family: 'Courier New';">bIsValid = !regExp.test( strText );</span></p>
+<p><span style="width:48px">&nbsp;</span><span style="font-family: 'Courier New';">}</span></p>
+<p><span style="width:48px">&nbsp;</span><span style="font-family: 'Courier New'; color: #0000ff;">catch</span><span style="font-family: 'Courier New';">( e ) &nbsp; &nbsp; &nbsp; &nbsp;{}</span></p>
+<p><span style="width:48px">&nbsp;</span><span style="font-family: 'Courier New'; color: #0000ff;">return</span><span style="font-family: 'Courier New';"> bIsValid;</span></p>
+<p><span style="font-family: 'Courier New';">}</span></p>
+<p>&nbsp;</p>
+<p>Note how the regular expression object is created outside of the function body so that it is only created and compiled once for any given search, although it may be called many times.</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">Excluding directories</span></p>
+<p>&nbsp;</p>
+<p>Another variation of the NOT expression (see above) is for excluding certain directories from a search. For example, to exclude the Windows directory from a search the NOT expression on the path is simply 'C:\\Windows'. Here's an example of how to implement a NOT when path name matching (the NOT expression to be matched is entered in the 'File name' CustomParm field on the Scripting tab):</p>
+<p>&nbsp;</p>
+<p><span style="color: #008000;">// An example of a NOT expression on a file's pathname</span></p>
+<p><span style="color: #008000;">// using JScript's built in Regular Expression object.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: 'Courier New'; color: #0000ff;">var</span><span style="font-family: 'Courier New';"> regExp = </span><span style="font-family: 'Courier New'; color: #0000ff;">new</span><span style="font-family: 'Courier New';"> RegExp( SearchParms.FilenameCustomParm );</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: 'Courier New'; color: #0000ff;">function</span><span style="font-family: 'Courier New';"> isValidFileName( strPath, strFileName )</span></p>
+<p><span style="font-family: 'Courier New';">{</span></p>
+<p><span style="width:48px">&nbsp;</span><span style="font-family: 'Courier New'; color: #0000ff;">var</span><span style="font-family: 'Courier New';"> bIsValid = </span><span style="font-family: 'Courier New'; color: #0000ff;">true</span><span style="font-family: 'Courier New';">;</span></p>
+<p><span style="width:48px">&nbsp;</span><span style="font-family: 'Courier New'; color: #0000ff;">try</span></p>
+<p><span style="width:48px">&nbsp;</span><span style="font-family: 'Courier New';">{</span></p>
+<p><span style="width:48px">&nbsp;</span> &nbsp; &nbsp; &nbsp; &nbsp;<span style="font-family: 'Courier New';">bIsValid = !regExp.test( strPath );</span></p>
+<p><span style="width:48px">&nbsp;</span><span style="font-family: 'Courier New';">}</span></p>
+<p><span style="width:48px">&nbsp;</span><span style="font-family: 'Courier New'; color: #0000ff;">catch</span><span style="font-family: 'Courier New';">( e ) &nbsp; &nbsp; &nbsp; &nbsp;{}</span></p>
+<p><span style="width:48px">&nbsp;</span><span style="font-family: 'Courier New'; color: #0000ff;">return</span><span style="font-family: 'Courier New';"> bIsValid;</span></p>
+<p><span style="font-family: 'Courier New';">}</span></p>
+<p>&nbsp;</p>
+<p>Note the use of two '\\' to represent a single '\' in 'C:\\Windows' since the backslash character is the special escape character in regular expressions.</p>
+<p>&nbsp;</p>
+<p><span style="font-weight: bold;">Search Parameters Object</span></p>
+<p>&nbsp;</p>
+<p>Scripts can access almost all the other search criteria through the object 'SearchParms'. For example, the isValidFileName script could use the Custom Parm value entered in the Scripting tab like this:</p>
+<p>&nbsp;</p>
+<p><span style="font-family: 'Courier New'; color: #0000ff;">var</span><span style="font-family: 'Courier New';"> strCustom = SearchParms.FilenameCustomParm;</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>SearchParms provides access to the following criteria:</p>
+<p>&nbsp;</p>
+<p>CurrentFileName (String) - Currently being processed file name.</p>
+<p>&nbsp;</p>
+<p>CurrentFilePath (String) - Path of currently processed file.</p>
+<p>&nbsp;</p>
+<p>ContainingText (String) - Value entered in the 'Containing text' field..</p>
+<p>&nbsp;</p>
+<p>ContainingTextCustomParm (String ) - Value entered in the 'Custom Parm' field for containing text script.</p>
+<p>&nbsp;</p>
+<p>ContainingTextRegExp (Boolean) - Indicates if the regular expression on Containing text has been switched on.</p>
+<p>&nbsp;</p>
+<p>EOLUnix (Boolean) - Indicates if EOL Unix option has been switched on.</p>
+<p>&nbsp;</p>
+<p>EOLMac (Boolean) - Indicates if EOL Mac option has been switched on.</p>
+<p>&nbsp;</p>
+<p>Filename (String) - Value entered in the 'File name' field.</p>
+<p>&nbsp;</p>
+<p>FilenameCustomParm (String) - Value entered in the 'Custom Parm' field for file name script.</p>
+<p>&nbsp;</p>
+<p>FilenameExcludeExp (Boolean) - Indicates if the 'Specifies NOT expression' has been switched on.</p>
+<p>&nbsp;</p>
+<p>FilenameRegExp (Boolean) - Indicates if the regular expression on File name has been switched on.</p>
+<p>&nbsp;</p>
+<p>LookIn (String) - Value entered in the 'Look in' field.</p>
+<p>&nbsp;</p>
+<p>MatchFilenameCase (Boolean) - Indicates if the match case option for file name has been switched on.</p>
+<p>&nbsp;</p>
+<p>MatchContentsCase (Boolean) - Indicates if the match case option for the containing text has been switched on.</p>
+<p>&nbsp;</p>
+<p>ModifiedAfter (Date) - Value entered in the 'Modified After' field.</p>
+<p>&nbsp;</p>
+<p>ModifiedBefore (Date) - Value entered in the 'Modified Before' field.</p>
+<p>&nbsp;</p>
+<p>SearchContents (Boolean) - Indicates if the search is searching contents of files.</p>
+<p>&nbsp;</p>
+<p>SearchOnePhase (Boolean) - Indicates if &nbsp;'One Phase Searching' has been switched on.</p>
+<p>&nbsp;</p>
+<p>SearchSubFolders (Boolean) - Indicates if the 'Search Sub Folders' has been switched on.</p>
+<p>&nbsp;</p>
+<p>SizeMoreThan (Integer) - Value entered in the 'Size More Than' field.</p>
+<p>&nbsp;</p>
+<p>SizeLessThan (Integer) - Value entered in the 'Size Less Than' field.</p>
+
+</td></tr></table>
+<hr>
+<font face="Arial" size="-2">
+Copyright &copy; 2013 Mythicsoft Ltd. All rights reserved.
+<br />
+Help file version: 7.0<br />
+<br />
+PDF and CHM versions of this help file are available here:<br />
+<a href="http://mythicsoft.com/filelocatorpro/help" target="_blank">http://mythicsoft.com/filelocatorpro/help</a><br /> 
+    <br />
+</font>
+
+</body>
+</html>

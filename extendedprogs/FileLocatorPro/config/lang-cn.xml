@@ -1,0 +1,1761 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<translation lang="简体中文" helplang="cn">
+
+	<dialog name="IDD_REPORTS_SELECTION" id="2009" caption="" maxgrow="700">
+		<res id="1" text="报告:" />
+		<res id="2" text="风格:" />
+		<res id="3" text="Next" />
+		<res id="4" text="Next" />
+		<res id="5" text="所有" />
+		<res id="6" text="文件:" />
+		<res id="7" text="选中" />
+	</dialog>
+	<dialog name="IDD_REPORT_PROGRESS" id="2306" caption="">
+		<res id="1" text="" />
+		<res id="2" text="正在生成报告..." />
+		<res id="3" text="取消" />
+	</dialog>
+	<dialog name="IDD_ADV_MEMMANAGER" id="6503" caption="">
+		<res id="1" text="限制大型搜索的内存消耗数目" />
+		<res id="2" text="单个搜索的内存限制:" />
+		<res id="3" text="根据系统计算值" />
+		<res id="4" text="具体数目:" />
+		<res id="5" text="截断行位置:" />
+		<res id="6" text="每行截断字符位置:" />
+		<res id="7" text="仅对搜索历史应用截断" />
+	</dialog>
+	<dialog name="IDD_REPORT_OPTIONS" id="2300" caption="">
+		<res id="1" text="显示" />
+		<res id="2" text="条件摘要" />
+		<res id="3" text="搜索统计" />
+		<res id="4" text="列名称" />
+		<res id="5" text="字段" />
+		<res id="6" text="确定" />
+		<res id="7" text="取消" />
+		<res id="8" text="注: 拖放可以重排字段顺序" />
+	</dialog>
+	<dialog name="IDD_CACHE_SETTINGS" id="6501" caption="">
+		<res id="1" text="" />
+		<res id="2" text="" />
+		<res id="3" text="信息" />
+		<res id="4" text="缓存文件夹:" />
+		<res id="5" text="项目数:" />
+		<res id="6" text="总大小:" />
+		<res id="7" text="压缩..." />
+		<res id="8" text="清除..." />
+		<res id="9" text="配置" />
+		<res id="10" text="给每个项目分配的最大缓存大小(KB):" />
+		<res id="11" text="过期" />
+		<res id="12" text="永不" />
+		<res id="13" text="对未引用的缓存保留期为:" />
+		<res id="14" text="退出时清除缓存" />
+		<res id="15" text="确定" />
+		<res id="16" text="取消" />
+		<res id="17" text="天" />
+	</dialog>
+	<dialog name="IDD_GENERAL_SEARCH" id="6502" caption="">
+		<res id="1" text="搜索方式" />
+		<res id="2" text="多阶段(&amp;M)(默认)" />
+		<res id="3" text="单阶段(&amp;P)" />
+		<res id="4" text="计算匹配数目(&amp;C)" />
+	</dialog>
+	<dialog name="IDD_SAVE_WORKSPACE" id="263" caption="保存工作区">
+		<res id="1" text="保存在" />
+		<res id="2" text="文件(&amp;F):" />
+		<res id="3" text="浏览(&amp;B)..." />
+		<res id="4" text="要保存的信息" />
+		<res id="5" text="完整工作区(&amp;C)" />
+		<res id="6" text="部分工作区(&amp;P)" />
+		<res id="7" text="所有的搜索(&amp;A)" />
+		<res id="8" text="仅当前搜索(&amp;C):" />
+		<res id="9" text="包含每个搜索的搜索历史(&amp;I)" />
+		<res id="15" text="保存" />
+		<res id="16" text="取消" />
+	</dialog>
+	<dialog name="IDD_SAVE_SESSION" id="262" caption="保存搜索会话">
+		<res id="1" text="保存在" />
+		<res id="2" text="文件(&amp;F):" />
+		<res id="3" text="浏览(&amp;B)..." />
+		<res id="4" text="包含搜索历史(&amp;I)" />
+		<res id="15" text="保存" />
+		<res id="16" text="取消" />
+	</dialog>
+	<dialog name="IDD_CONFIGENTRY_EXTENSION" id="6106" caption="">
+		<res id="1" text="名称:"/>
+		<res id="2" text="&lt;名称&gt;"/>
+		<res id="3" text="文件类型:"/>
+		<res id="4" text="(请将每个有效文件的类型添加于单独一行)"/>
+		<res id="5" text="程序 Id:"/>
+		<res id="6" text="&lt;progid&gt;"/>
+		<res id="7" text="在安全模式下运行(&amp;S)"/>
+		<res id="8" text="使用索引服务筛选器(如果可用)(&amp;U)"/>
+		<res id="9" text="当插件未激活，内容搜索排除这些文件类型(&amp;E)"/>
+	</dialog>
+	<dialog name="IDD_CONFIGENTRY_EXTENSIONMAIN" id="6236" caption="">
+		<res id="1" text="恢复..."/>
+		<res id="2" text="请按下面的按钮以将扩展设置恢复为默认安装。"/>
+		<res id="3" text="恢复扩展配置"/>
+		<res id="4" text="此配置组控制高级文件处理的扩展设置。"/>
+	</dialog>
+	<dialog name="IDD_CONFIGENTRY_GENERAL" id="6242" caption="">
+		<res id="1" text="此配置组包含用于控制 FileLocator Pro 搜索的常规设置。"/>
+	</dialog>
+	<dialog name="IDD_CONFIGENTRY_EDITOR" id="6243" caption="">
+		<res id="1" text="此配置组控制工作在内容视图时，将使用哪个编辑器。"/>
+	</dialog>
+	<dialog name="IDD_CONFIGENTRY_ADVANCED" id="6249" caption="">
+		<res id="1" text="此配置组包含 FileLocator Pro 的高级设置。"/>
+	</dialog>
+	<dialog name="IDD_CLEARARHISTORY_DIALOG" id="6175" caption="清除历史记录">
+		<res id="1" text="文件名(&amp;F)"/>
+		<res id="2" text="包含文本(&amp;C)"/>
+		<res id="3" text="查找位置(&amp;L)"/>
+		<res id="4" text="确定"/>
+		<res id="5" text="取消"/>
+		<res id="6" text="您希望清除哪部分历史记录？" />
+		<res id="7" text="所有历史记录" />
+	</dialog>
+	<dialog name="IDD_FILETYPE_UTF8" id="6253" caption="">
+		<res id="1" text="UTF-8 文件类型可能没有字节顺序标记 (BOM)。"/>
+		<res id="2" text="文件类型:"/>
+		<res id="3" text="(请将每个有效文件的类型添加于单独一行)"/>
+	</dialog>
+	<dialog name="IDD_GENERAL_IFILTER" id="6250" caption="">
+		<res id="1" text=""/>
+		<res id="2" text="刷新(&amp;R)"/>
+		<res id="3" text="在此计算机上注册的 IFilter:"/>
+		<res id="4" text="包含基于HTML/XML文件类型的IFilter" />
+		<res id="5" text="IFilter搜索优先级:" />
+	</dialog>
+	<dialog name="IDD_EDITORSETTINGS_DEFAULT" id="6238" caption="">
+		<res id="1" text="请选择您的默认编辑器:"/>
+		<res id="2" text="在文本选项卡中的内部查看器"/>
+		<res id="3" text="在新窗口中的内部查看器"/>
+		<res id="4" text="Microsoft Visual Studio.NET"/>
+		<res id="5" text="外部编辑器"/>
+	</dialog>
+	<dialog name="IDD_EDITORSETTINGS_EXTERNAL" id="6237" caption="">
+		<res id="1" text="浏览(&amp;B)..."/>
+		<res id="2" text="常见编辑器的默认值:"/>
+		<res id="3" text="命令行参数:"/>
+		<res id="4" text="变量: "/>
+		<res id="5" text="$(FILEPATH)"/>
+		<res id="6" text="- 当前选定的文件"/>
+		<res id="7" text="$(LINENUM)"/>
+		<res id="8" text="- 当前选定的行号"/>
+		<res id="9" text="程序位置:"/>
+	</dialog>
+	<dialog name="IDD_CONFIGURATION_MAIN" id="6235" caption="FileLocator Pro 配置">
+		<res id="1" text=""/>
+		<res id="2" text=""/>
+		<res id="3" text="确定"/>
+		<res id="4" text="取消"/>
+		<res id="5" text="设置"/>
+		<res id="6" text="重置为默认设置"/>
+	</dialog>
+	<dialog name="IDD_GENERAL_DISPLAYCONFIG" id="6239" caption="">
+		<res id="1" text="显示行"/>
+		<res id="2" text="每个文件最大显示行数:"/>
+		<res id="3" text="将每行显示的字符最大数限定为:"/>
+		<res id="4" text="周围的行"/>
+		<res id="5" text="前面行数:"/>
+		<res id="6" text="后面行数:"/>
+		<res id="7" text="文件列表视图中的列设置"/>
+		<res id="8" text="如果没有足够空间显示完整路径，则显示结束路径"/>
+	</dialog>
+	<dialog name="IDD_GENERAL_HISTORY" id="6240" caption="">
+		<res id="1" text="退出时清除所有历史记录(&amp;C)"/>
+		<res id="2" text="清除历史记录(&amp;H)..."/>
+		<res id="3" text="记忆"/>
+		<res id="4" text="选项设置(&amp;O)"/>
+		<res id="5" text="窗口的大小、位置和字体设置(&amp;Z)"/>
+		<res id="6" text="在启动时加载上次搜索(&amp;L)"/>
+		<res id="7" text="列表最大值" />
+		<res id="8" text="搜索导航:" />
+		<res id="9" text="下拉列表" />
+		<res id="10" text="下拉列表:" />
+		<res id="11" text="最近的文件:" />
+	</dialog>
+	<dialog name="IDD_GENERAL_CHARPROC" id="6241" caption="">
+		<res id="1" text="其它有效的行终止 (EOL) 标识符"/>
+		<res id="2" text="&amp;Unix (LF)"/>
+		<res id="3" text="&amp;Mac (CR)"/>
+		<res id="4" text="每行的最大字符数:"/>
+		<res id="5" text="特别"/>
+		<res id="6" text="转换为 7 位字符"/>
+		<res id="7" text="包含文本" />
+		<res id="8" text="在内容搜索中包含文件名(&amp;I)" />
+	</dialog>
+	<dialog name="IDD_GENERAL_THREADING" id="6244" caption="">
+		<res id="1" text="搜索线程"/>
+		<res id="2" text="自动管理(&amp;A)"/>
+		<res id="3" text="并发线程数:"/>
+		<res id="4" text="(之间 1 - 99)"/>
+		<res id="5" text="警告: 太高的线程数设置可能会影响性能。 "/>
+		<res id="6" text="进程的优先级"/>
+		<res id="7" text="前台:"/>
+		<res id="8" text="后台:"/>
+		<res id="9" text="最小化:"/>
+	</dialog>
+	<dialog name="IDD_GENERAL_SHELL" id="6245" caption="">
+		<res id="1" text="与FileLocator Pro文件类型(SRF, FLSX, FLWX)关联(&amp;A)" />
+		<res id="2" text="添加 'FileLocator Pro...' 到文件夹的上下文菜单选项(&amp;F)"/>
+		<res id="3" text="添加 'FileLocator Pro...' 到文件的上下文菜单选项(&amp;I)"/>
+		<res id="4" text="添加到'开始'菜单的查找/搜索选项中(&amp;S)"/>
+		<res id="5" text="替换默认资源管理器搜索(&amp;R) (Ctrl+F, F3)"/>
+		<res id="6" text="启用热键启动(&amp;H) (WinKey+Alt+F, WinKey+Alt+F3)"/>
+		<res id="7" text="UAC 注: 更改壳设置导致应用程序 FLProShellAdmin.exe 来启动所需的特权升级。"/>
+	</dialog>
+	<dialog name="IDD_GENERAL_FOLDERS" id="6246" caption="">
+		<res id="1" text="浏览(&amp;B)..."/>
+		<res id="2" text="浏览(&amp;B)..."/>
+		<res id="3" text="浏览(&amp;B)..."/>
+		<res id="4" text="浏览(&amp;B)..."/>
+		<res id="5" text="日志文件的文件夹:"/>
+		<res id="6" text="配置文件的文件夹:"/>
+		<res id="7" text="浏览(&amp;B)..."/>
+		<res id="8" text="浏览(&amp;B)..."/>
+		<res id="9" text="收藏文件夹:"/>
+	</dialog>
+	<dialog name="IDD_GENERAL_ALERTS" id="6247" caption="">
+		<res id="1" text="播放声音"/>
+		<res id="2" text="..."/>
+		<res id="3" text="..."/>
+		<res id="4" text="显示任务栏通知消息"/>
+		<res id="5" text="对找到的每个文件重复"/>
+		<res id="6" text="播放声音"/>
+		<res id="7" text="..."/>
+		<res id="8" text="..."/>
+		<res id="9" text="显示任务栏通知消息"/>
+		<res id="10" text="文件找到"/>
+		<res id="11" text="搜索完成"/>
+	</dialog>
+	<dialog name="IDD_ADV_TRANSFORM" id="6248" caption="">
+		<res id="1" text="请选择在&quot;保存结果&quot;时用于自定义格式转换的XSLT处理器:"/>
+		<res id="2" text="DOM 程序 Id:"/>
+		<res id="3" text="微软 XML 核心服务"/>
+	</dialog>
+	<dialog name="IDD_ADV_JUNCTIONS" id="6251" caption="">
+		<res id="1" text="您希望FileLocator Pro如何处理交接点？"/>
+		<res id="2" text="搜索标明为交接点的文件夹(若ACL:访问控制列表允许)(&amp;S)"/>
+		<res id="3" text="排除系统隐藏交接点(&amp;X)"/>
+	</dialog>
+	<dialog name="IDD_ADV_FILELISTS" id="6252" caption="">
+		<res id="1" text="选择哪些条件输入框接受文件列表 (例如 =c:\list.txt):"/>
+		<res id="2" text="文件名称(&amp;F)"/>
+		<res id="3" text="包含文本(&amp;C)"/>
+		<res id="4" text="查找位置(&amp;L)"/>
+	</dialog>
+	<dialog name="IDD_EXPRESSION_BOOLEAN" id="6254" caption="">
+		<res id="1" text="相似灵敏度"/>
+		<res id="2" text=""/>
+		<res id="3" text="非常相似"/>
+		<res id="4" text="类似"/>
+		<res id="5" text="近似"/>
+		<res id="6" text="靠近距离"/>
+		<res id="7" text="单词相隔最大距离(以字符为单位)"/>
+		<res id="8" text="表达式解析" />
+		<res id="9" text="将弯引号作为普通引号处理" />
+	</dialog>
+	<dialog name="IDD_FILTERS" id="6272" caption="持久性搜索筛选器">
+		<res id="1" text="使用持久性搜索筛选器(&amp;U)"/>
+		<res id="2" text="搜索筛选器:"/>
+		<res id="3" text="添加(&amp;A)..."/>
+		<res id="4" text=""/>
+		<res id="5" text="确定"/>
+		<res id="6" text="取消"/>
+	</dialog>
+	<dialog name="IDD_FILTERS_EDIT" id="6273" caption="搜索筛选器定义">
+		<res id="1" text="说明(&amp;D):"/>
+		<res id="2" text="筛选器(&amp;F):"/>
+		<res id="3" text=""/>
+		<res id="4" text="浏览..."/>
+		<res id="5" text="浏览..."/>
+		<res id="6" text="保存"/>
+		<res id="7" text="取消"/>
+		<res id="8" text=""/>
+		<res id="9" text="一个搜索筛选器可以是”查找位置“中的任何有效值。它可以将某一个文件夹包含或排除,或者仅是指定一个位置筛选器。"/>
+		<res id="10" text="注: 分隔多个条目使用分号。"/>
+	</dialog>
+	<dialog name="IDD_EXPRESSION_REGEX" id="6274" caption="">
+		<res id="1" text="正则表达式语法"/>
+		<res id="2" text="Perl 兼容(&amp;P)"/>
+		<res id="3" text="经典(&amp;C)"/>
+		<res id="4" text="使用多个校对规则(&amp;C)" />
+	</dialog>
+	<dialog name="IDD_EXPRESSION_HASH" id="6275" caption="">
+		<res id="1" text="哈希值算法"/>
+		<res id="2" text="SHA-&amp;1"/>
+		<res id="3" text="SHA-&amp;256"/>
+		<res id="4" text="SHA-&amp;512"/>
+		<res id="5" text="&amp;MD5"/>
+	</dialog>
+	<dialog name="IDD_FORMATS_DOCUMENT" id="6000" caption="文档搜索设置">
+		<res id="1" text="选择搜索常见办公文档格式 (例如:doc,pdf, xls 等) 的搜索方法:"/>
+		<res id="2" text="深度搜索（搜索原始数据并使用所有可用处理插件)"/>
+		<res id="3" text="自定义处理设置"/>
+		<res id="4" text="使用所有适当的文档处理扩展件"/>
+		<res id="5" text="仅使用选择的文档处理扩展件:"/>
+		<res id="6" text="所有(&amp;A)"/>
+		<res id="7" text="无(&amp;N)"/>
+		<res id="8" text=""/>
+		<res id="9" text="也搜索处理过文件的原始文档数据"/>
+		<res id="10" text="确定"/>
+		<res id="11" text="取消"/>
+	</dialog>
+	<dialog name="IDD_FORMATS_ARCHIVE" id="6180" caption="压缩/存档格式搜索设置">
+		<res id="1" text="请选择您想要搜索的压缩/存档格式的范围:"/>
+		<res id="2" text="在所有压缩/归档文件内搜索"/>
+		<res id="3" text="只在选择的压缩/存档格式中搜索:"/>
+		<res id="4" text="所有(&amp;A)"/>
+		<res id="5" text="无(&amp;N)"/>
+		<res id="6" text=""/>
+		<res id="7" text="确定"/>
+		<res id="8" text="取消"/>
+	</dialog>
+	<dialog name="IDD_CONFIGENTRY_EXPRESSIONS" id="6001" caption="">
+		<res id="1" text="此配置组包含 FileLocator Pro 的表达式设置。"/>
+	</dialog>
+	<dialog name="IDD_EXPRESSION_DOS" id="6002" caption="">
+		<res id="1" text="严格符合语法(&amp;S)"/>
+		<res id="2" text="DOS 表达式"/>
+	</dialog>
+	<dialog name="IDD_GENERAL_GUI" id="6003" caption="">
+		<res id="1" text="外观和感觉"/>
+		<res id="2" text="默认(选项卡式搜索,标准主题)"/>
+		<res id="3" text="经典 (MDI 搜索,经典主题)"/>
+		<res id="4" text="自定义"/>
+		<res id="5" text="主题:"/>
+		<res id="6" text="选项卡式搜索"/>
+		<res id="7" text="个别任务栏选项卡预览(&amp;I) (仅 Win 7)"/>
+		<res id="8" text="* 当您重新启动 FileLocator Pro 后会生效"/>
+	</dialog>
+	<dialog name="IDD_EDITORSETTINGS_INTERNALVIEWER" id="6004" caption="">
+		<res id="1" text="显示"/>
+		<res id="2" text="* 所有新加载的文件都生效。"/>
+		<res id="3" text="选项卡大小:"/>
+	</dialog>
+	<dialog name="IDD_ABOUTBOX" id="100" caption="关于 FileLocator Pro">
+		<res id="1" text="http://www.mythicsoft.com"/>
+		<res id="2" text="mailto:support@mythicsoft.com"/>
+		<res id="3" text="注册码(&amp;R)..."/>
+		<res id="4" text="确定"/>
+		<res id="5" text="版权所有 © 2013 Mythicsoft Ltd. 保留所有权利。"/>
+		<res id="6" text="FileLocator Pro是是深受人们欢迎的搜索工具免费软件Agent Ransack的功能扩展版。"/>
+		<res id="7" text="FileLocator Pro在试用期过后必须注册。通过以下显示的网站可以获得注册码。"/>
+		<res id="8" text="要获取注册码,请访问网站:"/>
+		<res id="9" text="隐私政策: 个人信息不会被出售或分发"/>
+		<res id="10" text="反馈/问题发送到: "/>
+		<res id="11" text="此 FileLocator Pro 的副本已注册给:"/>
+		<res id="12" text="FileLocator Pro"/>
+	</dialog>
+	<dialog name="IDD_TESTREGEXP" id="130" caption="测试正则表达式">
+		<res id="1" text="正则表达式(&amp;R):"/>
+		<res id="2" text="区分大小写"/>
+		<res id="3" text="示例文本(&amp;S):"/>
+		<res id="4" text="测试"/>
+		<res id="5" text="关闭"/>
+		<res id="6" text="结果:"/>
+		<res id="7" text="尚不能确定您的正则表达式是否正确？此窗口允许您测试正则表达式引擎。只需输入您想要测试的表达式及某示例文本，然后按“测试”。"/>
+		<res id="8" text="注: 表达式测试器使用 Perl 样式的正则表达式。"/>
+	</dialog>
+	<dialog name="IDD_SEARCHFOR_FORM" id="102" caption="">
+		<res id="1" text=""/>
+		<res id="2" text="专家用户(&amp;X)"/>
+		<res id="3" text="开始"/>
+		<res id="4" text="停止"/>
+		<res id="5" text="Progress1"/>
+		<res id="6" text="Animate1"/>
+		<res id="7" text=""/>
+	</dialog>
+	<dialog name="IDD_BASIC" id="132" caption="主要">
+		<res id="1" text="文件名称(&amp;N):"/>
+		<res id="2" text="包含文本(&amp;C):"/>
+		<res id="3" text="搜索向导(&amp;Z)..."/>
+		<res id="4" text="查找位置(&amp;L):"/>
+		<res id="5" text=""/>
+		<res id="6" text="搜索子文件夹(&amp;U)"/>
+		<res id="7" text="浏览(&amp;B)..."/>
+	</dialog>
+	<dialog name="IDD_SEARCH_WIZ_NAME" id="135" caption="文件的名称">
+		<res id="1" text="您想要查找的文件名称是什么？"/>
+		<res id="2" text="您不知道确切的名称？不用担心，您可以搜索名称的部分。如果您不知道该名称的任何部分则保留为空。"/>
+		<res id="3" text="示例:"/>
+		<res id="4" text="My.*Doc"/>
+		<res id="5" text="将找出所有文件名含有My并随后在某位置含有Doc的文件"/>
+		<res id="6" text="(如: My_Document.doc, My_Autodoc.txt 等)"/>
+		<res id="7" text="在使用如上述例子中这样的正则表达式前，请确保在&quot;选项&quot;选项卡中的&quot;文件名称&quot;设置成为&quot;正则表达式&quot;。要使用更复杂的&quot;表达式&quot;，请使用&quot;专家用户&quot;界面中的表达式向导"/>
+		<res id="8" text="MyDoc"/>
+		<res id="9" text="将找出文件名某位置包含有 MyDoc 的所有文件"/>
+		<res id="10" text="(如: MyDocument.doc,Note_From_MyDoctor.txt 等)"/>
+		<res id="11" text="^MyDoc"/>
+		<res id="12" text="将找出所有文件名是以MyDoc开头的文件"/>
+		<res id="13" text="(如: MyDocument.doc,MyDoctorsNote.txt 等)"/>
+	</dialog>
+	<dialog name="IDD_SEARCH_WIZ_LOCATION" id="136" caption="文件的位置">
+		<res id="1" text="所有本地硬盘(&amp;A)"/>
+		<res id="2" text="特定的驱动器(&amp;D) (例如 C:, D: 等)\n"/>
+		<res id="3" text=""/>
+		<res id="4" text="特定文件夹(&amp;F) (例如 C:\Windows, D:\Files\My Docs 等)"/>
+		<res id="5" text=""/>
+		<res id="6" text="浏览(&amp;B)..."/>
+		<res id="7" text="是的，也搜索子文件夹(&amp;Y)"/>
+		<res id="8" text="不，只搜索该文件夹(&amp;N)"/>
+		<res id="9" text="当您点击完成按钮时，会自动开始搜索(&amp;S)"/>
+		<res id="10" text="想要在哪里搜索文件？"/>
+		<res id="11" text="也想要搜索文件夹的子文件夹吗？"/>
+		<res id="12" text="性能提示: 选择特定文件夹极大地降低要搜索的文件的数目，所以通常速度会快很多。"/>
+	</dialog>
+	<dialog name="IDD_SEARCH_WIZ_CONTENTS" id="137" caption="文件的内容">
+		<res id="1" text="想要搜索的文件是根据文件中的文本吗？"/>
+		<res id="2" text="不，只搜索文件的名称(&amp;N)"/>
+		<res id="3" text="是的，搜索该文件的内容(&amp;Y)"/>
+		<res id="4" text="该文件应包含哪些文本？"/>
+		<res id="5" text="示例:"/>
+		<res id="6" text="Dear Bill"/>
+		<res id="7" text="将找出任何在某一行上含有词组 Dear Bill的文件。"/>
+		<res id="8" text="(例如 My Dear Bill..., Dear Billy how are you... 等)"/>
+		<res id="9" text="Dear.*Bill"/>
+		<res id="10" text="将找出任何在某一行上含有单词Dear和Bill的文件(例如: Dear Fred how is Bill..., The dearest items should be rebilled...)\n"/>
+		<res id="11" text="性能提示: 搜索文件的内容要花费很长的时间，尤其是如果未输入一个名称，或不是很具体。因此，选择“不”通常要快得多。"/>
+	</dialog>
+	<dialog name="IDD_REGISTER" id="138" caption="输入注册信息">
+		<res id="1" text="确定"/>
+		<res id="2" text="取消"/>
+		<res id="3" text="姓(&amp;F):"/>
+		<res id="4" text="名(&amp;L):"/>
+		<res id="5" text="注册码(&amp;R):"/>
+		<res id="6" text="邮件地址(&amp;E):"/>
+		<res id="7" text="注: 姓、名和邮件地址必须完全按照注册电子邮件中所示填写。"/>
+		<res id="8" text="如果您遇到任何的问题请通过 support@mythicsoft.com 联系来获得帮助。" />
+		<res id="9" text="请输入您的注册信息。"/>
+	</dialog>
+	<dialog name="IDD_ADVANCED" id="139" caption="主要">
+		<res id="1" text="文件名称(&amp;N):"/>
+		<res id="2" text="包含文本(&amp;C):"/>
+		<res id="3" text="查找位置(&amp;L):"/>
+		<res id="4" text=""/>
+		<res id="5" text="不含(&amp;O)"/>
+		<res id="6" text=""/>
+		<res id="7" text="帮助..."/>
+		<res id="8" text=""/>
+		<res id="9" text="帮助..."/>
+		<res id="10" text="子文件夹(&amp;U)"/>
+		<res id="11" text="浏览..."/>
+		<res id="12" text="浏览..."/>
+		<res id="13" text="&amp;&gt;"/>
+		<res id="14" text="&amp;&lt;"/>
+		<res id="15" text="修改日期(&amp;M):"/>
+		<res id="16" text="晚于:"/>
+		<res id="17" text="早于:"/>
+		<res id="18" text="显示日历..."/>
+		<res id="19" text="显示日历..."/>
+		<res id="20" text=""/>
+	</dialog>
+	<dialog name="IDD_EXPR_WIZ" id="140" caption="创建表达式">
+		<res id="1" text="出现情况"/>
+		<res id="2" text="添加(&amp;A)"/>
+		<res id="3" text="修改(&amp;M)"/>
+		<res id="4" text="删除(&amp;D)"/>
+		<res id="5" text="List2"/>
+		<res id="6" text="结果表达式"/>
+		<res id="7" text="注: 拖放来重新排列项"/>
+	</dialog>
+	<dialog name="IDD_EXPR_WIZ_INTRO" id="141" caption="介绍表达向导">
+		<res id="1" text="欢迎来到表达式向导。该向导将帮助您确切地定义您要寻找的东西。"/>
+		<res id="2" text="FileLocator Pro 使用“正则表达式”概念来描述字符串匹配的模式。虽然正则表达式非常强大，可往往会令新手们望而却步。"/>
+		<res id="3" text="表达向导的目的从而是在不牺牲正则表达式强大能力的同时降低其复杂性。向导请您用易于理解的语言描述您正在寻找的东西，帮助您生成表达式。"/>
+		<res id="4" text="注:"/>
+		<res id="5" text="请在此处获取搜索特定的注解。"/>
+		<res id="6" text="下次不再显示此介绍(&amp;D)。"/>
+	</dialog>
+	<dialog name="IDD_EXPR_WIZ_SPECIAL" id="143" caption="警告: 特殊字符输入">
+		<res id="1" text="是。请插入相应的反斜杠，因为我输入的字符都不应被视为特殊字符处理(&amp;Y)。"/>
+		<res id="2" text="否，我有意在用特殊字符进行高级搜索(&amp;N)。"/>
+		<res id="3" text="一个或多个您所输入的表达式包含至少一个下列特殊字符: ^$*?+.[]()|\ ⬿嬮⡝簩"/>
+		<res id="4" text="特殊字符在正则表达式用于定义模式匹配的规则，因此应谨慎使用。如果您想要搜索的字符，也是一个特殊的字符，您必须把一个反斜杠放在字符之前。 "/>
+		<res id="5" text=""/>
+		<res id="6" text="例如:"/>
+		<res id="7" text="若要搜索:"/>
+		<res id="8" text="则表达式为:"/>
+		<res id="9" text="$400.00"/>
+		<res id="10" text="\$400\.00"/>
+		<res id="11" text="那是什么？"/>
+		<res id="12" text="那是什么\？"/>
+		<res id="13" text="(12\4)*5=15"/>
+		<res id="14" text="\(12\\4\)\*5=15"/>
+		<res id="15" text="若要搜索:"/>
+		<res id="16" text="若要搜索:"/>
+		<res id="17" text="则表达式为:"/>
+		<res id="18" text="则表达式为:"/>
+		<res id="19" text="您想要表达式向导在所有特殊字符前都自动插入反斜杠吗？"/>
+	</dialog>
+	<dialog name="IDD_OPTIONS" id="144" caption="选项">
+		<res id="1" text="指定非表达式(&amp;N)"/>
+		<res id="2" text="区分大小写(&amp;M)"/>
+		<res id="3" text="区分大小写(&amp;C)"/>
+		<res id="4" text=" 文件名称 "/>
+		<res id="5" text=" 内容 "/>
+		<res id="6" text="查找位置"/>
+	</dialog>
+	<dialog name="IDD_HELPPARMS" id="169" caption="命令行参数帮助">
+		<res id="1" text="关闭"/>
+		<res id="2" text="FileLocatorPro.exe [保存的搜索] | -o [输出文件] | -oa | -oc | -ol [数字] | -oe? | -of? | -os |"/>
+		<res id="3" text=" -fe? | -fx | -ce? | le? | -pa | -po | -ma [日期时间] | -mb [日期时间] | -h | -?"/>
+		<res id="4" text=" -d [文件夹名称] | -dw | -c [包含文本] | -f [文件名称] | -r | -cm | -fm | -s |"/>
+		<res id="5" text="要搜索的（多个）目录（即,&quot;查找位置&quot;输入框内容）,使用 -dw来表示当前工作目录"/>
+		<res id="6" text="在指定的文件中搜索文本"/>
+		<res id="7" text="搜索文件名称"/>
+		<res id="8" text="内容搜索时区分大小写"/>
+		<res id="9" text="比较文件名称时区分大小写"/>
+		<res id="10" text="搜索子文件夹"/>
+		<res id="11" text="文件名称表达式类型: -fed=DOS, -fex=正则表达式, -feb=布尔表达式, -fee=纯文本"/>
+		<res id="12" text="内容表达式类型: -ceb=布尔表达式, -cex=正则表达式, -cee=纯文本"/>
+		<res id="13" text="创建新的或打开现有的搜索时始终使用命令行参数"/>
+		<res id="14" text="当从文件加载且指定了命令行参数时，覆盖来自文件的值"/>
+		<res id="15" text="立即开始搜索 (隐含在 -o 选项中)"/>
+		<res id="16" text="要关闭选项请在标志后追加'n'，例如："/>
+		<res id="17" text="FileLocatorPro.exe -fmn 比较文件时关闭区分大小写"/>
+		<res id="18" text="&quot;文件名称&quot;显示的为排除的文件名"/>
+		<res id="19" text="输出文件名 (运行搜索而不显示 FileLocator Pro的图形用户界面(GUI)"/>
+		<res id="20" text="输出格式: -oft=文本(默认), -ofc=CSV文本, -ofb=制表符分隔文本, -ofx=XML, -ofh=HTML, -ofxslt=自定义 (XSLT)"/>
+		<res id="21" text="输出周围的行"/>
+		<res id="22" text="&quot;修改日期早于&quot;的日期值, 用&quot;now&quot;来传递当前日期和时间"/>
+		<res id="23" text="&quot;修改日期晚于&quot;的日期值, 用&quot;now&quot;来传递当前日期和时间"/>
+		<res id="24" text="输出内容行"/>
+		<res id="25" text="&quot;查找位置&quot;表达式类型: -leb=布尔表达式, -lex=正则表达式, -lee=纯文本"/>
+		<res id="26" text="显示此帮助对话框"/>
+		<res id="27" text="-o"/>
+		<res id="28" text="-of?"/>
+		<res id="29" text="-oc"/>
+		<res id="30" text="-os"/>
+		<res id="31" text="-d"/>
+		<res id="32" text="-c"/>
+		<res id="33" text="-f"/>
+		<res id="34" text="-cm"/>
+		<res id="35" text="-fm"/>
+		<res id="36" text="-s"/>
+		<res id="37" text="-fe?"/>
+		<res id="38" text="-fx"/>
+		<res id="39" text="-ce?"/>
+		<res id="40" text="-le?"/>
+		<res id="41" text="-pa"/>
+		<res id="42" text="-po"/>
+		<res id="43" text="-ma"/>
+		<res id="44" text="-mb"/>
+		<res id="45" text="-r"/>
+		<res id="46" text="-h / -?"/>
+		<res id="47" text="-re?"/>
+		<res id="48" text="正则表达式类型: -rep=Perl 语法, -rec=经典语法"/>
+		<res id="49" text="-cf"/>
+		<res id="50" text="内容表达式在整个文件范围匹配(仅使用布尔表达式时有效)"/>
+		<res id="51" text="覆盖配置使用存储在已保存的搜索条件文件中的配置"/>
+		<res id="52" text="-pc"/>
+		<res id="53" text="-oe?"/>
+		<res id="54" text="输出编码: -oea=ASCII, -oe8=UTF-8, -oeu=Unicode"/>
+		<res id="55" text="-ol"/>
+		<res id="56" text="单个文件结果行最大输出数"/>
+		<res id="57" text="-oa"/>
+		<res id="58" text="追加到输出文件"/>
+	</dialog>
+	<dialog name="IDD_SAVE_RESULTS" id="173" caption="导出结果">
+		<res id="1" text="剪贴板(&amp;C)"/>
+		<res id="2" text="文件(&amp;F)"/>
+		<res id="3" text="浏览(&amp;B)..."/>
+		<res id="4" text="覆盖文件(&amp;O)"/>
+		<res id="5" text="追加到文件(&amp;P)"/>
+		<res id="6" text="编码(&amp;E):"/>
+		<res id="7" text="标准"/>
+		<res id="8" text="自定义 (XSLT)"/>
+		<res id="9" text="浏览(&amp;B)..."/>
+		<res id="10" text="所有文件(&amp;A)"/>
+		<res id="11" text="选定的文件(&amp;S)"/>
+		<res id="12" text="文件名(&amp;N)"/>
+		<res id="13" text="内容(&amp;T)"/>
+		<res id="14" text="周围的行(&amp;L)"/>
+		<res id="15" text="导出"/>
+		<res id="16" text="取消"/>
+		<res id="17" text="保存结果"/>
+		<res id="18" text="保存信息"/>
+		<res id="19" text="导出到"/>
+		<res id="20" text="格式"/>
+	</dialog>
+	<dialog name="IDD_OPTIONALMSG" id="177" caption="Dialog">
+		<res id="1" text="确定"/>
+		<res id="2" text="不要再告诉我。"/>
+	</dialog>
+	<dialog name="IDD_BLANK" id="178" caption="Dialog">
+		<res id="1" text="这是一个空白对话框"/>
+	</dialog>
+	<dialog name="IDD_SCRIPTING" id="179" caption="脚本">
+		<res id="1" text="文件名称脚本:"/>
+		<res id="2" text="浏览..."/>
+		<res id="3" text="引擎:"/>
+		<res id="4" text="参数:"/>
+		<res id="5" text="包含文本脚本:"/>
+		<res id="6" text="浏览..."/>
+		<res id="7" text="引擎:"/>
+		<res id="8" text="参数:"/>
+		<res id="9" text="测试(&amp;T)"/>
+	</dialog>
+	<dialog name="IDD_EXPR_WIZ_DOSEXPR" id="217" caption="DOS 表达式">
+		<res id="1" text="DOS 表达式使用标准的 Windows 语法指定一组文件。用分号来分隔多个表达式。"/>
+		<res id="2" text="例如:"/>
+		<res id="3" text="*.txt\t\t指定所有文件的扩展名为 *.txt\n\n*.xls;*.doc\t指定所有文件的扩展名为 .xls 或 .doc"/>
+		<res id="4" text="高阶示例:" />
+		<res id="5" text="*.png;*.jpg:holiday\t\t指定所有名称中含有holiday的.png和.jpg类型的文件\n\nNOT:*.doc;*.xls\t\t\t指定除.doc和.xls类型文件外的所有文件\n\nholiday;NOT:*.exe;*.dll\t\t指定名称中含有holiday且除.exe或.dll类型文件外的所有文件" />
+	</dialog>
+	<dialog name="IDD_EXPR_WIZ_BOOLEANEXPR" id="218" caption="布尔表达式引擎">
+		<res id="1" text="布尔表达式使用 Web风格的搜索运算符 AND, OR, NOT, LIKE 和 NEAR。布尔表达式搜索可对同一行或同一文件范围匹配:"/>
+		<res id="2" text="例如:"/>
+		<res id="3" text="work AND document\t搜索在同一行/文件中出现的 'work' 和 'document"/>
+		<res id="4" text="work document\t\t执行上述相同的搜索 ( AND 被隐含)"/>
+		<res id="5" text="work OR document\t搜索在同一行/文件中出现的 'work' 或'document"/>
+		<res id="6" text="work NEAR document\t搜索在行/文件中靠近词 'document' 的 'work'"/>
+		<res id="7" text="&quot;work document&quot;\t搜索确切的字段 &quot;work document&quot;"/>
+		<res id="8" text="通过行"/>
+		<res id="9" text="表达式是分别针对每个单独的行进行测试"/>
+		<res id="10" text="通过文件"/>
+		<res id="11" text="表达式是贯穿整个文件进行测试"/>
+		<res id="12" text="注意: 使用括号来分组表达式，例如  (work AND doc) OR (special AND case)"/>
+	</dialog>
+	<dialog name="IDD_EXPR_WIZ_EXACTEXPR" id="219" caption="纯文本">
+		<res id="1" text="&quot;纯文本&quot;是把输入的搜索条件文本作为原值,即同输入的完全一样。搜索条件对单词全部或部分进行匹配。"/>
+		<res id="2" text="例如:"/>
+		<res id="3" text="the author\t查找字段像 'the author' 或 'the authors'。"/>
+		<res id="4" text="fish\t\t匹配针对 'fish', 'fishing', 或 'elfish'."/>
+	</dialog>
+	<dialog name="IDD_ATTRIBUTES" id="220" caption="属性">
+		<res id="1" text="使用属性(&amp;U)"/>
+		<res id="2" text="全部清除"/>
+		<res id="3" text="存档(&amp;A):"/>
+		<res id="4" text="压缩(&amp;C):"/>
+		<res id="5" text="加密(&amp;N):"/>
+		<res id="6" text="索引:"/>
+		<res id="7" text="文件夹(&amp;D):"/>
+		<res id="8" text="隐藏(&amp;H):"/>
+		<res id="9" text="离线(&amp;O):"/>
+		<res id="10" text="只读(&amp;R):"/>
+		<res id="11" text="系统(&amp;Y):"/>
+		<res id="12" text="稀疏(&amp;P):"/>
+	</dialog>
+	<dialog name="IDD_ATTRIBUTE_SUMMARY" id="221" caption="摘要属性">
+		<res id="1" text="属性"/>
+		<res id="2" text="搜索:"/>
+	</dialog>
+	<dialog name="IDD_OPTIONS_ADVANCED" id="222" caption="选项" maxgrow="700">
+		<res id="1" text="布尔表达式"/>
+		<res id="2" text="匹配:"/>
+		<res id="3" text="逐行(&amp;L)"/>
+		<res id="4" text="整个文件(&amp;A)"/>
+		<res id="5" text="允许使用通配符 (&amp;*, ?)"/>
+		<res id="6" text="电子邮件" />
+		<res id="10" text="增强文件搜索"/>
+		<res id="11" text="Office/PDF 文档(&amp;O)"/>
+		<res id="12" text="设置..."/>
+		<res id="13" text="O&amp;utlook PST/MSG 文件" />
+		<res id="14" text="搜索附件(&amp;R)"/>
+		<res id="15" text="删除 HTML 标记(&amp;H)"/>
+		<res id="16" text="缓存文本(&amp;C)" />
+		<res id="17" text="缓存..." />
+		<res id="18" text="排除二进制文件(&amp;B)" />
+	</dialog>
+	<dialog name="IDD_DATETIMEPICKER" id="242" caption="日期/时间选择">
+		<res id="1" text="日期"/>
+		<res id="2" text="固定日期:"/>
+		<res id="3" text="相对日期:"/>
+		<res id="4" text=""/>
+		<res id="5" text="调整 (+/-)"/>
+		<res id="6" text="日:"/>
+		<res id="7" text="周:"/>
+		<res id="8" text="月:"/>
+		<res id="9" text="年:"/>
+		<res id="10" text="时间"/>
+		<res id="11" text="指定时间"/>
+		<res id="12" text="固定时间:"/>
+		<res id="13" text="相对时间:"/>
+		<res id="14" text="HH:mm:ss"/>
+		<res id="15" text="调整 (+/-)"/>
+		<res id="16" text="秒:"/>
+		<res id="17" text="分:"/>
+		<res id="18" text="时:"/>
+		<res id="19" text="确定"/>
+		<res id="20" text="取消"/>
+		<res id="21" text="当前表达式:"/>
+		<res id="22" text="计算结果为:"/>
+	</dialog>
+	<dialog name="IDD_EXPR_WIZ_FILEHASH" id="243" caption="文件哈希值">
+		<res id="1" text="文件哈希值基于每个文件的文件内容生成固定长度的唯一标识符。具有相同内容的文件将会产生相同的哈希值。"/>
+		<res id="2" text="1.从选项选项卡指定哈希值算法"/>
+		<res id="3" text="要以哈希值搜索:"/>
+		<res id="4" text="2.输入要搜索的哈希值采用逗号分隔的哈希值列表或指向含哈希值列表的文件指针，例如:"/>
+		<res id="5" text="12EB0C408189C7870C83F0879B7C71AA,77116AB1664F3F85515F55F64506F848"/>
+		<res id="6" text="=c:\hashfile.txt"/>
+		<res id="7" text="OR,"/>
+	</dialog>
+	<dialog name="IDD_EXPR_WIZ_BOOLEANREGEX" id="246" caption="布尔正则表达式引擎">
+		<res id="1" text="布尔正则表达式混合了布尔值和正则表达式。可用熟悉的布尔运算符 AND、OR 和 NOT来把多个正则表达式合并。"/>
+		<res id="2" text="例如:"/>
+		<res id="3" text="&quot;doc.*[0-9]+&quot; AND &quot;author&quot;"/>
+		<res id="4" text="&quot;error (120|121|123)&quot; OR &quot;info 344&quot; NOT &quot;archive&quot;"/>
+		<res id="5" text="注: 使用括号来分组表达式，例如  (work AND doc) OR (special AND case)"/>
+	</dialog>
+	<dialog name="IDD_EXPR_WIZ_WHOLEWORD" id="247" caption="全字匹配">
+		<res id="1" text="全字匹配搜索条件输入的文本作为文本值，即完全像文本被输入在编辑字段，但也对“单词边界”的开始和结束的标准文本匹配。"/>
+		<res id="2" text="例如:"/>
+		<res id="3" text="the author\t搜索指定字段 'the author'。"/>
+		<res id="4" text="fish\t\t匹配针对 'fish' 但不是 'fishing' 或 'elfish'。"/>
+	</dialog>
+	<dialog name="IDD_DATES" id="250" caption="日期">
+		<res id="1" text="全部清除"/>
+		<res id="2" text="修改日期(&amp;M):"/>
+		<res id="3" text="晚于:"/>
+		<res id="4" text="显示日历..."/>
+		<res id="5" text="早于:"/>
+		<res id="6" text="显示日历..."/>
+		<res id="7" text="创建日期(&amp;C):"/>
+		<res id="8" text="晚于:"/>
+		<res id="9" text="显示日历..."/>
+		<res id="10" text="早于:"/>
+		<res id="11" text="显示日历..."/>
+		<res id="12" text="最后访问日期(&amp;L):"/>
+		<res id="13" text="晚于:"/>
+		<res id="14" text="显示日历..."/>
+		<res id="15" text="早于:"/>
+		<res id="16" text="显示日历..."/>
+	</dialog>
+	<dialog name="IDD_ADVANCEDTAB" id="260" caption="高级">
+		<res id="1" text="文件哈希值"/>
+		<res id="2" text="SHA-&amp;1"/>
+		<res id="3" text="SHA-&amp;256"/>
+		<res id="4" text="SHA-&amp;512"/>
+		<res id="5" text="&amp;MD5"/>
+		<res id="6" text="正则表达式"/>
+		<res id="7" text="Perl 兼容(&amp;P)"/>
+		<res id="8" text="经典(&amp;C)"/>
+		<res id="9" text="活动脚本"/>
+		<res id="10" text="设置..."/>
+	</dialog>
+	<dialog name="IDD_EXTENSIONS" id="180" caption="压缩文件">
+		<res id="1" text=""/>
+		<res id="2" text="请选择您想要搜索的文件格式:"/>
+		<res id="3" text="配置..."/>
+		<res id="4" text="无(&amp;N)"/>
+		<res id="5" text="所有(&amp;A)"/>
+	</dialog>
+	<dialog name="IDD_CHECKVERSION" id="249" caption="检查更新">
+		<res id="1" text="正在检查更新..."/>
+		<res id="2" text=""/>
+		<res id="3" text="FileLocator Pro 网络链接:"/>
+		<res id="4" text="下载页面:"/>
+		<res id="5" text="http://www.mythicsoft.com/filelocatorpro/download?fwd=upd"/>
+		<res id="6" text="版本历史记录页: "/>
+		<res id="7" text="http://www.mythicsoft.com/filelocatorpro/history?fwd=upd"/>
+		<res id="8" text="自动检查更新"/>
+		<res id="9" text="关闭"/>
+	</dialog>
+	<dialog name="IDD_FAVOURITE_SEARCH" id="258" caption="">
+		<res id="1" text=""/>
+		<res id="2" text="Static"/>
+	</dialog>
+	<dialog name="IDD_FAVOURITE_ADD" id="259" caption="添加一个收藏">
+		<res id="1" text=""/>
+		<res id="2" text="将此搜索加入为收藏。"/>
+		<res id="3" text="描述(&amp;D):"/>
+		<res id="4" text="标识(&amp;T):"/>
+		<res id="5" text="添加(&amp;A)"/>
+		<res id="6" text="取消"/>
+	</dialog>
+	<dialog name="IDD_MULTIFOLDER" id="5176" caption="多个文件夹">
+		<res id="1" text="以直接输入，用下拉菜单加入或文件夹浏览添加的方式将每个文件夹添加到一个单独行上。"/>
+		<res id="2" text="最近的文件夹(&amp;R):"/>
+		<res id="3" text=""/>
+		<res id="4" text="添加(&amp;A)"/>
+		<res id="5" text="排除(&amp;E)"/>
+		<res id="6" text="宏(&amp;M):"/>
+		<res id="7" text=""/>
+		<res id="8" text="添加(&amp;A)"/>
+		<res id="9" text="排除(&amp;E)"/>
+		<res id="10" text="查找文件夹(内)(&amp;L):"/>
+		<res id="11" text="浏览(&amp;B)..."/>
+		<res id="12" text="排除文件夹(&amp;E):"/>
+		<res id="13" text="浏览(&amp;B)..."/>
+		<res id="14" text="包含筛选器(&amp;I):"/>
+		<res id="15" text="排除筛选器(&amp;X):"/>
+		<res id="16" text="确定"/>
+		<res id="17" text="取消"/>
+	</dialog>
+	<dialog name="IDD_FILEVIEWER_FIND" id="2245" caption="">
+		<res id="1" text="查找:"/>
+		<res id="2" text="l"/>
+		<res id="3" text="下一个"/>
+		<res id="4" text="前一个"/>
+		<res id="5" text="高亮:"/>
+		<res id="6" text=""/>
+		<res id="7" text=""/>
+		<res id="8" text=""/>
+		<res id="9" text=""/>
+		<res id="10" text="l"/>
+		<res id="11" text="下一个"/>
+		<res id="12" text="下一个"/>
+	</dialog>
+	<dialog name="IDD_MULTIFOLDER" id="2176" caption="多个文件夹">
+		<res id="1" text="以直接输入，用下拉菜单加入或文件夹浏览添加的方式将每个文件夹添加到一个单独行上。"/>
+		<res id="2" text="最近的文件夹:"/>
+		<res id="3" text=""/>
+		<res id="4" text="添加(&amp;A)"/>
+		<res id="5" text="排除(&amp;E)"/>
+		<res id="6" text="宏:"/>
+		<res id="7" text=""/>
+		<res id="8" text="添加(&amp;A)"/>
+		<res id="9" text="排除(&amp;E)"/>
+		<res id="10" text="查找文件夹位置:"/>
+		<res id="11" text="浏览(&amp;B)..."/>
+		<res id="12" text="排除文件夹:"/>
+		<res id="13" text="浏览(&amp;B)..."/>
+		<res id="14" text="确定"/>
+		<res id="15" text="取消"/>
+	</dialog>
+	<dialog name="IDD_ACTION_PROGRESS" id="2014" caption="操作:">
+		<res id="1" text="取消"/>
+		<res id="2" text=""/>
+		<res id="3" text="进度"/>
+	</dialog>
+	<dialog name="IDD_GENERAL_LOCALIZATION" id="6276" caption="">
+		<res id="1" text="用户界面语言:"/>
+		<res id="2" text="＊更改在重启 FileLocator Pro后生效"/>
+	</dialog>
+	<dialog name="IDD_SINGLE_CONFIG" id="6277" caption="本地化设置"><res id="1" text="确定"/>
+		<res id="2" text="取消"/>
+	</dialog>
+	<menu name="IDR_FILTERLIST_CONTEXTMENU" id="1126">
+		<res id="1" text="List"/>
+		<res id="2" text="编辑(&amp;E)..."/>
+		<res id="3" text="删除(&amp;D)"/>
+	</menu>
+	<menu name="IDR_SHAREDMENU" id="190">
+		<res id="1" text="文件(&amp;F)"/>
+		<res id="2" text="新建(&amp;N)"/>
+		<res id="3" text="空白搜索(&amp;B)" />
+		<res id="4" text="打开(&amp;O)..." />
+		<res id="5" text="关闭(&amp;C)"/>
+		<res id="6" text="保存条件(&amp;S)"/>
+		<res id="7" text="另存为条件(&amp;A)..."/>
+		<res id="8" text="搜索文件列表(&amp;L)"/>
+		<res id="9" text="搜索当前所选内容(&amp;U)"/>
+		<res id="10" text="导出结果(&amp;E)..."/>
+		<res id="11" text="打印(&amp;P)..."/>
+		<res id="12" text="打印(&amp;P)..."/>
+		<res id="13" text="打印设置(&amp;R)..."/>
+		<res id="14" text="最近的文件"/>
+		<res id="15" text="退出(&amp;X)"/>
+		<res id="16" text="编辑(&amp;E)"/>
+		<res id="17" text="自动换行(&amp;W)"/>
+		<res id="18" text="设置字体(&amp;S)..."/>
+		<res id="19" text="设置高亮显示颜色(&amp;H)..."/>
+		<res id="20" text="查找(&amp;F)"/>
+		<res id="21" text="查找(&amp;F)..."/>
+		<res id="22" text="查找下一个(&amp;N)"/>
+		<res id="23" text="查找前一个(&amp;P)"/>
+		<res id="24" text="高亮显示原始(&amp;O)"/>
+		<res id="25" text="高亮显示当前(&amp;C)"/>
+		<res id="26" text="选择全部(&amp;L)"/>
+		<res id="27" text="打开(&amp;O)"/>
+		<res id="28" text="查看这里(&amp;E)..."/>
+		<res id="29" text="复制路径(&amp;P)"/>
+		<res id="30" text="复制(&amp;C)"/>
+		<res id="31" text="剪切(&amp;T)"/>
+		<res id="32" text="删除(&amp;D)"/>
+		<res id="33" text="重命名(&amp;M)"/>
+		<res id="34" text="属性(&amp;P)..."/>
+		<res id="35" text="查看(&amp;V)"/>
+		<res id="36" text="收藏(&amp;F)"/>
+		<res id="37" text="工具栏(&amp;T)"/>
+		<res id="38" text="状态栏(&amp;S)"/>
+		<res id="39" text="错误报告(&amp;E)"/>
+		<res id="40" text="排序按(&amp;O)"/>
+		<res id="41" text="文件名(&amp;F)"/>
+		<res id="42" text="位置(&amp;L)"/>
+		<res id="43" text="大小(&amp;S)"/>
+		<res id="44" text="类型(&amp;T)"/>
+		<res id="45" text="日期(&amp;D)"/>
+		<res id="46" text="文本预览(&amp;X)"/>
+		<res id="47" text="前一文件(&amp;P)"/>
+		<res id="48" text="下一文件(&amp;N)"/>
+		<res id="49" text="缩略图(&amp;N)"/>
+		<res id="50" text="超大图标(&amp;E)"/>
+		<res id="51" text="大图标(&amp;L)"/>
+		<res id="52" text="中等图标(&amp;M)"/>
+		<res id="53" text="小图标(&amp;S)"/>
+		<res id="54" text="返回到主视图(&amp;R)"/>
+		<res id="55" text="返回(&amp;B)"/>
+		<res id="56" text="前进"/>
+		<res id="57" text="搜索(&amp;S)"/>
+		<res id="58" text="开始(&amp;S)"/>
+		<res id="59" text="暂停(&amp;P)"/>
+		<res id="60" text="停止(&amp;T)"/>
+		<res id="61" text="工具(&amp;T)"/>
+		<res id="62" text="正则表达式测试器(&amp;R)..."/>
+		<res id="63" text="清除搜索历史记录(&amp;H)..."/>
+		<res id="64" text="编辑器设置(&amp;E)..."/>
+		<res id="65" text="配置(&amp;C)..."/>
+		<res id="66" text="外壳程序集成(&amp;H)..."/>
+		<res id="67" text="窗口(&amp;W)"/>
+		<res id="68" text="内容视图(&amp;V)"/>
+		<res id="69" text="停靠右侧(&amp;R)"/>
+		<res id="70" text="停靠下面(&amp;B)"/>
+		<res id="71" text="显示"/>
+		<res id="72" text="层叠(&amp;C)"/>
+		<res id="73" text="平铺(&amp;T)"/>
+		<res id="74" text="排列图标(&amp;A)"/>
+		<res id="75" text="移动焦点(&amp;F)"/>
+		<res id="76" text="搜索条件(&amp;T)"/>
+		<res id="77" text="文件列表(&amp;F)"/>
+		<res id="78" text="内容视图(&amp;E)"/>
+		<res id="79" text="当前选项卡(&amp;C)"/>
+		<res id="80" text="摘要(&amp;S)"/>
+		<res id="81" text="匹配(&amp;H)"/>
+		<res id="82" text="文本(&amp;T)"/>
+		<res id="83" text="缩略图(&amp;N)"/>
+		<res id="84" text="收藏(&amp;I)"/>
+		<res id="85" text="错误报告(&amp;R)"/>
+		<res id="86" text="选项卡顺序(&amp;O)"/>
+		<res id="87" text="优化(&amp;O)"/>
+		<res id="88" text="传统从左到右(&amp;T)"/>
+		<res id="89" text="帮助(&amp;H)"/>
+		<res id="90" text="本地教程(&amp;C)..."/>
+		<res id="91" text="命令行参数(&amp;P)..."/>
+		<res id="92" text="检查更新(&amp;U)..."/>
+		<res id="93" text="关于 FileLocator Pro(&amp;A)..."/>
+		<res id="94" text="保存搜索(&amp;H)..." />
+		<res id="95" text="保存工作区(&amp;W)..." />
+		<res id="96" text="关闭所有" />
+		<res id="97" text="关闭所有文本窗口" />
+		<res id="98" text="关闭除活动搜索外所有窗口" />
+		<res id="99" text="联系技术支持..." />
+		<res id="100" text="生成错误报告(&amp;G)..." />
+		<res id="101" text="注册码(&amp;R)..." />
+		<res id="102" text="关闭除活动搜索外所有窗口" />
+		<res id="103" text="菜单栏(&amp;M)" />
+		<res id="104" text="报告(&amp;R)" />
+		<res id="105" text="过滤栏(&amp;F)" />
+	</menu>
+	<menu name="IDR_CONTENTSVIEWMENU" id="189">
+		<res id="1" text="内容视图"/>
+		<res id="2" text="在文本选项卡中打开"/>
+		<res id="3" text="在新窗口中打开..."/>
+		<res id="4" text="在外部编辑器中打开..."/>
+		<res id="5" text="在 Visual Studio 中打开..."/>
+		<res id="6" text="导出结果..."/>
+		<res id="7" text="自动换行"/>
+		<res id="8" text="复制"/>
+		<res id="9" text="全部展开"/>
+		<res id="10" text="全部折叠"/>
+		<res id="11" text="停靠到右侧"/>
+		<res id="12" text="停靠下面"/>
+		<res id="13" text="隐藏内容视图"/>
+	</menu>
+	<menu name="IDR_MENU_PLACEHOLDER" id="253">
+		<res id="1" text="空白"/>
+	</menu>
+	<menu name="IDR_FAVOURITES_MENU" id="261">
+		<res id="1" text="FindMenu"/>
+		<res id="2" text="打开"/>
+		<res id="3" text="在新窗口中打开"/>
+		<res id="4" text="编辑"/>
+		<res id="5" text="删除"/>
+	</menu>
+	<menu name="IDR_FILELOTYPE" id="129">
+		<res id="1" text="Dummy"/>
+	</menu>
+	<menu name="IDR_FILEVIEWER" id="112">
+		<res id="1" text="Dummy"/>
+	</menu>
+	<menu name="IDR_FILTERMENU" id="268">
+		<res id="1" text="筛选器"/>
+		<res id="2" text="打开搜索筛选器"/>
+		<res id="3" text="关闭搜索筛选器"/>
+		<res id="4" text="设置..."/>
+	</menu>
+	<menu name="IDR_FILEVIEWER_CONTEXTMENU" id="2116">
+		<res id="1" text="内容视图"/>
+		<res id="2" text="自动换行(&amp;W)"/>
+		<res id="3" text="复制"/>
+		<res id="4" text="在新窗口中打开..."/>
+		<res id="5" text="在外部编辑器中打开..."/>
+		<res id="6" text="在 Visual Studio 中打开..."/>
+		<res id="7" text="查找"/>
+		<res id="8" text="查找下一个"/>
+		<res id="9" text="查找上一个"/>
+		<res id="10" text="高亮显示原始"/>
+		<res id="11" text="高亮显示当前"/>
+		<res id="12" text="设置字体..."/>
+		<res id="13" text="文件"/>
+		<res id="14" text="再次搜索" />
+	</menu>
+	<menu name="IDR_REPORTVIEW_CONTEXTMENU" id="2302">
+		<res id="1" text="报告" />
+		<res id="2" text="复制" />
+		<res id="3" text="全选" />
+		<res id="4" text="刷新" />
+	</menu>
+	<menu name="IDR_IMAGESIZES_MENU" id="2003">
+		<res id="1" text="大小"/>
+		<res id="2" text="超大图标"/>
+		<res id="3" text="大图标"/>
+		<res id="4" text="中等图标"/>
+		<res id="5" text="小图标"/>
+		<res id="6" text="大小2"/>
+	</menu>
+	<string id="1" type="资源">
+		<res id="1" text="就绪"/>
+		<res id="2" text="浏览的声音文件"/>
+		<res id="3" text="播放声音文件"/>
+		<res id="4" refid="3"/>
+		<res id="5" text="浏览文件夹"/>
+		<res id="6" text="声音文件的路径"/>
+		<res id="7" refid="2"/>
+		<res id="8" refid="6"/>
+		<res id="9" refid="5"/>
+		<res id="10" refid="5"/>
+		<res id="11" refid="5"/>
+		<res id="12" refid="5"/>
+		<res id="13" text="在浏览器中打开文件夹"/>
+		<res id="14" refid="13"/>
+		<res id="15" text="配置"/>
+		<res id="16" text="内容查看器"/>
+		<res id="18" text="目录搜索"/>
+		<res id="20" text="扩展件"/>
+		<res id="21" text="FileLocator Pro"/>
+		<res id="22" text="SDI_ONLY\n搜索\n新建搜索\n搜索条件 (*.srf)\n.srf\nFileLocatorPro.SearchCriteria\nFileLocator Pro 的搜索条件"/>
+		<res id="23" text="一个或多个选定的文件是复合文件，不会被删除。您要继续吗？"/>
+		<res id="24" text="注册钥匙密码已过期。请购买一个新的密钥或安装旧版本的产品。旧版产品可在 Mythicsoft 网站 (www.mythicsoft.com) 的我的帐户部分下载。"/>
+		<res id="25" text="切换到前一个搜索将停止当前的搜索。您要继续吗？"/>
+		<res id="26" text="FileLocatorPro"/>
+		<res id="27" refid="1"/>
+		<res id="34" text="创建基于上次搜索的新搜索\n基于上次搜索的新搜索"/>
+		<res id="35" text="打开一个搜索条件文件\n打开"/>
+		<res id="36" text="关闭活动文档\n关闭"/>
+		<res id="37" text="保存当前的搜索条件\n保存条件"/>
+		<res id="38" text="用一个新名称保存活动文档\n另存为"/>
+		<res id="39" text="更改打印选项\n页面设置"/>
+		<res id="40" text="更改打印机和打印选项\n打印设置"/>
+		<res id="41" text="打印活动文档\n打印"/>
+		<res id="42" text="显示完整的页面\n打印预览"/>
+		<res id="43" text="显示程序信息、版本号和版权信息\n关于"/>
+		<res id="44" text="退出应用程序；提示保存文档\n退出"/>
+		<res id="45" text="打开此文档"/>
+		<res id="46" refid="45"/>
+		<res id="47" refid="45"/>
+		<res id="48" refid="45"/>
+		<res id="49" refid="45"/>
+		<res id="50" refid="45"/>
+		<res id="51" refid="45"/>
+		<res id="52" refid="45"/>
+		<res id="53" refid="45"/>
+		<res id="54" refid="45"/>
+		<res id="55" refid="45"/>
+		<res id="56" refid="45"/>
+		<res id="57" refid="45"/>
+		<res id="58" refid="45"/>
+		<res id="59" refid="45"/>
+		<res id="60" refid="45"/>
+		<res id="61" text="切换到下一窗格。\n下一窗格"/>
+		<res id="62" text="切换回上一窗格\n上一窗格"/>
+		<res id="63" text="打开另一个窗口为活动文档\n新建窗口"/>
+		<res id="64" text="排列图标在窗口的底部\n排列图标"/>
+		<res id="65" text="排列窗口以使它们重叠\n层叠窗口"/>
+		<res id="66" text="以非重叠的平铺方式排列窗口\n平铺窗口"/>
+		<res id="67" refid="66"/>
+		<res id="68" text="将活动窗口拆分为窗格\n拆分"/>
+		<res id="69" text="清除选定内容\n清除"/>
+		<res id="70" text="清除全部内容\n全部清除"/>
+		<res id="71" text="复制当前选定内容到剪贴板\n复制"/>
+		<res id="72" text="剪切所选内容并把它放在剪贴板上\n剪切"/>
+		<res id="73" text="查找指定的文本\n查找"/>
+		<res id="74" text="插入剪贴板中的内容\n粘贴"/>
+		<res id="75" text="重复上次操作\n重复"/>
+		<res id="76" text="使用不同的文本替换特定的文本\n替换"/>
+		<res id="77" text="选择整个文档\n选择全部"/>
+		<res id="78" text="撤消上次操作\n撤消"/>
+		<res id="79" text="重做上次撤消的操作\n重做"/>
+		<res id="80" text="显示或隐藏工具栏\n切换工具栏"/>
+		<res id="81" text="显示或隐藏状态栏\n切换状态栏"/>
+		<res id="82" text="更改窗口大小"/>
+		<res id="83" text="更改窗口位置"/>
+		<res id="84" text="将窗口缩小为图标"/>
+		<res id="85" text="将窗口放大到最大尺寸"/>
+		<res id="86" text="切换到下一个文档窗口"/>
+		<res id="87" text="切换到上一个文档窗口"/>
+		<res id="88" text="关闭活动窗口并提示保存文档"/>
+		<res id="89" text="将窗口恢复到正常大小"/>
+		<res id="90" text="激活任务列表"/>
+		<res id="91" text="激活此窗口"/>
+		<res id="92" text="关闭打印预览模式\n取消预览"/>
+		<res id="93" text="此窗格显示在文件列表视图中选定的任何文件。如果您按内容搜索，此窗格还显示所选的文件中找到的行。使用鼠标右键来显示上下文菜单来了解可用的选项。"/>
+		<res id="94" text="%s 不是一个有效的搜索目录。目录名称必须是有效的路径，包括驱动器号(如 C:\Windows)或正确的构造的 UNC 名称 (例如 \\WORKSTATION\Shared_Folder)。"/>
+		<res id="95" text="\nSearchFor\n搜索\n搜索文件 (*.sea)\n.sea\nSearchFor.Document\n搜索文档"/>
+		<res id="96" text="将当前选定的文件的路径复制到剪贴板\n复制文件路径"/>
+		<res id="97" text="打开当前选定文件的属性对话框\n打开属性"/>
+		<res id="98" text="打开当前选定的文件\n打开文件"/>
+		<res id="99" text="测试正则表达式引擎"/>
+		<res id="100" text="当查看内容时打开/关闭自动换行\n自动换行"/>
+		<res id="101" text="设置内容视图的字体\n设置字体"/>
+		<res id="102" text="开始搜索\n启动"/>
+		<res id="103" text="停止当前的搜索\n停止"/>
+		<res id="104" text="打开 FileLocator Pro 帮助\n帮助"/>
+		<res id="105" text="在文件列表视图中选择所有文件\n选择全部"/>
+		<res id="106" text="导出搜索结果\n导出结果"/>
+		<res id="107" text="删除当前所选内容\n删除"/>
+		<res id="108" text="在下拉列表中清除历史记录项\n清除历史记录"/>
+		<res id="109" text="修改搜索配置\n配置"/>
+		<res id="110" text="搜索过程中系统内存不足。请尝试使用&quot;单阶段&quot;搜索选项搜索重新搜索。如果问题仍然存在，请联系技术支持。"/>
+		<res id="111" text="搜索期间系统遇到意外的异常。如果问题仍然存在，请联系技术支持。"/>
+		<res id="112" text="就绪"/>
+		<res id="113" text="请重新搜索以查看新设置的效果。"/>
+		<res id="114" text="在子文件夹中搜索"/>
+		<res id="115" text="浏览单个文件夹"/>
+		<res id="116" text="打开日历"/>
+		<res id="117" text="打开日历"/>
+		<res id="118" text="浏览多个文件夹"/>
+		<res id="119" text="FILE_VIEWER\n视图\n视图\n\n\nFileLocator.FileViewer\nAFile Locator 文件查看器"/>
+		<res id="120" text="显示/隐藏收藏列表\n收藏"/>
+		<res id="121" text="修改编辑器设置\n编辑器设置"/>
+		<res id="122" text="在当前所选的文件的路径打开资源管理器实例\n打开浏览器"/>
+		<res id="123" text="修改系统集成设置\n系统设置"/>
+		<res id="124" text="打开多个扩展件对话框"/>
+		<res id="125" text="转到前一个搜索结果\n前一个搜索结果"/>
+		<res id="126" text="转到下一个搜索结果\n下一个搜索结果"/>
+		<res id="127" text="重命名当前所选内容\n重命名"/>
+		<res id="128" text="转到前一个搜索结果\n前一个搜索结果"/>
+		<res id="129" text="转到下一个搜索结果\n下一个搜索结果"/>
+		<res id="130" text="大小大于"/>
+		<res id="131" text="大小小于"/>
+		<res id="132" text="所选的表达式类型的详细信息"/>
+		<res id="133" text="表达式的类型"/>
+		<res id="134" refid="133"/>
+		<res id="135" refid="133"/>
+		<res id="136" text="指定是否逐行的基础上或跨整个文件匹配内容"/>
+		<res id="137" text="指定文件名称表达式是一个非表达式"/>
+		<res id="138" text="显示或隐藏内容视图窗格\n显示/隐藏内容视图"/>
+		<res id="139" text="暂停搜索\n暂停"/>
+		<res id="140" text="使用默认设置创建新的搜索\n新建空白搜索"/>
+		<res id="141" text="创建新的搜索基于当前的条件\n使用当前条件新建搜索"/>
+		<res id="142" text="搜索文件中的文本\n查找..."/>
+		<res id="143" text="滚动到下一个找到的文本的高亮显示行\n滚动到下一个"/>
+		<res id="144" text="滚动到前一个找到的文本的高亮显示行\n滚动到前一个"/>
+		<res id="145" text="切换当前查找的高亮显示\n开启/关闭高亮显示"/>
+		<res id="146" text="前一匹配"/>
+		<res id="147" text="下一匹配"/>
+		<res id="148" text="前一文件"/>
+		<res id="149" text="下一文件"/>
+		<res id="150" text="编辑当前所选的收藏\n编辑收藏"/>
+		<res id="151" text="删除当前选定的收藏\n删除收藏"/>
+		<res id="152" text="返回所选内容的主视图\n返回到主视图"/>
+		<res id="153" text="搜索筛选器"/>
+		<res id="154" text="查找这个词"/>
+		<res id="155" text="将当前搜索加入为新的收藏\n添加收藏"/>
+		<res id="156" text="刷新收藏列表\n刷新"/>
+		<res id="166" text="搜索"/>
+		<res id="169" text="渲染库"/>
+		<res id="170" text="脚本"/>
+		<res id="172" text="搜索"/>
+		<res id="175" text="文件"/>
+		<res id="177" text="搜索内容"/>
+		<res id="201" text="使用正则表达式指定&quot;文件名称&quot;前您必须将&quot;选项&quot;选项卡中的&quot;文件名称&quot;设置成为&quot;正则表达式&quot;"/>
+		<res id="202" text="从右边的窗格中选择一个或多个文件可以查看查找到的内容\n\n注:在&quot;文件&quot;菜单下点击&quot;打印&quot;可打印此窗格"/>
+		<res id="204" text="使用正则表达式指定&quot;包含文本&quot;前您必须将&quot;选项&quot;选项卡中的&quot;包含文本&quot;设置成为&quot;正则表达式&quot;"/>
+		<res id="205" text="&quot表达式向导&quot不提供正则表达式的所有功能，但如您知道如何构造正则表达式那么便可自己指定任何表达式。只要将您的表达式作为&quot此段&quot类添加在&quot接着按&quot列表中，并且只要在向导下一步关闭（在您输入特殊字符后会自动开启的）转义符"/>
+		<res id="206" text="设置找到的文本高亮显示的颜色\n设置颜色"/>
+		<res id="207" text="保存内容视图的数据\n保存内容视图"/>
+		<res id="208" text="切换为&quot;单阶段&quot;搜索（无进度条）从而在大容量磁盘进行获得高效的内容搜索\n切换为&quot;单阶段搜索&quot;(大容量磁盘)&quot;"/>
+		<res id="209" text="内容视图停靠在文件列表视图的下面\n停靠下面"/>
+		<res id="210" text="内容视图停靠在文件列表视图的右侧\n停靠右侧"/>
+		<res id="211" text="显示命令行参数的帮助对话框\n命令行参数"/>
+		<res id="212" text="所选的表达式类型的详细信息"/>
+		<res id="213" text="在当前的结果列表中搜索\n在当前的结果列表中搜索"/>
+		<res id="214" text="显示/隐藏内容视图窗格\n切换目录视图"/>
+		<res id="215" text="在当前选定的文件内搜索\n在当前选定内容中搜索"/>
+		<res id="216" text="切换原始搜索的高亮显示\n开启/关闭高亮显示"/>
+		<res id="217" text="打开保存了所有收藏的文件夹\n打开收藏文件夹"/>
+		<res id="218" text="关闭所有窗口/页签\n关闭所有" />
+		<res id="219" text="关闭除活动搜索外所有窗口/页签\n关闭除活动搜索外所有窗口" />
+		<res id="220" text="关闭所有打开的文件窗口\n关闭所有文件" />
+		<res id="221" text="保存当前搜索会话\n保存搜索会话" />
+		<res id="222" text="保存工作区的所有搜索会话\n保存工作区" />
+		<res id="224" text="刷新报告\n刷新" />
+		<res id="225" text="将报告内容复制到剪切板\n复制" />
+		<res id="226" text="将报告保存为文件\n保存报告" />
+		<res id="227" text="打印报告\n打印预览" />
+		<res id="228" text="更改报告字段及布局\n报告选项" />
+		<res id="229" text="显示或隐藏菜单栏\n切换菜单栏" />
+	</string>
+	<string id="2" type="文本">
+		<res id="1" text="您想要选择哪个文件夹？"/>
+		<res id="2" text="无效的目录"/>
+		<res id="3" text="&lt; 1 秒"/>
+		<res id="4" text="正在复制到剪贴板"/>
+		<res id="5" text="本地硬盘"/>
+		<res id="6" text="布尔表达式"/>
+		<res id="7" text="纯文本"/>
+		<res id="8" text="正则表达式"/>
+		<res id="9" text="DOS 表达式"/>
+		<res id="10" text="文件哈希值"/>
+		<res id="11" text="布尔正则表达式"/>
+		<res id="12" text="全字匹配"/>
+		<res id="13" text="表达式"/>
+		<res id="14" text="(无效的表达式类型)"/>
+		<res id="15" text="高"/>
+		<res id="16" text="普通 (默认)"/>
+		<res id="17" text="低"/>
+		<res id="18" text="标准 (默认)"/>
+		<res id="19" text="标准"/>
+		<res id="20" text="黑色"/>
+		<res id="21" text="蓝色"/>
+		<res id="22" text="经典"/>
+		<res id="23" text="银色"/>
+		<res id="24" text="上"/>
+		<res id="25" text="ASCII"/>
+		<res id="26" text="Unicode"/>
+		<res id="27" text="Unicode (Big Endian)"/>
+		<res id="28" text="UTF8 (No BOM)"/>
+		<res id="29" text="文本"/>
+		<res id="30" text="以逗号分隔 (CSV)"/>
+		<res id="31" text="以制表符分隔"/>
+		<res id="32" text="无法打开文件列表: "/>
+		<res id="34" text="文件文件夹"/>
+		<res id="35" text="开"/>
+		<res id="36" text="关"/>
+		<res id="37" text="排除 SVN/HG/GIT/CVS 元数据的文件夹"/>
+		<res id="38" text="排除Program Files文件夹"/>
+		<res id="39" text="!$(ProgramFiles)"/>
+		<res id="40" text="排除 Windows 系统文件"/>
+		<res id="41" text="!$(WindowsFolder)"/>
+		<res id="42" text="排除回收站"/>
+		<res id="43" text="正在删除历史"/>
+		<res id="44" text="高级"/>
+		<res id="45" text="文件列表"/>
+		<res id="46" text="文件夹"/>
+		<res id="47" text="交接点"/>
+		<res id="48" text="线程/优先级"/>
+		<res id="49" text="XSLT 处理器"/>
+		<res id="50" text="编辑器"/>
+		<res id="51" text="默认编辑器"/>
+		<res id="52" text="外部编辑器"/>
+		<res id="53" text="内部查看器"/>
+		<res id="54" text="无法使用指定的程序 ID 来创建 XSL 解析器。"/>
+		<res id="55" text="应用程序文件 (*.exe)|*.exe|所有文件 (*.*)|*.*||"/>
+		<res id="56" text="试图打开文件浏览器时出错。请确保在尝试浏览之前的文件名称是有效的。"/>
+		<res id="57" text="这将重置回其原始安装状态扩展件的所有设置。确定吗？"/>
+		<res id="58" text="正在重置扩展件"/>
+		<res id="59" text="请指定找到文件时播放的声音。"/>
+		<res id="60" text="请指定搜索结束时播放的声音。"/>
+		<res id="61" text="无法播放声音。声音文件可能已损坏或不是一种有效的波形格式"/>
+		<res id="62" text="请指定一个有效的声音文件来播放。"/>
+		<res id="63" text="声音文件 (*.wav)|*.wav|所有文件 (*.*)|*.*||"/>
+		<res id="64" text="无法浏览声音文件。"/>
+		<res id="65" text="类型"/>
+		<res id="66" text="状态"/>
+		<res id="67" text="关联的 IFilter"/>
+		<res id="68" text="FileLocator Pro 被配置为从USB 设备运行。无法对外壳设置进行设置。"/>
+		<res id="69" text="表达式"/>
+		<res id="70" text="布尔表达式"/>
+		<res id="71" text="DOS 表达式"/>
+		<res id="72" text="正则表达式"/>
+		<res id="73" text="文件哈希值"/>
+		<res id="74" text="UTF-8 默认格式"/>
+		<res id="75" text="扩展件"/>
+		<res id="76" text="常规"/>
+		<res id="77" text="历史"/>
+		<res id="78" text="显示"/>
+		<res id="79" text="字符处理"/>
+		<res id="80" text="外壳程序集成"/>
+		<res id="81" text="声音/警告"/>
+		<res id="82" text="用户界面"/>
+		<res id="83" text="正在应用配置信息"/>
+		<res id="84" text="这将会重置所有的配置设置为安装默认值。确定重置吗？"/>
+		<res id="85" text="重置配置"/>
+		<res id="86" text="描述"/>
+		<res id="87" text="筛选值"/>
+		<res id="88" text="正在检索文件数据..."/>
+		<res id="89" text="单用户许可证"/>
+		<res id="90" text="组织多站点许可证 (最多到 %s 个用户)"/>
+		<res id="91" text="组织多站点许可证 (无限用户)"/>
+		<res id="92" text="多用户许可证: %s 许可证"/>
+		<res id="93" text="\r\n\r\n注册码: \r\n%s"/>
+		<res id="94" text="\r\n\r\n支持/免费升级直到: %s\r\n"/>
+		<res id="95" text="试用许可证已过期。您必须注册才能继续合法使用此产品。"/>
+		<res id="96" text="试用许可证。剩余天数: %d。"/>
+		<res id="97" text="匹配大小写 "/>
+		<res id="98" text="持久性搜索筛选器"/>
+		<res id="99" text="大小 (字节)"/>
+		<res id="100" text="大小 (kB)"/>
+		<res id="101" text="大小 (MB)"/>
+		<res id="102" text="大小 (GB)"/>
+		<res id="103" text="已完成"/>
+		<res id="104" text="有新版本可用"/>
+		<res id="105" text="没有更新。"/>
+		<res id="106" text="新建搜索"/>
+		<res id="107" text="显示"/>
+		<res id="108" text="无法打开条件文件"/>
+		<res id="109" text="搜索未成功。 CCmdLineSearch::search() 期间的失败"/>
+		<res id="110" text="个文件被找到"/>
+		<res id="111" text=" 不是可识别的日期/时间格式。"/>
+		<res id="112" text="没有文件被选中"/>
+		<res id="113" text="搜索统计"/>
+		<res id="114" text="摘要"/>
+		<res id="115" text="缩略图"/>
+		<res id="116" text="错误"/>
+		<res id="117" text="修改日期"/>
+		<res id="118" text="创建日期"/>
+		<res id="119" text="最后访问日期"/>
+		<res id="120" text="现在"/>
+		<res id="121" text="分始"/>
+		<res id="122" text="时始"/>
+		<res id="123" text="日始"/>
+		<res id="124" text="分末"/>
+		<res id="125" text="时末"/>
+		<res id="126" text="日末"/>
+		<res id="133" text="%s 不是有效的时间格式"/>
+		<res id="134" text="意外的表达式的类型"/>
+		<res id="135" text="不知道"/>
+		<res id="136" text="单个的任何字符"/>
+		<res id="137" text="指定字符"/>
+		<res id="138" text="以下其中任何一个字符"/>
+		<res id="139" text="除以下这些的任何字符"/>
+		<res id="140" text="词组"/>
+		<res id="141" text="空格"/>
+		<res id="142" text="单个任何数字字符"/>
+		<res id="143" text="单个任何文本字符"/>
+		<res id="144" text="零或一次"/>
+		<res id="145" text="零或多次"/>
+		<res id="146" text="仅一次"/>
+		<res id="147" text="一次或多次"/>
+		<res id="148" text="随后为"/>
+		<res id="149" text="出现"/>
+		<res id="150" text="文件名称表达式向导"/>
+		<res id="151" text="编辑收藏"/>
+		<res id="152" text="保存"/>
+		<res id="153" text="显示: %s 共 %s"/>
+		<res id="154" text="加载..."/>
+		<res id="155" text="加载: %s"/>
+		<res id="156" text="未知收藏夹"/>
+		<res id="157" text="正在准备查找收藏夹失败: "/>
+		<res id="158" text="读取收藏夹"/>
+		<res id="159" text="删除收藏"/>
+		<res id="160" text="编辑收藏"/>
+		<res id="161" text="标签"/>
+		<res id="162" text="搜索"/>
+		<res id="163" text="正在保存收藏夹"/>
+		<res id="164" text="正在打开收藏夹文件夹"/>
+		<res id="165" text="无法检索搜索条件。添加失败。"/>
+		<res id="166" text="请打开或创建您想要添加到收藏夹的搜索。"/>
+		<res id="167" text="试用期已过。您想输入注册码吗？"/>
+		<res id="168" text="正在更改配置设置"/>
+		<res id="169" text="无法加载注册码配置文件"/>
+		<res id="170" text="无法加载配置文件"/>
+		<res id="171" text="无法加载历史配置文件"/>
+		<res id="172" text="创建空白配置 mgr"/>
+		<res id="173" text="无法打开文件"/>
+		<res id="174" text="打开文件"/>
+		<res id="175" text="在 Visual Studio 中打开文件失败。有关详细信息，请检查日志文件。"/>
+		<res id="176" text="没有指定的外部编辑器。您想现在指定吗？"/>
+		<res id="178" text="启动外部编辑器错误。\r\n\r\n%s"/>
+		<res id="179" text="无法加载搜索"/>
+		<res id="180" text="待接受命令行标识 '-%s'的一个参数值，但没有提供"/>
+		<res id="181" text="命令行标志 '-%s 不是有效的"/>
+		<res id="182" text="日期格式无效: %s"/>
+		<res id="183" text="意外的命令行参数: %s"/>
+		<res id="184" text="正在运行"/>
+		<res id="185" text="启动搜索"/>
+		<res id="186" text="** 加载失败 **\r\n\r\n无法加载文件: %s\r\n\r\n请确保您有适当的安全权限来读取该文件。\r\n\r\n如果问题仍然存在请联系技术支持以获得更多帮助，并请同时提供此错误文本和存储在以下文件夹中的日志文件:\r\n%s\r\n\r\n更多详细信息:\r\n%s\r\n"/>
+		<res id="189" text="无法打开文件。"/>
+		<res id="190" text="已停止"/>
+		<res id="191" text="已完成"/>
+		<res id="192" text="搜索期间发生错误。如果问题仍然存在，请联系技术支持"/>
+		<res id="193" text="内容视图"/>
+		<res id="194" text="正在更改选择内容"/>
+		<res id="195" text="正在保存搜索结果操作"/>
+		<res id="196" text="搜索: "/>
+		<res id="197" text="%s 在 "/>
+		<res id="198" text="无法加载条件文件。请检查它是否是一个有效的条件文件，并且不是来自于旧版本的 FileLocator Pro。"/>
+		<res id="199" text="您将要覆盖一个收藏，确定覆盖吗？"/>
+		<res id="200" text="%s %s 被找到。"/>
+		<res id="201" text="搜索完成 - %s %s 被找到。"/>
+		<res id="202" text="查看"/>
+		<res id="203" text="收藏"/>
+		<res id="204" text="错误报告"/>
+		<res id="205" text="已暂停"/>
+		<res id="206" text="搜索时间"/>
+		<res id="208" text="当前找到:"/>
+		<res id="209" text="原始搜索:"/>
+		<res id="210" text="已显示:"/>
+		<res id="211" text="找到:"/>
+		<res id="212" text="显示:"/>
+		<res id="213" text="已选择 "/>
+		<res id="214" text="找到 "/>
+		<res id="215" text="项"/>
+		<res id="216" text="正筛选:"/>
+		<res id="217" text="已选择:"/>
+		<res id="218" text="%s MB"/>
+		<res id="219" text="%s 个文件被找到"/>
+		<res id="220" text="有新版本的 FileLocator Pro 可用。 您想要查看详细信息吗？"/>
+		<res id="221" text="注册成功！感谢您抽出时间来注册"/>
+		<res id="222" text="注册密钥无效。请确保输入的注册信息与注册电子邮件中所示的完全一样。"/>
+		<res id="225" text="请指定一个有效的文件名来保存结果。"/>
+		<res id="226" text="请指定一个有效的转换文件。"/>
+		<res id="227" text="SearchResults."/>
+		<res id="228" text="所有文件 (*.*)|*.*||"/>
+		<res id="229" text="自定义格式文件不是有效的。请检查该文件是否存在和您是否具有适当的安全权限来打开该文件。\r\n\r\n"/>
+		<res id="230" text="XSL (*.xsl)|*.xsl|所有文件 (*.*)|*.*||"/>
+		<res id="231" text="无法打开文件选择对话框: %d"/>
+		<res id="232" text="测试成功。"/>
+		<res id="233" text="已搜索:"/>
+		<res id="234" text="已检查:"/>
+		<res id="235" text="状态:"/>
+		<res id="236" text="未启动"/>
+		<res id="237" text="暂停"/>
+		<res id="238" text="继续"/>
+		<res id="239" text="搜索 %sMb"/>
+		<res id="240" text="%sMb 共 %sMb"/>
+		<res id="241" text="筛选 %sMb"/>
+		<res id="242" text="正在筛选 "/>
+		<res id="243" text="正在搜索: "/>
+		<res id="244" text="开始"/>
+		<res id="245" text="文本中发现表达式。\r\n表达式起始位置: %d\r\n表达式长度: %d\r\n找到: %s"/>
+		<res id="246" text="结果列表为空。"/>
+		<res id="247" text="文本中未发现表达式。"/>
+		<res id="248" text="注册文件已损坏。"/>
+		<res id="249" text="找不到注册信息。"/>
+		<res id="250" text="注册码已过期。"/>
+		<res id="251" text="FileLocator Pro 键盘钩子"/>
+		<res id="252" text="您当前的注册码无效，无法进行此安装。此安装版的 FileLocator Pro 将在工作 30 天后的过期，您将需要购买新的注册码或重新安装以前的版本。\r\n\r\n继续安装吗？"/>
+		<res id="256" text="安装日志启动失败。请尝试再次安装。如果问题仍然存在，请联系 FileLocator Pro 的技术支持。"/>
+		<res id="258" text="复制"/>
+		<res id="259" text="复制路径"/>
+		<res id="260" text="剪切"/>
+		<res id="261" text="删除"/>
+		<res id="262" text="查看这里..."/>
+		<res id="263" text="属性"/>
+		<res id="264" text="在选定内容中搜索"/>
+		<res id="265" text="在结果列表中搜索"/>
+		<res id="266" text="%s 的内容视图"/>
+		<res id="267" text="隐藏"/>
+		<res id="268" text="\r\n下面的搜索目录无效:\r\n\r\n"/>
+		<res id="269" text="\r\n目录名称必须是有效的路径并包含驱动器盘符(例如 C:\Windows)或正确构造的 UNC 名称(例如 \\WORKSTATION\Shared_Folder)。"/>
+		<res id="272" text="正在加载宏"/>
+		<res id="273" text="解析脚本失败:\r\n"/>
+		<res id="274" text="创建脚本引擎时遇到问题。"/>
+		<res id="275" text="(无主题)"/>
+		<res id="276" text="(未知)"/>
+		<res id="277" text="创建:"/>
+		<res id="278" text="联系人:"/>
+		<res id="279" text="位置:"/>
+		<res id="280" text="日期:"/>
+		<res id="281" text="从:"/>
+		<res id="282" text="到:"/>
+		<res id="283" text="(空)"/>
+		<res id="284" text="(无法加载收件人列表 - 请联系技术支持了解更多信息)\r\n"/>
+		<res id="285" text="接收人:"/>
+		<res id="286" text="发送:"/>
+		<res id="287" text="主题:"/>
+		<res id="288" text="\r\n生成消息过程中出现错误:"/>
+		<res id="289" text=" 个文件不能被"/>
+		<res id="290" text="属性"/>
+		<res id="291" text="文件大小"/>
+		<res id="292" text="忽略的扩展件"/>
+		<res id="293" text=" 由于搜索条件。&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;"/>
+		<res id="294" text="错误已报告，但没有提供详细信息。"/>
+		<res id="295" text="内容验证脚本失败使用:"/>
+		<res id="296" text="秒"/>
+		<res id="297" text="时"/>
+		<res id="298" text="分"/>
+		<res id="299" text="今天"/>
+		<res id="300" text="本周始"/>
+		<res id="301" text="本月始"/>
+		<res id="302" text="本年始"/>
+		<res id="303" text="本周末"/>
+		<res id="304" text="本月末"/>
+		<res id="305" text="本年末"/>
+		<res id="306" text="日"/>
+		<res id="307" text="周"/>
+		<res id="308" text="月"/>
+		<res id="309" text="年"/>
+		<res id="310" text="正在检索文件..."/>
+		<res id="311" text="正在创建项目名称验证脚本: %s"/>
+		<res id="312" text="项目名称验证脚本失败:"/>
+		<res id="313" text="是"/>
+		<res id="314" text="否"/>
+		<res id="315" text="文件名称表达式:"/>
+		<res id="316" text="文件名称 - 匹配大小写:"/>
+		<res id="317" text="内容搜索:"/>
+		<res id="318" text="包含文本:"/>
+		<res id="319" text="内容表达式:"/>
+		<res id="320" text="内容 - 匹配大小写:"/>
+		<res id="321" text="跨文件:"/>
+		<res id="322" text="查找位置:"/>
+		<res id="323" text="子文件夹:"/>
+		<res id="324" text="&quot;查找位置&quot;表达式:"/>
+		<res id="325" text="修改日期晚于:"/>
+		<res id="326" text="修改日期早于:"/>
+		<res id="327" text="最后访问晚于:"/>
+		<res id="328" text="最后访问早于:"/>
+		<res id="329" text="创建日期晚于:"/>
+		<res id="330" text="创建早于:"/>
+		<res id="331" text="大于:"/>
+		<res id="332" text="小于:"/>
+		<res id="333" text="&quot;包含文本&quot;的活动脚本不支持对整个文件范围匹配的布尔类型搜索。可在&quot;选项&quot;选项卡中切换到&quot;逐行&quot;。"/>
+		<res id="334" text="内容搜索值:"/>
+		<res id="335" text="文件名称筛选器:"/>
+		<res id="336" text="没有指定脚本类型"/>
+		<res id="337" text="脚本文件不存在，或无法打开。"/>
+		<res id="338" text="未指定脚本引擎"/>
+		<res id="339" text="脚本路径:"/>
+		<res id="340" text="引擎:"/>
+		<res id="341" text="自定义参数:"/>
+		<res id="342" text="存档"/>
+		<res id="343" text="压缩"/>
+		<res id="344" text="加密"/>
+		<res id="345" text="文件夹"/>
+		<res id="346" text="离线"/>
+		<res id="347" text="只读"/>
+		<res id="348" text="稀疏"/>
+		<res id="349" text="系统"/>
+		<res id="350" text="正在初始化..."/>
+		<res id="351" text="已完成。"/>
+		<res id="352" text="正在从存档中提取文件..."/>
+		<res id="353" text="在这台机器上 %s 不是有效路径。"/>
+		<res id="354" text="NEAR 运算符使用无效。没有发现前面的操作数。"/>
+		<res id="355" text="FileLocator Pro 结果" />
+		<res id="356" text="正在取消..."/>
+		<res id="357" text="正在取消操作..."/>
+		<res id="358" text="一个或多个选定的文件是复合文件，不会被删除。您要继续吗？"/>
+		<res id="359" text="删除未成功完成。某些文件未被删除。"/>
+		<res id="360" text="正在执行菜单选项"/>
+		<res id="361" text="警告:已处理文件中有 %d 个操作失败。有关更多详细信息参见日志。"/>
+		<res id="362" text="正在提取文件数据"/>
+		<res id="363" text="无法访问所有的拖放项"/>
+		<res id="364" text="正在生成文件数据"/>
+		<res id="365" text="在当前所选内容上执行的操作"/>
+		<res id="366" text="警告: 对在 %d 上的选定文件的 (%s) 操作失败。有关更多详细信息参见日志。"/>
+		<res id="367" text="默认"/>
+		<res id="368" text="执行上下文菜单"/>
+		<res id="369" text="第 %d 页共 %d 页"/>
+		<res id="370" text="...多余行被截断..."/>
+		<res id="371" text="名称"/>
+		<res id="372" text="位置"/>
+		<res id="373" text="修改日期"/>
+		<res id="374" text="创建日期"/>
+		<res id="375" text="最后访问日期"/>
+		<res id="376" text="匹配"/>
+		<res id="377" text="未知"/>
+		<res id="378" text=" CFileListCtrl::loadList() 期间的失败"/>
+		<res id="379" text="正在创建文件查看器框"/>
+		<res id="380" text="搜索字符串是无效的: \n%s"/>
+		<res id="381" text="无法加载编辑器。如果问题仍然存在，请联系技术支持"/>
+		<res id="382" text="文件"/>
+		<res id="383" text="消息"/>
+		<res id="384" text="大小"/>
+		<res id="385" text="小图标"/>
+		<res id="386" text="中等图标"/>
+		<res id="387" text="大图标"/>
+		<res id="388" text="超大图标"/>
+		<res id="389" text="&lt;html&gt;&lt;h1&gt;报告&lt;/h1&gt;&lt;p&gt;这将是报告部分。就像导出，但有一点视觉效果更佳。&lt;/p&gt;&lt;/html&gt;"/>
+		<res id="390" text="显示摘要报告"/>
+		<res id="391" text="您想要还删除与 FileLocator Pro 关联的所有用户数据吗？"/>
+		<res id="392" text="删除用户数据"/>
+		<res id="393" text="删除失败"/>
+		<res id="394" text="无法翻译对话框"/>
+		<res id="395" text="确定要删除 '%s' 收藏吗?"/>
+		<res id="396" text="脚本 %s 不是有效的。\n\n附加信息:\n\n%s"/>
+		<res id="397" text="确定要删除搜索筛选器 '%s' 吗？"/>
+		<res id="398" text="IFilter"/>
+		<res id="399" text="下"/>
+		
+		<res id="400" regex="启动"/>
+		<res id="401" regex="今天"/>
+		<res id="402" regex="现在"/>
+		<res id="403" regex="秒"/>
+		<res id="404" regex="分"/>
+		<res id="405" regex="月"/>
+		<res id="406" regex="时"/>
+		<res id="407" regex="日"/>
+		<res id="408" regex="周"/>
+		<res id="409" regex="年"/>
+		<res id="410" regex="\b(今天|本?(周始|月始|年始|周末|月末|年末))|(unused)(unused)"/>
+		<res id="411" regex="\b(现在|本?(分始|时始|日始|分末|时末|日末))|(unused)(unused)"/>
+		<res id="412" regex="([+-]) *([0-9]+) *(日|周|月|年)"/>
+		<res id="413" regex="([+-]) *([0-9]+) *(秒|分|时)"/>
+		<res id="414" regex="\b[0-9]+(?: *(am|pm)|(?:[:][0-9]+)+) *(am|pm)?\b"/>
+		
+		<res id="415" text="B"/>
+		<res id="416" text="KB"/>
+		<res id="417" text="MB"/>
+		<res id="418" text="GB"/>
+		<res id="420" text="AND"/>
+		<res id="421" text="OR"/>
+		<res id="422" text="NOT"/>
+		<res id="423" text="NEAR"/>
+		<res id="424" text="LIKE"/>
+		<res id="425" text="REGEX"/>
+		<res id="426" text="DOSEX"/>
+		<res id="427" text="LINES" />
+		
+		<res id="430" regex="AND" case="1"/>
+		<res id="431" regex="OR" case="1"/>
+		<res id="432" regex="NOT" case="1"/>
+		<res id="433" regex="NEAR(:\d+)?" case="1" />
+		<res id="434" regex="LIKE" case="1"/>
+		<res id="435" regex="REGEX" case="1"/>
+		<res id="436" regex="DOSEX" case="1"/>
+		<res id="437" regex="LINES?:([^ ]*)?" case="1" />
+		
+		<res id="440" text="本地化"/>
+		<res id="441" text="内存不足，无法开始新的搜索。请关闭以前的搜索和/或其他应用程序，然后重试。"/>
+		<res id="442" text="已截断 (以释放内存)。"/>
+		<res id="443" text="由于正则表达式和DOS表达式略有差异，表达式向导产生的结果可能会看上去不同于您所习惯的样子，如：DOS表达式 'filename.*'作为正则表达式是’^filename\.*'。"/>
+		<res id="444" text="FileLocator Pro 搜索在逐行的基础上通过寻找文件的所有行匹配定义的表达式。表达式允许您定义如何从行开始，接着它应包含什么内容，然后它应如何结束。FileLocator Pro 然后找到文件中的表达式匹配的所有行。"/>
+		<res id="445" text="文件名称"/>
+		<res id="446" text="行"/>
+		<res id="447" text="打开"/>
+		<res id="448" text="附件"/>
+		<res id="449" text="已停止 (内存不足)"/>
+		<res id="450" text="包含文本"/>
+		<res id="451" text="个项目"/>
+		<res id="452" text="天"/>
+		<res id="453" text="周"/>
+		<res id="454" text="月"/>
+		<res id="455" text="年"/>
+		<res id="456" text="匹配"/>
+		<res id="457" text="匹配"/>
+		<res id="458" text="制表符分隔文本 (电子表格)"/>
+		<res id="459" text="%s 设置"/>
+		<res id="460" text="这是 FileLocator Pro 的最新版本。"/>
+		<res id="461" text="尝试检查更新时出错，更多详细信息请检查日志。"/>
+		<res id="462" text="正在保存工作区" />
+		<res id="463" text="正在保存搜索会话" />
+		<res id="464" text="工作区类型文件 (*.flwx)|*.flwx" />
+		<res id="465" text="FileLocator Pro 类型文件 (*.flwx;*.flsx;*.srf)|*.flwx;*.flsx;*.srf" />
+		<res id="466" text="搜索条件 (*.srf)|*.srf" />
+		<res id="467" text="所有文件 (*.*)|*.*" />
+		<res id="468" text="正在加载工作区" />
+		<res id="469" text="正在加载搜索会话" />
+		<res id="470" text="无法加载文件" />
+		<res id="471" text="搜索会话文件(*.flsx)|*.flsx" />
+		<res id="472" text="%s 已存在.\r\n\r\n您希望将它替换吗?" />
+		<res id="473" text="未发现与闭括号')'对应的开括号'('。请使用引号指定原义文本, 例如 &quot;ending)&quot;" />
+		<res id="474" text="未发现与开括号')'对应的闭括号'('。请使用引号指定原义文本, 例如 &quot;(starting&quot; 或 &quot;Method(&quot;\r\n\r\n错误位置: %d\r\n文本: %s" />
+		<res id="475" text="无法编译 '%s'。请查阅文档了解对关键词的正确使用。" />
+		<res id="476" text="改变缓存存放位置将删除所有当前缓存内容。您希望继续吗？" />
+		<res id="477" text="无法删除缓存数据库。请检查您未打开其它本应用程序后重试。" />
+		<res id="478" text="报告" />
+		<res id="479" text="表格" />
+		<res id="480" text="标准" />
+		<res id="481" text="文件列表" />
+		<res id="482" text="内容" />
+		<res id="483" text="关键词摘要" />
+		<res id="484" text="HTML" />
+		<res id="485" text="Windows操作系统外壳无法为选中文件生成上下文菜单。您希望使用受限的上下文菜单来继续吗？" />
+		<res id="486" text="问题" />
+		<res id="487" text="错误" />
+		<res id="488" text="信息" />
+		<res id="489" text="内存管理" />
+		<res id="490" text="摘要" />
+		<res id="491" text="按文件" />
+		<res id="492" text="所有文件" />
+		<res id="493" text="仅为选择文件" />
+		<res id="494" text="所有" />
+		<res id="495" text="选中" />
+		<res id="496" text="以逗号分隔(CSV)" />
+		<res id="497" text="以制表符分隔" />
+		<res id="498" text="关键词按文件" />
+		<res id="499" text="文件扩展名" />
+		<res id="500" text="数目" />
+		<res id="501" text="关键词名称" />
+		<res id="502" text="结果" />
+		<res id="503" text="隐藏" />
+		<res id="504" text="早于" />
+		<res id="505" text="晚于" />
+		<res id="506" text="搜索条件" />
+		<res id="507" text="%s 报告仅对文件内容搜索有效" />
+		<res id="508" text="关键词匹配" />
+		<res id="509" text="保存失败. 请确保您对指定文件夹和文件有适当的写入权限。" />
+		<res id="510" text="正在取消报告..." />
+		<res id="511" text="报告未完成。" />
+		<res id="512" text="报告生成时出现了错误。" />
+		<res id="513" text="正在生成报告..." />
+		<res id="514" text="序列号" />
+		<res id="515" text="序号" />
+		<res id="516" text="序列号 (单个文件)" />
+		<res id="517" text="文件序号" />
+		<res id="518" text="完整文件路径" />
+		<res id="520" text="仅文件夹" />
+		<res id="521" text="仅文件" />
+		<res id="522" text="文档" />
+		<res id="523" text="音乐" />
+		<res id="524" text="图片" />
+		<res id="525" text="视频" />
+		<res id="526" text="技术员许可证: %s 个许可证" />
+		<res id="527" text="服务器许可证: %s 个许可证" />
+		<res id="528" text="主要" />
+		<res id="529" text="次要" />
+		<res id="530" text="行号" />
+		<res id="531" text="行号" />
+		<res id="532" text="过滤器" />
+		<res id="533" text="对搜索结果使用过滤器" />
+		<res id="534" text="无文件/文件夹匹配搜索条件" />
+		<res id="535" text="无结果匹配列过滤器" />
+		<res id="536" text="正在搜索" />
+		<res id="537" text="'%s' 不是合法的" />
+		<res id="538" text="报错信息" />
+		<res id="539" text="任务运行遇到问题" />
+		<res id="540" text="出现了一个错误。如果问题依然存在，请与技术支持联系。" />
+		<res id="541" text="附加信息" />
+		<res id="542" text="Title" />
+		<res id="543" text="Artist" />
+		<res id="544" text="Album" />
+		<res id="545" text="Comment" />
+		<res id="546" text="Genre" />
+		<res id="547" text="Year" />
+		<res id="548" text="Track" />
+		<res id="549" text="Length: %s secs" />
+		<res id="550" text="Bit rate: %s Kbps" />
+		<res id="551" text="Sample rate: %s Hz" />
+		<res id="552" text="Channels: %s" />
+		<res id="553" text="Width" />
+		<res id="554" text="Height" />
+		<res id="555" text="Samples" />
+		<res id="556" text="Document" />
+		<res id="557" text="Image" />
+		<res id="558" text="Equipment make" />
+		<res id="559" text="Equipment model" />
+		<res id="560" text="Page" />
+		<res id="561" text="Page number" />
+		<res id="562" text="Software" />
+		<res id="563" text="Date" />
+		<res id="564" text="Artist" />
+		<res id="565" text="Computer" />
+		<res id="566" text="Title" />
+		<res id="567" text="Frame delay: %s/100 s" />
+		<res id="568" text="Loop count" />
+		<res id="569" text="Copyright" />
+		<res id="570" text="Exposure: %s s" />
+		<res id="571" text="Aperture: F%s" />
+		<res id="572" text="Exposure program" />
+		<res id="573" text="Normal" />
+		<res id="574" text="Manual" />
+		<res id="575" text="Aperture priority" />
+		<res id="576" text="Shutter priority" />
+		<res id="577" text="Creative" />
+		<res id="578" text="Action" />
+		<res id="579" text="Portrait" />
+		<res id="580" text="Landscape" />
+		<res id="581" text="ISO Speed" />
+		<res id="582" text="Original date" />
+		<res id="583" text="Flash" />
+		<res id="584" text="Comment" />
+		<res id="585" text="Size" />
+		<res id="586" text="Bits per pixel" />
+		<res id="587" text="Alpha channel" />
+	</string>
+</translation>

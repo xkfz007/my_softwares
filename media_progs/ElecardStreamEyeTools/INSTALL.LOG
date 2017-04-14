@@ -1,0 +1,201 @@
+[InstallLanguage]
+LangID=Enu
+
+[Strings]
+AppID=Elecard StreamEye Tools 2.9.2.70710
+AdminRights=1
+
+[Common.SharedFiles]
+C:\Program Files\Elecard\Elecard StreamEye Tools\pyuv.exe=
+C:\Program Files\Elecard\Elecard StreamEye Tools\VideoQE.exe=
+C:\Program Files\Elecard\Elecard StreamEye Tools\eseye_u.exe=
+C:\Program Files\Elecard\Elecard StreamEye Tools\SAnalyzer.exe=
+C:\Program Files\Elecard\Elecard StreamEye Tools\BAnalyzer.exe=
+C:\Program Files\Elecard\Elecard StreamEye Tools\bAnalyzer.dll=
+
+[Sys.SharedFiles]
+C:\Program Files\Common Files\Elecard\Registrator.exe=
+C:\Program Files\Common Files\Elecard\elcsc.ax=
+C:\Program Files\Common Files\Elecard\ElGViewer.dll=
+C:\Program Files\Common Files\Elecard\ElMIxReader.dll=
+C:\Program Files\Common Files\Elecard\ElMpgIndexator.dll=
+C:\Program Files\Common Files\Elecard\empgdmx.ax=
+C:\Program Files\Common Files\Elecard\em2vd.ax=
+C:\Program Files\Common Files\Elecard\elrut.ax=
+C:\Program Files\Common Files\Elecard\mcavcvd.ax=
+C:\Program Files\Common Files\Elecard\mcmp4demux.ax=
+C:\Program Files\Common Files\Elecard\mcm4vd.ax=
+C:\Program Files\Common Files\Elecard\LC.dll=
+
+[Components.SharedFiles]
+C:\Program Files\Elecard\Elecard StreamEye Tools\Components\empgdmx.ax=
+
+[WinSys.SharedFiles]
+C:\WINDOWS\system32\MSVCP60.DLL=
+C:\WINDOWS\system32\msvcp71.dll=
+C:\WINDOWS\system32\msvcr71.dll=
+
+[InstalledFeature]
+Main=
+
+[CreateDirs]
+C:\Program Files\Elecard=
+C:\Program Files\Elecard\Elecard StreamEye Tools=
+
+[Common.CopyFiles]
+C:\Program Files\Elecard\Elecard StreamEye Tools\Elecard StreamEye Tools.chm=
+C:\Program Files\Elecard\Elecard StreamEye Tools\BAnalyzer.chm=
+C:\Program Files\Elecard\Elecard StreamEye Tools\SAnalyzer.chm=
+C:\Program Files\Elecard\Elecard StreamEye Tools\eseye.chm=
+C:\Program Files\Elecard\Elecard StreamEye Tools\pyuv.chm=
+C:\Program Files\Elecard\Elecard StreamEye Tools\VideoQE.chm=
+C:\Program Files\Elecard\Elecard StreamEye Tools\Release Notes.pdf=
+C:\Program Files\Elecard\Elecard StreamEye Tools\Elecard EULA.rtf=
+C:\Program Files\Elecard\Elecard StreamEye Tools\pyuv.exe=
+C:\Program Files\Elecard\Elecard StreamEye Tools\VideoQE.exe=
+C:\Program Files\Elecard\Elecard StreamEye Tools\Metrics.ini=
+C:\Program Files\Elecard\Elecard StreamEye Tools\eseye_u.exe=
+C:\Program Files\Elecard\Elecard StreamEye Tools\SAnalyzer.exe=
+C:\Program Files\Elecard\Elecard StreamEye Tools\BAnalyzer.exe=
+C:\Program Files\Elecard\Elecard StreamEye Tools\bAnalyzer.dll=
+
+[Common.RegServers]
+C:\Program Files\Elecard\Elecard StreamEye Tools\bAnalyzer.dll=
+
+[Metrics.CreateDirs]
+C:\Program Files\Elecard\Elecard StreamEye Tools\Metrics=
+
+[Metrics.CopyFiles]
+C:\Program Files\Elecard\Elecard StreamEye Tools\Metrics\Server_apsnr.dll=
+C:\Program Files\Elecard\Elecard StreamEye Tools\Metrics\Server_Delta.dll=
+C:\Program Files\Elecard\Elecard StreamEye Tools\Metrics\Server_msad.dll=
+C:\Program Files\Elecard\Elecard StreamEye Tools\Metrics\Server_mse.dll=
+C:\Program Files\Elecard\Elecard StreamEye Tools\Metrics\Server_nqi.dll=
+C:\Program Files\Elecard\Elecard StreamEye Tools\Metrics\Server_opsnr.dll=
+C:\Program Files\Elecard\Elecard StreamEye Tools\Metrics\Server_ssim.dll=
+C:\Program Files\Elecard\Elecard StreamEye Tools\Metrics\Server_vqm.dll=
+
+[ESEye_DLL.CreateDirs]
+C:\Program Files\Elecard\Elecard StreamEye Tools\dll=
+
+[ESEye_DLL.CopyFiles]
+C:\Program Files\Elecard\Elecard StreamEye Tools\dll\ElMIxReader.dll=
+C:\Program Files\Elecard\Elecard StreamEye Tools\dll\ElMpgIndexator.dll=
+C:\Program Files\Elecard\Elecard StreamEye Tools\dll\em2vd_a.ax=
+C:\Program Files\Elecard\Elecard StreamEye Tools\dll\emp4dmx_a.ax=
+C:\Program Files\Elecard\Elecard StreamEye Tools\dll\empgdmx_a.ax=
+C:\Program Files\Elecard\Elecard StreamEye Tools\dll\mcavcvd_a.ax=
+C:\Program Files\Elecard\Elecard StreamEye Tools\dll\mcm4vd_a.ax=
+
+[Sys.CreateDirs]
+C:\Program Files\Common Files\Elecard=
+
+[Sys.CopyFiles]
+C:\Program Files\Common Files\Elecard\Registrator.exe=
+C:\Program Files\Common Files\Elecard\elcsc.ax=
+C:\Program Files\Common Files\Elecard\ElGViewer.dll=
+C:\Program Files\Common Files\Elecard\ElMIxReader.dll=
+C:\Program Files\Common Files\Elecard\ElMpgIndexator.dll=
+C:\Program Files\Common Files\Elecard\empgdmx.ax=
+C:\Program Files\Common Files\Elecard\em2vd.ax=
+C:\Program Files\Common Files\Elecard\elrut.ax=
+C:\Program Files\Common Files\Elecard\mcavcvd.ax=
+C:\Program Files\Common Files\Elecard\mcmp4demux.ax=
+C:\Program Files\Common Files\Elecard\mcm4vd.ax=
+C:\Program Files\Common Files\Elecard\LC.dll=
+
+[Sys.RegServers]
+C:\Program Files\Common Files\Elecard\elcsc.ax=
+C:\Program Files\Common Files\Elecard\ElGViewer.dll=
+C:\Program Files\Common Files\Elecard\ElMIxReader.dll=
+C:\Program Files\Common Files\Elecard\ElMpgIndexator.dll=
+C:\Program Files\Common Files\Elecard\empgdmx.ax=
+C:\Program Files\Common Files\Elecard\em2vd.ax=
+C:\Program Files\Common Files\Elecard\elrut.ax=
+C:\Program Files\Common Files\Elecard\mcavcvd.ax=
+C:\Program Files\Common Files\Elecard\mcmp4demux.ax=
+C:\Program Files\Common Files\Elecard\mcm4vd.ax=
+C:\Program Files\Common Files\Elecard\LC.dll=
+
+[Components.CreateDirs]
+C:\Program Files\Elecard\Elecard StreamEye Tools\Components=
+
+[Components.CopyFiles]
+C:\Program Files\Elecard\Elecard StreamEye Tools\Components\empgdmx.ax=
+C:\Program Files\Elecard\Elecard StreamEye Tools\Components\mcmp4demux.ax=
+
+[Sys.CreateKeys]
+HKCR\CLSID\{8C896914-07A7-405c-8FF9-5F2C24FC1F2A}=
+HKCR\CLSID\{8C896914-07A7-405c-8FF9-5F2C24FC1F2A}\InprocServer32=
+HKCR\CLSID\{318DB92E-E494-409d-BE1D-403188238A48}=
+HKCR\CLSID\{318DB92E-E494-409d-BE1D-403188238A48}\InprocServer32=
+HKCR\CLSID\{90FA3780-C924-44BA-B528-F2373B8B1504}=
+HKCR\CLSID\{90FA3780-C924-44BA-B528-F2373B8B1504}\InprocServer32=
+HKCR\CLSID\{50FC313B-DA9E-4a9f-802A-5AE91945EFF9}=
+HKCR\CLSID\{50FC313B-DA9E-4a9f-802A-5AE91945EFF9}\InprocServer32=
+HKCR\CLSID\{F0D9626C-4A52-49B8-B34B-66D652E2B96B}=
+HKCR\CLSID\{F0D9626C-4A52-49B8-B34B-66D652E2B96B}\InprocServer32=
+HKLM\Software\Elecard=
+HKLM\Software\Elecard\Packages=
+HKLM\Software\Elecard\Packages\Elecard StreamEye Tools=
+HKLM\Software\Elecard\Packages\Elecard StreamEye Tools\{8C896914-07A7-405c-8FF9-5F2C24FC1F2A}=
+HKLM\Software\Elecard\Packages\Elecard StreamEye Tools\{318DB92E-E494-409d-BE1D-403188238A48}=
+HKLM\Software\Elecard\Packages\Elecard StreamEye Tools\{90FA3780-C924-44BA-B528-F2373B8B1504}=
+HKLM\Software\Elecard\Packages\Elecard StreamEye Tools\{50FC313B-DA9E-4a9f-802A-5AE91945EFF9}=
+HKLM\Software\Elecard\Packages\Elecard StreamEye Tools\{F0D9626C-4A52-49B8-B34B-66D652E2B96B}=
+HKLM\Software\Elecard\Packages\Elecard StreamEye Tools\{6A270473-9994-4AEB-801F-BB2C4E56EE38}=
+HKLM\Software\Elecard\Packages\Elecard StreamEye Tools\{FC86AD6C-894A-44E9-A283-4B5A9DD6CA65}=
+HKLM\Software\Elecard\Packages\Elecard StreamEye Tools\{BC4EB321-771F-4e9f-AF67-37C631ECA106}=
+
+[Sys.AddReg]
+HKCR\CLSID\{8C896914-07A7-405c-8FF9-5F2C24FC1F2A}\''=
+HKCR\CLSID\{8C896914-07A7-405c-8FF9-5F2C24FC1F2A}\InprocServer32\''=
+HKCR\CLSID\{318DB92E-E494-409d-BE1D-403188238A48}\''=
+HKCR\CLSID\{318DB92E-E494-409d-BE1D-403188238A48}\InprocServer32\''=
+HKCR\CLSID\{90FA3780-C924-44BA-B528-F2373B8B1504}\''=
+HKCR\CLSID\{90FA3780-C924-44BA-B528-F2373B8B1504}\InprocServer32\''=
+HKCR\CLSID\{50FC313B-DA9E-4a9f-802A-5AE91945EFF9}\''=
+HKCR\CLSID\{50FC313B-DA9E-4a9f-802A-5AE91945EFF9}\InprocServer32\''=
+HKCR\CLSID\{F0D9626C-4A52-49B8-B34B-66D652E2B96B}\''=
+HKCR\CLSID\{F0D9626C-4A52-49B8-B34B-66D652E2B96B}\InprocServer32\''=
+HKLM\Software\Elecard\Packages\Elecard StreamEye Tools\'Version'=
+HKLM\Software\Elecard\Packages\Elecard StreamEye Tools\'InstallLocation'=
+HKLM\Software\Elecard\Packages\Elecard StreamEye Tools\'InstallProject'=
+HKLM\Software\Elecard\Packages\Elecard StreamEye Tools\'ProductURL'=
+HKLM\Software\Elecard\Packages\Elecard StreamEye Tools\'EvaluationPeriod'=
+HKLM\Software\Elecard\Packages\Elecard StreamEye Tools\'EULA'=
+HKLM\Software\Elecard\Packages\Elecard StreamEye Tools\{8C896914-07A7-405c-8FF9-5F2C24FC1F2A}\'ActivationKey'=
+HKLM\Software\Elecard\Packages\Elecard StreamEye Tools\{318DB92E-E494-409d-BE1D-403188238A48}\'ActivationKey'=
+HKLM\Software\Elecard\Packages\Elecard StreamEye Tools\{90FA3780-C924-44BA-B528-F2373B8B1504}\'ActivationKey'=
+HKLM\Software\Elecard\Packages\Elecard StreamEye Tools\{50FC313B-DA9E-4a9f-802A-5AE91945EFF9}\'ActivationKey'=
+HKLM\Software\Elecard\Packages\Elecard StreamEye Tools\{F0D9626C-4A52-49B8-B34B-66D652E2B96B}\'ActivationKey'=
+HKLM\Software\Elecard\Packages\Elecard StreamEye Tools\{6A270473-9994-4AEB-801F-BB2C4E56EE38}\'ActivationKey'=
+HKLM\Software\Elecard\Packages\Elecard StreamEye Tools\{FC86AD6C-894A-44E9-A283-4B5A9DD6CA65}\'ActivationKey'=
+HKLM\Software\Elecard\Packages\Elecard StreamEye Tools\{BC4EB321-771F-4e9f-AF67-37C631ECA106}\'ActivationKey'=
+
+[Components.CreateKeys]
+HKCR\CLSID\{8C896914-07A7-405c-8FF9-5F2C24FC1F2A}\Components=
+HKCR\CLSID\{8C896914-07A7-405c-8FF9-5F2C24FC1F2A}\Components\{136DCBF5-3874-4B70-AE3E-15997D6334F7}=
+HKCR\CLSID\{8C896914-07A7-405c-8FF9-5F2C24FC1F2A}\Components\{2A55FF12-1657-41d7-9D2D-A2CDC6978FF2}=
+
+[Components.AddReg]
+HKCR\CLSID\{8C896914-07A7-405c-8FF9-5F2C24FC1F2A}\Components\{136DCBF5-3874-4B70-AE3E-15997D6334F7}\'Path'=
+HKCR\CLSID\{8C896914-07A7-405c-8FF9-5F2C24FC1F2A}\Components\{2A55FF12-1657-41d7-9D2D-A2CDC6978FF2}\'Path'=
+
+[Common.CreateDirs]
+C:\Documents and Settings\All Users\「开始」菜单\程序\Elecard=
+C:\Documents and Settings\All Users\「开始」菜单\程序\Elecard\Elecard StreamEye Tools=
+
+[Common.Shortcuts]
+C:\Documents and Settings\All Users\「开始」菜单\程序\Elecard\Elecard StreamEye Tools\StreamEye Tools User Guide.lnk=
+C:\Documents and Settings\All Users\「开始」菜单\程序\Elecard\Elecard StreamEye Tools\Uninstall Elecard StreamEye Tools.lnk=
+C:\Documents and Settings\All Users\「开始」菜单\程序\Elecard\Elecard StreamEye Tools\Release Notes.lnk=
+C:\Documents and Settings\All Users\「开始」菜单\程序\Elecard\Elecard StreamEye Tools\Elecard StreamEye.lnk=
+C:\Documents and Settings\All Users\「开始」菜单\程序\Elecard\Elecard StreamEye Tools\Elecard YUV Viewer.lnk=
+C:\Documents and Settings\All Users\「开始」菜单\程序\Elecard\Elecard StreamEye Tools\Elecard Buffer Analyzer.lnk=
+C:\Documents and Settings\All Users\「开始」菜单\程序\Elecard\Elecard StreamEye Tools\Elecard Stream Analyzer.lnk=
+C:\Documents and Settings\All Users\「开始」菜单\程序\Elecard\Elecard StreamEye Tools\Elecard Video Quality Estimator.lnk=
+
+[Sys.Shortcuts]
+C:\Documents and Settings\All Users\「开始」菜单\程序\Elecard\Elecard StreamEye Tools\Elecard Registrator.lnk=
+

@@ -1,0 +1,339 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head>
+   <title>Command Line</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="Command line options,Searching directly to file" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+<script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if (location.search.lastIndexOf("toc=0")<=0) {
+  if (parent.frames.length==0) { parent.location.href="index.html?commandline.htm"; }
+  else { parent.quicksync('a3.1'); }
+}
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script></head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#649CCC">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">Command Line</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="introduction.htm">Top</a>&nbsp;
+     <a href="advanced_features.htm">Previous</a>&nbsp;
+     <a href="expressiontypes.htm">Next</a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p>&nbsp;</p>
+<p>FileLocator Pro's start up values can be altered through information passed through the command line. If an output file is specified then the actual User Interface is not displayed and the results are streamed directly to the file.</p>
+<p>&nbsp;</p>
+<p>The available command line options are:</p>
+<p>&nbsp;</p>
+<p style="text-indent: -36px; margin: 0px 179px 0px 84px;">FileLocatorPro.exe [saved search] | -o [output file] | -oa | -oc | -ol [num] | -oe? | -of? | -os | -d [folder name] | -c [containing text] | -f [file name] | -cm | -fm | -s | -fd | -fx | -cr | -pa | -po | -ma [datetime] | -mb [datetime] | -h | -?</p>
+<p>&nbsp;</p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table cellspacing="1" cellpadding="1" border="0" style="border: none; border-spacing:1px;">
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-c</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>Text to search for in specified files (i.e. the Containing Text field)</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-ce?</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>Contents expr type: -ceb=Boolean, -cex=Regular Expression, -cee=Plain Text, -ceh=Boolean RegEx, -cew=Whole Word </p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-cf</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>Contents expression spans file (only valid with Boolean expressions)</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-cm</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>Match case when contents searching</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-d</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>Directory(s) to search (i.e. the Look In field), use -dw for current working directory</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-f</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>File names to search for</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-fe?</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>File name expr type: -fed=DOS, -fex=Regular Expression, -feb=Boolean, -fee=Plain Text, -feh=Boolean RegEx</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-fm</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>Match case when comparing file names</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-fx</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>File name shows the file names to exclude</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-le?</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>Look In expr type: -leb=Boolean, -lex=Regular Expression, -lee=Plain Text</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-ma</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>Modified after date value, pass "now" as the date to use the current date and time</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-mb</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>Modified before date value, pass "now" as the date to use the current date and time</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-o</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>Output filename (runs the search without showing the FileLocator Pro GUI streaming results directly to the file)</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-oa</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>Append to output file</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-oc</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>Output content lines</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-oe?</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>Output encoding: -oea=ASCII, -oe8=UTF-8, -oeu=Unicode, -oe8nb=UTF8 (no BOM), -oeub=Unicode (big endian)</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-of?</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>Output format: -oft = Text (default), -ofc = CSV, -ofb = Tab, -ofx = XML, -ofh = HTML, -ofxslt=Custom (XSLT)</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-ol</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>Maximum number of found lines per file to output</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-os</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>Output surrounding lines of text</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-pa</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>Always use command line parameters when creating new or opening existing searches</p>
+<p>Note: This option can be used to force a criteria value to be preset to a certain value whenever the user creates a new search, regardless of the previously used value.</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-pc</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>Overwrite configuration with configuration stored in saved search criteria file.</p>
+<p>Note: Configuration settings, such as active compressed file types (e.g Zip) or character processing settings, are not normally loaded from the SRF file. This option forces the loading of the configuration settings from the SRF file, effectively setting FileLocator Pro to the identical state it was in when the SRF file was saved.</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-po</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>Override values from file when loading from file AND specifying command line parameters</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-r</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>Start search immediately (implied by -o option)</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-re?</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>Regular expression type: -rep=Perl syntax, -rec=Classic syntax</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-resetui</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>Resets the user interface to the default size and position, ie toolbars, menu, docked windows etc. are reset to the installation defaults.</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-s</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>Search subfolders</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-view</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>Open a file in the Internal Viewer (use -viewline and -viewcol to specify line and column)</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="904" style="width:904px;"><br>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><p>-h or -?</p>
+</td>
+<td valign="top" width="904" style="width:904px;"><p>Show the help dialog</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="904" style="width:904px;"><br>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="48" style="width:48px;"><br>
+</td>
+<td valign="top" width="904" style="width:904px;"><br>
+</td>
+</tr>
+</table>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>To switch an option off append 'n' to the flag, e.g. </p>
+<p><span style="width:48px">&nbsp;</span>FileLocatorPro.exe -fmn Switches OFF match case when comparing files</p>
+<p>&nbsp;</p>
+<p>Examples:</p>
+<p>&nbsp;</p>
+<p style="margin: 0px 0px 0px 48px;">To launch FileLocator Pro with the Look In field pre-filled with "C:\Documents and Settings\user\My Documents" the command line arguments would be:</p>
+<p style="margin: 0px 0px 0px 48px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="margin: 0px 0px 0px 61px;">FileLocatorPro.exe -d "C:\Documents and Settings\user\My Documents"</p>
+<p style="margin: 0px 0px 0px 48px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="margin: 0px 0px 0px 48px;">To run a search looking for files that match *.sys in the folder C:\WINDOWS without launching the usual user interface but instead streaming the results directly to an output file the command line arguments would be:</p>
+<p style="margin: 0px 0px 0px 48px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="margin: 0px 0px 0px 61px;">FileLocatorPro.exe -d "C:\WINDOWS" -f "*.sys" -o "c:\temp\results.txt"</p>
+<p style="margin: 0px 0px 0px 61px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="margin: 0px 0px 0px 48px;">To launch FileLocator Pro with Search subfolders switched off and Match case on contents searching switched on the command line arguments would be:</p>
+<p style="margin: 0px 0px 0px 66px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="margin: 0px 0px 0px 60px;">FileLocatorPro.exe -cm -sn</p>
+
+</td></tr></table>
+<hr>
+<font face="Arial" size="-2">
+Copyright &copy; 2013 Mythicsoft Ltd. All rights reserved.
+<br />
+Help file version: 7.0<br />
+<br />
+PDF and CHM versions of this help file are available here:<br />
+<a href="http://mythicsoft.com/filelocatorpro/help" target="_blank">http://mythicsoft.com/filelocatorpro/help</a><br /> 
+    <br />
+</font>
+
+</body>
+</html>

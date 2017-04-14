@@ -1,0 +1,168 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head>
+   <title>Hints &amp; Tips</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="Command line,Configuration,Exclude expression,Mac files,Multiple file types,Multiple folders,One Phase Searching,Shell Integration,SRF,Testing regular expression,Unix files,Windows Shell,Word wrapping" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+<script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if (location.search.lastIndexOf("toc=0")<=0) {
+  if (parent.frames.length==0) { parent.location.href="index.html?hintstips.htm"; }
+  else { parent.quicksync('a1.10'); }
+}
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script></head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#649CCC">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">Hints &amp; Tips</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="introduction.htm">Top</a>&nbsp;
+     <a href="sessions_and_workspaces.htm">Previous</a>&nbsp;
+     <a href="questionscomments.htm">Next</a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p>&nbsp;</p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table cellspacing="2" cellpadding="2" border="0" style="border: none; border-spacing:2px;">
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="207" style="width:207px;"><p><span style="font-weight: bold;">Searching for multiple file types</span></p>
+</td>
+<td valign="top" width="594" style="width:594px;"><p>You can search multiple files by using regular expressions or DOS expressions. e.g. </p>
+<p>Searching the file types .cpp, .h, .c, .INL the regular expression would be:</p>
+<p>\.(cpp|h|c|INL)$</p>
+<p>&nbsp;</p>
+<p>OR, alternatively as a DOS expression it would be:</p>
+<p>*.cpp;*.h;*.c;*.INL</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="207" style="width:207px;"><p><span style="font-weight: bold;">Excluding file types</span></p>
+</td>
+<td valign="top" width="594" style="width:594px;"><p>Prefix DOS expression with <span class="f_ExpressionText">NOT:</span> to exclude certain file types from being searched. For example, you can search everything but COM and EXE files by setting the file name to the DOS Expression:</p>
+<p> NOT:*.exe;*.com</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="207" style="width:207px;"><p><span style="font-weight: bold;">Searching multiple locations</span></p>
+</td>
+<td valign="top" width="594" style="width:594px;"><p>FileLocator Pro can search multiple folder paths. In the 'Look In' field separate each folder with a semi-colon e.g. </p>
+<p>c:\winnt;c:\tmp</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="207" style="width:207px;"><p><span style="font-weight: bold;">Using expressions in the Look In field</span></p>
+</td>
+<td valign="top" width="594" style="width:594px;"><p>Expressions are supported on folder paths, to use the feature use the expression drop down list next to the Look In edit field. The expression is not processed on the whole path but on the path parts, e.g.</p>
+<p>c:\usr\dev\.*\release</p>
+<p>&nbsp;</p>
+<p>would match all folders called "release" two levels down from the "c:\usr\dev" folder.</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="207" style="width:207px;"><p><span style="font-weight: bold;">Launching FileLocator Pro from Windows Explorer</span></p>
+</td>
+<td valign="top" width="594" style="width:594px;"><p>FileLocator Pro can be integrated with the Windows Shell through the <a href="shell_integration_settings.htm">Shell Extensions</a> settings. For example, while browsing files and folders in Windows Explorer you can launch FileLocator Pro by right-clicking on the folder and selecting 'FileLocator Pro...' from the folder's context menu or using the short-cut key combination Ctrl+F.</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="207" style="width:207px;"><p><span style="font-weight: bold;">Common searches</span></p>
+</td>
+<td valign="top" width="594" style="width:594px;"><p>Save your most common search criteria as a SRF file and put a shortcut to the file on the Start menu. Then when you open the shortcut FileLocator Pro will start up with your most common search options.</p>
+<p>&nbsp;</p>
+<p>Note: Make sure that FileLocator Pro is associated with SRF files in the <a href="shell_integration_settings.htm">Shell Integration</a> settings.</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="207" style="width:207px;"><p><span style="font-weight: bold;">Specifying default values via the command line</span></p>
+</td>
+<td valign="top" width="594" style="width:594px;"><p>You can specify the initial values for FileLocator Pro through command line parameters. There is even an option to switch off the GUI (Graphical User Interface) and save the results directly to a file, useful when integrating FileLocator Pro with other applications. To see a list of valid command line parameters go to the "Help-&gt;Command Line Parameters" dialog (or run FileLocatorPro.exe -h).</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="207" style="width:207px;"><p><span style="font-weight: bold;">Performance effect of word wrapping</span></p>
+</td>
+<td valign="top" width="594" style="width:594px;"><p>Word wrapping is expensive, especially when trying to display a lot of contents. If the Contents View display is slow consider switching Word Wrapping off.</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="207" style="width:207px;"><p><span style="font-weight: bold;">Performance effect of Contents View</span></p>
+</td>
+<td valign="top" width="594" style="width:594px;"><p>If you are selecting a large number of files and do not need to see the search contents of those files it is much quicker to turn the 'Contents View' off, through the "Window-&gt;Contents View-&gt;Hide" menu option.</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="207" style="width:207px;"><p><span style="font-weight: bold;">Performance effect of two phase searching</span></p>
+</td>
+<td valign="top" width="594" style="width:594px;"><p>FileLocator Pro works in a two phase process. The first phase collects a list of files that match the File name criteria. The second phase searches the contents of the files found in the first phase. If many files are found in the first phase FileLocator Pro may use a significant amount of memory resources maintaining the list of files. </p>
+<p>&nbsp;</p>
+<p>Therefore there is an option 'Single Phase' searching in the <a href="options_advanced.htm">Options tab</a> to instruct FileLocator Pro to search the contents of the file as soon as the File name is matched, avoiding the maintenance of an internal file list. The only drawback to One Phase Searching is that FileLocator Pro cannot display a progress meter. Use this feature for more memory efficient contents searching of a large group of files (i.e. &gt; 1,000,000), normally this option is NOT required. </p>
+<p>&nbsp;</p>
+<p>Note: FileLocator Pro will automatically switch to single phase searching if it detects a very large search.</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="207" style="width:207px;"><p><span style="font-weight: bold;">Searching Unix and Mac files</span></p>
+</td>
+<td valign="top" width="594" style="width:594px;"><p>Unix and Mac text file formats use a different sequence to mark the end of a line. Windows and DOS use the character sequence CR-LF (Carriage Return - Line Feed) but Unix only uses LF and Mac only uses CR. To instruct FileLocator Pro to look for alternative EOL (End of Line) sequences go to the Configuration settings (via the menu option "Tools-&gt;Configuration") and select <a href="character_processing_settings.htm">Character Processing</a>.</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr style="text-align:left;vertical-align:top;">
+<td valign="top" width="207" style="width:207px;"><p><span style="font-weight: bold;">Testing regular expressions</span></p>
+</td>
+<td valign="top" width="594" style="width:594px;"><p>Test your regular expressions through the "Tools-&gt;Regular Expression Tester" menu option.</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+</table>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>More information can be found online at the Mythicsoft Knowledge Base: <a href="http://www.mythicsoft.com/kb" target="_blank" class="weblink">http://www.mythicsoft.com/kb</a>.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+</td></tr></table>
+<hr>
+<font face="Arial" size="-2">
+Copyright &copy; 2013 Mythicsoft Ltd. All rights reserved.
+<br />
+Help file version: 7.0<br />
+<br />
+PDF and CHM versions of this help file are available here:<br />
+<a href="http://mythicsoft.com/filelocatorpro/help" target="_blank">http://mythicsoft.com/filelocatorpro/help</a><br /> 
+    <br />
+</font>
+
+</body>
+</html>

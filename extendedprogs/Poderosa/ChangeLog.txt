@@ -1,0 +1,271 @@
+
+4.3.5b
+------
+  Changes for users
+
+    * Added a pipe plugin.
+
+    * Fixed: when ESC[J was output in a line at the bottom of the terminal,
+      the line is erased entirely.
+
+    * Fixed: application crashes if options.conf was empty.
+
+    * Fixed: application crashes when a socket was closed
+      or disconnected just before a keep-alive packet will be sent.
+
+    * When the preferences are saved to .conf file,
+      the previous .conf file is preserved as .conf.prev file.
+
+    * Some fixes and improvements about buttons in tab bar.
+      - Text color when the button was pressed was changed to
+        the normal text color.
+      - Ellipsis is displayed correctly.
+      - Default UI font is used to display text.
+      - Updating text would be done more stable and reliable.
+
+    * Added limitation to the prompt recognition.
+      In default, recognizer searches a prompt up to 5 lines backward.
+      Hence a command line that exceeds 5 lines will not be recognized.
+      This limitation improves performance when a large continuous
+      text is displayed.
+
+      It affects to the "shell complement", "popup command result"
+      and "copy command result" feature.
+
+      The limitation parameter can be changed in the preference editor.
+      (org.poderosa.terminalemulator.promptrecognizer.promptSearchMaxLines)
+
+    * Portforwarding tool: Improved window placement on startup.
+      It guarantees that the window and its titlebar are displayed
+      in the desktop region.
+
+  Changes for developers
+
+    * Extension points
+      "org.poderosa.terminalsessions.telnetSSHLoginDialogUISupport" and
+      "org.poderosa.terminalsessions.cygwinLoginDialogUISupport"
+      were integrated to
+      "org.poderosa.terminalsessions.loginDialogUISupport".
+
+      Previously MRU extension has been registered to these extension points,
+      but the protocol-specific extension points makes MRU extension
+      difficult to use from other plugins except Telnet/SSH/Cygwin plugin.
+
+
+4.3.4b
+------
+  Changes for users
+
+    * "Auto Exec Macro" functionality was added to the Telnet/SSH/
+      Cygwin/SerialPort login.
+      Samples for auto-exec macro were also added to Macro\Sample directory.
+
+    * New methods ShowTraceWindow() and HideTraceWindow() were added
+      to Poderosa.Macro.DebugService.
+      You can control visibility of a trace window in your macro.
+
+    * New methods ReceiveData(int) and ReceiveLine(int) were added
+      to Poderosa.Macro.Connection.
+      These methods take a timeout argument.
+
+    * Fixed a bug that the terminal doesn't shutdown properly.
+      This bug was introduced in 4.3.3b.
+
+    * Fixed and refactored the serial port communication.
+      The SerialPort plugin will work in 64bit CLR.
+
+    * Fixed a bug that the input character U+0080 - U+00FF is sent
+      without proper character-encoding conversion.
+
+    * Credit dialog uses default font instead of "MS UI Gothic".
+
+    * Some dialogs were fixed so that they can close by pressing ESC key.
+
+  Changes for developers
+
+    * Macro API document is available.
+
+    * "Developer's Manual" conceptual content was added into
+      the Japanese API document.
+
+      The conceptual content were imported from PoderosaDeveloperManual.chm
+      which was distributed with 4.1.0.
+      "Developer's Manual" was written in Japanese, so only Japanese API
+      document contains "Developer's Manual" section.
+
+    * References to NUnit were removed from projects because
+      conditional reference causes error in the VS form designer.
+
+    * Accessibility of a class SimpleStringEncrypt was changed to internal.
+
+
+4.3.3b
+------
+  Changes for users
+
+    * Xterm 256 colors or aixterm 16 colors are supported.
+      The patch was contributed by Iwamoto Koichi.
+
+    * Tab switching functionality was added.
+      You can bind shortcut key to "Previous tab" or "Next tab"
+      in Tools -> Options -> Command.
+
+    * Improved window placement on startup.
+      It guarantees that the window and its titlebar are displayed
+      in the desktop region.
+
+    * Added new SSH private-key loader.
+      It supports SSH.com(SECSH), OpenSSH and PuTTY format.
+      It would be beta quality and needs more tests.
+
+    * Fixed decryption of the SSH1 private key.
+      Now Poderosa can open the SSH1 private key encrypted
+      in TripleDES.
+
+    * Fixed erasing characters to satisfy BCE (Back-Color-Erase).
+
+    * Fixed escape sequence detection. ESC \ is recognized as
+      an OSC terminator.
+
+    * Fixed NAWS (Negotiate About Window Size) parameters in
+      TELNET protocol.
+      Width or height larger than 255 are set correctly.
+
+    * For supporting .NET 2.0 no-SP environment, Font.OriginalFontName
+      is used only when it was available.
+      Otherwise Font.FontFamily.Name is used.
+
+  Changes for developers
+
+    * API reference can be generated as a .chm file
+      by using Sandcastle Help File Builder.
+
+    * 'MakeDoc' and 'XMLDocument' configurations were removed,
+      and creating XML documentation files were enabled as the default
+      in all configurations.
+      If you don't want XML documentation, disable it manually.
+
+
+4.3.2b
+------
+    * Fixed encoding mismatch of the portforwarding.conf.
+
+      Encoding of the portforwarding.conf was changed to the system default
+      encoding instead of UTF-8.
+
+      Old config file is supported limitedly.
+      If the content of portforwarding.conf was invalid as the system default
+      encoding, UTF-8 is used to read the file.
+
+    * Halfwidth hanguls and halfwidth symbols are displayed in narrow width.
+
+    * Fixed "erasing line" so that the current decorations are applied
+      on the erased area.
+
+    * Fixed "deleting/inserting chars" so that the current decorations
+      are applied on the new empty spaces.
+
+    * Fixed memory leak when a context menu was used.
+
+
+4.3.1b
+------
+    * Improved repainting of the terminal view.
+
+      It seems to be stable.
+      Some incorrect paint might occur, but correct result will
+      be painted after them.
+
+    * Support 64bit environment in cygwin directory determination.
+
+    * In SerialPort plugin, unexpected port name is ignored for
+      avoiding problem.
+      The patch was contributed by Iwamoto Koichi.
+
+    * Show alert when the new-line character will be pasted.
+      It is enabled by default, and can be disabled in the terminal option.
+
+    * Fixed closing process of the terminal object.
+      Log files are closed when the session was terminated from UI.
+
+    * Improved emulation of the xterm's buffer switch.
+      In "save/restore DEC private modes" function, only the state of
+      buffer switch is supported.
+
+    * Fixed "save/restore cursor" in xterm.
+      Now cursor position is saved related to the current buffer.
+
+    * Fixed "scroll-up/scroll-down" in xterm.
+
+
+4.3.0b
+------
+  Changes for users
+
+    * The default preference directory was changed to the user's
+      application-data directory.
+      If you want to save files to the exe directory,
+      add '--profile bindir' to the command line.
+
+    * Suitable terminal size calculation.
+
+    * More encodings for asian languages.
+
+    * Improved ISO-2022 decoding.
+
+    * Japanese-specific settings were changed to CJK-specific settings.
+
+    * CJK environment detection. (experimental)
+
+    * Improvements based on xjzhang1979's hack.
+      - Serializing passphrase in encrypted or plain text.
+        To use this feature, turn the following parameters true
+        in the preference editor.
+
+            org.poderosa.protocols.readSerializedPassword
+
+            org.poderosa.protocols.savePassword
+         or org.poderosa.protocols.savePlainTextPassword
+
+      - Line-spacing
+      - More placement mode of the background image
+      - Bold caret
+      - Force-bold font option
+      - Cygwin directory option
+        (If it was empty, the directory is detected from the registry)
+      - Terminal type can select in the cygwin login.
+      - Support more escape sequences in the xterm mode.
+      - Some bug fixes
+
+    * The following SSH2 cipher algorithms were added:
+        AES192-CBC/AES256-CBC/AES128-CTR/AES192-CTR/AES256-CTR
+      This improvement was based on the Iwamoto Koichi's patch.
+
+    * Update cygterm to Cygterm+ 1.07 pl 20
+
+    * Encoding can select in the cygwin login.
+      The default is UTF-8.
+
+    * Fixed: cygterm cannot connect anymore after the first attempt
+      of connection was failed.
+
+    * Fixed: a failure of the keyboard-interactive mode is not
+      handled properly.
+
+  Changes for developers
+
+    * All Forms or UserControls can open with the form designer.
+      Use "Debug(UIDesign)" configuration for viewing or editing Forms.
+      Note that some Forms or UserControls may not be able to edit safely
+      because hand-edited codes are still there.
+
+  Known bugs
+
+    * Sometimes fails to repaint received lines...
+
+    * Portforwarding's conf file is saved in inappropriate encoding ?
+
+
+4.1.0
+-----
+

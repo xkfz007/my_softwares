@@ -1,0 +1,1 @@
+1. d3d9.dll和d3dx9_33.dll以及dsound.dll放到C:\Windows\System32目录下面(如果存在不需要覆盖).

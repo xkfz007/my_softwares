@@ -1,0 +1,92 @@
+[InstallLanguage]
+LangID=Enu
+
+[Strings]
+AppID=Elecard StreamEye 4.0.140819 (x64)
+AdminRights=1
+
+[Common.SharedFiles]
+C:\Program Files\Elecard\Elecard StreamEye\StreamEye4.exe=
+
+[Sys.SharedFiles]
+C:\Program Files\Common Files\Elecard\LC.dll=
+C:\Program Files\Common Files\Elecard\Registrator.exe=
+
+[InstalledFeature]
+Main=
+
+[CreateDirs]
+C:\Program Files\Elecard\Elecard StreamEye=
+
+[Common.CopyFiles]
+C:\Program Files\Elecard\Elecard StreamEye\StreamEye4.exe=
+C:\Program Files\Elecard\Elecard StreamEye\SECore.dll=
+C:\Program Files\Elecard\Elecard StreamEye\StreamParser.dll=
+C:\Program Files\Elecard\Elecard StreamEye\Qt5Core.dll=
+C:\Program Files\Elecard\Elecard StreamEye\Qt5Widgets.dll=
+C:\Program Files\Elecard\Elecard StreamEye\Qt5Gui.dll=
+C:\Program Files\Elecard\Elecard StreamEye\libEGL.dll=
+C:\Program Files\Elecard\Elecard StreamEye\libGLESv2.dll=
+C:\Program Files\Elecard\Elecard StreamEye\icudt51.dll=
+C:\Program Files\Elecard\Elecard StreamEye\icuin51.dll=
+C:\Program Files\Elecard\Elecard StreamEye\icuuc51.dll=
+C:\Program Files\Elecard\Elecard StreamEye\msvcp120.dll=
+C:\Program Files\Elecard\Elecard StreamEye\msvcr120.dll=
+C:\Program Files\Elecard\Elecard StreamEye\msvcp110.dll=
+C:\Program Files\Elecard\Elecard StreamEye\msvcr110.dll=
+C:\Program Files\Elecard\Elecard StreamEye\Elecard StreamEye 4.0 Release Notes.txt=
+C:\Program Files\Elecard\Elecard StreamEye\Elecard EULAC.rtf=
+
+[dll.CreateDirs]
+C:\Program Files\Elecard\Elecard StreamEye\dll=
+
+[dll.CopyFiles]
+C:\Program Files\Elecard\Elecard StreamEye\dll\eavcdec64.dll=
+C:\Program Files\Elecard\Elecard StreamEye\dll\eavcidx64.dll=
+C:\Program Files\Elecard\Elecard StreamEye\dll\ehevcdec64.dll=
+C:\Program Files\Elecard\Elecard StreamEye\dll\ehevcidx64.dll=
+C:\Program Files\Elecard\Elecard StreamEye\dll\VP9DecDll.dll=
+C:\Program Files\Elecard\Elecard StreamEye\dll\VP9IdxDll.dll=
+
+[platforms.CreateDirs]
+C:\Program Files\Elecard\Elecard StreamEye\platforms=
+
+[platforms.CopyFiles]
+C:\Program Files\Elecard\Elecard StreamEye\platforms\qwindows.dll=
+
+[Sys.CreateDirs]
+C:\Program Files\Common Files\Elecard=
+
+[Sys.CopyFiles]
+C:\Program Files\Common Files\Elecard\LC.dll=
+C:\Program Files\Common Files\Elecard\Registrator.exe=
+
+[Sys.RegServers]
+C:\Program Files\Common Files\Elecard\LC.dll=
+
+[Common.CreateKeys]
+HKLM\Software\Elecard=
+HKLM\Software\Elecard\Packages=
+HKLM\Software\Elecard\Packages\Elecard StreamEye=
+HKCR\CLSID\{4A522471-3297-498d-B798-59C73E77577F}=
+HKCR\CLSID\{4A522471-3297-498d-B798-59C73E77577F}\InprocServer32=
+HKLM\Software\Elecard\Packages\Elecard StreamEye\{4A522471-3297-498d-B798-59C73E77577F}=
+
+[Common.AddReg]
+HKLM\Software\Elecard\Packages\Elecard StreamEye\'Version'=
+HKLM\Software\Elecard\Packages\Elecard StreamEye\'InstallLocation'=
+HKLM\Software\Elecard\Packages\Elecard StreamEye\'InstallProject'=
+HKLM\Software\Elecard\Packages\Elecard StreamEye\'ProductURL'=
+HKLM\Software\Elecard\Packages\Elecard StreamEye\'EvaluationPeriod'=
+HKLM\Software\Elecard\Packages\Elecard StreamEye\'EULA'=
+HKCR\CLSID\{4A522471-3297-498d-B798-59C73E77577F}\''=
+HKCR\CLSID\{4A522471-3297-498d-B798-59C73E77577F}\InprocServer32\''=
+HKLM\Software\Elecard\Packages\Elecard StreamEye\{4A522471-3297-498d-B798-59C73E77577F}\'ActivationKey'=
+
+[Common.CreateDirs]
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Elecard\Elecard StreamEye=
+
+[Common.Shortcuts]
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Elecard\Elecard StreamEye\Elecard StreamEye.lnk=
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Elecard\Elecard StreamEye\Uninstall Elecard StreamEye.lnk=
+

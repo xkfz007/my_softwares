@@ -1,0 +1,138 @@
+POPUP "文件(&F)"
+  MENUITEM "更改属性(&C)...", 502
+  MENUITEM "压缩文件(&P)...\tAlt+F5", 508
+  MENUITEM "解压文件(&U)...\tAlt+F9", 509
+  MENUITEM "测试压缩包(&I)\tAlt+Shift+F9", 518
+  MENUITEM "比较文件内容(&Y)", 2022
+  MENUITEM "文件关联(&A)...", 507
+  MENUITEM "内部关联(仅用于 Total Commander)(&L)...", 519
+  MENUITEM "属性(&.)...\tAlt+Enter", 510
+  MENUITEM "计算占用空间(&O)...\tCtrl+L", 503
+  MENUITEM "批量重命名(&R)...\tCtrl+M", 2400
+  MENUITEM "编辑文件备注(&N)...\tCtrl+Z", 2700
+  POPUP "打印(&T)"
+    MENUITEM "文件列表(&L)...", 2027
+    MENUITEM "文件列表(包括子文件夹)(&S)...", 2028
+    MENUITEM "文件内容(&T)\tCtrl+F9", 504
+  END_POPUP
+  MENUITEM SEPARATOR
+  MENUITEM "分割文件(&S)...", 560
+  MENUITEM "合并文件(&M)...", 561
+  MENUITEM "编码文件(MIME/UUE/XXE 格式)(&E)...", 562
+  MENUITEM "解码文件(MIME/UUE/XXE/BinHex 格式)(&D)...", 563
+  MENUITEM "创建校验文件(CRC32/MD5/SHA1 格式)(&H)...", 564
+  MENUITEM "验证校验和(根据校验文件)(&V)", 565
+  MENUITEM SEPARATOR
+  MENUITEM "退出(&Q)\tAlt+F4", 24340
+END_POPUP
+
+POPUP "选择(&M)"
+  MENUITEM "选择一组文件(&G)...\t小键盘 +", 521
+  MENUITEM "不选一组文件(&U)...\t小键盘 -", 522
+  MENUITEM "全部选择(&A)\tCtrl+小键盘 +", 523
+  MENUITEM "全部不选(&N)\tCtrl+小键盘 -", 524
+  MENUITEM "反转选择(&I)\t小键盘 *", 525
+  MENUITEM "选择相同扩展名的文件(&X)\tAlt+小键盘 +",527
+  MENUITEM SEPARATOR
+  MENUITEM "保存选择(&S)", 530
+  MENUITEM "恢复选择(&R)\t小键盘 /", 529
+  MENUITEM "导出选择(&V)", 2031
+  MENUITEM "导入选择(&L)", 2032
+  MENUITEM SEPARATOR
+  MENUITEM "复制文件名(&Y)", 2017
+  MENUITEM "复制文件名和完整路径(&P)", 2018
+  MENUITEM "复制文件详细信息(&D)", 2036
+  MENUITEM "复制文件详细信息和完整路径(&B)", 2037
+  MENUITEM SEPARATOR
+  MENUITEM "比较文件夹(&C)\tShift+F2", 533
+  MENUITEM "标出新文件, 隐藏相同者(&M)", 534
+END_POPUP
+
+POPUP "命令(&C)"
+  MENUITEM "更改文件夹(&T)...\tAlt+F10", 500
+  MENUITEM "搜索文件(&S)...\tAlt+F7", 501
+  MENUITEM "搜索文件(单独进程)(&P)...\tAlt+Shift+F7", 545
+  MENUITEM "设置卷标(&V)...", 505
+  MENUITEM "系统信息(&I)...", 506
+  MENUITEM "同步文件夹(&Y)", 2020
+  MENUITEM "常用文件夹(&H)\tCtrl+D", 526
+  MENUITEM "后退(&B)\tAlt+←", 570
+  MENUITEM SEPARATOR
+  MENUITEM "打开命令提示符(&D)", 511
+  MENUITEM SEPARATOR
+  MENUITEM "展开所有文件夹(&A)\tCtrl+B", 2026
+  MENUITEM "打开桌面文件夹(&O)", 2121
+  MENUITEM "后台传输管理器(&M)...", 559
+  MENUITEM SEPARATOR
+  MENUITEM "交换左右窗口(&<)\tCtrl+U", 531
+  MENUITEM "目标 = 来源(&=)", 532
+END_POPUP
+
+POPUP "网络(&N)"
+  MENUITEM "映射网络驱动器(&N)...", 512
+  MENUITEM "断开网络驱动器(&D)...", 513
+  MENUITEM "共享当前文件夹(&C)...", 514
+  MENUITEM "取消文件夹共享(&U)...", 515
+  MENUITEM "显示系统共享文件夹(&A)", 2204
+  MENUITEM SEPARATOR
+  MENUITEM "FTP 连接(&F)...\tCtrl+F", 550
+  MENUITEM "FTP 新建连接(&P)...\tCtrl+N", 551
+  MENUITEM "FTP 断开连接(&E)\tCtrl+Shift+F", 552
+  MENUITEM "FTP 显示隐藏文件(&W)", 553
+  MENUITEM "FTP 按列表下载(&L)", 558
+  MENUITEM "直接电缆连接(&O)...", 2300
+END_POPUP
+
+POPUP "显示(&W)"
+  MENUITEM "列表(&B)\tCtrl+F1", 301
+  MENUITEM "详细信息(&F)\tCtrl+F2", 302
+  MENUITEM "文件备注(&M)\tCtrl+Shift+F2", 300
+  MENUITEM "自定义列(&D)\tShift+F1", 270
+  MENUITEM "文件夹树(&T)\tCtrl+F8", 303
+  POPUP "独立文件夹树\tCtrl+Shift+F8"
+    MENUITEM "关闭(&0)", 3200
+    MENUITEM "一个(两边窗口共用一个)(&1)", 3201
+    MENUITEM "两个(两边窗口各有一个)(&2)", 3202
+  END_POPUP
+  MENUITEM "缩略图(&L)\tCtrl+Shift+F1", 269
+  MENUITEM "快速查看(&Q)\tCtrl+Q", 304
+  MENUITEM "上下排列(&V)", 305
+  MENUITEM "新建文件夹标签(&W)\tCtrl+T", 3001
+  MENUITEM SEPARATOR
+  MENUITEM "所有文件(&A)\tCtrl+F10", 312
+  MENUITEM "仅可执行文件(&P)\tCtrl+F11", 311
+  MENUITEM "*.*", 313
+  MENUITEM "自定义类型(&C)...\tCtrl+F12", 314
+  MENUITEM "仅选定的文件(&O)", 2023
+  MENUITEM SEPARATOR
+  MENUITEM "按文件名排序(&N)\tCtrl+F3", 321
+  MENUITEM "按扩展名排序(&X)\tCtrl+F4", 322
+  MENUITEM "按日期排序(&I)\tCtrl+F5", 324
+  MENUITEM "按大小排序(&S)\tCtrl+F6", 323
+  MENUITEM "不排序(&U)\tCtrl+F7", 325
+  MENUITEM SEPARATOR
+  MENUITEM "反向排序(&R)", 330
+  MENUITEM SEPARATOR
+  MENUITEM "更新来源窗口(&E)\tCtrl+R", 540
+END_POPUP
+
+POPUP "配置(&O)"
+  MENUITEM "选项(&O)...", 490
+  MENUITEM "更改工具栏(&B)...", 498
+  MENUITEM "直接修改配置文件(&C)...", 581
+  MENUITEM "保存位置(&S)", 493
+  MENUITEM "保存设置(&V)", 580
+END_POPUP
+
+STARTMENU
+
+HELP_BREAK
+
+POPUP "帮助(&H)"
+  MENUITEM "帮助索引(&I)\tF1", 610
+  MENUITEM "快捷键列表(&K)", 620
+  MENUITEM "注册信息(&R)", 630
+  MENUITEM "访问 Totalcmd 网站(&V)", 640
+  MENUITEM SEPARATOR
+  MENUITEM "关于 Total Commander (&A)...", 690
+END_POPUP

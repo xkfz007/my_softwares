@@ -1,0 +1,139 @@
+;    Meniu actualizat pentru Versiunea TC 7.50 
+POPUP "&Fiºiere"
+  MENUITEM "Schimbare &atribute…", cm_SetAttrib
+  MENUITEM "&Comprimare…\tAlt+F5", cm_PackFiles
+  MENUITEM "&Decomprimare…\tAlt+F9", cm_UnpackFiles
+  MENUITEM "Verificare arhivã\tAlt+Shift+F9",518
+  MENUITEM "C&omparare prin conþinut…", 2022
+  MENUITEM "Asocieri &Sistem…", cm_Associate
+  MENUITEM "Asocieri &Interne (doar în Total Commander)…", 519
+  MENUITEM "&Proprietãþi…\tAlt+Enter ", cm_VersionInfo
+  MENUITEM "Calculea&zã spaþiul ocupat…\tCtrl+L", cm_GetFileSpace
+  MENUITEM "Redenumire &multiplã…\tCtrl+M", cm_MultiRenameFiles
+  MENUITEM "Creare/Editare come&ntariu…\tCtrl+Z", cm_EditComment
+  POPUP "&Tipãrirea…"
+    MENUITEM "&listei de fiºiere…", cm_PrintDir
+    MENUITEM "listei de fiºiere inclusiv &sub-folderele", cm_PrintDirSub
+    MENUITEM "&conþinutului fiºierului\tCtrl+F9", cm_PrintFile
+  END_POPUP
+  MENUITEM SEPARATOR
+  MENUITEM "&Fracþionare fiºier…", cm_Split
+  MENUITEM "Recom&binare fiºiere din pãrþile sale…", cm_Combine
+  MENUITEM "Codare fiºi&er (MIME,UUE,XXE)…", cm_Encode
+  MENUITEM "Decodare fiºier (MIME,UUE,XXE,BinHex, Yenc)…", cm_Decode
+  MENUITEM "Creare sume de control CRC (format SFV/MD5/SHA)…", cm_CRCcreate
+  MENUITEM "&Verificare sume de control CRC (din fiºierul SFV/MD5/SHA)", cm_CRCcheck
+  MENUITEM SEPARATOR
+  MENUITEM "Ieºi&re\tAlt+F4", cm_Exit
+END_POPUP
+
+POPUP "S&elecþii"
+    MENUITEM "Selectare &grup[+ foldere]…\t[Shift]+Num +", cm_SpreadSelection
+    MENUITEM "De-Selectare gr&up[- foldere]…\t[Shift]+Num -", cm_ShrinkSelection
+    MENUITEM "Selectare &toate fiºierele[+ foldere]\tCtrl+[Shift]+Num +", cm_SelectAll
+    MENUITEM "De-Selectare toate fiºierele[- foldere]\tCtrl+[Shift]+Num -", cm_ClearAll
+    MENUITEM "&Inversare selecþie fiºiere[+ foldere]\t[Shift]+Num *", cm_ExchangeSelection
+    MENUITEM "Selectare fiºiere cu aceeaºi e&xtensie\tAlt+Num +", cm_SelectCurrentExtension
+    MENUITEM SEPARATOR
+    MENUITEM "&Salvare selecþie în memorie", cm_SaveSelection
+    MENUITEM "&Restaurare selecþie din memorie\tNum /", cm_RestoreSelection
+    MENUITEM "Sal&vare selecþie în fiºier", cm_SaveSelectionToFile
+    MENUITEM "R&estaurare selecþie din fiºier", cm_LoadSelectionFromFile
+    MENUITEM SEPARATOR
+    MENUITEM "Copiazã lista cu numele ºi extensia fiºierelor selectate în Clipboard", cm_CopyNamesToClip
+    MENUITEM "Copiazã calea, numele ºi extensia fiºierelor selectate în Clipboard", cm_CopyFullNamesToClip
+    MENUITEM "C&opiazã numele ºi extensia fiºierelor selectate + detalii", cm_CopyFileDetailsToClip
+    MENUITEM "Copiazã calea, numele ºi extensia fiºierelor selectate + detalii", cm_CopyFpFileDetailsToClip
+    MENUITEM SEPARATOR
+    MENUITEM "&Comparã folderele\tShift+F2", cm_CompareDirs
+    MENUITEM "Selecteazã fiºierele diferite ºi ascu&nde pe cele identice", cm_DirMatch
+END_POPUP
+
+POPUP "&Comenzi"
+    MENUITEM "Structura &arborescentã…\tAlt+F10", cm_CDtree
+    MENUITEM "Cãutare…\tAlt+F7", cm_SearchFor
+    MENUITEM "Cãutare în &process separat...\tAlt+Shift+F7", 545
+    MENUITEM "Modificare etichetã de volum…", cm_VolumeId
+    MENUITEM "&Informaþii despre sistem…", cm_sysinfo
+    MENUITEM "Sincroni&zare foldere…", 2020
+    MENUITEM "Foldere ºi comenzi &Favorite\tCtrl+D", 526
+    MENUITEM "Folde&rul precedent\tAlt+Sãgeatã stânga", 570
+    MENUITEM SEPARATOR
+    MENUITEM "Linie de comandã (fereastrã) &DOS", cm_ExecuteDOS
+    MENUITEM SEPARATOR
+    MENUITEM "Vizualizare toate S&ub-folderele \tCtrl+B", cm_DirBranch
+    MENUITEM "Afiºare &Suprafaþa de lucru (Desktop)", 2121
+    MENUITEM "Utilitar &Transfer în Fundal…",559
+    MENUITEM SEPARATOR
+    MENUITEM "Sursã&<->Destinaþie\tCtrl+U", cm_exchange
+    MENUITEM "Destinaþie&=Sursã", cm_matchsrc
+END_POPUP
+
+POPUP "&Reþea"
+    MENUITEM "&Mapare disc reþea…", cm_NetConnect
+    MENUITEM "An&ulare mapare disc reþea…", cm_NetDisconnect
+    MENUITEM "Partajare folder &curent în reþea (Share)…", cm_NetShareDir
+    MENUITEM "Anulare permisiuni folder curent (Unshare)…", cm_NetUnshareDir
+    MENUITEM "Afiºare permisiuni &Admin", cm_AdministerServer
+    MENUITEM SEPARATOR
+    MENUITEM "Conectare &FTP…\tCtrl+F", cm_FtpConnect
+    MENUITEM "Cone&xiune FTP nouã…\tCtrl+N", cm_FtpNew
+    MENUITEM "D&econectare FTP\tCtrl+Shift+F", cm_FtpDisconnect
+    MENUITEM "Afiºare fiºiere ascunse în FTP", cm_FtpHiddenFiles
+    MENUITEM "Descarcã fiºiere conform &listei din fiºier - FTP ", cm_FtpDownloadList
+    MENUITEM "Conectare cu alt PC prin p&ortul paralel //", cm_DirectCableConnect
+END_POPUP
+
+POPUP "&Afiºare"
+    MENUITEM "Numai nume&le\tCtrl+F1", cm_srcshort
+    MENUITEM "&Complet\tCtrl+F2", cm_srclong
+    MENUITEM "Nume ºi Co&mentariu\tCtrl+Shift+F2", cm_SrcComments
+    MENUITEM "Mod coloane personalizate…\tShift+F1", cm_SrcCustomViewMenu
+    MENUITEM "&Arborescent\tCtrl+F8", cm_SrcTree
+    POPUP "Afiºare Ferestre Arbore… \tCtrl+Shift+F8"
+        MENUITEM "&0 (Niciuna)", cm_SeparateTreeOff
+        MENUITEM "&1 (Una, comunã celor douã panouri)", cm_SeparateTree1
+        MENUITEM "&2 (Douã, una pentru fiecare panou)", cm_SeparateTree2
+    END_POPUP
+    MENUITEM "Imagini «Miniaturã»\tCtrl+Shift+F1", cm_SrcThumbs
+    MENUITEM "&Vizualizare rapidã\tCtrl+Q", cm_SrcQuickview
+    MENUITEM "Ferestre Ori&zontale <--> Verticale", cm_VerticalPanels
+    MENUITEM "&Filã nouã de foldere\tCtrl+T", 3001
+    MENUITEM SEPARATOR
+    MENUITEM "Afiºeazã &Toate Fiºierele \tCtrl+F10", cm_SrcAllFiles
+    MENUITEM "Afiºeazã Numai Programele &Executabile\tCtrl+F11", cm_SrcExecs
+    MENUITEM "*.*", cm_SrcUserSpec
+    MENUITEM "Setare Filtru &Utilizator…\tCtrl+F12", cm_SrcUserDef
+    MENUITEM "D&oar fiºierele selectate", 2023
+    MENUITEM SEPARATOR
+    MENUITEM "Sortare dupã &nume\tCtrl+F3", cm_SrcByName
+    MENUITEM "Sortare dupã e&xtensie\tCtrl+F4", cm_SrcByExt
+    MENUITEM "Sortare dupã &datã\tCtrl+F5", cm_SrcByDateTime
+    MENUITEM "Sortare dupã dimen&siune\tCtrl+F6", cm_SrcBySize
+    MENUITEM "Nesortat\tCtrl+F7", cm_SrcUnsorted
+    MENUITEM SEPARATOR
+    MENUITEM "Ordine &inversã", cm_SrcNegOrder
+    MENUITEM SEPARATOR
+    MENUITEM "&Reciteºte Discul Sursã\tCtrl+R", cm_rereadsource
+END_POPUP
+
+POPUP "Co&nfigurare"
+    MENUITEM "Opþi&uni…", cm_config
+    MENUITEM "Modificare &barã de butoane…", cm_ButtonConfig
+    MENUITEM "Modificare &directã fiºiere de configurare", cm_ConfigChangeIniFiles
+    MENUITEM "&Salvare poziþie", cm_ConfigSavePos
+    MENUITEM "Salvare configuraþie", cm_ConfigSaveSettings
+END_POPUP
+
+STARTMENU
+
+HELP_BREAK
+
+POPUP "A&jutor"
+    MENUITEM "&Cuprins\tF1", cm_HelpIndex
+    MENUITEM "C&ombinaþii de taste", cm_keyboard
+    MENUITEM "Informaþii despre în&registrare", cm_register
+    MENUITEM "&Vizitaþi site-ul Total Commander pe Web", 640
+    MENUITEM SEPARATOR
+    MENUITEM "&Despre Total Commander…", cm_About
+END_POPUP

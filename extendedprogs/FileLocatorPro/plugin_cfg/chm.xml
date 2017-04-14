@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<InterpreterConfig xmlns="http://www.mythicsoft.com/FileLocator">
+	<displayname>CHM</displayname>
+	<uniquename>http://www.mythicsoft.com/chminterpreter</uniquename>
+	<progid>SvnExtLib.SZCHMInterpreter</progid>
+	<filetypes>chm</filetypes>
+	<interpretertype>compositefile</interpretertype>
+	<active>no</active>
+	<safemode>no</safemode>
+	<useisfilter>no</useisfilter>
+	<nonreglibrary>SvnExtLib.dll</nonreglibrary>
+</InterpreterConfig>

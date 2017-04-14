@@ -1,0 +1,53 @@
+End-User License Agreement FOR WICleanupC/WICleanupUI
+
+This End-User License Agreement ("EULA") is a legal agreement between you (either an individual or a single entity) and the mentioned author (Smallfrogs Studio) of this Software for the WICleanupC/WICleanupUI identified above, 
+which includes computer software and may include associated media, printed materials, and "online" or electronic documentation ("WICleanupC/WICleanupUI"). 
+By installing, copying, or otherwise using the WICleanupC/WICleanupUI, you agree to be bounded by the terms of this EULA. 
+If you do not agree to the terms of this EULA, do not install or use the WICleanupC/WICleanupUI.
+
+WICleanupC/WICleanupUI LICENSE
+------------
+All versions of the WICleanupC/WICleanupUI are protected by copyright laws and international copyright treaties, as well as other intellectual property laws and treaties. 
+The sole property belongs to Smallfrogs Studio. The WICleanupC/WICleanupUI may not be duplicated, sold, distributed or utilized in any manner not described herein without the prior written consent of Smallfrogs Studio. 
+Parties interested in licensing the WICleanupC/WICleanupUI for other than personal use should contact Smallfrogs Studio.
+
+1. GRANT OF LICENSE. This EULA grants you the following rights: Installation and Use. You may install and use an unlimited number of copies of the WICleanupC/WICleanupUI.
+
+Reproduction and Distribution. You may reproduce and distribute an unlimited number of copies of the WICleanupC/WICleanupUI; provided that each copy shall be a true and complete copy, including all copyright and trademark notices, and shall be accompanied by a copy of this EULA.
+Copies of the WICleanupC/WICleanupUI may be distributed as a standalone product or included with your own product as long as The WICleanupC/WICleanupUI is not sold or included in a product or package that intends to receive benefits through the inclusion of the WICleanupC/WICleanupUI. 
+The WICleanupC/WICleanupUI may be included in any free or non-profit packages or products.
+
+2. DESCRIPTION OF OTHER RIGHTS AND LIMITATIONS.
+Limitations on Reverse Engineering, Decompilation, Disassembly and change(add,delete or modify)the resources in the compiled the assembly. You may not reverse engineer, decompile, or disassemble the WICleanupC/WICleanupUI, except and only to the extent that such activity is expressly permitted by applicable law notwithstanding this limitation.
+
+Separation of Components.
+------------
+The WICleanupC/WICleanupUI is licensed as a single product. Its component parts may not be separated for use on more than one computer.
+
+Software Transfer.
+------------
+You may permanently transfer all of your rights under this EULA, provided the recipient agrees to the terms of this EULA.
+
+Termination.
+------------
+Without prejudice to any other rights, the Author of this Software may terminate this EULA if you fail to comply with the terms and conditions of this EULA. In such event, you must destroy all copies of the WICleanupC/WICleanupUI and all of its component parts.
+
+3. COPYRIGHT.
+All title and copyrights in and to the WICleanupC/WICleanupUI(including but not limited to any images, photographs, animations,video, audio, music, text, and "applets" incorporated into the WICleanupC/WICleanupUI), the accompanying printed materials, and any copies of the WICleanupC/WICleanupUI are owned by the Author of this Software. The WICleanupC/WICleanupUI is protected by copyright laws and international treaty provisions. Therefore, you must treat the WICleanupC/WICleanupUI like any other copyrighted material.
+
+LIMITED WARRANTY
+------------
+NO WARRANTIES.
+The Author of this Software expressly disclaims any warranty for the WICleanupC/WICleanupUI. The WICleanupC/WICleanupUI and any related documentation is provided "as is" without warranty of any kind,either express or implied, including, without limitation, the implied warranties or merchantability, fitness for a particular purpose, or noninfringement. The entire risk arising out of use or performance of the WICleanupC/WICleanupUI remains with you.
+
+NO LIABILITY FOR DAMAGES.
+------------
+In no event shall the author of this Software be liable for any special, consequential,
+incidental or indirect damages whatsoever (including, without limitation, damages for loss of business profits, business interruption, loss of business information, or any other pecuniary loss) arising out of the use of or inability to use this product, even if the Author of this Software is aware of the possibility of such damages and known defects.
+
+Terms of Use
+------------
+This software is provided "as is", without any guarantee made as to its suitability or fitness for any particular use. It may contain bugs, so use of this tool is at your own risk. We take
+no responsilbity for any damage that may unintentionally be caused through its use.
+
+By using this software, you are agreeing to the terms of this license.

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<InterpreterConfig xmlns="http://www.mythicsoft.com/FileLocator">
+	<displayname>Compressed Document Raw Data Reader</displayname>
+	<uniquename>http://www.mythicsoft.com/compresseddoc</uniquename>
+	<progid>Extensions.CompressedDocInterpreter</progid>
+	<filetypes>docx,xlsx,pptx,odt,ods,sxw,sxc,xlsm,epub</filetypes>
+	<interpretertype>defaultinterpreter</interpretertype>
+	<active>yes</active>
+	<safemode>no</safemode>
+	<useisfilter>no</useisfilter>
+	<nonreglibrary>extensions.dll</nonreglibrary>
+</InterpreterConfig>

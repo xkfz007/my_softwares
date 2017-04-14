@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head>
+   <title>What is a regular expression?</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="Regular Expression Introduction,Introduction to Regular Expressions,What is a Regular Expression?" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+<script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if (location.search.lastIndexOf("toc=0")<=0) {
+  if (parent.frames.length==0) { parent.location.href="index.html?regularexpressionintroduction.htm"; }
+  else { parent.quicksync('a5.2'); }
+}
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script></head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#649CCC">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">What is a regular expression?</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="introduction.htm">Top</a>&nbsp;
+     <a href="quickstart.htm">Previous</a>&nbsp;
+     <a href="regularexpressionbasics.htm">Next</a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p>&nbsp;</p>
+<p>A regular expression is a way of describing a group of words (referred to as a 'string'). It allows a user to build a complex set of rules to describe exactly what characteristics the string should have. While this documentation uses the word string you can think of a string as either a filename when searching for a filename using regular expressions, or as text in a document when using a regular expression to search the contents of files.</p>
+<p>&nbsp;</p>
+<p>The simplest regular expression is a sequence of letters, numbers, or both. Such a regular expression matches any string that contains that sequence. For example:</p>
+<p>&nbsp;</p>
+<p style="margin: 0px 0px 0px 48px;">The regular expression `foo' matches any string containing `foo'. So if you wanted to find a file with the letters 'fred' in it the regular expression would simply be 'fred'.</p>
+<p>&nbsp;</p>
+<p>This is obviously a very simple example but you can express complicated rules. For example:</p>
+<p style="margin: 0px 0px 0px 48px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="margin: 0px 0px 0px 48px;">To find a file that begins with 'July' or 'August' followed at some point by 'Document' or 'Documents' followed at some point by a number and has a '.doc' extension the expression would be: '^(July|August).*Documents?.*[0-9]+.*\.doc$'</p>
+<p style="margin: 0px 0px 0px 48px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="margin: 0px 0px 0px 48px;">This expression would find:</p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 48px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>JulysPrivDocuments_23.doc</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 48px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>August Documents Num5a.doc</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 48px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>etc.</td></tr></table></div><p style="margin: 0px 0px 0px 48px;"><span style="color: #000000;">&nbsp;</span></p>
+<p>Don't worry if the expression above looks confusing because it is. That is why FileLocator Pro includes an <a href="expressionwizard(exprwiz).htm">Expression Wizard</a> to guide you through building regular expressions using common English terms.</p>
+<p>&nbsp;</p>
+<p>For more information please read <a href="regularexpressionbasics.htm">regular expression basics</a>.</p>
+<p>&nbsp;</p>
+<p>Note: You can test out your expression against the FileLocator Pro regular expression engine through the 'Tools' -&gt; 'Regular Expression Tester...' menu option.</p>
+
+</td></tr></table>
+<hr>
+<font face="Arial" size="-2">
+Copyright &copy; 2013 Mythicsoft Ltd. All rights reserved.
+<br />
+Help file version: 7.0<br />
+<br />
+PDF and CHM versions of this help file are available here:<br />
+<a href="http://mythicsoft.com/filelocatorpro/help" target="_blank">http://mythicsoft.com/filelocatorpro/help</a><br /> 
+    <br />
+</font>
+
+</body>
+</html>

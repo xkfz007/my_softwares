@@ -1,0 +1,140 @@
+POPUP "&Fil"
+  MENUITEM "Endre attri&butter...", cm_SetAttrib
+  MENUITEM "&Komprimer...\tALT+F5", cm_PackFiles
+  MENUITEM "&Dekomprimer alle filene...\tALT+F9", cm_UnpackFiles
+  MENUITEM "Test arki&v\tALT+SHIFT+F9",518
+  MENUITEM "Sammenli&gn etter innhold...", 2022
+  MENUITEM "&Assosier med...", cm_associate
+  MENUITEM "Interne a&ssosiasjoner (kun for Total Commander)...", 519
+  MENUITEM "Ege&nskaper...\tALT+ENTER", cm_versioninfo
+  MENUITEM "Beregn brukt p&lass...", cm_GetFileSpace
+  MENUITEM "Dø&p om flere filer..\tCtrl+M",2400
+  MENUITEM "Rediger k&ommentar...\tCtrl+Z", 2700
+  POPUP "Sk&riv ut"
+      MENUITEM "Fil&liste...", 2027
+      MENUITEM "Filliste med &undermap...", 2028
+      MENUITEM "Filinn&hold\tCtrl+F9", cm_PrintFile
+  END_POPUP
+  MENUITEM SEPARATOR
+  MENUITEM "Del f&il...", 560
+  MENUITEM "Ko&mbiner filer...", 561
+  MENUITEM "Kode &fil(MIME,UUE,&XXC)...", 562
+  MENUITEM "Dekod&e fil (MIME,&UUE,XXC,BinHex)...", 563
+  MENUITEM "Opprett sjekksumfil(er) (&CRC32, MD5, SHA1)...", 564
+  MENUITEM "Kontroller s&jekksum (fra sjekksumfiler)", 565
+  MENUITEM SEPARATOR
+  MENUITEM "Avslu&tt\tALT+F4", 24340
+END_POPUP
+
+POPUP "&Merk"
+  MENUITEM "&Velg gruppe...\tGrå +", cm_spreadselection
+  MENUITEM "Velg &bort gruppe...\tGrå -", cm_shrinkselection
+  MENUITEM "Velg &alle\tCTRL Grå +", cm_selectall
+  MENUITEM "V&elg bort alle\tCTRL Grå -", cm_Clearall
+  MENUITEM "&Inverter valg\tGrå *", cm_ExchangeSelection
+  MENUITEM "Velg alle med samme &filtype\tAlt Gray +",527
+  MENUITEM SEPARATOR
+  MENUITEM "&Lagre utvalg", 530
+  MENUITEM "Gjenopprett &utvalg\tGrå /", 529
+  MENUITEM "La&gre utvalg til fil", 2031
+  MENUITEM "Las&t utvalg fra fil", 2032
+  MENUITEM SEPARATOR
+  MENUITEM "K&opier valgte navn til utklippstavlen", 2017
+  MENUITEM "Kopie&r navn og bane til utklippstavlen", 2018
+  MENUITEM "Kopier til utklippstavlen med alle &detaljer", 2036
+  MENUITEM "Kopier til ut&klippstavlen med bane+detaljer", 2037
+  MENUITEM SEPARATOR
+  MENUITEM "&Sammenlign mapper\tShift+F2", cm_CompareDirs
+  MENUITEM "Velg &nyere, skjul like filer", cm_DirMatch
+END_POPUP
+
+POPUP "&Kommandoer"
+  MENUITEM "&Trestruktur...\tALT+F10", cm_CDtree
+  MENUITEM "&Søk...\tALT+F7", cm_searchfor
+  MENUITEM "Søk i separat p&rossess...\tAlt+Shift+F7", 545
+  MENUITEM "Disk&navn...", cm_VolumeId
+  MENUITEM "System&informasjon...", cm_sysinfo
+  MENUITEM "S&ynkronisere map...", 2020
+  MENUITEM "Hurtigliste &mapper\tCTRL+D", 526
+  MENUITEM "&Gå tilbake\tALT+Pil Venstre", 570
+  MENUITEM SEPARATOR
+  MENUITEM "Åpne le&detekstvindu", cm_ExecuteDOS
+  MENUITEM SEPARATOR
+  MENUITEM "Vis all&e (med undermap)\tCtrl+B", 2026
+  MENUITEM "Å&pne skrivebordsmappen", 2121
+  MENUITEM "Bakgrunnsoverføring...",559
+  MENUITEM SEPARATOR
+  MENUITEM "Original&<->Destinasjon\tCTRL+U", cm_exchange
+  MENUITEM "Original&=Destinasjon", cm_matchsrc
+END_POPUP
+
+POPUP "&Nett"
+  MENUITEM "Koble til nett&verksstasjon...", cm_NetConnect
+  MENUITEM "Koble &fra nettverksstasjon...", cm_NetDisconnect
+  MENUITEM "Del v&algt mappe...", cm_NetShareDir
+  MENUITEM "Avslutt deling av mapp&e...", cm_NetUnshareDir
+  MENUITEM "Vis admindelinger", 2204
+  MENUITEM SEPARATOR
+  MENUITEM "FTP Oppko&bling...\tCTRL+F", 550
+  MENUITEM "FT&P Ny forbindelse...\tCTRL+N", 551
+  MENUITEM "FTP &Nedkobling\tCTRL+SHIFT+F", 552
+  MENUITEM "FTP Vis sk&julte filer", 553
+  MENUITEM "FTP &Last ned fra liste...", 558
+  MENUITEM "PO&RT-oppkobling til annen PC..",2300
+END_POPUP
+
+POPUP "&Vis"
+  MENUITEM "&Kort info\tCTRL+F1", cm_srcshort
+  MENUITEM "&Full info\tCTRL+F2", cm_srclong
+  MENUITEM "Ko&mmentarer\tCtrl+Shift+F2", 300
+  MENUITEM "Egen&definerte kolonner\tShift+F1", 270
+  MENUITEM "&Trestruktur\tCTRL+F8", cm_srcTree
+  POPUP "Enkelt tre\tCtrl+Shift+F8"
+    MENUITEM "&0 (Ingen)", 3200
+    MENUITEM "&1 (En for begge paneler)", 3201
+    MENUITEM "&2 (To, en for hvert panel)", 3202
+  END_POPUP
+  MENUITEM "Miniatyrbi&ldevisning\tCtrl+Shift+F1", 269
+  MENUITEM "&Hurtigvisning\tCTRL+Q",304
+  MENUITEM "&Vertikal oppretting", 305
+  MENUITEM "Ny mapp&efane\tCtrl+T", 3001
+  MENUITEM SEPARATOR
+  MENUITEM "&Alle filer\tCTRL+F10", cm_srcallfiles
+  MENUITEM "&Programmer\tCTRL+F11", cm_srcexecs
+  MENUITEM "*.*", cm_srcuserspec
+  MENUITEM "&Brukerdefinert...\tCTRL+F12", cm_srcuserdef
+  MENUITEM "Kun val&gte filer", 2023
+  MENUITEM SEPARATOR
+  MENUITEM "&Navn\tCTRL+F3", cm_srcbyname
+  MENUITEM "T&ype\tCTRL+F4", cm_srcbyext
+  MENUITEM "T&id\tCTRL+F5", cm_srcbydatetime
+  MENUITEM "&Størrelse\tCTRL+F6", cm_srcbysize
+  MENUITEM "&Usortert\tCTRL+F7", cm_srcunsorted
+  MENUITEM SEPARATOR
+  MENUITEM "&Reversert rekkefølge", cm_srcnegorder
+  MENUITEM SEPARATOR
+  MENUITEM "&Oppdater visning\tCTRL+R", cm_Rereadsource
+END_POPUP
+
+POPUP "K&onfigurasjon"
+  MENUITEM "&Generelt...", cm_config
+  MENUITEM "&Verktøylinje...", cm_ButtonConfig
+  MENUITEM "&Endre oppsettsfiler direkte...", 581
+  MENUITEM "&Lagre posisjon", cm_configSavepos
+  MENUITEM "Lagre &oppsett", 580
+END_POPUP
+
+STARTMENU
+
+HELP_BREAK
+
+POPUP "&Hjelp", HELP
+  MENUITEM "&Innhold\tF1", cm_HelpIndex
+  MENUITEM "&Tastatur", cm_keyboard
+  MENUITEM "&Registreringsinformasjon", cm_register
+  MENUITEM "&Besøk TotalCmds hjemmeside", 640
+  MENUITEM SEPARATOR
+  MENUITEM "&Om Total Commander...", cm_About
+END_POPUP
+
+

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<InterpreterConfig xmlns="http://www.mythicsoft.com/FileLocator">
+	<displayname>DMG</displayname>
+	<uniquename>http://www.mythicsoft.com/7zdmginterpreter</uniquename>
+	<progid>SvnExtLib.SZDMGInterpreter</progid>
+	<filetypes>dmg</filetypes>
+	<interpretertype>compositefile</interpretertype>
+	<active>no</active>
+	<safemode>no</safemode>
+	<useisfilter>no</useisfilter>
+	<nonreglibrary>svnextlib.dll</nonreglibrary>
+	<searchbinary>yes</searchbinary>
+</InterpreterConfig>

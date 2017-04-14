@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head>
+   <title>什么是正则表达式？</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="Introduction to Regular Expressions,Regular Expression Introduction,What is a Regular Expression?" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+<script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if (location.search.lastIndexOf("toc=0")<=0) {
+  if (parent.frames.length==0) { parent.location.href="index.html?regularexpressionintroduction.htm"; }
+  else { parent.quicksync('a5.2'); }
+}
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script></head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#649CCC">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">什么是正则表达式?</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="introduction.htm">Top</a>&nbsp;
+     <a href="quickstart.htm">Previous</a>&nbsp;
+     <a href="regularexpressionbasics.htm">Next</a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p>&nbsp;</p>
+<p>正则表达式是一种用来描述一群单词（称作‘字符串’）的方法。它允许使用者建立一套复杂的规则来精确描述要字符串具备的特征。虽然本文档中使用了词语‘字符串’，不过您可以在用正则表达式搜索文件名时将字符串作为文件名，或者在用正则表达式搜索文件内容时看成文档中的文本。</p>
+<p>&nbsp;</p>
+<p>最简单的表达式是一个字符，数字或两者共同组成的序列。这种表达式可匹配上任何包含此序列的字符串。例如：</p>
+<p>&nbsp;</p>
+<p style="margin: 0px 0px 0px 48px;">正则表达式‘foo'会匹配上任何一个包含有’foo'的字符串。所以如果您想查找含有‘fred'的文件，正则表达式就是’fred'。</p>
+<p>&nbsp;</p>
+<p>这个例子显然很简单，不过您还可以表达复杂的规则。例如：</p>
+<p style="margin: 0px 0px 0px 48px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="margin: 0px 0px 0px 48px;">要查找以‘July'或’August'开始，此后某个位置上为‘Document'或’Documents'，此后某个位置上为一个数字，并且为‘.doc'扩展名的文件，那么表达式就是：</p>
+<p style="margin: 0px 0px 0px 48px;">'^(July|August).*Documents?.*[0-9]+.*\.doc$'</p>
+<p style="margin: 0px 0px 0px 48px;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="margin: 0px 0px 0px 48px;">此表达式会找到：</p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 48px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>JulysPrivDocuments_23.doc</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 48px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>August Documents Num5a.doc</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 48px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>等其它文件。</td></tr></table></div><p style="margin: 0px 0px 0px 48px;"><span style="color: #000000;">&nbsp;</span></p>
+<p>如果上面的表达式看上去混淆不清，别担心，因为它的确如此。这就是为什么FileLocator Pro包含了一个 <a href="expressionwizard(exprwiz).htm">表达式向导</a> 用于指导您以常用的英语词汇建立来正则表达式。</p>
+<p>&nbsp;</p>
+<p>更多信息，请阅读 <a href="regularexpressionbasics.htm">正则表达式基础知识</a> 。</p>
+<p>&nbsp;</p>
+<p>注：通过’工具‘ -&gt; ’正则表达式测试器...‘菜单选项，您可以用FileLocator Pro的正则表达式引擎检测自己的正则表达式。</p>
+
+</td></tr></table>
+<hr>
+<font face="Arial" size="-2">
+Copyright &copy; 2013 Mythicsoft Ltd. All rights reserved.
+<br />
+Help file version: 7.0<br />
+<br />
+PDF and CHM versions of this help file are available here:<br />
+<a href="http://mythicsoft.com/filelocatorpro/help" target="_blank">http://mythicsoft.com/filelocatorpro/help</a><br /> 
+    <br />
+</font>
+
+</body>
+</html>

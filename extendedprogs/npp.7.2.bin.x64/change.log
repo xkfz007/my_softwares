@@ -1,0 +1,20 @@
+Notepad++ 7.2 enhancements and bug-fixes:
+
+1.  Add option for smart highlighting extension to anothe view.
+2.  Fix Installer for 64-bit fails with argument "/D".
+3.  Fix uninstaller silent mode issue.
+4.  Fix a tab settings regression.
+5.  Fix file not saving bug (Ensure backup directory exists).
+
+
+Included plugins:
+
+1.  NppExport v0.2.8 (32-bit x86 only)
+2.  Plugin Manager 1.3.5 (32-bit x86 only)
+3.  Converter 4.2
+4.  Mime Tool 2.1
+
+
+Updater (Installer only):
+
+* WinGup v4.1

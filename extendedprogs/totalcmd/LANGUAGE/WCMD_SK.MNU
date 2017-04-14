@@ -1,0 +1,138 @@
+POPUP "&S˙bor"
+  MENUITEM "Zmeniù atrib˙t&y...", cm_SetAttrib
+  MENUITEM "&Komprimovaù...\tALT+F5", cm_PackFiles
+  MENUITEM "&Extrahovaù...\tALT+F9", cm_UnpackFiles
+  MENUITEM "Testovaù &archÌv(y)\tALT+SHIFT+F9",518
+  MENUITEM "Porovnaù podæa o&bsahu...", 2022
+  MENUITEM "&Priradiù k...", cm_associate
+  MENUITEM "Vn˙tornÈ prira&denia (iba pre TC)...", 519
+  MENUITEM "&Vlastnosti...\tALT+ENTER", cm_versioninfo
+  MENUITEM "SpoËÌtaù obsadenÈ &miesto...", cm_GetFileSpace
+  MENUITEM "P&remenovaù s˙bory...\tCTRL+M", 2400
+  MENUITEM "Upraviù kome&nt·r...\tCTRL+Z", 2700
+  POPUP "&TlaËiù"
+    MENUITEM "Zoznam &s˙borov...", 2027
+    MENUITEM "Zoznam s˙borov s &podprieËinkami...", 2028
+    MENUITEM "O&bsah s˙borov\tCTRL+F9", cm_PrintFile
+  END_POPUP
+  MENUITEM SEPARATOR
+  MENUITEM "Rozdel&iù s˙bor...", 560
+  MENUITEM "Spo&jiù s˙bory...", 561
+  MENUITEM "&ZakÛdovaù s˙bor (MIME,UUE,XXE)...", 562
+  MENUITEM "DekÛdovaù s˙bor (MIME,UUE,&XXE,BinHex)...", 563
+  MENUITEM "Vytvoriù kontrolnÈ s˙Ëty (&CRC32, MD5, SHA1)...", 564
+  MENUITEM "&Overiù kontrolnÈ s˙Ëty (zo s˙borov)", 565
+  MENUITEM SEPARATOR
+  MENUITEM "&SkonËiù\tALT+F4", 24340
+END_POPUP
+
+POPUP "O&znaËiù"
+  MENUITEM "Vybraù &skupinu...\täED… +", cm_spreadselection
+  MENUITEM "Zruöiù v˝b&er skupiny...\täED… -", cm_shrinkselection
+  MENUITEM "Vybr&aù vöetko\tCTRL äED… +", cm_selectall
+  MENUITEM "&Zruöiù v˝ber\tCTRL äED… -", cm_Clearall
+  MENUITEM "&Invertovaù v˝ber\täED… *", cm_ExchangeSelection
+  MENUITEM "Vybraù vöetky s˙bory s rovnakou &prÌponou\tALT äED… +",527
+  MENUITEM SEPARATOR
+  MENUITEM "&Uloûiù v˝ber", 530
+  MENUITEM "&Obnoviù v˝ber\täED… /", 529
+  MENUITEM "Uloûiù v˝ber do s˙&boru", 2031
+  MENUITEM "&NaËÌtaù v˝ber zo s˙boru", 2032
+  MENUITEM SEPARATOR
+  MENUITEM "&KopÌrovaù do Schr·nky vybranÈ n·zvy s˙borov", 2017
+  MENUITEM "...n·zvy s˙borov s &cestou", 2018
+  MENUITEM "...n·zvy s˙borov a podrobnos&ti", 2036
+  MENUITEM "...n·zvy s˙borov s cestou a po&drobnosti", 2037
+  MENUITEM SEPARATOR
+  MENUITEM "Porovnaù p&rieËinky a vybraù rozdiel\tSHIFT+F2", cm_CompareDirs
+  MENUITEM "&Vybraù rozdiel, skryù rovnakÈ s˙bory", cm_DirMatch
+END_POPUP
+
+POPUP "&PrÌkazy"
+  MENUITEM "Zmeniù aktu·lny prieËinok - &Strom...\tALT+F10", cm_CDtree
+  MENUITEM "&Hæadaù...\tALT+F7", cm_searchfor
+  MENUITEM "Hæadaù v samostatnom proc&ese...\tAlt+Shift+F7", 545
+  MENUITEM "&Menovka disku...", cm_VolumeId
+  MENUITEM "SystÈmovÈ &inform·cie...", cm_sysinfo
+  MENUITEM "S&ynchronizovaù prieËinky...", 2020
+  MENUITEM "»&asto pouûÌvanÈ prieËinky\tCTRL+D", 526
+  MENUITEM "Prejsù &nasp‰ù\tALT+äÕPKA DOºAVA", 570
+  MENUITEM SEPARATOR
+  MENUITEM "Otvoriù prÌ&kazov˝ riadok", cm_ExecuteDOS
+  MENUITEM SEPARATOR
+  MENUITEM "Zobraziù vöetky &vetvy aktu·lneho prieËinka\tCTRL+B", 2026
+  MENUITEM "&Otvoriù prieËinok Pracovnej plochy", 2121
+  MENUITEM "Spr·vca &prenosu...",559
+  MENUITEM SEPARATOR
+  MENUITEM "Vymeniù okn· &zoznamu s˙borov\tCTRL+U", cm_exchange
+  MENUITEM "Obe okn· zoznamu s˙borov &rovnakÈ", cm_matchsrc
+END_POPUP
+
+POPUP "Si&eù"
+  MENUITEM "&Pripojiù sieùov˙ jednotku...", cm_NetConnect
+  MENUITEM "&Odpojiù sieùov˙ jednotku...", cm_NetDisconnect
+  MENUITEM "&Zdielaù aktu·lny prieËinok...", cm_NetShareDir
+  MENUITEM "Zruöiù z&dieæanie prieËinka...", cm_NetUnshareDir
+  MENUITEM "Zobraziù Ñ&Admin Sharesì", 2204
+  MENUITEM SEPARATOR
+  MENUITEM "Pripojiù sa na &FTP server...\tCTRL+F", 550
+  MENUITEM "Vytvoriù &novÈ FTP pripojenie...\tCTRL+N", 551
+  MENUITEM "Odpojiù sa od FTP s&ervera\tCTRL+SHIFT+F", 552
+  MENUITEM "Zobrazovaù &skrytÈ s˙bory na FTP serveri", 553
+  MENUITEM "Pre&vziaù s˙bory z FTP servera podæa zoznamu", 558
+  MENUITEM "Prepojiù dva poËÌtaËe &k·blom...", 2300
+END_POPUP
+
+POPUP "Zo&braziù"
+  MENUITEM "Zoz&nam\tCTRL+F1", cm_srcshort
+  MENUITEM "Podrobnost&i\tCTRL+F2", cm_srclong
+  MENUITEM "&Koment·re\tCTRL+SHIFT+F2", 300
+  MENUITEM "Podæa vlas&tn˝ch stÂpcov\tSHIFT+F1", 270
+  MENUITEM "&Strom\tCTRL+F8", cm_srcTree
+  POPUP "Oddelen˝ strom\tCTRL+SHIFT+F8"
+    MENUITEM "&0 (éiadny)", 3200
+    MENUITEM "&1 (Jeden spoloËn˝ pre obe okn·)", 3201
+    MENUITEM "&2 (Vlastn˝ pre kaûdÈ okno)", 3202
+  END_POPUP
+  MENUITEM "&Miniat˙ry\tCTRL+SHIFT+F1", 269
+  MENUITEM "Okno s n·hæadom\tCTRL+Q",304
+  MENUITEM "VodorovnÈ &rozdelenie", 305
+  MENUITEM "Nov· z·loûk&a\tCTRL+T", 3001
+  MENUITEM SEPARATOR
+  MENUITEM "Vöetk&y s˙bory\tCTRL+F10", cm_srcallfiles
+  MENUITEM "Iba pro&gramy\tCTRL+F11", cm_srcexecs
+  MENUITEM "*.*", cm_srcuserspec
+  MENUITEM "V&lastn˝ v˝ber...\tCTRL+F12", cm_srcuserdef
+  MENUITEM "I&ba zvolenÈ s˙bory", 2023
+  MENUITEM SEPARATOR
+  MENUITEM "Zoradiù podæa n·zv&u\tCTRL+F3", cm_srcbyname
+  MENUITEM "Zoradiù podæa &prÌpony\tCTRL+F4", cm_srcbyext
+  MENUITEM "Zoradiù podæa &d·tumu a†Ëasu\tCTRL+F5", cm_srcbydatetime
+  MENUITEM "Zoradiù podæa &veækosti\tCTRL+F6", cm_srcbysize
+  MENUITEM "N&ezoradiù\tCTRL+F7", cm_srcunsorted
+  MENUITEM SEPARATOR
+  MENUITEM "Zoradiù &zostupne", cm_srcnegorder
+  MENUITEM SEPARATOR
+  MENUITEM "&Obnoviù\tCTRL+R", cm_rereadsource
+END_POPUP
+
+POPUP "&Konfigur·cia"
+  MENUITEM "&Moûnosti...", cm_config
+  MENUITEM "Zmeniù panel s &n·strojmi...", cm_ButtonConfig
+  MENUITEM "Upraviù &konfiguraËnÈ s˙bory...", 581
+  MENUITEM "Uloûiù &pozÌciu a veækosù okna", cm_configSavepos
+  MENUITEM "&Uloûiù nastavenia", 580
+END_POPUP
+
+STARTMENU
+
+HELP_BREAK
+
+POPUP "Po&mocnÌk"
+  MENUITEM "&TÈmy pomocnÌka\tF1", cm_HelpIndex
+  MENUITEM "Zoznam &kl·vesov˝ch skratiek", cm_keyboard
+  MENUITEM "Inform·cie o spÙsobe &registr·cie", cm_register
+  MENUITEM "&NavötÌviù domovsk˙ str·nku", 640
+  MENUITEM SEPARATOR
+  MENUITEM "»&o je program Total Commander...", cm_About
+END_POPUP
